@@ -405,6 +405,7 @@ footer{padding:1.25rem;text-align:center;font-size:11px;color:var(--text3);borde
        (store / rival / consume / fx / rate)
      ───────────────────────────────────────── -->
 <div class="sec-label">3 · 최근 기사 요약</div>
+  <div style="margin-bottom:.6rem"><button id="news-ai-btn" class="custom-run" onclick="fetchNewsAI()">🔍 AI로 최신 기사 검색</button></div>
   <div class="news-kw-row">
     <button class="kwbtn on" onclick="fnews('all',this)">전체</button>
     <button class="kwbtn" onclick="fnews('store',this)">점포별 아젠다</button>
@@ -584,6 +585,7 @@ var ECOS_BASE_M = 'https://ecos.bok.or.kr/api/StatisticSearch/' + ECOS_KEY + '/j
 var ECOS_BASE_D = 'https://ecos.bok.or.kr/api/StatisticSearch/' + ECOS_KEY + '/json/kr/1/400/';
 var KOSIS_BASE  = 'https://kosis.kr/openapi/Param/statisticsParameterData.do?method=getList&format=json&jsonVD=Y&outputFields=ITM_ID+PRD_DE+DT&prdInterval=1&apiKey=';
 var KOSIS_PROXY = 'https://nameless-block-94fb.lahs0406.workers.dev';
+var ANTHROPIC_KEY = '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';
 
 var mc = null;
 var curKey = 'csi';
@@ -1584,7 +1586,7 @@ async function genInterp() {
   try {
     var res = await fetch('https://api.anthropic.com/v1/messages', {
       method:'POST',
-      headers:{'Content-Type':'application/json'},
+      headers:{'Content-Type':'application/json','x-api-key':ANTHROPIC_KEY,'anthropic-version':'2023-06-01','anthropic-dangerous-direct-browser-access':'true'},
       body:JSON.stringify({
         model:'claude-sonnet-4-20250514',
         max_tokens:600,
@@ -1630,7 +1632,7 @@ async function runCustomInsight() {
   try {
     var res = await fetch('https://api.anthropic.com/v1/messages',{
       method:'POST',
-      headers:{'Content-Type':'application/json'},
+      headers:{'Content-Type':'application/json','x-api-key':ANTHROPIC_KEY,'anthropic-version':'2023-06-01','anthropic-dangerous-direct-browser-access':'true'},
       body:JSON.stringify({model:'claude-sonnet-4-20250514',max_tokens:600,messages:[{role:'user',content:prompt}]})
     });
     var data = await res.json();
@@ -1641,6 +1643,87 @@ async function runCustomInsight() {
   }
   cirPulse.style.display = 'none';
   runBtn.disabled = false;
+}
+
+/* ═══════════════════════════════════════════
+   JS § 18-1. AI 기사 자동 검색 (fetchNewsAI)
+   · 카테고리별 최신 기사를 Claude web_search로 검색
+   ═══════════════════════════════════════════ */
+async function fetchNewsAI() {
+  var btn = document.getElementById('news-ai-btn');
+  var wrap = document.getElementById('nwrap');
+  btn.disabled = true;
+  btn.textContent = '🔍 검색 중...';
+
+  var JSON_FMT = '[{"title":"제목","date":"YYYY.MM.DD","source":"출처언론사","url":"기사URL","sub":"항목"}]';
+  var categories = [
+    {cat:'store',   label:'점포별 아젠다', color:'#185FA5', kwCls:'nkw-store',
+     prompt:'현대백화점 점포별 최근 이슈 기사 3건. 울산점(현대차), 충청점(SK하이닉스), 판교점, 무역센터점 등 지역 특화 이슈, 성과급, 지역 경기 관련. JSON만 답변: ' + JSON_FMT},
+    {cat:'rival',   label:'동업계 동향',   color:'#D85A30', kwCls:'nkw-rival',
+     prompt:'신세계백화점, 롯데백화점, 갤러리아 등 경쟁 백화점 최근 동향 기사 3건. 리뉴얼, MD변경, 실적, 전략 관련. JSON만 답변: ' + JSON_FMT},
+    {cat:'consume', label:'소비 트렌드',   color:'#639922', kwCls:'nkw-consume',
+     prompt:'최근 국내 소비 트렌드 기사 3건. MZ세대 소비, 팝업스토어, 명품소비, 가성비 트렌드 등. JSON만 답변: ' + JSON_FMT},
+    {cat:'fx',      label:'환율·관광',    color:'#BA7517', kwCls:'nkw-fx',
+     prompt:'최근 원달러 환율 변동, 방한 외국인 관광객, 내국인 출국 관련 기사 3건. JSON만 답변: ' + JSON_FMT},
+    {cat:'rate',    label:'금리·경기',    color:'#534AB7', kwCls:'nkw-rate',
+     prompt:'최근 한국은행 기준금리, 국내 경기 동향, 소비심리 관련 기사 3건. JSON만 답변: ' + JSON_FMT},
+  ];
+
+  var allItems = [];
+
+  for(var i = 0; i < categories.length; i++) {
+    var c = categories[i];
+    try {
+      var res = await fetch('https://api.anthropic.com/v1/messages', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          'x-api-key': ANTHROPIC_KEY,
+          'anthropic-version': '2023-06-01',
+          'anthropic-dangerous-direct-browser-access': 'true'
+        },
+        body: JSON.stringify({
+          model: 'claude-sonnet-4-20250514',
+          max_tokens: 1000,
+          tools: [{"type":"web_search_20250305","name":"web_search"}],
+          messages: [{role:'user', content:c.prompt}]
+        })
+      });
+      var data = await res.json();
+      var txt = (data.content||[]).map(function(x){return x.text||'';}).join('').trim();
+      // JSON 파싱
+      var match = txt.match(/\[[\s\S]*\]/);
+      if(match) {
+        var articles = JSON.parse(match[0]);
+        articles.forEach(function(a) {
+          allItems.push({cat:c.cat, label:c.label, color:c.color, kwCls:c.kwCls, title:a.title, date:a.date, source:a.source, url:a.url, sub:a.sub||""});
+        });
+      }
+    } catch(e) {
+      console.error('기사 검색 오류:', c.cat, e);
+    }
+  }
+
+  // 화면에 렌더링
+  if(allItems.length > 0) {
+    wrap.innerHTML = allItems.map(function(a) {
+      var subTxt = a.sub ? ' · ' + a.sub : '';
+      return '<div class="news-item" data-cat="'+a.cat+'">'
+        + '<div class="ndot" style="background:'+a.color+'"></div>'
+        + '<div class="news-item-body">'
+        + '<div class="nkw '+a.kwCls+'">'+a.label+subTxt+'</div>'
+        + '<div class="nh">'+a.title+'</div>'
+        + '<div class="nd">'+a.date+' · '+a.source+'</div>'
+        + (a.url ? '<a class="news-link" href="'+a.url+'" target="_blank">기사 원문 보기 ↗</a>' : '')
+        + '</div></div>';
+    }).join('');
+    // 현재 필터 유지
+    var activeBtn = document.querySelector('.kwbtn.on');
+    if(activeBtn) fnews(activeBtn.textContent === '전체' ? 'all' : activeBtn.dataset ? activeBtn.dataset.cat : 'all', activeBtn);
+  }
+
+  btn.disabled = false;
+  btn.textContent = '🔍 AI로 최신 기사 검색';
 }
 
 /* ═══════════════════════════════════════════
@@ -1706,7 +1789,7 @@ async function fetchReports(org) {
   try {
     var res = await fetch('https://api.anthropic.com/v1/messages',{
       method:'POST',
-      headers:{'Content-Type':'application/json'},
+      headers:{'Content-Type':'application/json','x-api-key':ANTHROPIC_KEY,'anthropic-version':'2023-06-01','anthropic-dangerous-direct-browser-access':'true'},
       body:JSON.stringify({model:'claude-sonnet-4-20250514',max_tokens:600,messages:[{role:'user',content:prompt}]})
     });
     var data = await res.json();
