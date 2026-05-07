@@ -593,7 +593,7 @@ var _dataCache = null; // data.json 캐시
 async function loadDataJson() {
   if(_dataCache) return _dataCache;
   try {
-    var res = await fetch('https://raw.githubusercontent.com/lahs0406-design/hyundai-indicators/main/data.json?t=' + Date.now());
+    var res = await fetch('https://raw.githubusercontent.com/lahs0406-design/hyundai-indicators-v2/main/data.json?t=' + Date.now());
     _dataCache = await res.json();
     return _dataCache;
   } catch(e) { return null; }
