@@ -587,6 +587,17 @@ var KOSIS_PROXY = 'https://nameless-block-94fb.lahs0406.workers.dev';
 
 var mc = null;
 var curKey = 'csi';
+var _dataCache = null; // data.json 캐시
+
+/* data.json 한 번만 fetch해서 캐시 */
+async function loadDataJson() {
+  if(_dataCache) return _dataCache;
+  try {
+    var res = await fetch('https://raw.githubusercontent.com/lahs0406-design/hyundai-indicators/main/data.json?t=' + Date.now());
+    _dataCache = await res.json();
+    return _dataCache;
+  } catch(e) { return null; }
+}
 
 /* ═══════════════════════════════════════════
    JS § 2. 지표 메타 데이터 (CD 객체)
@@ -844,22 +855,24 @@ var KOSIS_MAP = {
    ═══════════════════════════════════════════ */
 var KOSIS_ANNUAL_MAP = {
   /* ── 합계출산율 (TFR)
-     objL1=11이 전국, 나머지는 지역별
-     → objL1을 11+(전국)만으로 제한하고 C1으로 필터 */
+     tblId: DT_1B81A17 (KOSIS 직접 확인)
+     itmId: T1 = 합계출산율 (0.748 등 소수값)
+     objL1: 00 = 전국 */
   birthrate: {
-    orgId:'101', tblId:'INH_1B8000F_01',
+    orgId:'101', tblId:'DT_1B81A17',
     itmId:'T1+',
-    objL1:'11+',
-    filter:{ITM_ID:'T1', C1:'11'}
+    objL1:'00+',
+    filter:{ITM_ID:'T1', C1:'00'}
   },
   /* ── 조혼인율
-     objL1=41이 전국 조혼인율(‰), 42는 기타
-     → C1:'41'(전국)만 필터 */
+     tblId: INH_1B8000I_02 (KOSIS 직접 확인)
+     itmId: T41 = 조혼인율 (‰)
+     objL1: 00 = 전국 */
   marriagerate: {
-    orgId:'101', tblId:'INH_1B8000F_03',
-    itmId:'T1+',
-    objL1:'41+',
-    filter:{ITM_ID:'T1', C1:'41'}
+    orgId:'101', tblId:'INH_1B8000I_02',
+    itmId:'T41+',
+    objL1:'00+',
+    filter:{ITM_ID:'T41', C1:'00'}
   }
 };
 
@@ -1228,7 +1241,9 @@ async function loadEcosChart(key) {
   document.getElementById('savg').textContent   = '...';
   document.getElementById('syoy').textContent   = '...';
 
-  var rows = await fetchEcosTimeSeries(key);
+  // data.json에서 로드
+  var jsonData = await loadDataJson();
+  var rows = jsonData ? jsonData[key] : null;
 
   if(!rows||rows.length===0) {
     setMetaSample(d);
@@ -1237,24 +1252,21 @@ async function loadEcosChart(key) {
     return;
   }
 
-  // 일별/월별/분기별 모두 rows 그대로 사용 (집계 없음)
-  // 가로축 레이블만 makeLabels로 생성 — renderChart 안에서 일별이면 월 단위 표시
   var vals   = rows.map(function(r){return r.val;});
   var labels = makeLabels(rows);
   var latest = vals[vals.length-1];
   var avg6   = vals.slice(-6).reduce(function(a,b){return a+b;},0)/Math.min(6,vals.length);
   var diff   = latest - (vals[vals.length-2]||latest);
 
-  // 전년 데이터 fetch
-  var prevRows = await fetchPrevEcos(key);
-  var prevChartVals = prevRows ? prevRows.map(function(r){return r.val;}) : null;
+  // 전년 대비: rows 앞부분에서 계산
+  var prevChartVals = vals.length >= 13 ? vals.slice(0, vals.length-12) : null;
 
-  var yoyDiff = prevChartVals && prevChartVals.length > 0
-    ? (latest - prevChartVals[prevChartVals.length-1])
-    : (vals.length>=13 ? (latest-vals[0]) : null);
+  var yoyDiff = vals.length >= 13
+    ? (latest - vals[vals.length-13])
+    : null;
 
   document.getElementById('ctitle').textContent = d.title;
-  setMetaLive(d, 'ECOS');
+  setMetaLive(d, 'data.json');
   document.getElementById('scur').textContent   = fmtVal(latest, d.unit);
   document.getElementById('savg').textContent   = fmtVal(avg6, d.unit);
   document.getElementById('syoy').textContent   = yoyDiff !== null ? fmtVal(yoyDiff, d.unit, true) : '-';
@@ -1315,7 +1327,8 @@ async function loadKosisAnnualChart(key) {
   document.getElementById('savg').textContent = '...';
   document.getElementById('syoy').textContent = '...';
 
-  var rows = await fetchKosisAnnual(key);
+  var jsonData = await loadDataJson();
+  var rows = jsonData ? jsonData[key] : null;
 
   if(!rows || rows.length === 0) {
     /* API 실패 → 샘플 데이터 fallback */
@@ -1337,7 +1350,7 @@ async function loadKosisAnnualChart(key) {
   var diff   = latest - prev;
   var yoyDiff = vals.length >= 2 ? (latest - vals[vals.length - 2]) : null;
 
-  setMetaLive(d, 'KOSIS');
+  setMetaLive(d, 'data.json');
   document.getElementById('ctitle').textContent = d.title;
   document.getElementById('scur').textContent   = fmtVal(latest, d.unit);
   document.getElementById('savg').textContent   = fmtVal(avg6,   d.unit);
@@ -1400,23 +1413,23 @@ async function loadKosisChart(key) {
   document.getElementById('savg').textContent   = '...';
   document.getElementById('syoy').textContent   = '...';
 
-  var rows     = await fetchKosisTimeSeries(key);
-  var prevRows = await fetchPrevKosis(key);
+  var jsonData = await loadDataJson();
+  var rows = jsonData ? jsonData[key] : null;
 
   if(!rows||rows.length===0) {
-    document.getElementById('cmeta').textContent = d.meta+' (데이터 없음)';
+    setMetaSample(d);
+    updateKPI(d);
+    renderChart(d.data||[], null, makeMonthLabels(), d);
     return;
   }
 
   var vals     = rows.map(function(r){return r.val;});
-  var prevVals = prevRows ? prevRows.map(function(r){return r.val;}) : null;
   var labels   = makeLabels(rows);
   var latest   = vals[vals.length-1];
   var avg6     = vals.slice(-6).reduce(function(a,b){return a+b;},0)/Math.min(6,vals.length);
   var diff     = latest - (vals[vals.length-2]||latest);
-  var yoyDiff  = prevVals && prevVals.length > 0
-    ? (latest - prevVals[prevVals.length-1])
-    : null;
+  var yoyDiff  = vals.length >= 13 ? (latest - vals[vals.length-13]) : null;
+  var prevVals = null;
 
   // online: 억원→조 변환 (소수점 1자리)
   var displayUnit = d.unit;
@@ -1425,10 +1438,10 @@ async function loadKosisChart(key) {
   var displayYoy = yoyDiff;
   var displayDiff = diff;
   if(key === 'online') {
-    displayLatest = latest / 10000;
-    displayAvg    = avg6   / 10000;
-    displayYoy    = yoyDiff !== null ? yoyDiff / 10000 : null;
-    displayDiff   = diff   / 10000;
+    displayLatest = latest / 1000000;
+    displayAvg    = avg6   / 1000000;
+    displayYoy    = yoyDiff !== null ? yoyDiff / 1000000 : null;
+    displayDiff   = diff   / 1000000;
     // 조 단위는 소수점 1자리로 표시
     var fmtJo = function(v, isDiff) {
       if(v === null || isNaN(v)) return '-';
@@ -1436,7 +1449,7 @@ async function loadKosisChart(key) {
       return sign + v.toLocaleString('ko-KR', {minimumFractionDigits:1, maximumFractionDigits:1}) + '조';
     };
     document.getElementById('ctitle').textContent = d.title;
-    setMetaLive(d, 'KOSIS');
+    setMetaLive(d, 'data.json');
     document.getElementById('scur').textContent = fmtJo(displayLatest);
     document.getElementById('savg').textContent = fmtJo(displayAvg);
     document.getElementById('syoy').textContent = displayYoy !== null ? fmtJo(displayYoy, true) : '-';
@@ -1451,7 +1464,7 @@ async function loadKosisChart(key) {
   }
 
   document.getElementById('ctitle').textContent = d.title;
-  setMetaLive(d, 'KOSIS');
+  setMetaLive(d, 'data.json');
   document.getElementById('scur').textContent   = fmtVal(displayLatest, displayUnit);
   document.getElementById('savg').textContent   = fmtVal(displayAvg, displayUnit);
   document.getElementById('syoy').textContent   = yoyDiff !== null ? fmtVal(yoyDiff, displayUnit, true) : '-';
