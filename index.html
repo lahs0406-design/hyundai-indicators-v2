@@ -434,11 +434,21 @@ footer{padding:1.25rem;text-align:center;font-size:11px;color:var(--text3);borde
 <div class="sec">
   <!-- ─────────────────────────────────────────
      HTML § 5-3. [섹션 4] 연구기관 보고서
-     · HRI (현대경제연구원) / SERI (삼성경제연구소)
-     · 수동 보고서 추가: rpt-hri-list / rpt-seri-list
+     · 네이버 뉴스 API 기반 자동 수집
      ───────────────────────────────────────── -->
 <div class="sec-label">4 · 연구기관 보고서</div>
-  <div class="rpt-org" id="rpt-hri">
+  <!-- 카테고리 버튼 -->
+  <div class="news-kw-row" style="margin-bottom:.75rem">
+    <button class="kwbtn on" onclick="filterReports('all',this)">전체</button>
+    <button class="kwbtn" onclick="filterReports('hri',this)">현대경제연구원</button>
+    <button class="kwbtn" onclick="filterReports('seri',this)">삼성경제연구소</button>
+    <button class="kwbtn" onclick="filterReports('kdi',this)">KDI</button>
+    <button class="kwbtn" onclick="filterReports('bok',this)">한국은행</button>
+  </div>
+  <div class="news-wrap" id="rpt-news-wrap">
+    <div style="padding:1rem;color:var(--text2);font-size:12px">로딩 중...</div>
+  </div>
+  <div class="rpt-org" id="rpt-hri" style="display:none">
     <div class="rpt-org-header">
       <div><div class="rpt-org-name">현대경제연구원 <span class="rpt-org-url">hri.co.kr</span></div><div class="rpt-org-desc">매주 경제 동향·이슈 보고서 발간 · 소비·유통·경기 분석 중심</div></div>
       <div class="rpt-org-actions"><button class="ai-btn" onclick="fetchReports('hri')">AI로 최신 보고서 검색 →</button><a href="https://www.hri.co.kr/research/list.aspx" target="_blank" class="rpt-link-btn">홈페이지 ↗</a></div>
@@ -623,6 +633,57 @@ async function loadDataJson() {
 }
 
 var _newsCache = null;
+var _reportsCache = null;
+async function loadReportsJson() {
+  if(_reportsCache) return _reportsCache;
+  try {
+    var res = await fetch('https://raw.githubusercontent.com/lahs0406-design/hyundai-indicators-v2/main/reports.json?t=' + Date.now());
+    _reportsCache = await res.json();
+    return _reportsCache;
+  } catch(e) { return null; }
+}
+
+async function renderReports(cat) {
+  var data = await loadReportsJson();
+  if(!data) return;
+
+  var cats = cat === 'all'
+    ? ['hri','seri','kdi','bok']
+    : [cat];
+
+  var catNames = {
+    hri:'현대경제연구원', seri:'삼성경제연구소',
+    kdi:'KDI 한국개발연구원', bok:'한국은행'
+  };
+  var catColors = {
+    hri:'#185FA5', seri:'#1D9E75', kdi:'#D85A30', bok:'#7F77DD'
+  };
+
+  var wrap = document.getElementById('rpt-news-wrap');
+  if(!wrap) return;
+
+  var html = '';
+  cats.forEach(function(c) {
+    var articles = data[c] || [];
+    var label = catNames[c] || c;
+    var color = catColors[c] || '#185FA5';
+    articles.forEach(function(a) {
+      html += '<div class="news-item" data-cat="'+c+'">'
+        + '<div class="ndot" style="background:'+color+'"></div>'
+        + '<div class="news-item-body">'
+        + '<div class="nkw" style="color:'+color+'">'+label+'</div>'
+        + '<div class="nh">'+a.title+'</div>'
+        + '<div class="nd">'+a.date+' · '+a.source+'</div>'
+        + (a.url ? '<a class="news-link" href="'+a.url+'" target="_blank">원문 보기 ↗</a>' : '')
+        + '</div></div>';
+    });
+  });
+
+  if(data.updated) {
+    html += '<div style="padding:8px 1.1rem;font-size:10px;color:var(--text3)">기준: '+data.updated+'</div>';
+  }
+  wrap.innerHTML = html || '<div style="padding:1rem;color:var(--text2);font-size:12px">기사를 불러오지 못했습니다.</div>';
+}
 async function loadNewsJson() {
   if(_newsCache) return _newsCache;
   try {
@@ -1808,6 +1869,18 @@ async function fetchNewsAI() {
 }
 
 /* ═══════════════════════════════════════════
+   JS § 18-2. 연구기관 보고서 필터
+   ═══════════════════════════════════════════ */
+function filterReports(cat, btn) {
+  document.querySelectorAll('#rpt-news-wrap').length; // 존재 확인
+  document.querySelectorAll('.news-kw-row .kwbtn').forEach(function(b){
+    if(b.onclick && b.onclick.toString().includes('filterReports')) b.classList.remove('on');
+  });
+  if(btn) btn.classList.add('on');
+  renderReports(cat);
+}
+
+/* ═══════════════════════════════════════════
    JS § 19. 기사 필터 (fnews)
    · data-cat 속성 기준으로 기사 필터링
    ═══════════════════════════════════════════ */
@@ -1892,6 +1965,7 @@ window.addEventListener('load', function() {
   var defaultBtn = document.querySelector('#grp1 .sub-btn');
   if(defaultBtn) selChartWithAPI('csi', defaultBtn, 'grp1');
   renderNews('all');
+  renderReports('all');
 
   // 리사이저
   var resizer = document.getElementById('resizer');
