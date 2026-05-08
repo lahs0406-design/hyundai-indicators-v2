@@ -408,11 +408,14 @@ footer{padding:1.25rem;text-align:center;font-size:11px;color:var(--text3);borde
   <div style="margin-bottom:.6rem"><button id="news-ai-btn" class="custom-run" onclick="fetchNewsAI()">🔍 AI로 최신 기사 검색</button></div>
   <div class="news-kw-row">
     <button class="kwbtn on" onclick="fnews('all',this)">전체</button>
-    <button class="kwbtn" onclick="fnews('store',this)">점포별 아젠다</button>
-    <button class="kwbtn" onclick="fnews('rival',this)">동업계 동향</button>
-    <button class="kwbtn" onclick="fnews('consume',this)">소비 트렌드</button>
-    <button class="kwbtn" onclick="fnews('fx',this)">환율·관광</button>
-    <button class="kwbtn" onclick="fnews('rate',this)">금리·경기</button>
+    <button class="kwbtn" onclick="fnews('dept',this)">백화점업계</button>
+    <button class="kwbtn" onclick="fnews('csi',this)">소비심리</button>
+    <button class="kwbtn" onclick="fnews('income',this)">소득·고용</button>
+    <button class="kwbtn" onclick="fnews('rate',this)">물가·금리</button>
+    <button class="kwbtn" onclick="fnews('asset',this)">자산시장</button>
+    <button class="kwbtn" onclick="fnews('channel',this)">유통채널</button>
+    <button class="kwbtn" onclick="fnews('demo',this)">인구동향</button>
+    <button class="kwbtn" onclick="fnews('trend',this)">트렌드</button>
   </div>
   <div class="news-wrap" id="nwrap">
     <div class="news-item" data-cat="store"><div class="ndot" style="background:#185FA5"></div><div class="news-item-body"><div class="nkw nkw-store">점포별 아젠다 · 울산점</div><div class="nh">현대차 울산공장 노사 임금협상 타결…성과금 지급 시 울산 소비 심리 반등 기대</div><div class="nd">2024.12.20 · 울산매일</div><a class="news-link" href="https://www.ulsan.co.kr" target="_blank">기사 원문 보기 ↗</a></div></div>
@@ -585,7 +588,25 @@ var ECOS_BASE_M = 'https://ecos.bok.or.kr/api/StatisticSearch/' + ECOS_KEY + '/j
 var ECOS_BASE_D = 'https://ecos.bok.or.kr/api/StatisticSearch/' + ECOS_KEY + '/json/kr/1/400/';
 var KOSIS_BASE  = 'https://kosis.kr/openapi/Param/statisticsParameterData.do?method=getList&format=json&jsonVD=Y&outputFields=ITM_ID+PRD_DE+DT&prdInterval=1&apiKey=';
 var KOSIS_PROXY = 'https://nameless-block-94fb.lahs0406.workers.dev';
-var ANTHROPIC_KEY = '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';
+/* API 키: 브라우저 로컬스토리지에서 가져옴 (GitHub에 노출 안 됨) */
+function getAnthropicKey() {
+  return localStorage.getItem('anthropic_key') || '';
+}
+function setAnthropicKey(key) {
+  localStorage.setItem('anthropic_key', key);
+}
+function checkAnthropicKey() {
+  var key = getAnthropicKey();
+  if(!key) {
+    var input = prompt('Anthropic API 키를 입력해주세요:\n(한 번만 입력하면 브라우저에 저장됩니다)');
+    if(input && input.trim()) {
+      setAnthropicKey(input.trim());
+      return input.trim();
+    }
+    return null;
+  }
+  return key;
+}
 
 var mc = null;
 var curKey = 'csi';
@@ -599,6 +620,62 @@ async function loadDataJson() {
     _dataCache = await res.json();
     return _dataCache;
   } catch(e) { return null; }
+}
+
+var _newsCache = null;
+async function loadNewsJson() {
+  if(_newsCache) return _newsCache;
+  try {
+    var res = await fetch('https://raw.githubusercontent.com/lahs0406-design/hyundai-indicators-v2/main/news.json?t=' + Date.now());
+    _newsCache = await res.json();
+    return _newsCache;
+  } catch(e) { return null; }
+}
+
+/* news.json으로 기사 섹션 렌더링 */
+async function renderNews(cat) {
+  var news = await loadNewsJson();
+  if(!news) return;
+
+  var wrap = document.getElementById('nwrap');
+  var updated = news.updated || '';
+
+  var catColors = {
+    dept:'#185FA5', csi:'#378ADD', income:'#1D9E75',
+    rate:'#BA7517', asset:'#7F77DD', channel:'#D85A30',
+    demo:'#3B9CE8', trend:'#D4537E', all:'#185FA5'
+  };
+  var catNames = {
+    dept:'백화점업계', csi:'소비심리', income:'소득·고용',
+    rate:'물가·금리', asset:'자산시장', channel:'유통채널',
+    demo:'인구동향', trend:'트렌드'
+  };
+
+  var cats = cat === 'all'
+    ? ['dept','csi','income','rate','asset','channel','demo','trend']
+    : [cat];
+
+  var html = '';
+  cats.forEach(function(c) {
+    var articles = news[c] || [];
+    var color = catColors[c] || '#185FA5';
+    var label = catNames[c] || c;
+    articles.forEach(function(a) {
+      html += '<div class="news-item" data-cat="'+c+'">'
+        + '<div class="ndot" style="background:'+color+'"></div>'
+        + '<div class="news-item-body">'
+        + '<div class="nkw" style="color:'+color+'">'+label+'</div>'
+        + '<div class="nh">'+a.title+'</div>'
+        + '<div class="nd">'+a.date+' · '+a.source+'</div>'
+        + (a.url ? '<a class="news-link" href="'+a.url+'" target="_blank">기사 원문 보기 ↗</a>' : '')
+        + '</div></div>';
+    });
+  });
+
+  if(updated) {
+    html += '<div style="padding:8px 1.1rem;font-size:10px;color:var(--text3)">기준: '+updated+'</div>';
+  }
+  wrap.innerHTML = html || '<div style="padding:1rem;color:var(--text2);font-size:12px">기사를 불러오지 못했습니다.</div>';
 }
 
 /* ═══════════════════════════════════════════
@@ -1583,10 +1660,12 @@ async function genInterp() {
   pulse.style.display = 'inline';
   genBtn.style.display = 'none';
 
+  var apiKey = checkAnthropicKey();
+  if(!apiKey) { interp.textContent = 'API 키가 없어 해석을 생성할 수 없습니다.'; pulse.style.display='none'; genBtn.style.display='inline-block'; return; }
   try {
     var res = await fetch('https://api.anthropic.com/v1/messages', {
       method:'POST',
-      headers:{'Content-Type':'application/json','x-api-key':ANTHROPIC_KEY,'anthropic-version':'2023-06-01','anthropic-dangerous-direct-browser-access':'true'},
+      headers:{'Content-Type':'application/json','x-api-key':apiKey,'anthropic-version':'2023-06-01','anthropic-dangerous-direct-browser-access':'true'},
       body:JSON.stringify({
         model:'claude-sonnet-4-20250514',
         max_tokens:600,
@@ -1629,10 +1708,12 @@ async function runCustomInsight() {
   cirPulse.style.display = 'inline';
   runBtn.disabled = true;
   var prompt = '현재 한국 경제 지표 현황입니다: '+indicators+'. 이 지표들의 상관관계와 현대백화점 소비에 미치는 복합적 영향을 4~5문장으로 분석해주세요. 구체적인 상품군(명품, 패션, 뷰티, 가전·리빙, 식품 등)과 VIP 고객층 관점에서 서술해주세요. 한국어로 답변해주세요.';
+  var apiKey2 = checkAnthropicKey();
+  if(!apiKey2) { cirBody.textContent = 'API 키가 없습니다.'; cirPulse.style.display='none'; runBtn.disabled=false; return; }
   try {
     var res = await fetch('https://api.anthropic.com/v1/messages',{
       method:'POST',
-      headers:{'Content-Type':'application/json','x-api-key':ANTHROPIC_KEY,'anthropic-version':'2023-06-01','anthropic-dangerous-direct-browser-access':'true'},
+      headers:{'Content-Type':'application/json','x-api-key':apiKey2,'anthropic-version':'2023-06-01','anthropic-dangerous-direct-browser-access':'true'},
       body:JSON.stringify({model:'claude-sonnet-4-20250514',max_tokens:600,messages:[{role:'user',content:prompt}]})
     });
     var data = await res.json();
@@ -1678,7 +1759,7 @@ async function fetchNewsAI() {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
-          'x-api-key': ANTHROPIC_KEY,
+          'x-api-key': getAnthropicKey(),
           'anthropic-version': '2023-06-01',
           'anthropic-dangerous-direct-browser-access': 'true'
         },
@@ -1732,10 +1813,8 @@ async function fetchNewsAI() {
    ═══════════════════════════════════════════ */
 function fnews(cat, btn) {
   document.querySelectorAll('.kwbtn').forEach(function(b){ b.classList.remove('on'); });
-  btn.classList.add('on');
-  document.querySelectorAll('.news-item').forEach(function(item){
-    item.style.display = (cat==='all' || item.dataset.cat===cat) ? '' : 'none';
-  });
+  if(btn) btn.classList.add('on');
+  renderNews(cat);
 }
 
 /* ═══════════════════════════════════════════
@@ -1786,10 +1865,12 @@ async function fetchReports(org) {
   textEl.textContent  = '검색 중...';
   var orgNames = {hri:'현대경제연구원(HRI)', seri:'삼성경제연구소(SERI)'};
   var prompt   = orgNames[org]+'의 최근 3개월 발간 보고서 중 소비, 유통, 경기, 환율, 금리 관련 주요 보고서를 3건 요약해주세요. 각 보고서별로 제목, 핵심 내용 2줄, 현대백화점 시사점 1줄을 포함해주세요. 한국어로 답변해주세요.';
+  var apiKey3 = checkAnthropicKey();
+  if(!apiKey3) { textEl.textContent = 'API 키가 없습니다.'; pulse.style.display='none'; return; }
   try {
     var res = await fetch('https://api.anthropic.com/v1/messages',{
       method:'POST',
-      headers:{'Content-Type':'application/json','x-api-key':ANTHROPIC_KEY,'anthropic-version':'2023-06-01','anthropic-dangerous-direct-browser-access':'true'},
+      headers:{'Content-Type':'application/json','x-api-key':apiKey3,'anthropic-version':'2023-06-01','anthropic-dangerous-direct-browser-access':'true'},
       body:JSON.stringify({model:'claude-sonnet-4-20250514',max_tokens:600,messages:[{role:'user',content:prompt}]})
     });
     var data = await res.json();
@@ -1810,6 +1891,7 @@ window.addEventListener('load', function() {
   // 기본 지표 로드: 소비심리지수 (grp1 첫 번째 버튼)
   var defaultBtn = document.querySelector('#grp1 .sub-btn');
   if(defaultBtn) selChartWithAPI('csi', defaultBtn, 'grp1');
+  renderNews('all');
 
   // 리사이저
   var resizer = document.getElementById('resizer');
