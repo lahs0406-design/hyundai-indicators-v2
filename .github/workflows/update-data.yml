@@ -1,0 +1,55 @@
+name: 📊 Daily Data Update
+
+on:
+  schedule:
+    - cron: '0 23 * * *'
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Fetch economic data
+        env:
+          ECOS_KEY:    ${{ secrets.ECOS_KEY }}
+          KOSIS_KEY:   ${{ secrets.KOSIS_KEY }}
+          KOSIS_PROXY: ${{ secrets.KOSIS_PROXY }}
+        run: python scripts/fetch_data.py
+
+      - name: Fetch news
+        env:
+          NAVER_CLIENT_ID:     ${{ secrets.NAVER_CLIENT_ID }}
+          NAVER_CLIENT_SECRET: ${{ secrets.NAVER_CLIENT_SECRET }}
+        run: python scripts/fetch_news.py
+
+      - name: Fetch research reports
+        env:
+          NAVER_CLIENT_ID:     ${{ secrets.NAVER_CLIENT_ID }}
+          NAVER_CLIENT_SECRET: ${{ secrets.NAVER_CLIENT_SECRET }}
+        run: python scripts/fetch_reports.py
+
+      - name: Commit and push updated files
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          git add data.json news.json reports.json
+
+          if git diff --staged --quiet; then
+            echo "변경사항 없음 — 커밋 스킵"
+          else
+            DATE=$(TZ='Asia/Seoul' date '+%Y.%m.%d %H:%M')
+            git commit -m "🔄 데이터 자동 갱신: ${DATE}"
+            git push
+          fi
