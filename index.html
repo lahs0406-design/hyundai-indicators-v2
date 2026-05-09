@@ -160,35 +160,11 @@ body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;backgrou
 .rpt-input{font-size:12px;padding:7px 9px;border:.5px solid var(--border2);border-radius:var(--radius);background:var(--bg);color:var(--text);font-family:inherit;width:100%;outline:none}
 .rpt-input:focus{border-color:#378ADD}
 .rpt-textarea{resize:vertical;min-height:60px}
-/* CSS § 15. 월간 브리핑 섹션 */
-.briefing-panel{background:var(--bg);border:.5px solid var(--border);border-radius:var(--radius-lg);padding:1.05rem;margin-top:.2rem}
-.tab-row{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:.85rem}
-.brief-list{display:flex;flex-direction:column;gap:6px}
-.brief-item{display:flex;gap:8px;font-size:12px;color:var(--text);line-height:1.65}
-.brief-dot{width:6px;height:6px;border-radius:50%;margin-top:6px;flex-shrink:0}
-.risk-card{background:var(--bg);border:.5px solid var(--border);border-left:3px solid;border-radius:var(--radius);padding:.85rem .95rem;margin-bottom:7px}
-.risk-title{font-size:12px;font-weight:600;margin-bottom:.3rem}
-.risk-body{font-size:11.5px;color:var(--text);line-height:1.68}
-.cat-table{border:.5px solid var(--border);border-radius:var(--radius);overflow:hidden;margin-bottom:.5rem}
-.cat-header{display:grid;grid-template-columns:85px 60px 1fr;background:#185FA5;color:#fff;font-size:11px;font-weight:600;padding:7px 10px}
-.cat-row{display:grid;grid-template-columns:85px 60px 1fr;padding:7px 10px;border-top:.5px solid var(--border);align-items:start}
-.cat-row.alt{background:var(--bg2)}
-.cat-name{font-size:11.5px;font-weight:600;color:var(--text)}
-.cat-desc{font-size:11px;color:var(--text);line-height:1.55}
-.cat-badge{font-size:10px;font-weight:600;padding:2px 8px;border-radius:9px;display:inline-block}
-.cat-badge.opp{background:#EAF3DE;color:#27500A}
-.cat-badge.risk{background:#FCEBEB;color:#791F1F}
-.cat-badge.watch{background:#FAEEDA;color:#633806}
-.rival-table{border:.5px solid var(--border);border-radius:var(--radius);overflow:hidden}
-.rival-header{display:grid;grid-template-columns:65px 1fr 1fr;background:#0C3D6E;color:#fff;font-size:11px;font-weight:600;padding:7px 10px;gap:10px}
-.rival-row{display:grid;grid-template-columns:65px 1fr 1fr;padding:7px 10px;border-top:.5px solid var(--border);font-size:11px;color:var(--text);line-height:1.55;gap:10px;align-items:start}
-.rival-row.alt{background:var(--bg2)}
-.rival-name{font-weight:600}
-.strat-item{display:flex;gap:11px;padding:.85rem .95rem;background:var(--bg);border:.5px solid var(--border);border-radius:var(--radius);margin-bottom:6px}
-.strat-num{font-size:12px;font-weight:700;color:#E6F1FB;background:#185FA5;border-radius:6px;width:30px;height:30px;display:flex;align-items:center;justify-content:center;flex-shrink:0}
-.strat-title{font-size:12px;font-weight:600;color:var(--text);margin-bottom:.3rem}
-.strat-body{font-size:11px;color:var(--text2);line-height:1.65}
-/* CSS § 16. 푸터 */
+
+/* CSS § 16. 더보기 버튼 */
+.show-more-btn{display:block;width:100%;margin-top:8px;padding:7px 0;font-size:11.5px;font-weight:600;color:#185FA5;background:var(--bg2);border:.5px solid var(--border);border-radius:var(--radius);cursor:pointer;text-align:center;transition:background .15s}
+.show-more-btn:hover{background:#E6F1FB}
+/* CSS § 17. 푸터 */
 footer{padding:1.25rem;text-align:center;font-size:11px;color:var(--text3);border-top:.5px solid var(--border)}
 /* CSS § 17. 반응형 - 모바일 (768px 이하: 세로 스택) */
 @media(max-width:768px){
@@ -334,14 +310,14 @@ footer{padding:1.25rem;text-align:center;font-size:11px;color:var(--text3);borde
   <!-- § 5-1b. 인사이트 카드 1: 소비심리 × 물가 -->
   <div class="ins-card">
     <div class="ins-top">
-      <div class="ins-tags"><span class="tag t-blue">소비자심리지수</span><span class="tag t-amber">소비자물가지수</span></div>
-      <div class="ins-body">소비자심리지수가 3개월 연속 하락하며 기준선(100)에 근접한 가운데, 물가는 전년 대비 +3.1% 상승세를 유지하고 있습니다. 실질 구매력 감소가 심화되며 소비자들의 가격 민감도가 높아지고 있으며, 특히 비필수·고가 품목에서 구매 결정 지연 현상이 나타날 가능성이 높습니다.</div>
+      <div class="ins-tags"><span class="tag t-blue">소비자심리지수</span><span class="tag t-amber">소비자물가지수</span><span style="font-size:9.5px;background:#FFF0F0;color:#C0392B;border:1px solid #F5C6C6;border-radius:4px;padding:1px 6px;font-weight:600;letter-spacing:.03em">SAMPLE</span></div>
+      <div class="ins-body"><span style="font-size:9.5px;background:#FFF0F0;color:#C0392B;font-weight:600;margin-right:4px">[샘플 해석]</span>소비자심리지수가 3개월 연속 하락하며 기준선(100)에 근접한 가운데, 물가는 전년 대비 상승세를 유지하고 있습니다. 실질 구매력 감소가 심화되며 소비자들의 가격 민감도가 높아지고 있으며, 특히 비필수·고가 품목에서 구매 결정 지연 현상이 나타날 가능성이 높습니다.</div>
     </div>
     <div class="ins-ref">
       <div class="ins-ref-label">📰 근거 기사</div>
-      <div class="ins-ref-item">소비자심리지수 3개월 연속 하락…"고물가에 지갑 안 열린다" 체감 경기 악화 <span style="color:var(--text3)">· 한국경제 2024.12.26</span></div>
-      <div class="ins-ref-item">소비자물가 3.1% 상승 지속…외식·가공식품 가격 상승에 외출 소비 줄어 <span style="color:var(--text3)">· KBS뉴스 2024.12.03</span></div>
-      <div class="ins-ref-item">현대경제연구원: 고물가·고금리 장기화로 중산층 소비 여력 위축 전망 <span style="color:var(--text3)">· HRI 경제주평 2024.12</span></div>
+      <div class="ins-ref-item"><a href="https://www.namdonews.com/news/articleView.html?idxno=909798" target="_blank" rel="noopener" style="color:inherit;text-decoration:none">"990원 막걸리까지 등장"…유통가, 초저가 전쟁 '활활'</a> <span style="color:var(--text3)">· namdonews.com · 2026.05.07</span></div>
+      <div class="ins-ref-item"><a href="https://www.wikitree.co.kr/articles/1135212" target="_blank" rel="noopener" style="color:inherit;text-decoration:none">두부 980원 막걸리 990원…2026년 유통가 강타한 초저가 바람</a> <span style="color:var(--text3)">· wikitree.co.kr · 2026.05.06</span></div>
+      <div class="ins-ref-item"><a href="https://www.edaily.co.kr/news/newspath.asp?newsid=03355446645446952" target="_blank" rel="noopener" style="color:inherit;text-decoration:none">한섬, 2분기도 1분기에 이어 유사한 매출 성장…'매수'-NH</a> <span style="color:var(--text3)">· edaily.co.kr · 2026.05.08</span></div>
     </div>
     <div class="ins-divider"></div>
     <div class="ins-block">
@@ -356,14 +332,14 @@ footer{padding:1.25rem;text-align:center;font-size:11px;color:var(--text3);borde
   <!-- § 5-1c. 인사이트 카드 2: 환율 × 관광객 -->
   <div class="ins-card">
     <div class="ins-top">
-      <div class="ins-tags"><span class="tag t-red">환율 (USD/KRW)</span><span class="tag t-green">외국인 관광객</span></div>
-      <div class="ins-body">원/달러 환율이 1,380원대로 상승하면서 방한 외국인의 원화 구매력이 실질적으로 증가하고 있습니다. 중국 단체 관광 재개 흐름과 맞물려 면세·뷰티·K-패션 수요 상승 여건이 형성되고 있으나, 내국인의 일본·동남아 출국 증가는 국내 소비의 외부 유출 리스크로 작용합니다.</div>
+      <div class="ins-tags"><span class="tag t-red">환율 (USD/KRW)</span><span class="tag t-green">외국인 관광객</span><span style="font-size:9.5px;background:#FFF0F0;color:#C0392B;border:1px solid #F5C6C6;border-radius:4px;padding:1px 6px;font-weight:600;letter-spacing:.03em">SAMPLE</span></div>
+      <div class="ins-body"><span style="font-size:9.5px;background:#FFF0F0;color:#C0392B;font-weight:600;margin-right:4px">[샘플 해석]</span>원/달러 환율이 1,480원대로 상승하면서 방한 외국인의 원화 구매력이 실질적으로 증가하고 있습니다. 면세·뷰티·K-패션 수요 상승 여건이 형성되고 있으나, 내국인의 해외 출국 증가는 국내 소비의 외부 유출 리스크로 작용합니다.</div>
     </div>
     <div class="ins-ref">
       <div class="ins-ref-label">📰 근거 기사</div>
-      <div class="ins-ref-item">원화 약세 속 방한 중국 단체 관광 재개…면세·뷰티업계 수혜 기대감↑ <span style="color:var(--text3)">· 서울경제 2024.12.22</span></div>
-      <div class="ins-ref-item">원·달러 1,380원대 안착…수입 명품 가격 인상 압력 본격화 우려 <span style="color:var(--text3)">· 매일경제 2024.12.18</span></div>
-      <div class="ins-ref-item">일본 엔저 효과로 한국인 출국 관광 사상 최대…국내 소비 유출 우려 <span style="color:var(--text3)">· 연합뉴스 2024.12.10</span></div>
+      <div class="ins-ref-item"><a href="https://www.dnews.co.kr/uhtml/view.jsp?idxno=202605071404112040860" target="_blank" rel="noopener" style="color:inherit;text-decoration:none">[석유 최고가격제 한달] 30년만의 가격통제…'물가상승 방어' vs. '시장 왜곡'</a> <span style="color:var(--text3)">· dnews.co.kr · 2026.05.08</span></div>
+      <div class="ins-ref-item"><a href="https://www.seoulfn.com/news/articleView.html?idxno=627915" target="_blank" rel="noopener" style="color:inherit;text-decoration:none">[주간환율전망] 중동 협상 교착에도 하방 압력 우위···1470원대 공방</a> <span style="color:var(--text3)">· seoulfn.com · 2026.05.04</span></div>
+      <div class="ins-ref-item"><a href="https://www.youthdaily.co.kr/news/article.html?no=218668" target="_blank" rel="noopener" style="color:inherit;text-decoration:none">고유가 지원금에 배제 된 대형마트…유통업계 형평성 논란 '재점화'</a> <span style="color:var(--text3)">· youthdaily.co.kr · 2026.05.07</span></div>
     </div>
     <div class="ins-divider"></div>
     <div class="ins-block">
@@ -378,14 +354,14 @@ footer{padding:1.25rem;text-align:center;font-size:11px;color:var(--text3);borde
   <!-- § 5-1d. 인사이트 카드 3: 금리 × KOSPI × 소비심리 -->
   <div class="ins-card">
     <div class="ins-top">
-      <div class="ins-tags"><span class="tag t-blue">기준금리</span><span class="tag t-purple">KOSPI</span><span class="tag t-amber">소비자심리지수</span></div>
-      <div class="ins-body">한국은행의 금리 인하 기조(3.50%→3.25%)로 유동성 완화 신호가 나타나지만, KOSPI가 2,400선 아래로 하락하며 자산 효과가 소비를 견인하는 데 한계가 있습니다. 자산가·고소득 고객층을 주 타깃으로 하는 백화점 특성상 주가 본격 반등 전까지 프리미엄 소비 회복에는 시간이 필요합니다.</div>
+      <div class="ins-tags"><span class="tag t-blue">기준금리</span><span class="tag t-purple">KOSPI</span><span class="tag t-amber">소비자심리지수</span><span style="font-size:9.5px;background:#FFF0F0;color:#C0392B;border:1px solid #F5C6C6;border-radius:4px;padding:1px 6px;font-weight:600;letter-spacing:.03em">SAMPLE</span></div>
+      <div class="ins-body"><span style="font-size:9.5px;background:#FFF0F0;color:#C0392B;font-weight:600;margin-right:4px">[샘플 해석]</span>KOSPI가 7,000선을 돌파하며 자산 효과가 커지고 있으나, 주식 수익이 부동산으로 이동하는 경향이 관찰됩니다. 자산가·고소득 고객층 중심의 백화점 소비에는 긍정적이나, 소비 양극화 심화로 중산층 소비와의 간극이 확대될 수 있습니다.</div>
     </div>
     <div class="ins-ref">
       <div class="ins-ref-label">📰 근거 기사</div>
-      <div class="ins-ref-item">한은 기준금리 3.25%로 추가 인하…소비 회복은 시간 필요 <span style="color:var(--text3)">· 연합뉴스 2024.12.28</span></div>
-      <div class="ins-ref-item">코스피 2,400선 붕괴…자산 효과 소멸 우려 <span style="color:var(--text3)">· 한국경제 2024.12.19</span></div>
-      <div class="ins-ref-item">빅3 백화점 4분기 명품 매출 소폭 감소…고가 소비 양극화 심화 <span style="color:var(--text3)">· 매일경제 2024.12.18</span></div>
+      <div class="ins-ref-item"><a href="https://www.hankyung.com/article/2026050723681" target="_blank" rel="noopener" style="color:inherit;text-decoration:none">주식으로 번 돈 어디 갔나 했더니…40대 직장인 결국</a> <span style="color:var(--text3)">· hankyung.com · 2026.05.08</span></div>
+      <div class="ins-ref-item"><a href="https://www.kmib.co.kr/article/view.asp?arcid=1778141617&code=11151600&cp=nv" target="_blank" rel="noopener" style="color:inherit;text-decoration:none">7000피 열렸지만… 수익·소비 양극화 심화</a> <span style="color:var(--text3)">· kmib.co.kr · 2026.05.08</span></div>
+      <div class="ins-ref-item"><a href="http://www.updownnews.co.kr/news/articleView.html?idxno=317125" target="_blank" rel="noopener" style="color:inherit;text-decoration:none">소비보다 부동산 우선...증시 활황에도 '주식 자산효과' 약화 왜?</a> <span style="color:var(--text3)">· updownnews.co.kr · 2026.05.07</span></div>
     </div>
     <div class="ins-divider"></div>
     <div class="ins-block">
@@ -408,14 +384,11 @@ footer{padding:1.25rem;text-align:center;font-size:11px;color:var(--text3);borde
   <div style="margin-bottom:.6rem"><button id="news-ai-btn" class="custom-run" onclick="fetchNewsAI()">🔍 AI로 최신 기사 검색</button></div>
   <div class="news-kw-row">
     <button class="kwbtn on" onclick="fnews('all',this)">전체</button>
-    <button class="kwbtn" onclick="fnews('dept',this)">백화점업계</button>
-    <button class="kwbtn" onclick="fnews('csi',this)">소비심리</button>
-    <button class="kwbtn" onclick="fnews('income',this)">소득·고용</button>
-    <button class="kwbtn" onclick="fnews('rate',this)">물가·금리</button>
-    <button class="kwbtn" onclick="fnews('asset',this)">자산시장</button>
-    <button class="kwbtn" onclick="fnews('channel',this)">유통채널</button>
-    <button class="kwbtn" onclick="fnews('demo',this)">인구동향</button>
-    <button class="kwbtn" onclick="fnews('trend',this)">트렌드</button>
+    <button class="kwbtn" onclick="fnews('store',this)">점포별 아젠다</button>
+    <button class="kwbtn" onclick="fnews('rival',this)">동업계 동향</button>
+    <button class="kwbtn" onclick="fnews('consume',this)">소비 트렌드</button>
+    <button class="kwbtn" onclick="fnews('fx',this)">환율·관광</button>
+    <button class="kwbtn" onclick="fnews('rate',this)">금리·경기</button>
   </div>
   <div class="news-wrap" id="nwrap">
     <div class="news-item" data-cat="store"><div class="ndot" style="background:#185FA5"></div><div class="news-item-body"><div class="nkw nkw-store">점포별 아젠다 · 울산점</div><div class="nh">현대차 울산공장 노사 임금협상 타결…성과금 지급 시 울산 소비 심리 반등 기대</div><div class="nd">2024.12.20 · 울산매일</div><a class="news-link" href="https://www.ulsan.co.kr" target="_blank">기사 원문 보기 ↗</a></div></div>
@@ -434,69 +407,50 @@ footer{padding:1.25rem;text-align:center;font-size:11px;color:var(--text3);borde
 <div class="sec">
   <!-- ─────────────────────────────────────────
      HTML § 5-3. [섹션 4] 연구기관 보고서
-     · 네이버 뉴스 API 기반 자동 수집
+     · HRI (현대경제연구원) / SERI (삼성경제연구소)
+     · 수동 보고서 추가: rpt-hri-list / rpt-seri-list
      ───────────────────────────────────────── -->
-<div class="sec-label">4 · 연구기관 보고서</div>
-  <!-- 카테고리 버튼 -->
-  <div class="news-kw-row" style="margin-bottom:.75rem">
-    <button class="kwbtn on" onclick="filterReports('all',this)">전체</button>
-    <button class="kwbtn" onclick="filterReports('hri',this)">현대경제연구원</button>
-    <button class="kwbtn" onclick="filterReports('seri',this)">삼성경제연구소</button>
-    <button class="kwbtn" onclick="filterReports('kdi',this)">KDI</button>
-    <button class="kwbtn" onclick="filterReports('bok',this)">한국은행</button>
-  </div>
-  <div class="news-wrap" id="rpt-news-wrap">
-    <div style="padding:1rem;color:var(--text2);font-size:12px">로딩 중...</div>
-  </div>
-  <div class="rpt-org" id="rpt-hri" style="display:none">
+<div class="sec-label">4 · 연구기관 보고서 <span id="rpt-updated" style="font-size:9px;font-weight:400;color:var(--text3);text-transform:none;letter-spacing:0;margin-left:6px"></span></div>
+  <div class="rpt-org" id="rpt-hri">
     <div class="rpt-org-header">
       <div><div class="rpt-org-name">현대경제연구원 <span class="rpt-org-url">hri.co.kr</span></div><div class="rpt-org-desc">매주 경제 동향·이슈 보고서 발간 · 소비·유통·경기 분석 중심</div></div>
-      <div class="rpt-org-actions"><button class="ai-btn" onclick="fetchReports('hri')">AI로 최신 보고서 검색 →</button><a href="https://www.hri.co.kr/research/list.aspx" target="_blank" class="rpt-link-btn">홈페이지 ↗</a></div>
+      <div class="rpt-org-actions"><a href="https://www.hri.co.kr/research/list.aspx" target="_blank" class="rpt-link-btn">홈페이지 ↗</a></div>
     </div>
-    <div class="rpt-ai-result" id="rpt-hri-ai" style="display:none"><div class="ai-label">AI 검색 결과</div><span id="rpt-hri-pulse" style="display:none"><span class="pulse"></span></span><div class="ai-text" id="rpt-hri-text"></div></div>
-    <div class="rpt-manual-label">수동 등록 보고서</div>
-    <div class="rpt-list" id="rpt-hri-list">
-      <div class="rpt-item"><div class="rpt-date">2024.12</div><div class="rpt-body"><div class="rpt-title">2025년 국내 소비 전망: 회복 속도 둔화와 양극화 심화</div><div class="rpt-summary">고물가·고금리 장기화로 중산층 소비 여력이 위축되는 가운데, 고소득층 중심의 프리미엄 소비는 유지될 전망.</div><div class="rpt-tags-row"><span class="rtag">소비전망</span><span class="rtag">양극화</span><span class="rtag">내수</span></div></div></div>
-      <div class="rpt-item"><div class="rpt-date">2024.11</div><div class="rpt-body"><div class="rpt-title">원화 약세 장기화와 내수 소비에 미치는 영향</div><div class="rpt-summary">환율 1,350원 이상 지속 시 수입 물가 상승 → 소비재 가격 전가 → 실질 소비 감소 경로 분석.</div><div class="rpt-tags-row"><span class="rtag">환율</span><span class="rtag">물가</span><span class="rtag">소비</span></div></div></div>
-    </div>
-    <button class="rpt-add-btn" onclick="toggleAddForm('hri')">+ 보고서 직접 추가</button>
-    <div class="rpt-add-form" id="rpt-hri-form" style="display:none">
-      <input class="rpt-input" id="hri-input-date" placeholder="발간월 (예: 2025.01)"/>
-      <input class="rpt-input" id="hri-input-title" placeholder="보고서 제목"/>
-      <textarea class="rpt-input rpt-textarea" id="hri-input-summary" placeholder="핵심 내용 요약"></textarea>
-      <input class="rpt-input" id="hri-input-tags" placeholder="태그 (쉼표로 구분)"/>
-      <div style="display:flex;gap:6px;margin-top:3px"><button class="ai-btn" onclick="addReport('hri')">추가</button><button class="ai-btn" onclick="toggleAddForm('hri')">취소</button></div>
-    </div>
+    <div class="rpt-manual-label">최신 관련 뉴스 <span style="font-weight:400;color:var(--text3)">(reports.json · 자동갱신)</span></div>
+    <div class="rpt-list" id="rpt-hri-list"><div class="rpt-empty">불러오는 중…</div></div>
   </div>
+  <!-- SERI -->
   <div class="rpt-org" id="rpt-seri">
     <div class="rpt-org-header">
       <div><div class="rpt-org-name">삼성경제연구소 <span class="rpt-org-url">seri.org</span></div><div class="rpt-org-desc">거시경제·산업·소비 트렌드 심층 보고서 · 월간 발간</div></div>
-      <div class="rpt-org-actions"><button class="ai-btn" onclick="fetchReports('seri')">AI로 최신 보고서 검색 →</button><a href="https://www.seri.org/db/dbReptV.html" target="_blank" class="rpt-link-btn">홈페이지 ↗</a></div>
+      <div class="rpt-org-actions"><a href="https://www.seri.org/db/dbReptV.html" target="_blank" class="rpt-link-btn">홈페이지 ↗</a></div>
     </div>
-    <div class="rpt-ai-result" id="rpt-seri-ai" style="display:none"><div class="ai-label">AI 검색 결과</div><span id="rpt-seri-pulse" style="display:none"><span class="pulse"></span></span><div class="ai-text" id="rpt-seri-text"></div></div>
-    <div class="rpt-manual-label">수동 등록 보고서</div>
-    <div class="rpt-list" id="rpt-seri-list">
-      <div class="rpt-item"><div class="rpt-date">2024.12</div><div class="rpt-body"><div class="rpt-title">2025년 10대 소비 트렌드 전망</div><div class="rpt-summary">① 가치소비 강화 ② 경험 중심 소비 ③ 초개인화 수요 확대 ④ 건강·웰니스 지출 증가 ⑤ 리세일·중고 시장 성장 등.</div><div class="rpt-tags-row"><span class="rtag">소비트렌드</span><span class="rtag">2025전망</span><span class="rtag">경험소비</span></div></div></div>
-      <div class="rpt-item"><div class="rpt-date">2024.11</div><div class="rpt-body"><div class="rpt-title">MZ세대 소비 행태 변화와 유통채널 대응 전략</div><div class="rpt-summary">MZ세대의 오프라인 쇼핑 목적이 경험·콘텐츠 소비로 전환. 팝업·체험존·F&B가 집객력의 핵심 변수로 부상.</div><div class="rpt-tags-row"><span class="rtag">MZ세대</span><span class="rtag">오프라인유통</span><span class="rtag">팝업</span></div></div></div>
+    <div class="rpt-manual-label">최신 관련 뉴스 <span style="font-weight:400;color:var(--text3)">(reports.json · 자동갱신)</span></div>
+    <div class="rpt-list" id="rpt-seri-list"><div class="rpt-empty">불러오는 중…</div></div>
+  </div>
+
+  <!-- KDI -->
+  <div class="rpt-org" id="rpt-kdi">
+    <div class="rpt-org-header">
+      <div><div class="rpt-org-name">한국개발연구원 <span class="rpt-org-url">kdi.re.kr</span></div><div class="rpt-org-desc">국책 싱크탱크 · 재정·복지·노동·성장 정책 분석 중심</div></div>
+      <div class="rpt-org-actions"><a href="https://www.kdi.re.kr/research/reportList.jsp" target="_blank" class="rpt-link-btn">홈페이지 ↗</a></div>
     </div>
-    <button class="rpt-add-btn" onclick="toggleAddForm('seri')">+ 보고서 직접 추가</button>
-    <div class="rpt-add-form" id="rpt-seri-form" style="display:none">
-      <input class="rpt-input" id="seri-input-date" placeholder="발간월 (예: 2025.01)"/>
-      <input class="rpt-input" id="seri-input-title" placeholder="보고서 제목"/>
-      <textarea class="rpt-input rpt-textarea" id="seri-input-summary" placeholder="핵심 내용 요약"></textarea>
-      <input class="rpt-input" id="seri-input-tags" placeholder="태그 (쉼표로 구분)"/>
-      <div style="display:flex;gap:6px;margin-top:3px"><button class="ai-btn" onclick="addReport('seri')">추가</button><button class="ai-btn" onclick="toggleAddForm('seri')">취소</button></div>
+    <div class="rpt-manual-label">최신 관련 뉴스 <span style="font-weight:400;color:var(--text3)">(reports.json · 자동갱신)</span></div>
+    <div class="rpt-list" id="rpt-kdi-list"><div class="rpt-empty">불러오는 중…</div></div>
+  </div>
+
+  <!-- BOK -->
+  <div class="rpt-org" id="rpt-bok">
+    <div class="rpt-org-header">
+      <div><div class="rpt-org-name">한국은행 <span class="rpt-org-url">bok.or.kr</span></div><div class="rpt-org-desc">통화·금리·경상수지·물가 분석 · 금융안정보고서·통화신용정책보고서 발간</div></div>
+      <div class="rpt-org-actions"><a href="https://www.bok.or.kr/portal/bbs/P0000559/list.do?menuNo=200760" target="_blank" class="rpt-link-btn">홈페이지 ↗</a></div>
     </div>
+    <div class="rpt-manual-label">최신 관련 뉴스 <span style="font-weight:400;color:var(--text3)">(reports.json · 자동갱신)</span></div>
+    <div class="rpt-list" id="rpt-bok-list"><div class="rpt-empty">불러오는 중…</div></div>
   </div>
 </div>
 
-<div class="sec">
-  <!-- ─────────────────────────────────────────
-     HTML § 5-4. [섹션 5] 월간 브리핑
-     · 탭: 거시경제 / 상품군 / 5대 리스크 / 트렌드 / 전략
-     · 탭 내용 수정: briefing-macro ~ briefing-strategy
-     ───────────────────────────────────────── -->
-<div class="sec-label">5 · 월간 브리핑</div>
+<footer>현대백화점 상품본부 지원팀 내부용 · Made with Claude · 2026</footer>
   <div style="background:linear-gradient(135deg,#0C3D6E 0%,#185FA5 100%);border-radius:var(--radius-lg);padding:1.1rem 1.35rem;margin-bottom:.85rem">
     <div style="font-size:10px;color:#9ABFE0;font-weight:500;margin-bottom:.3rem;letter-spacing:.06em">현대백화점 상품본부 지원팀 · MONTHLY BRIEFING</div>
     <div style="font-size:17px;font-weight:600;color:#fff;margin-bottom:.3rem">외부환경 월간 브리핑</div>
@@ -506,84 +460,7 @@ footer{padding:1.25rem;text-align:center;font-size:11px;color:var(--text3);borde
     <strong style="color:#185FA5;font-size:9.5px;letter-spacing:.06em;text-transform:uppercase;display:block;margin-bottom:.35rem">EXECUTIVE SUMMARY</strong>
     2026년 1분기 한국 경제는 <strong>수출 호조(+29~34%)에도 내수 회복이 지연</strong>되는 K-양극화 구조가 지속되고 있습니다. 현대경제연구원은 ① 트럼프 통상 2라운드 ② 오일쇼크발 인플레이션 ③ FED 통화정책 불확실성 ④ 반도체 사이클 지속 여부 ⑤ 건설투자 장기 침체를 5대 경기 리스크로 제시했습니다.
   </div>
-  <div class="tab-row" id="briefing-tabs">
-    <button class="tbtn on" onclick="showBriefing('macro',this)">Ⅰ. 거시경제</button>
-    <button class="tbtn" onclick="showBriefing('category',this)">Ⅱ. 상품군 영향</button>
-    <button class="tbtn" onclick="showBriefing('risk',this)">Ⅲ. 5대 리스크</button>
-    <button class="tbtn" onclick="showBriefing('trend',this)">Ⅳ. 소비 트렌드</button>
-    <button class="tbtn" onclick="showBriefing('strategy',this)">Ⅴ. 전략 시사점</button>
-  </div>
-  <div id="briefing-macro" class="briefing-panel">
-    <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:6px;margin-bottom:.9rem">
-      <div class="kpill"><div class="kl">'25년 4Q 성장률</div><div class="kv" style="color:#E24B4A">△0.3%</div><div class="kc down">▼ 전기 +1.3%</div></div>
-      <div class="kpill"><div class="kl">동행지수</div><div class="kv" style="color:#BA7517">99.0p</div><div class="kc neu">= 회복 미확인</div></div>
-      <div class="kpill"><div class="kl">선행지수</div><div class="kv" style="color:#3B6D11">102.3p</div><div class="kc up">▲ 4개월 상승</div></div>
-      <div class="kpill"><div class="kl">소매판매(1월)</div><div class="kv" style="color:#3B6D11">+2.3%</div><div class="kc up">▲ 전월비 확대</div></div>
-      <div class="kpill"><div class="kl">설비투자(1월)</div><div class="kv" style="color:#3B6D11">+15.3%</div><div class="kc up">▲ 급반등</div></div>
-      <div class="kpill"><div class="kl">실업률(1월)</div><div class="kv" style="color:#E24B4A">4.1%</div><div class="kc down">▼ 전년 3.7%</div></div>
-    </div>
-    <div class="brief-list">
-      <div class="brief-item"><span class="brief-dot" style="background:#3B6D11"></span><div><strong>소비 회복 기대</strong> — 소매판매 1월 +2.3%. 단, 내구재(+9.5%) 중심이며 비내구재(△5.4%)는 여전히 부진.</div></div>
-      <div class="brief-item"><span class="brief-dot" style="background:#3B6D11"></span><div><strong>수출 경기 호조</strong> — 반도체 중심 1월 +33.8%, 2월 +29.0% 두 자릿수 증가 지속. 자동차 등 비IT 부진으로 수출 내 양극화.</div></div>
-      <div class="brief-item"><span class="brief-dot" style="background:#E24B4A"></span><div><strong>고용 절벽 우려</strong> — 서비스업 취업자 12월 43.1만 → 1월 28.5만으로 급락. 청년 실업률 6.8%로 +0.8%p 급등.</div></div>
-      <div class="brief-item"><span class="brief-dot" style="background:#3B6D11"></span><div><strong>경제심리 동반 개선</strong> — 향후경기전망 CSI 2월 102p로 기준치 상회. 한경협 BSI 3월 102.7p로 4년 만에 기준치 돌파.</div></div>
-    </div>
-    <div style="background:var(--bg2);border-radius:var(--radius);padding:.75rem .95rem;margin-top:.85rem;font-size:11px;color:var(--text);line-height:1.65;border-left:2px solid #185FA5">
-      <strong style="color:#185FA5">현대경제연구원 경기 판단</strong> — 현재 한국 경제는 부진한 국면이나 침체 폭을 줄여나가는 과정. '26년 방향성은 우상향 예상이나, K-양극화로 민간 체감 경기는 크게 개선되기 어려울 것으로 전망. <span style="color:var(--text3)">(출처: 경제주평 제1005호, 2026.03.06)</span>
-    </div>
-  </div>
-  <div id="briefing-category" class="briefing-panel" style="display:none">
-    <div class="cat-table">
-      <div class="cat-header"><div>상품군</div><div>영향도</div><div>주요 시사점</div></div>
-      <div class="cat-row"><div class="cat-name">명품</div><div><span class="cat-badge opp">기회</span></div><div class="cat-desc">에루샤 역대 최대(~5조원). 외국인 관광객 추가 견인.</div></div>
-      <div class="cat-row alt"><div class="cat-name">뷰티</div><div><span class="cat-badge opp">기회</span></div><div class="cat-desc">방한 외국인 쇼핑 1순위. K-뷰티·웰니스 트렌드 수혜.</div></div>
-      <div class="cat-row"><div class="cat-name">여성패션</div><div><span class="cat-badge watch">관찰</span></div><div class="cat-desc">소비심리 회복 시 두 자릿수 성장 재개 가능. 고물가 시 지연 위험.</div></div>
-      <div class="cat-row alt"><div class="cat-name">영패션·SPA</div><div><span class="cat-badge opp">기회</span></div><div class="cat-desc">MZ 오프라인 체험 소비 증가. 팝업 연계 효과 기대.</div></div>
-      <div class="cat-row"><div class="cat-name">워치·주얼리</div><div><span class="cat-badge risk">위험</span></div><div class="cat-desc">KOSPI 박스권으로 자산 효과 제한. 고가 구매 결정 지연.</div></div>
-      <div class="cat-row alt"><div class="cat-name">가전·가구</div><div><span class="cat-badge risk">위험</span></div><div class="cat-desc">건설투자 8년 불황으로 이사 수요 감소. 금리 인하 시 회복 가능.</div></div>
-      <div class="cat-row"><div class="cat-name">식품</div><div><span class="cat-badge watch">관찰</span></div><div class="cat-desc">비내구재 소비 감소. 외국인 K-푸드·F&B 집객은 긍정적.</div></div>
-      <div class="cat-row alt"><div class="cat-name">팝업스토어</div><div><span class="cat-badge opp">기회</span></div><div class="cat-desc">MZ 체험 소비 핵심 채널. 집객→체류→연관 구매 선순환.</div></div>
-    </div>
-    <div style="font-size:10px;color:var(--text2);margin-top:.45rem">※ 기회: 수혜 가능 / 관찰: 모니터링 필요 / 위험: 하방 압력 존재</div>
-  </div>
-  <div id="briefing-risk" class="briefing-panel" style="display:none">
-    <div class="risk-card" style="border-left-color:#E24B4A"><div class="risk-title" style="color:#E24B4A">① 트럼프 통상 2라운드</div><div class="risk-body">상호관세 위헌 판결 이후 보편관세(10%) 임시 부과. 품목·국별 관세 확대 가능성. <strong>백화점 영향:</strong> 수입 명품 가격 인상 압력, 수출기업 성과급 감소에 따른 지역점 소비 위축.</div></div>
-    <div class="risk-card" style="border-left-color:#E24B4A"><div class="risk-title" style="color:#E24B4A">② 오일쇼크발 인플레이션</div><div class="risk-body">미-이란 전쟁 호르무즈 봉쇄 우려. 유가 80달러→+0.4%p, 100달러→+1.1%p, 150달러→+2.9%p 소비자물가 상승 압력. 실질 구매력 약화.</div></div>
-    <div class="risk-card" style="border-left-color:#BA7517"><div class="risk-title" style="color:#BA7517">③ FED 통화정책 불확실성</div><div class="risk-body">캐빈 워시 신임 연준 의장 취임(5월~) 이후 비둘기파 다수 확보 불확실. 에너지 가격 상승으로 금리 인하 명분 약화. 프리미엄 소비 회복 지연 가능.</div></div>
-    <div class="risk-card" style="border-left-color:#BA7517"><div class="risk-title" style="color:#BA7517">④ 반도체 슈퍼사이클 지속 여부</div><div class="risk-body">반도체 수출 비중 총수출의 37.3%('26.2월). AI 버블 붕괴 시 삼성·SK 임직원 중심 VIP 소비 감소 직결.</div></div>
-    <div class="risk-card" style="border-left-color:#BA7517"><div class="risk-title" style="color:#BA7517">⑤ 건설투자 장기 침체</div><div class="risk-body">2018년 이후 8년째 불황. 리빙·가전 수요 동인인 이사 수요 지속 감소. 건설업 취업자 △2.0만명으로 지역 상권 소비 위축.</div></div>
-  </div>
-  <div id="briefing-trend" class="briefing-panel" style="display:none">
-    <div style="font-size:12px;font-weight:600;color:var(--text);margin-bottom:.6rem">주요 소비 트렌드</div>
-    <div class="brief-list" style="margin-bottom:1.1rem">
-      <div class="brief-item"><span class="brief-dot" style="background:#185FA5"></span><div><strong>백화점 채널 집중 현상</strong> — 명품·체험·F&B 집객력이 검증된 대형 점포로 수요 집중. 서울 기존점 +17.1%, 지방 +11.2% 성장.</div></div>
-      <div class="brief-item"><span class="brief-dot" style="background:#1D9E75"></span><div><strong>외국인 인바운드 수요 급증</strong> — 롯데 명동 본점 외국인 매출 비중 20% 돌파. 구조적 성장 동력으로 전환 필요.</div></div>
-      <div class="brief-item"><span class="brief-dot" style="background:#D85A30"></span><div><strong>소비 양극화: 명품 vs. 가성비 럭셔리</strong> — 에루샤 역대 최대 실적과 동시에 Affordable Luxury 수요 확대. Mid-luxury 라인업 강화 필요.</div></div>
-      <div class="brief-item"><span class="brief-dot" style="background:#7F77DD"></span><div><strong>체험·팝업 중심 오프라인 전략</strong> — MZ세대 쇼핑 목적이 경험·콘텐츠 소비로 전환. 팝업·F&B가 집객력 핵심 변수.</div></div>
-    </div>
-    <div style="font-size:12px;font-weight:600;color:var(--text);margin-bottom:.6rem">동업계 주요 동향</div>
-    <div class="rival-table">
-      <div class="rival-header"><div>경쟁사</div><div>주요 동향</div><div>현대백화점 시사점</div></div>
-      <div class="rival-row"><div class="rival-name">신세계</div><div>강남점 명품 리뉴얼 완료. '25년 강남점 3.67조로 9년 연속 1위.</div><div>판교·무역센터점 차별화 MD 강화 시급.</div></div>
-      <div class="rival-row alt"><div class="rival-name">롯데</div><div>잠실 에비뉴엘 리뉴얼. 명동 본점 외국인 비중 20% 돌파.</div><div>외국인 인바운드 대응 강화 필요.</div></div>
-      <div class="rival-row"><div class="rival-name">갤러리아</div><div>해외 직소싱 확대로 가격 경쟁력 강화 시도.</div><div>병행수입 경쟁 심화 모니터링.</div></div>
-    </div>
-  </div>
-  <div id="briefing-strategy" class="briefing-panel" style="display:none">
-    <div class="strat-item"><div class="strat-num">01</div><div><div class="strat-title">외국인 인바운드 수요의 구조적 활용</div><div class="strat-body">교통 허브 근접 점포 중심 면세 연계 프로모션, K-뷰티·K-푸드 팝업 강화. 중장기 외국인 매출 비중 15% 이상 목표 검토.</div></div></div>
-    <div class="strat-item"><div class="strat-num">02</div><div><div class="strat-title">소비 양극화 대응: Mid-luxury 라인업 강화</div><div class="strat-body">최고가 명품과 가성비 럭셔리 사이의 중간 공동화 현상에 선제 대응. VIP 희소성 마케팅과 중산층 Mid-luxury 라인업 동시 강화.</div></div></div>
-    <div class="strat-item"><div class="strat-num">03</div><div><div class="strat-title">리빙·가전: 금리 인하 사이클 대비 사전 기획</div><div class="strat-body">한은 추가 금리 인하 시점과 연동한 이사 패키지 프로모션 사전 기획. 주택 입주 증가 예상 지역 점포 중심 선제 대응.</div></div></div>
-    <div class="strat-item"><div class="strat-num">04</div><div><div class="strat-title">팝업·체험 강화로 MZ 고객 이탈 방지</div><div class="strat-body">팝업 전용 공간 확충 및 SNS 바이럴 가능한 체험 콘텐츠 기획. 주말 체류시간 증가 → 연관 구매 선순환 구조 강화.</div></div></div>
-    <div class="strat-item"><div class="strat-num">05</div><div><div class="strat-title">지역 점포별 아젠다 모니터링 강화</div><div class="strat-body">울산 현대차, 청주 SK하이닉스 등 성과급 시기와 지역 이슈를 체계적으로 모니터링하여 점포별 시즈널 프로모션과 연동.</div></div></div>
-    <div class="strat-item"><div class="strat-num">06</div><div><div class="strat-title">오일쇼크 시나리오 대비 소비 방어 전략</div><div class="strat-body">에너지 가격 급등 시 식품·뷰티 소용량·트라이얼 구성 확대와 멤버십 혜택 강화로 실질 구매력 약화에도 방문 빈도 유지.</div></div></div>
-  </div>
-  <div style="font-size:10px;color:var(--text2);margin-top:.85rem;padding-top:.65rem;border-top:.5px solid var(--border)">※ 본 브리핑은 현대경제연구원 경제주평 제1005호(2026.03.06), 공개 통계자료, 뉴스 검색을 기반으로 AI가 생성한 현대백화점 상품본부 지원팀 내부용 분석자료입니다.</div>
-</div>
 
-<footer>현대백화점 상품본부 지원팀 내부용 · 샘플 데이터 기준 · Made with Claude · 2026</footer>
-</div>
-</div>
-</div>
 
 <script>
 /* ═══════════════════════════════════════════
@@ -598,25 +475,7 @@ var ECOS_BASE_M = 'https://ecos.bok.or.kr/api/StatisticSearch/' + ECOS_KEY + '/j
 var ECOS_BASE_D = 'https://ecos.bok.or.kr/api/StatisticSearch/' + ECOS_KEY + '/json/kr/1/400/';
 var KOSIS_BASE  = 'https://kosis.kr/openapi/Param/statisticsParameterData.do?method=getList&format=json&jsonVD=Y&outputFields=ITM_ID+PRD_DE+DT&prdInterval=1&apiKey=';
 var KOSIS_PROXY = 'https://nameless-block-94fb.lahs0406.workers.dev';
-/* API 키: 브라우저 로컬스토리지에서 가져옴 (GitHub에 노출 안 됨) */
-function getAnthropicKey() {
-  return localStorage.getItem('anthropic_key') || '';
-}
-function setAnthropicKey(key) {
-  localStorage.setItem('anthropic_key', key);
-}
-function checkAnthropicKey() {
-  var key = getAnthropicKey();
-  if(!key) {
-    var input = prompt('Anthropic API 키를 입력해주세요:\n(한 번만 입력하면 브라우저에 저장됩니다)');
-    if(input && input.trim()) {
-      setAnthropicKey(input.trim());
-      return input.trim();
-    }
-    return null;
-  }
-  return key;
-}
+var ANTHROPIC_KEY = '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';
 
 var mc = null;
 var curKey = 'csi';
@@ -630,113 +489,6 @@ async function loadDataJson() {
     _dataCache = await res.json();
     return _dataCache;
   } catch(e) { return null; }
-}
-
-var _newsCache = null;
-var _reportsCache = null;
-async function loadReportsJson() {
-  if(_reportsCache) return _reportsCache;
-  try {
-    var res = await fetch('https://raw.githubusercontent.com/lahs0406-design/hyundai-indicators-v2/main/reports.json?t=' + Date.now());
-    _reportsCache = await res.json();
-    return _reportsCache;
-  } catch(e) { return null; }
-}
-
-async function renderReports(cat) {
-  var data = await loadReportsJson();
-  if(!data) return;
-
-  var cats = cat === 'all'
-    ? ['hri','seri','kdi','bok']
-    : [cat];
-
-  var catNames = {
-    hri:'현대경제연구원', seri:'삼성경제연구소',
-    kdi:'KDI 한국개발연구원', bok:'한국은행'
-  };
-  var catColors = {
-    hri:'#185FA5', seri:'#1D9E75', kdi:'#D85A30', bok:'#7F77DD'
-  };
-
-  var wrap = document.getElementById('rpt-news-wrap');
-  if(!wrap) return;
-
-  var html = '';
-  cats.forEach(function(c) {
-    var articles = data[c] || [];
-    var label = catNames[c] || c;
-    var color = catColors[c] || '#185FA5';
-    articles.forEach(function(a) {
-      html += '<div class="news-item" data-cat="'+c+'">'
-        + '<div class="ndot" style="background:'+color+'"></div>'
-        + '<div class="news-item-body">'
-        + '<div class="nkw" style="color:'+color+'">'+label+'</div>'
-        + '<div class="nh">'+a.title+'</div>'
-        + '<div class="nd">'+a.date+' · '+a.source+'</div>'
-        + (a.url ? '<a class="news-link" href="'+a.url+'" target="_blank">원문 보기 ↗</a>' : '')
-        + '</div></div>';
-    });
-  });
-
-  if(data.updated) {
-    html += '<div style="padding:8px 1.1rem;font-size:10px;color:var(--text3)">기준: '+data.updated+'</div>';
-  }
-  wrap.innerHTML = html || '<div style="padding:1rem;color:var(--text2);font-size:12px">기사를 불러오지 못했습니다.</div>';
-}
-async function loadNewsJson() {
-  if(_newsCache) return _newsCache;
-  try {
-    var res = await fetch('https://raw.githubusercontent.com/lahs0406-design/hyundai-indicators-v2/main/news.json?t=' + Date.now());
-    _newsCache = await res.json();
-    return _newsCache;
-  } catch(e) { return null; }
-}
-
-/* news.json으로 기사 섹션 렌더링 */
-async function renderNews(cat) {
-  var news = await loadNewsJson();
-  if(!news) return;
-
-  var wrap = document.getElementById('nwrap');
-  var updated = news.updated || '';
-
-  var catColors = {
-    dept:'#185FA5', csi:'#378ADD', income:'#1D9E75',
-    rate:'#BA7517', asset:'#7F77DD', channel:'#D85A30',
-    demo:'#3B9CE8', trend:'#D4537E', all:'#185FA5'
-  };
-  var catNames = {
-    dept:'백화점업계', csi:'소비심리', income:'소득·고용',
-    rate:'물가·금리', asset:'자산시장', channel:'유통채널',
-    demo:'인구동향', trend:'트렌드'
-  };
-
-  var cats = cat === 'all'
-    ? ['dept','csi','income','rate','asset','channel','demo','trend']
-    : [cat];
-
-  var html = '';
-  cats.forEach(function(c) {
-    var articles = news[c] || [];
-    var color = catColors[c] || '#185FA5';
-    var label = catNames[c] || c;
-    articles.forEach(function(a) {
-      html += '<div class="news-item" data-cat="'+c+'">'
-        + '<div class="ndot" style="background:'+color+'"></div>'
-        + '<div class="news-item-body">'
-        + '<div class="nkw" style="color:'+color+'">'+label+'</div>'
-        + '<div class="nh">'+a.title+'</div>'
-        + '<div class="nd">'+a.date+' · '+a.source+'</div>'
-        + (a.url ? '<a class="news-link" href="'+a.url+'" target="_blank">기사 원문 보기 ↗</a>' : '')
-        + '</div></div>';
-    });
-  });
-
-  if(updated) {
-    html += '<div style="padding:8px 1.1rem;font-size:10px;color:var(--text3)">기준: '+updated+'</div>';
-  }
-  wrap.innerHTML = html || '<div style="padding:1rem;color:var(--text2);font-size:12px">기사를 불러오지 못했습니다.</div>';
 }
 
 /* ═══════════════════════════════════════════
@@ -1721,12 +1473,10 @@ async function genInterp() {
   pulse.style.display = 'inline';
   genBtn.style.display = 'none';
 
-  var apiKey = checkAnthropicKey();
-  if(!apiKey) { interp.textContent = 'API 키가 없어 해석을 생성할 수 없습니다.'; pulse.style.display='none'; genBtn.style.display='inline-block'; return; }
   try {
     var res = await fetch('https://api.anthropic.com/v1/messages', {
       method:'POST',
-      headers:{'Content-Type':'application/json','x-api-key':apiKey,'anthropic-version':'2023-06-01','anthropic-dangerous-direct-browser-access':'true'},
+      headers:{'Content-Type':'application/json','x-api-key':ANTHROPIC_KEY,'anthropic-version':'2023-06-01','anthropic-dangerous-direct-browser-access':'true'},
       body:JSON.stringify({
         model:'claude-sonnet-4-20250514',
         max_tokens:600,
@@ -1769,12 +1519,10 @@ async function runCustomInsight() {
   cirPulse.style.display = 'inline';
   runBtn.disabled = true;
   var prompt = '현재 한국 경제 지표 현황입니다: '+indicators+'. 이 지표들의 상관관계와 현대백화점 소비에 미치는 복합적 영향을 4~5문장으로 분석해주세요. 구체적인 상품군(명품, 패션, 뷰티, 가전·리빙, 식품 등)과 VIP 고객층 관점에서 서술해주세요. 한국어로 답변해주세요.';
-  var apiKey2 = checkAnthropicKey();
-  if(!apiKey2) { cirBody.textContent = 'API 키가 없습니다.'; cirPulse.style.display='none'; runBtn.disabled=false; return; }
   try {
     var res = await fetch('https://api.anthropic.com/v1/messages',{
       method:'POST',
-      headers:{'Content-Type':'application/json','x-api-key':apiKey2,'anthropic-version':'2023-06-01','anthropic-dangerous-direct-browser-access':'true'},
+      headers:{'Content-Type':'application/json','x-api-key':ANTHROPIC_KEY,'anthropic-version':'2023-06-01','anthropic-dangerous-direct-browser-access':'true'},
       body:JSON.stringify({model:'claude-sonnet-4-20250514',max_tokens:600,messages:[{role:'user',content:prompt}]})
     });
     var data = await res.json();
@@ -1820,7 +1568,7 @@ async function fetchNewsAI() {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
-          'x-api-key': getAnthropicKey(),
+          'x-api-key': ANTHROPIC_KEY,
           'anthropic-version': '2023-06-01',
           'anthropic-dangerous-direct-browser-access': 'true'
         },
@@ -1869,103 +1617,140 @@ async function fetchNewsAI() {
 }
 
 /* ═══════════════════════════════════════════
-   JS § 18-2. 연구기관 보고서 필터
-   ═══════════════════════════════════════════ */
-function filterReports(cat, btn) {
-  document.querySelectorAll('#rpt-news-wrap').length; // 존재 확인
-  document.querySelectorAll('.news-kw-row .kwbtn').forEach(function(b){
-    if(b.onclick && b.onclick.toString().includes('filterReports')) b.classList.remove('on');
-  });
-  if(btn) btn.classList.add('on');
-  renderReports(cat);
-}
-
-/* ═══════════════════════════════════════════
    JS § 19. 기사 필터 (fnews)
    · data-cat 속성 기준으로 기사 필터링
    ═══════════════════════════════════════════ */
 function fnews(cat, btn) {
   document.querySelectorAll('.kwbtn').forEach(function(b){ b.classList.remove('on'); });
-  if(btn) btn.classList.add('on');
-  renderNews(cat);
-}
-
-/* ═══════════════════════════════════════════
-   JS § 20. 브리핑 탭 (showBriefing)
-   · macro / category / risk / trend / strategy
-   ═══════════════════════════════════════════ */
-function showBriefing(id, btn) {
-  ['macro','category','risk','trend','strategy'].forEach(function(t){
-    document.getElementById('briefing-'+t).style.display = t===id ? '' : 'none';
-  });
-  document.querySelectorAll('#briefing-tabs .tbtn').forEach(function(b){ b.classList.remove('on'); });
   btn.classList.add('on');
+  document.querySelectorAll('.news-item').forEach(function(item){
+    item.style.display = (cat==='all' || item.dataset.cat===cat) ? '' : 'none';
+  });
 }
 
 /* ═══════════════════════════════════════════
-   JS § 21. 보고서 관련
-   · toggleAddForm: 수동 등록 폼 토글
-   · addReport: 보고서 항목 DOM 추가
-   · fetchReports: AI로 최신 보고서 검색
+   JS § 20. 연구기관 보고서 — reports.json 동적 렌더링
+   · loadReports(): GitHub raw에서 fetch → 4개 기관 렌더
+   · renderReportList(org, items): 뉴스 카드 삽입
    ═══════════════════════════════════════════ */
-function toggleAddForm(org) {
-  var form = document.getElementById('rpt-'+org+'-form');
-  form.style.display = form.style.display==='none' ? '' : 'none';
-}
+var REPORTS_URL = 'https://raw.githubusercontent.com/lahs0406-design/hyundai-indicators-v2/main/reports.json';
 
-function addReport(org) {
-  var date    = document.getElementById(org+'-input-date').value.trim();
-  var title   = document.getElementById(org+'-input-title').value.trim();
-  var summary = document.getElementById(org+'-input-summary').value.trim();
-  var tags    = document.getElementById(org+'-input-tags').value.trim();
-  if(!title) { alert('제목을 입력해주세요.'); return; }
-  var list = document.getElementById('rpt-'+org+'-list');
-  var tagsHtml = tags.split(',').filter(function(t){return t.trim();}).map(function(t){return '<span class="rtag">'+t.trim()+'</span>';}).join('');
-  var item = document.createElement('div');
-  item.className = 'rpt-item';
-  item.innerHTML = '<div class="rpt-date">'+date+'</div><div class="rpt-body"><div class="rpt-title">'+title+'</div><div class="rpt-summary">'+summary+'</div><div class="rpt-tags-row">'+tagsHtml+'</div></div>';
-  list.appendChild(item);
-  toggleAddForm(org);
-  ['date','title','summary','tags'].forEach(function(f){ document.getElementById(org+'-input-'+f).value=''; });
-}
-
-async function fetchReports(org) {
-  var aiBox   = document.getElementById('rpt-'+org+'-ai');
-  var pulse   = document.getElementById('rpt-'+org+'-pulse');
-  var textEl  = document.getElementById('rpt-'+org+'-text');
-  aiBox.style.display = '';
-  pulse.style.display = 'inline';
-  textEl.textContent  = '검색 중...';
-  var orgNames = {hri:'현대경제연구원(HRI)', seri:'삼성경제연구소(SERI)'};
-  var prompt   = orgNames[org]+'의 최근 3개월 발간 보고서 중 소비, 유통, 경기, 환율, 금리 관련 주요 보고서를 3건 요약해주세요. 각 보고서별로 제목, 핵심 내용 2줄, 현대백화점 시사점 1줄을 포함해주세요. 한국어로 답변해주세요.';
-  var apiKey3 = checkAnthropicKey();
-  if(!apiKey3) { textEl.textContent = 'API 키가 없습니다.'; pulse.style.display='none'; return; }
+async function loadReports() {
   try {
-    var res = await fetch('https://api.anthropic.com/v1/messages',{
-      method:'POST',
-      headers:{'Content-Type':'application/json','x-api-key':apiKey3,'anthropic-version':'2023-06-01','anthropic-dangerous-direct-browser-access':'true'},
-      body:JSON.stringify({model:'claude-sonnet-4-20250514',max_tokens:600,messages:[{role:'user',content:prompt}]})
-    });
+    var res = await fetch(REPORTS_URL + '?_=' + Date.now());
+    if (!res.ok) throw new Error('fetch fail');
     var data = await res.json();
-    var txt = (data.content||[]).map(function(c){return c.text||'';}).join('');
-    textEl.textContent = txt || '결과를 가져오지 못했습니다.';
+    if (data.updated) {
+      var el = document.getElementById('rpt-updated');
+      if (el) el.textContent = '업데이트 ' + data.updated;
+    }
+    ['hri','seri','kdi','bok'].forEach(function(org) {
+      renderReportList(org, data[org] || []);
+    });
   } catch(e) {
-    textEl.textContent = '네트워크 오류가 발생했습니다.';
+    ['hri','seri','kdi','bok'].forEach(function(org) {
+      var el = document.getElementById('rpt-' + org + '-list');
+      if (el) el.innerHTML = '<div class="rpt-empty" style="color:#E24B4A">데이터를 불러오지 못했습니다.</div>';
+    });
   }
-  pulse.style.display = 'none';
+}
+
+function renderReportList(org, items) {
+  var list = document.getElementById('rpt-' + org + '-list');
+  if (!list) return;
+  if (!items || items.length === 0) {
+    list.innerHTML = '<div class="rpt-empty">등록된 항목이 없습니다.</div>';
+    return;
+  }
+  var months = {Jan:'01',Feb:'02',Mar:'03',Apr:'04',May:'05',Jun:'06',Jul:'07',Aug:'08',Sep:'09',Oct:'10',Nov:'11',Dec:'12'};
+  var LIMIT = 5;
+
+  function makeCard(item) {
+    var dateStr = (item.date || '').replace(/^\w+,\s*(\d+)\s+(\w+)\s+(\d+)$/, function(_, dd, mm, yyyy) {
+      return yyyy + '.' + (months[mm] || mm) + '.' + (dd.length === 1 ? '0'+dd : dd);
+    });
+    return '<div class="rpt-item">'
+      + '<div class="rpt-date">' + dateStr + '</div>'
+      + '<div class="rpt-body">'
+      + '<div class="rpt-title"><a href="' + (item.url||'#') + '" target="_blank" rel="noopener">' + (item.title||'(제목 없음)') + '</a></div>'
+      + (item.source ? '<div class="rpt-meta"><span class="rpt-src">' + item.source + '</span></div>' : '')
+      + '</div></div>';
+  }
+
+  var visible = items.slice(0, LIMIT);
+  var hidden  = items.slice(LIMIT);
+
+  var html = visible.map(makeCard).join('');
+
+  if (hidden.length > 0) {
+    html += '<div class="rpt-hidden-items" style="display:none">' + hidden.map(makeCard).join('') + '</div>';
+    html += '<button class="show-more-btn" onclick="toggleMore(this, \'rpt-' + org + '-list\')">▼ 더보기 (' + hidden.length + '개)</button>';
+  }
+
+  list.innerHTML = html;
 }
 
 /* ═══════════════════════════════════════════
-   JS § 22. 페이지 초기화 (window.onload)
+   JS § 21. 페이지 초기화 (window.onload)
    · 기본 지표(csi) 로드
    · 리사이저 드래그 이벤트 등록
    ═══════════════════════════════════════════ */
+/* ═══════════════════════════════════════════
+   JS § 21. 더보기 버튼 공통 함수
+   · toggleMore: 숨겨진 항목 토글
+   · initNewsShowMore: 뉴스 섹션 5개 제한 초기화
+   ═══════════════════════════════════════════ */
+function toggleMore(btn, listId) {
+  var hidden = btn.previousElementSibling;
+  if (!hidden || !hidden.classList.contains('rpt-hidden-items')) {
+    // 뉴스 섹션용
+    hidden = document.getElementById(listId + '-hidden');
+  }
+  if (!hidden) return;
+  var isOpen = hidden.style.display !== 'none';
+  hidden.style.display = isOpen ? 'none' : '';
+  var count = hidden.querySelectorAll('.news-item, .rpt-item').length;
+  btn.textContent = isOpen ? '▼ 더보기 (' + count + '개)' : '▲ 접기';
+}
+
+function initNewsShowMore() {
+  var wrap = document.getElementById('nwrap');
+  if (!wrap) return;
+  var items = wrap.querySelectorAll('.news-item');
+  var LIMIT = 5;
+  if (items.length <= LIMIT) return;
+
+  // LIMIT 초과분을 hidden div로 이동
+  var hiddenDiv = document.createElement('div');
+  hiddenDiv.id = 'nwrap-hidden';
+  hiddenDiv.style.display = 'none';
+  for (var i = LIMIT; i < items.length; i++) {
+    hiddenDiv.appendChild(items[i]);
+  }
+  wrap.appendChild(hiddenDiv);
+
+  var btn = document.createElement('button');
+  btn.className = 'show-more-btn';
+  btn.textContent = '▼ 더보기 (' + (items.length - LIMIT) + '개)';
+  btn.onclick = function() {
+    var h = document.getElementById('nwrap-hidden');
+    var isOpen = h.style.display !== 'none';
+    h.style.display = isOpen ? 'none' : '';
+    btn.textContent = isOpen ? '▼ 더보기 (' + (items.length - LIMIT) + '개)' : '▲ 접기';
+  };
+  wrap.parentNode.insertBefore(btn, wrap.nextSibling);
+}
+
 window.addEventListener('load', function() {
   // 기본 지표 로드: 소비심리지수 (grp1 첫 번째 버튼)
   var defaultBtn = document.querySelector('#grp1 .sub-btn');
   if(defaultBtn) selChartWithAPI('csi', defaultBtn, 'grp1');
-  renderNews('all');
-  renderReports('all');
+
+  // 연구기관 보고서 동적 로드
+  loadReports();
+
+  // 뉴스 섹션 더보기 초기화
+  initNewsShowMore();
 
   // 리사이저
   var resizer = document.getElementById('resizer');
