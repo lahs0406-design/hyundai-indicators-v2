@@ -1,6 +1,27 @@
 {
   "dept": [
     {
+      "title": "유통업계, 친환경 소비 확산...\"녹색 소비 일상으로 스며든다\"",
+      "date": "Sun, 10 May 2026 13:24:00",
+      "source": "kdfnews.com",
+      "url": "http://www.kdfnews.com/news/articleView.html?idxno=183048",
+      "sub": ""
+    },
+    {
+      "title": "“친환경도 경험한다”⋯유통업계 체험형 ESG 확대",
+      "date": "Sun, 10 May 2026 13:06:00",
+      "source": "viva100.com",
+      "url": "https://www.viva100.com/article/20260510500296",
+      "sub": ""
+    },
+    {
+      "title": "야구장 밖으로 나온 유니폼…패션업계, 프로야구 협업 경쟁 [트렌드]",
+      "date": "Sun, 10 May 2026 10:41:00",
+      "source": "n.news.naver.com",
+      "url": "https://www.segye.com/newsView/20260510503247?OutUrl=naver",
+      "sub": ""
+    },
+    {
       "title": "루이비통의 아노르 회장, 3년 만에 방한…신세계 본점 찾는다",
       "date": "Sat, 09 May 2026 14:52:00",
       "source": "ftoday.co.kr",
@@ -48,30 +69,23 @@
       "source": "ibabynews.com",
       "url": "https://www.ibabynews.com/news/articleView.html?idxno=151121",
       "sub": ""
-    },
-    {
-      "title": "\"식탁에도 감성 입힌다\"…광주신세계, 테이블웨어 눈길",
-      "date": "Thu, 07 May 2026 17:14:00",
-      "source": "namdonews.com",
-      "url": "https://www.namdonews.com/news/articleView.html?idxno=909800",
-      "sub": ""
-    },
-    {
-      "title": "“차 몰고 원정 쇼핑 간다”…올리브영·다이소·무신사 뜨자 ‘이 곳’...",
-      "date": "Thu, 07 May 2026 16:42:00",
-      "source": "n.news.naver.com",
-      "url": "https://www.mk.co.kr/article/12039285",
-      "sub": ""
-    },
-    {
-      "title": "[A오늘의 유통] 롯데백화점·매일유업·시몬스 外",
-      "date": "Thu, 07 May 2026 15:30:00",
-      "source": "asiaa.co.kr",
-      "url": "https://www.asiaa.co.kr/news/articleView.html?idxno=248708",
-      "sub": ""
     }
   ],
   "csi": [
+    {
+      "title": "코스피, 반도체주 급등으로 사상 첫 7,000선 돌파... 개인·기관 매수세...",
+      "date": "Sun, 10 May 2026 10:00:00",
+      "source": "tokenpost.kr",
+      "url": "https://www.tokenpost.kr/news/market/358076",
+      "sub": ""
+    },
+    {
+      "title": "[마켓인사이트] '7천피' 달성 韓증시, 한주만 '8천피' 도전 나서나",
+      "date": "Sun, 10 May 2026 07:00:00",
+      "source": "n.news.naver.com",
+      "url": "https://www.yna.co.kr/view/AKR20260508177100008?input=1195m",
+      "sub": ""
+    },
     {
       "title": "'코스피 7500', '반도체 호황'에도 체감 경기는 '꽁꽁'",
       "date": "Sat, 09 May 2026 09:06:00",
@@ -108,13 +122,6 @@
       "sub": ""
     },
     {
-      "title": "삼성전자·SK하이닉스 주식 갖고 있는 사람들을 기쁘게 하는 소식이 전...",
-      "date": "Sat, 09 May 2026 06:40:00",
-      "source": "wikitree.co.kr",
-      "url": "https://www.wikitree.co.kr/articles/1135669",
-      "sub": ""
-    },
-    {
       "title": "뉴욕증시, 고용 강세와 반도체주 급등으로 최고치 경신",
       "date": "Sat, 09 May 2026 06:40:00",
       "source": "tokenpost.kr",
@@ -122,10 +129,10 @@
       "sub": ""
     },
     {
-      "title": "美 고용호조 속, 달러가치 '하락'...엔화 '상승', 파운드 '껑충'",
-      "date": "Sat, 09 May 2026 04:40:00",
-      "source": "choicenews.co.kr",
-      "url": "http://www.choicenews.co.kr/news/articleView.html?idxno=164987",
+      "title": "삼성전자·SK하이닉스 주식 갖고 있는 사람들을 기쁘게 하는 소식이 전...",
+      "date": "Sat, 09 May 2026 06:40:00",
+      "source": "wikitree.co.kr",
+      "url": "https://www.wikitree.co.kr/articles/1135669",
       "sub": ""
     },
     {
@@ -133,13 +140,6 @@
       "date": "Sat, 09 May 2026 04:40:00",
       "source": "n.news.naver.com",
       "url": "https://www.ytn.co.kr/_ln/0104_202605090440082602",
-      "sub": ""
-    },
-    {
-      "title": "美소비자심리지수, 사상 최저치…\"유가·관세 등 원인\"",
-      "date": "Sat, 09 May 2026 03:30:00",
-      "source": "n.news.naver.com",
-      "url": "https://www.dailian.co.kr/news/view/1642376/?sc=Naver",
       "sub": ""
     }
   ],
@@ -217,6 +217,27 @@
   ],
   "rate": [
     {
+      "title": "“기름값은 겨우 눌렀는데”… 이제 국채·세금·대출금리 흔들리나",
+      "date": "Sun, 10 May 2026 14:05:00",
+      "source": "n.news.naver.com",
+      "url": "https://www.jibs.co.kr/news/articles/articlesDetail/60976?feed=na",
+      "sub": ""
+    },
+    {
+      "title": "고물가 공포에 한은 기준금리 인상 여지↑…'매파' 신현송 체제 시험대",
+      "date": "Sun, 10 May 2026 11:20:00",
+      "source": "ntoday.co.kr",
+      "url": "https://www.ntoday.co.kr/news/articleView.html?idxno=126978",
+      "sub": ""
+    },
+    {
+      "title": "'기준금리 인상' 가능성 부상…정부 재정운용 부담 커지나",
+      "date": "Sun, 10 May 2026 09:22:00",
+      "source": "n.news.naver.com",
+      "url": "https://www.newsis.com/view/NISX20260510_0003623055",
+      "sub": ""
+    },
+    {
       "title": "환율 1470원 재돌파에 꼬여버린 금리 셈법 … 한은 ‘매파 동결’ 고개",
       "date": "Fri, 08 May 2026 16:52:00",
       "source": "biz.newdaily.co.kr",
@@ -263,27 +284,6 @@
       "date": "Thu, 07 May 2026 17:01:00",
       "source": "n.news.naver.com",
       "url": "https://economist.co.kr/article/view/ecn202605070033",
-      "sub": ""
-    },
-    {
-      "title": "8대 금융지주 실적잔치 이면 손실흡수력 일제 하락",
-      "date": "Thu, 07 May 2026 14:58:00",
-      "source": "ebn.co.kr",
-      "url": "https://www.ebn.co.kr/news/articleView.html?idxno=1707877",
-      "sub": ""
-    },
-    {
-      "title": "[정치家] 구윤철 부총리 ⑤ㅣ 전쟁發 경제 불확실성 대응…물가관리·A...",
-      "date": "Thu, 07 May 2026 14:58:00",
-      "source": "cbci.co.kr",
-      "url": "https://www.cbci.co.kr/news/articleView.html?idxno=572884",
-      "sub": ""
-    },
-    {
-      "title": "신현송 첫 금통위 앞두고 커지는 '금리 인상론'…한은 기류 바뀌나",
-      "date": "Thu, 07 May 2026 10:09:00",
-      "source": "n.news.naver.com",
-      "url": "https://news.tf.co.kr/read/economy/2320190.htm",
       "sub": ""
     }
   ],
@@ -540,17 +540,17 @@
       "sub": ""
     },
     {
-      "title": "[유통소식] GS25 '김혜자 간편식', 재출시 3년 만 1억개 판매",
-      "date": "Thu, 23 Apr 2026 12:06:00",
-      "source": "4th.kr",
-      "url": "http://www.4th.kr/news/articleView.html?idxno=2110851",
-      "sub": ""
-    },
-    {
       "title": "[유통가 레이더] 런치플레이션엔 역시 '혜자'... GS25 '김혜자 간편식' ...",
       "date": "Thu, 23 Apr 2026 12:06:00",
       "source": "greened.kr",
       "url": "https://www.greened.kr/news/articleView.html?idxno=339704",
+      "sub": ""
+    },
+    {
+      "title": "[유통소식] GS25 '김혜자 간편식', 재출시 3년 만 1억개 판매",
+      "date": "Thu, 23 Apr 2026 12:06:00",
+      "source": "4th.kr",
+      "url": "http://www.4th.kr/news/articleView.html?idxno=2110851",
       "sub": ""
     },
     {
@@ -575,5 +575,5 @@
       "sub": ""
     }
   ],
-  "updated": "2026.05.09 23:55"
+  "updated": "2026.05.10 16:37"
 }
