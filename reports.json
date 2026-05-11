@@ -1,6 +1,12 @@
 {
   "hri": [
     {
+      "title": "증시도 산업도 ‘K자’…대만 전철 밟나",
+      "date": "Mon, 11 May 2026 21:01:00",
+      "source": "n.news.naver.com",
+      "url": "https://www.mk.co.kr/article/12040949"
+    },
+    {
       "title": "반도체 굴기, 경기 회복 ‘단비’ 될까",
       "date": "Mon, 11 May 2026 18:10:00",
       "source": "asiatime.co.kr",
@@ -53,12 +59,6 @@
       "date": "Sun, 10 May 2026 11:28:00",
       "source": "n.news.naver.com",
       "url": "http://mbn.mk.co.kr/pages/news/newsView.php?category=mbn00009&news_seq_no=5192867"
-    },
-    {
-      "title": "경제칼럼)오히려 경계해야 할 깜짝 성장",
-      "date": "Sun, 10 May 2026 11:26:00",
-      "source": "idaegu.com",
-      "url": "https://www.idaegu.com/news/articleView.html?idxno=661862"
     }
   ],
   "seri": [
@@ -247,5 +247,5 @@
       "url": "https://economist.co.kr/article/view/ecn202605070033"
     }
   ],
-  "updated": "2026.05.11 19:49"
+  "updated": "2026.05.11 22:57"
 }

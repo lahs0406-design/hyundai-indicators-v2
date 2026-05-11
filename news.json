@@ -145,6 +145,13 @@
   ],
   "income": [
     {
+      "title": "증시도 산업도 ‘K자’…대만 전철 밟나",
+      "date": "Mon, 11 May 2026 21:01:00",
+      "source": "n.news.naver.com",
+      "url": "https://www.mk.co.kr/article/12040949",
+      "sub": ""
+    },
+    {
       "title": "[청년월급③] 청년 짓누르는 '월급의 한계', 문제는 사회구조다",
       "date": "Mon, 04 May 2026 17:30:00",
       "source": "kpinews.kr",
@@ -205,13 +212,6 @@
       "date": "Tue, 14 Apr 2026 12:16:00",
       "source": "dream.kotra.or.kr",
       "url": "http://dream.kotra.or.kr/kotranews/cms/news/actionKotraBoardDetail.do?SITE_NO=3&MENU_ID=80&CONTENTS_NO=2&bbsGbn=242&bbsSn=242&pNttSn=240198",
-      "sub": ""
-    },
-    {
-      "title": "휴전했는데 기름값은 왜 안 내리나?… 내 지갑 갉아먹는 '전쟁 후폭풍'",
-      "date": "Fri, 10 Apr 2026 03:46:00",
-      "source": "g-enews.com",
-      "url": "https://www.g-enews.com/view.php?ud=202604091426364278fbbec65dfb_1",
       "sub": ""
     }
   ],
@@ -280,10 +280,10 @@
       "sub": ""
     },
     {
-      "title": "'인하파' 신성환 금통위원도 \"지금은 금리인하 부담\"…인상 초읽기",
+      "title": "떠나는 신성환 \"고성능 자동차된 韓 경제, 제대로 된 에어백·브레이크...",
       "date": "Mon, 11 May 2026 15:12:00",
-      "source": "newspim.com",
-      "url": "https://www.newspim.com/news/view/20260511000957",
+      "source": "etoday.co.kr",
+      "url": "https://www.etoday.co.kr/news/view/2583327",
       "sub": ""
     }
   ],
@@ -575,5 +575,5 @@
       "sub": ""
     }
   ],
-  "updated": "2026.05.11 19:49"
+  "updated": "2026.05.11 22:57"
 }
