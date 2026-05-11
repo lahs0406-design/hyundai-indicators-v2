@@ -1,6 +1,27 @@
 {
   "dept": [
     {
+      "title": "명품 제국의 전략적 요충지 '서울'…아르노 루이비통 회장 3년만에 방한",
+      "date": "Mon, 11 May 2026 16:32:00",
+      "source": "n.news.naver.com",
+      "url": "https://view.asiae.co.kr/article/2026051115564614146",
+      "sub": ""
+    },
+    {
+      "title": "글로벌 명품 침체에도 '한국은 예외'…루이비통 회장 3년 만 방한 이유...",
+      "date": "Mon, 11 May 2026 15:22:00",
+      "source": "sports.hankooki.com",
+      "url": "https://sports.hankooki.com/news/articleView.html?idxno=6932861",
+      "sub": ""
+    },
+    {
+      "title": "롯데百 부산본점, '홈 다이닝' 경험으로 설계",
+      "date": "Mon, 11 May 2026 14:48:00",
+      "source": "n.news.naver.com",
+      "url": "https://www.nocutnews.co.kr/news/6515168?utm_source=naver&utm_medium=article&utm_campaign=20260511024756",
+      "sub": ""
+    },
+    {
       "title": "부산 백화점 ‘디저트 경쟁 중’",
       "date": "Sun, 10 May 2026 18:15:00",
       "source": "n.news.naver.com",
@@ -48,98 +69,77 @@
       "source": "pointdaily.co.kr",
       "url": "https://www.pointdaily.co.kr/news/articleView.html?idxno=304303",
       "sub": ""
-    },
-    {
-      "title": "루이비통 회장 3년 만에 한국 찾는다…신세계 본점 방문 등 행보 주목",
-      "date": "Sat, 09 May 2026 08:29:00",
-      "source": "n.news.naver.com",
-      "url": "https://www.newsis.com/view/NISX20260509_0003622615",
-      "sub": ""
-    },
-    {
-      "title": "장원영·한가인도 먹는다더니…'공복 한잔' 열풍에 난리난 제품 [권 기자...",
-      "date": "Sat, 09 May 2026 07:01:00",
-      "source": "n.news.naver.com",
-      "url": "https://www.hankyung.com/article/202605083509i",
-      "sub": ""
-    },
-    {
-      "title": "‘생크림 찹쌀떡’ 성공 잇는다… 농협경제지주, 가공식품 집중 육성",
-      "date": "Fri, 08 May 2026 15:49:00",
-      "source": "n.news.naver.com",
-      "url": "https://www.donga.com/news/Economy/article/all/20260508/133886535/1",
-      "sub": ""
     }
   ],
   "csi": [
     {
-      "title": "월드 뉴스 브리프 (기준일시: 2026년 05월 11일 월요일 10:00)",
-      "date": "Mon, 11 May 2026 10:36:00",
-      "source": "ifs.or.kr",
-      "url": "http://www.ifs.or.kr/bbs/board.php?bo_table=globalnewsfocus&wr_id=338",
-      "sub": ""
-    },
-    {
-      "title": "금시세(금값) 11일",
-      "date": "Mon, 11 May 2026 09:16:00",
-      "source": "bntnews.co.kr",
-      "url": "https://www.bntnews.co.kr/article/view/bnt202605110005",
-      "sub": ""
-    },
-    {
-      "title": "코스피 8000갈까…\"나만 소외된다\" 불안감에 대출까지 끌어다 주식으로",
-      "date": "Mon, 11 May 2026 09:12:00",
+      "title": "금융연 \"올해 경제성장률 2.8%\"…지난해 예상치보다 0.7%p 상향",
+      "date": "Mon, 11 May 2026 18:38:00",
       "source": "n.news.naver.com",
-      "url": "http://www.joseilbo.com/news/news_read.php?uid=568006&class=1&grp=",
+      "url": "http://www.edaily.co.kr/news/newspath.asp?newsid=04460806645447936",
       "sub": ""
     },
     {
-      "title": "이번주 ‘코스피 8000’ 갈까…증권가선 “1만2000포인트도 가능” [투자...",
-      "date": "Mon, 11 May 2026 08:54:00",
+      "title": "한국금융연구원, 올해 경제 성장률 2.8% 수정 전망",
+      "date": "Mon, 11 May 2026 18:00:00",
+      "source": "insnews.co.kr",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=90723",
+      "sub": ""
+    },
+    {
+      "title": "방중 앞 트럼프 옥죄는 '전쟁발 인플레'",
+      "date": "Mon, 11 May 2026 17:56:00",
+      "source": "newstomato.com",
+      "url": "http://www.newstomato.com/ReadNews.aspx?no=1300434&inflow=N",
+      "sub": ""
+    },
+    {
+      "title": "[현장] “올해 우리 경제 2.8% 성장…내수 양극화·중동발 유가 공포 여...",
+      "date": "Mon, 11 May 2026 17:38:00",
+      "source": "ceoscoredaily.com",
+      "url": "https://www.ceoscoredaily.com/page/view/2026051115573057550",
+      "sub": ""
+    },
+    {
+      "title": "반도체가 끌고 소비가 주춤…충북경제, 3월 개선세 지속",
+      "date": "Mon, 11 May 2026 17:34:00",
+      "source": "ccdailynews.com",
+      "url": "https://www.ccdailynews.com/news/articleView.html?idxno=2415496",
+      "sub": ""
+    },
+    {
+      "title": "금융硏 \"반도체 수출·설비투자 호조…올해 경제성장률 2.8%로 상향\"",
+      "date": "Mon, 11 May 2026 16:17:00",
       "source": "n.news.naver.com",
-      "url": "https://biz.heraldcorp.com/article/10734814?ref=naver",
+      "url": "https://view.asiae.co.kr/article/2026051116172695579",
       "sub": ""
     },
     {
-      "title": "코스피 8,000선 도전… 반도체·로봇주 상승 주도",
-      "date": "Mon, 11 May 2026 08:40:00",
-      "source": "tokenpost.kr",
-      "url": "https://www.tokenpost.kr/news/market/358248",
-      "sub": ""
-    },
-    {
-      "title": "최고치 경신 코스피,…8천피 전인미답 고지 밟나",
-      "date": "Mon, 11 May 2026 08:15:00",
-      "source": "jnilbo.com",
-      "url": "https://www.jnilbo.com/news/articleView.html?idxno=90000034178",
-      "sub": ""
-    },
-    {
-      "title": "[굿모닝 마켓] S&P500·나스닥 모두 사상 최고치 또다시 경신",
-      "date": "Mon, 11 May 2026 08:14:00",
+      "title": "민생회복 소비쿠폰 13.5조 풀자 소상공인 매출 5.9조 늘었다",
+      "date": "Mon, 11 May 2026 16:00:00",
       "source": "n.news.naver.com",
-      "url": "https://biz.sbs.co.kr/article_hub/20000309346?division=NAVER",
+      "url": "https://www.news1.kr/local/moi/6162921",
       "sub": ""
     },
     {
-      "title": "[마켓뷰] '7천피' 기록한 코스피, '8천피' 갈까 차익실현 매물 쏟아질까",
-      "date": "Mon, 11 May 2026 08:02:00",
+      "title": "금융연구원, 경제성장률 2.8%로 상향…\"반도체가 견인\"",
+      "date": "Mon, 11 May 2026 15:22:00",
+      "source": "metroseoul.co.kr",
+      "url": "http://www.metroseoul.co.kr/article/20260511500272",
+      "sub": ""
+    },
+    {
+      "title": "충북 제조업, 반도체 호조에 생산 22%↑…소비심리는 '뚝'",
+      "date": "Mon, 11 May 2026 14:52:00",
+      "source": "jbnews.com",
+      "url": "https://www.jbnews.com/news/articleView.html?idxno=1503800",
+      "sub": ""
+    },
+    {
+      "title": "[셀럽의 한 수] 코스피, 반도체 중심 강세…장중 4% 넘게 급등",
+      "date": "Mon, 11 May 2026 14:21:00",
       "source": "n.news.naver.com",
-      "url": "https://www.yna.co.kr/view/AKR20260511015700008?input=1195m",
-      "sub": ""
-    },
-    {
-      "title": "[증시전망대] '7천피' 찍은 코스피, 이번 주엔 '8천피' 문 두드리나",
-      "date": "Mon, 11 May 2026 07:30:00",
-      "source": "newsroad.co.kr",
-      "url": "http://www.newsroad.co.kr/news/articleView.html?idxno=59151",
-      "sub": ""
-    },
-    {
-      "title": "환율이 몰고 온 위기...서민 경제는 '각자도생'",
-      "date": "Mon, 11 May 2026 06:01:00",
-      "source": "n.news.naver.com",
-      "url": "https://economist.co.kr/article/view/ecn202605040034",
+      "url": "https://biz.sbs.co.kr/article_hub/20000309458?division=NAVER",
       "sub": ""
     }
   ],
@@ -217,73 +217,73 @@
   ],
   "rate": [
     {
-      "title": "5대 은행, 1분기 대출 실적 '마이너스'…하반기, '금리 인상' 예상, '이자...",
-      "date": "Mon, 11 May 2026 09:26:00",
-      "source": "ftoday.co.kr",
-      "url": "http://www.ftoday.co.kr/news/articleView.html?idxno=358689",
-      "sub": ""
-    },
-    {
-      "title": "은행권, 하반기 금리인상 전망…\"현금 확보·분산투자 추천\"",
-      "date": "Mon, 11 May 2026 07:19:00",
-      "source": "n.news.naver.com",
-      "url": "https://biz.sbs.co.kr/article_hub/20000309342?division=NAVER",
-      "sub": ""
-    },
-    {
-      "title": "금리 인상 시그널, '금융주'엔 호재?",
-      "date": "Mon, 11 May 2026 07:09:00",
-      "source": "n.news.naver.com",
-      "url": "https://www.dailian.co.kr/news/view/1642192/?sc=Naver",
-      "sub": ""
-    },
-    {
-      "title": "[천지일보 이슈종합]나무호 비행체 타격·유가 환율 상승·검사 이탈 가...",
-      "date": "Mon, 11 May 2026 07:02:00",
-      "source": "newscj.com",
-      "url": "https://www.newscj.com/news/articleView.html?idxno=3399777",
-      "sub": ""
-    },
-    {
-      "title": "금리 인상 예고, 투자자 '현금 확보' 전략 필요",
-      "date": "Mon, 11 May 2026 06:40:00",
+      "title": "신성환 한국은행 위원: '금리 인하보다 물가 안정이 우선'",
+      "date": "Mon, 11 May 2026 18:40:00",
       "source": "tokenpost.kr",
-      "url": "https://www.tokenpost.kr/news/economy/358233",
+      "url": "https://www.tokenpost.kr/news/economy/358417",
       "sub": ""
     },
     {
-      "title": "[기자의 눈] '깜짝 성장'의 청구서, 이제 남은 건 금리 인상",
-      "date": "Mon, 11 May 2026 06:02:00",
-      "source": "ajunews.com",
-      "url": "https://www.ajunews.com/view/20260508143652958",
+      "title": "[이슈story] 코스피 7860, 멈추지 않는다",
+      "date": "Mon, 11 May 2026 18:38:00",
+      "source": "todayeconomic.com",
+      "url": "https://www.todayeconomic.com/news/article.html?no=30529",
       "sub": ""
     },
     {
-      "title": "은행권, 하반기 금리인상 전망…\"현금 확보·분산투자\" 조언",
-      "date": "Mon, 11 May 2026 05:55:00",
+      "title": "씨티 \"올해 韓성장률 2.9%…하반기 기준금리 3.0%로 인상 가능\"",
+      "date": "Mon, 11 May 2026 18:08:00",
+      "source": "news.einfomax.co.kr",
+      "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4414172",
+      "sub": ""
+    },
+    {
+      "title": "금통위 떠나는 '비둘기파' 신성환 위원의 당부…\"물가 우려에 인하 논의...",
+      "date": "Mon, 11 May 2026 17:58:00",
+      "source": "newsprime.co.kr",
+      "url": "http://www.newsprime.co.kr/news/article.html?no=733046",
+      "sub": ""
+    },
+    {
+      "title": "신성환 금통위원 후임에 김진일 고려대 교수 추천",
+      "date": "Mon, 11 May 2026 17:18:00",
+      "source": "metroseoul.co.kr",
+      "url": "http://www.metroseoul.co.kr/article/20260511500372",
+      "sub": ""
+    },
+    {
+      "title": "'대표 비둘기파' 신성환 금통위원도 \"금리 인하 논하기엔 부담\"",
+      "date": "Mon, 11 May 2026 16:18:00",
       "source": "n.news.naver.com",
-      "url": "https://www.yna.co.kr/view/AKR20260510044700002?input=1195m",
+      "url": "https://news.tf.co.kr/read/economy/2321390.htm",
       "sub": ""
     },
     {
-      "title": "유가·환율 상승에 '피벗' 전망… 재정운용 부담 커질 듯",
-      "date": "Sun, 10 May 2026 19:00:00",
-      "source": "newscj.com",
-      "url": "https://www.newscj.com/news/articleView.html?idxno=3399695",
+      "title": "퇴임 앞둔 신성환, “지금은 인하 부담…물가와의 싸움 격해질 것”",
+      "date": "Mon, 11 May 2026 16:02:00",
+      "source": "dnews.co.kr",
+      "url": "https://www.dnews.co.kr/uhtml/view.jsp?idxno=202605111354157300219",
       "sub": ""
     },
     {
-      "title": "“기름값은 겨우 눌렀는데”… 이제 국채·세금·대출금리 흔들리나",
-      "date": "Sun, 10 May 2026 14:05:00",
+      "title": "‘비둘기파’ 신성환 한은 금통위원 “물가 상승 우려, 금리 인하 논의...",
+      "date": "Mon, 11 May 2026 16:01:00",
       "source": "n.news.naver.com",
-      "url": "https://www.jibs.co.kr/news/articles/articlesDetail/60976?feed=na",
+      "url": "https://www.kmib.co.kr/article/view.asp?arcid=0029804416&code=61141111&cp=nv",
       "sub": ""
     },
     {
-      "title": "고물가 공포에 한은 기준금리 인상 여지↑…'매파' 신현송 체제 시험대",
-      "date": "Sun, 10 May 2026 11:20:00",
-      "source": "ntoday.co.kr",
-      "url": "https://www.ntoday.co.kr/news/articleView.html?idxno=126978",
+      "title": "이임식 앞둔 비둘기파 신성환 금통위원 \"현 시점, 물가 압력 크다\"",
+      "date": "Mon, 11 May 2026 15:41:00",
+      "source": "n.news.naver.com",
+      "url": "https://view.asiae.co.kr/article/2026051115413191434",
+      "sub": ""
+    },
+    {
+      "title": "'인하파' 신성환 금통위원도 \"지금은 금리인하 부담\"…인상 초읽기",
+      "date": "Mon, 11 May 2026 15:12:00",
+      "source": "newspim.com",
+      "url": "https://www.newspim.com/news/view/20260511000957",
       "sub": ""
     }
   ],
@@ -540,17 +540,17 @@
       "sub": ""
     },
     {
-      "title": "[유통소식] GS25 '김혜자 간편식', 재출시 3년 만 1억개 판매",
-      "date": "Thu, 23 Apr 2026 12:06:00",
-      "source": "4th.kr",
-      "url": "http://www.4th.kr/news/articleView.html?idxno=2110851",
-      "sub": ""
-    },
-    {
       "title": "[유통가 레이더] 런치플레이션엔 역시 '혜자'... GS25 '김혜자 간편식' ...",
       "date": "Thu, 23 Apr 2026 12:06:00",
       "source": "greened.kr",
       "url": "https://www.greened.kr/news/articleView.html?idxno=339704",
+      "sub": ""
+    },
+    {
+      "title": "[유통소식] GS25 '김혜자 간편식', 재출시 3년 만 1억개 판매",
+      "date": "Thu, 23 Apr 2026 12:06:00",
+      "source": "4th.kr",
+      "url": "http://www.4th.kr/news/articleView.html?idxno=2110851",
       "sub": ""
     },
     {
@@ -575,5 +575,5 @@
       "sub": ""
     }
   ],
-  "updated": "2026.05.11 10:41"
+  "updated": "2026.05.11 19:49"
 }

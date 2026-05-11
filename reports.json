@@ -1,6 +1,24 @@
 {
   "hri": [
     {
+      "title": "반도체 굴기, 경기 회복 ‘단비’ 될까",
+      "date": "Mon, 11 May 2026 18:10:00",
+      "source": "asiatime.co.kr",
+      "url": "https://www.asiatime.co.kr/article/20260511500432"
+    },
+    {
+      "title": "프로야구 흥행에 홈쇼핑·패션·헬스케어까지 홈런 노린다",
+      "date": "Mon, 11 May 2026 17:08:00",
+      "source": "sisaon.co.kr",
+      "url": "https://www.sisaon.co.kr/news/articleView.html?idxno=200976"
+    },
+    {
+      "title": "2% 후반대로 오르는 성장률 기대치…KDI·한은도 상향하나",
+      "date": "Mon, 11 May 2026 14:08:00",
+      "source": "asiatime.co.kr",
+      "url": "https://www.asiatime.co.kr/article/20260511500242"
+    },
+    {
       "title": "\"환율 10% 오르면 소비자물가 최대 0.5%p 올라\"",
       "date": "Sun, 10 May 2026 20:13:00",
       "source": "n.news.naver.com",
@@ -41,24 +59,6 @@
       "date": "Sun, 10 May 2026 11:26:00",
       "source": "idaegu.com",
       "url": "https://www.idaegu.com/news/articleView.html?idxno=661862"
-    },
-    {
-      "title": "현대경제연구원 “원화 환율 10% 상승시 물가 0.3~0.5%포인트 높여”",
-      "date": "Sun, 10 May 2026 11:08:00",
-      "source": "n.news.naver.com",
-      "url": "https://www.chosun.com/economy/economy_general/2026/05/10/FUSRQJTTMZATPPMFDJQHNCW57Y/?utm_source=naver&utm_medium=referral&utm_campaign=naver-news"
-    },
-    {
-      "title": "환율 10% 오르면 물가 0.5%p 압박⋯ 고환율 누적 충격 커진다",
-      "date": "Sun, 10 May 2026 11:04:00",
-      "source": "viva100.com",
-      "url": "https://www.viva100.com/article/20260510500203"
-    },
-    {
-      "title": "\"환율 10% 오르면 물가 0.5%p '쑥'…고유가까지 이중고\"",
-      "date": "Sun, 10 May 2026 11:01:00",
-      "source": "n.news.naver.com",
-      "url": "http://www.edaily.co.kr/news/newspath.asp?newsid=01423526645447608"
     }
   ],
   "seri": [
@@ -125,6 +125,18 @@
   ],
   "kdi": [
     {
+      "title": "중동전쟁 길어지면 소비자물가 최대 1.6%p 더 뛸 수 있어",
+      "date": "Mon, 11 May 2026 16:04:00",
+      "source": "financialpost.co.kr",
+      "url": "https://www.financialpost.co.kr/news/articleView.html?idxno=258586"
+    },
+    {
+      "title": "올해 3%대 물가 우려..KDI, “에너지 운송 불안이 1~1.6%p 높여”",
+      "date": "Mon, 11 May 2026 13:15:00",
+      "source": "n.news.naver.com",
+      "url": "https://www.joongang.co.kr/article/25427270"
+    },
+    {
       "title": "한경협, 전문가 모여 ‘노동시장 개편방향’ 모색한다",
       "date": "Mon, 11 May 2026 10:24:00",
       "source": "viva100.com",
@@ -171,21 +183,33 @@
       "date": "Mon, 11 May 2026 06:02:00",
       "source": "n.news.naver.com",
       "url": "http://www.edaily.co.kr/news/newspath.asp?newsid=01617046645447936"
-    },
-    {
-      "title": "한경협, 오는 19일 노동시장 개편방향 세미나 개최",
-      "date": "Mon, 11 May 2026 06:00:00",
-      "source": "n.news.naver.com",
-      "url": "https://view.asiae.co.kr/article/2026051012372184048"
-    },
-    {
-      "title": "한경협, 노동시장 개편 세미나 개최…고용유연성·안전망 논의",
-      "date": "Mon, 11 May 2026 06:00:00",
-      "source": "newspim.com",
-      "url": "https://www.newspim.com/news/view/20260510000084"
     }
   ],
   "bok": [
+    {
+      "title": "금통위 대표 '비둘기파' 신성환의 '매파' 메시지 의미는",
+      "date": "Mon, 11 May 2026 18:30:00",
+      "source": "news.einfomax.co.kr",
+      "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4414177"
+    },
+    {
+      "title": "정부 '반도체 호조'에 확장재정 지속 조짐, 한은 '금리 인상' 기류와 엇...",
+      "date": "Mon, 11 May 2026 15:58:00",
+      "source": "businesspost.co.kr",
+      "url": "https://www.businesspost.co.kr/BP?command=article_view&num=437491"
+    },
+    {
+      "title": "'비둘기파'마저 \"인하 어렵다\"···금리 인상 이제 코앞",
+      "date": "Mon, 11 May 2026 15:00:00",
+      "source": "n.news.naver.com",
+      "url": "http://www.fnnews.com/news/202605111029299624"
+    },
+    {
+      "title": "금융硏 \"올 경제성장률 전망치 2.1%→2.8% 상향 조정\"",
+      "date": "Mon, 11 May 2026 14:00:00",
+      "source": "n.news.naver.com",
+      "url": "https://www.newsis.com/view/NISX20260511_0003624289"
+    },
     {
       "title": "반도체 호황에도 고환율…한은 금리 셈법, '인상' 고민?",
       "date": "Mon, 11 May 2026 07:50:00",
@@ -221,31 +245,7 @@
       "date": "Thu, 07 May 2026 17:01:00",
       "source": "n.news.naver.com",
       "url": "https://economist.co.kr/article/view/ecn202605070033"
-    },
-    {
-      "title": "[스타트 경제] 세계 원유 재고, 8년만에 최저 수준 접근...여름 성수기 ...",
-      "date": "Thu, 07 May 2026 06:29:00",
-      "source": "n.news.naver.com",
-      "url": "https://www.ytn.co.kr/_ln/0102_202605070629427058"
-    },
-    {
-      "title": "[출근길 포인트] K-반도체 '1조 달러' 시대 개막…수출 역대 최대",
-      "date": "Thu, 07 May 2026 05:00:00",
-      "source": "pointdaily.co.kr",
-      "url": "https://www.pointdaily.co.kr/news/articleView.html?idxno=304012"
-    },
-    {
-      "title": "한국은행, 금리 인상 시사… 수출 호조와 물가 압박에 방점",
-      "date": "Wed, 06 May 2026 15:00:00",
-      "source": "tokenpost.kr",
-      "url": "https://www.tokenpost.kr/news/economy/356747"
-    },
-    {
-      "title": "[로드픽]코스피는 사상 최고인데 원화는 추락… 한국 시장에 무슨 일이...",
-      "date": "Wed, 06 May 2026 14:42:00",
-      "source": "newsroad.co.kr",
-      "url": "http://www.newsroad.co.kr/news/articleView.html?idxno=58983"
     }
   ],
-  "updated": "2026.05.11 10:41"
+  "updated": "2026.05.11 19:49"
 }
