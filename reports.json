@@ -1,6 +1,18 @@
 {
   "hri": [
     {
+      "title": "\"환율 10% 오르면 소비자물가 최대 0.5%p 올라\"",
+      "date": "Sun, 10 May 2026 20:13:00",
+      "source": "n.news.naver.com",
+      "url": "http://www.inews24.com/view/1967162"
+    },
+    {
+      "title": "현대硏 \"환율 10% 오르면 물가 최대 0.5%p↑…취약층 부담확대\"",
+      "date": "Sun, 10 May 2026 19:33:00",
+      "source": "n.news.naver.com",
+      "url": "https://news.tvchosun.com/site/data/html_dir/2026/05/10/2026051090179.html"
+    },
+    {
       "title": "현대硏 \"환율 10% 뛰면 물가 최대 0.5%p 상승\"",
       "date": "Sun, 10 May 2026 14:29:00",
       "source": "n.news.naver.com",
@@ -43,22 +55,10 @@
       "url": "https://www.viva100.com/article/20260510500203"
     },
     {
-      "title": "“환율 10% 오르면 물가 0.5%p↑…고유가까지 이중압박”",
+      "title": "\"환율 10% 오르면 물가 0.5%p '쑥'…고유가까지 이중고\"",
       "date": "Sun, 10 May 2026 11:01:00",
       "source": "n.news.naver.com",
       "url": "http://www.edaily.co.kr/news/newspath.asp?newsid=01423526645447608"
-    },
-    {
-      "title": "국장은 뜨거운데 내 지갑은 왜 이렇게 차갑나···경제지표 호황 속 밥...",
-      "date": "Sat, 09 May 2026 07:00:00",
-      "source": "n.news.naver.com",
-      "url": "https://www.khan.co.kr/article/202605090700001"
-    },
-    {
-      "title": "[긴축의 귀환]② 금리 인하 기대 후퇴…기업·가계 덮친 비용 인플레",
-      "date": "Fri, 08 May 2026 14:26:00",
-      "source": "opinionnews.co.kr",
-      "url": "http://www.opinionnews.co.kr/news/articleView.html?idxno=138102"
     }
   ],
   "seri": [
@@ -125,67 +125,85 @@
   ],
   "kdi": [
     {
-      "title": "\"창업 넘어 성장으로\"…정부·학계, '국가창업시대' 전환 논의",
-      "date": "Thu, 07 May 2026 15:00:00",
-      "source": "kbiznews.co.kr",
-      "url": "http://www.kbiznews.co.kr/news/articleView.html?idxno=114076"
-    },
-    {
-      "title": "정부, 국책硏 26곳 '외국인 접촉' 전수조사",
-      "date": "Tue, 05 May 2026 17:57:00",
-      "source": "n.news.naver.com",
-      "url": "https://www.mk.co.kr/article/12036154"
-    },
-    {
-      "title": "[단독] “외국인 누구, 왜 만났나” 정부, 연구기관 27곳 전수조사",
-      "date": "Tue, 05 May 2026 06:00:00",
-      "source": "n.news.naver.com",
-      "url": "https://www.joongang.co.kr/article/25425777"
-    },
-    {
-      "title": "다음 주 물가 발표… 유가 상승분 현실화되나",
-      "date": "Sat, 02 May 2026 15:00:00",
-      "source": "newscj.com",
-      "url": "https://www.newscj.com/news/articleView.html?idxno=3397961"
-    },
-    {
-      "title": "\"유가 상승 5월부터 본격화\"…최악 상황 땐 70% 더오른다",
-      "date": "Sat, 02 May 2026 08:00:00",
-      "source": "n.news.naver.com",
-      "url": "https://www.newsis.com/view/NISX20260501_0003614618"
-    },
-    {
-      "title": "[데스크칼럼] 反시장 경제정책 상처들",
-      "date": "Thu, 30 Apr 2026 01:00:00",
-      "source": "pinpointnews.co.kr",
-      "url": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=449715"
-    },
-    {
-      "title": "잠재성장률 1%대…\"중소기업, 차등 조세지원에 '성장 기피'\"",
-      "date": "Tue, 28 Apr 2026 11:14:00",
-      "source": "widedaily.com",
-      "url": "https://www.widedaily.com/news/articleView.html?idxno=293112"
-    },
-    {
-      "title": "잠재성장률 1%대…\"중소기업, 차등 조세지원에 '성장 기피'\"",
-      "date": "Tue, 28 Apr 2026 07:30:00",
-      "source": "n.news.naver.com",
-      "url": "https://www.newsis.com/view/NISX20260427_0003608527"
-    },
-    {
-      "title": "구윤철, OECD 잠재성장률 하락세 전망에 “고정된 것 아냐…반드시 반등...",
-      "date": "Mon, 27 Apr 2026 12:16:00",
+      "title": "한경협, 전문가 모여 ‘노동시장 개편방향’ 모색한다",
+      "date": "Mon, 11 May 2026 10:24:00",
       "source": "viva100.com",
-      "url": "https://www.viva100.com/article/20260427500481"
+      "url": "https://www.viva100.com/article/20260511500358"
     },
     {
-      "title": "구윤철 “잠재성장률 반드시 반등”…고성장 기대 속 ‘기초체력 약화...",
-      "date": "Mon, 27 Apr 2026 07:02:00",
-      "source": "segyebiz.com",
-      "url": "http://www.segyebiz.com/newsView/20260426511208?OutUrl=naver"
+      "title": "한경협, 19일 '고용 유연성 제고 등 노동시장 개편 방향' 세미나",
+      "date": "Mon, 11 May 2026 09:58:00",
+      "source": "worktoday.co.kr",
+      "url": "http://www.worktoday.co.kr/news/articleView.html?idxno=84470"
+    },
+    {
+      "title": "고용안전망 확충을 위한 노동시장 개편방향 ..어디로 가나?",
+      "date": "Mon, 11 May 2026 09:53:00",
+      "source": "n.news.naver.com",
+      "url": "http://www.wowtv.co.kr/NewsCenter/News/Read?articleId=A202605110097&t=NN"
+    },
+    {
+      "title": "한경협, '고용 유연성 제고 등 노동시장 개편 방향' 세미나",
+      "date": "Mon, 11 May 2026 08:33:00",
+      "source": "n.news.naver.com",
+      "url": "https://www.nocutnews.co.kr/news/6514795?utm_source=naver&utm_medium=article&utm_campaign=20260511083252"
+    },
+    {
+      "title": "효성重 제안 화성과천道, 민자적격성 완료… 2028년 착공 목표",
+      "date": "Mon, 11 May 2026 07:24:00",
+      "source": "news.mtn.co.kr",
+      "url": "https://news.mtn.co.kr/news-detail/2026051107222324049"
+    },
+    {
+      "title": "한경협, 다음주 ‘고용유연성 제고 방향’ 세미나 연다",
+      "date": "Mon, 11 May 2026 07:09:00",
+      "source": "n.news.naver.com",
+      "url": "https://biz.heraldcorp.com/article/10734749?ref=naver"
+    },
+    {
+      "title": "한경협, '노동시장 개편방향' 세미나 연다…고용유연성·안전망 강화 논...",
+      "date": "Mon, 11 May 2026 06:02:00",
+      "source": "etoday.co.kr",
+      "url": "https://www.etoday.co.kr/news/view/2583040"
+    },
+    {
+      "title": "'고용 유연성' 제고 위한 노동시장 개편방향 세미나",
+      "date": "Mon, 11 May 2026 06:02:00",
+      "source": "n.news.naver.com",
+      "url": "http://www.edaily.co.kr/news/newspath.asp?newsid=01617046645447936"
+    },
+    {
+      "title": "한경협, 오는 19일 노동시장 개편방향 세미나 개최",
+      "date": "Mon, 11 May 2026 06:00:00",
+      "source": "n.news.naver.com",
+      "url": "https://view.asiae.co.kr/article/2026051012372184048"
+    },
+    {
+      "title": "한경협, 노동시장 개편 세미나 개최…고용유연성·안전망 논의",
+      "date": "Mon, 11 May 2026 06:00:00",
+      "source": "newspim.com",
+      "url": "https://www.newspim.com/news/view/20260510000084"
     }
   ],
   "bok": [
+    {
+      "title": "반도체 호황에도 고환율…한은 금리 셈법, '인상' 고민?",
+      "date": "Mon, 11 May 2026 07:50:00",
+      "source": "metroseoul.co.kr",
+      "url": "http://www.metroseoul.co.kr/article/20260511500012"
+    },
+    {
+      "title": "[노트북 너머] 금통위 떠나는 '슈퍼 비둘기', 그가 남긴 과제",
+      "date": "Mon, 11 May 2026 06:02:00",
+      "source": "etoday.co.kr",
+      "url": "https://www.etoday.co.kr/news/view/2583001"
+    },
+    {
+      "title": "'순부채 10%'의 환상과 'D2-60%'의 경고: 국제금융계의 기준으로 보아야...",
+      "date": "Sun, 10 May 2026 17:10:00",
+      "source": "ifs.or.kr",
+      "url": "http://www.ifs.or.kr/bbs/board.php?bo_table=News&wr_id=55761"
+    },
     {
       "title": "'반도체의 힘', 경상수지 373억 달러…한은, 금리 인상 '무게추'",
       "date": "Sat, 09 May 2026 07:10:00",
@@ -227,25 +245,7 @@
       "date": "Wed, 06 May 2026 14:42:00",
       "source": "newsroad.co.kr",
       "url": "http://www.newsroad.co.kr/news/articleView.html?idxno=58983"
-    },
-    {
-      "title": "\"고민해야 할 때 왔다\"…한은 내부 '돌변'",
-      "date": "Wed, 06 May 2026 12:06:00",
-      "source": "n.news.naver.com",
-      "url": "http://www.wowtv.co.kr/NewsCenter/News/Read?articleId=A202605060469&t=NN"
-    },
-    {
-      "title": "금리 인상기 진입 예고한 한은…1분기 깜짝 성장에 기류 급변",
-      "date": "Wed, 06 May 2026 11:12:00",
-      "source": "n.news.naver.com",
-      "url": "https://www.yna.co.kr/view/AKR20260506070100002?input=1195m"
-    },
-    {
-      "title": "유상대 한은 부총재 \"금리 인상 고민할 때\"...사이클 전환 시사",
-      "date": "Tue, 05 May 2026 10:36:00",
-      "source": "wolyo.co.kr",
-      "url": "https://www.wolyo.co.kr/news/articleView.html?idxno=311690"
     }
   ],
-  "updated": "2026.05.10 16:37"
+  "updated": "2026.05.11 10:41"
 }

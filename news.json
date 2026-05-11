@@ -1,6 +1,13 @@
 {
   "dept": [
     {
+      "title": "부산 백화점 ‘디저트 경쟁 중’",
+      "date": "Sun, 10 May 2026 18:15:00",
+      "source": "n.news.naver.com",
+      "url": "https://www.busan.com/view/busan/view.php?code=2026051018102951519",
+      "sub": ""
+    },
+    {
       "title": "유통업계, 친환경 소비 확산...\"녹색 소비 일상으로 스며든다\"",
       "date": "Sun, 10 May 2026 13:24:00",
       "source": "kdfnews.com",
@@ -62,84 +69,77 @@
       "source": "n.news.naver.com",
       "url": "https://www.donga.com/news/Economy/article/all/20260508/133886535/1",
       "sub": ""
-    },
-    {
-      "title": "[가전 트렌드] LG전자, LGE닷컴 5주년 기념 '오!엘지닷' 프로모션 실시 ...",
-      "date": "Thu, 07 May 2026 20:58:00",
-      "source": "ibabynews.com",
-      "url": "https://www.ibabynews.com/news/articleView.html?idxno=151121",
-      "sub": ""
     }
   ],
   "csi": [
     {
-      "title": "코스피, 반도체주 급등으로 사상 첫 7,000선 돌파... 개인·기관 매수세...",
-      "date": "Sun, 10 May 2026 10:00:00",
+      "title": "월드 뉴스 브리프 (기준일시: 2026년 05월 11일 월요일 10:00)",
+      "date": "Mon, 11 May 2026 10:36:00",
+      "source": "ifs.or.kr",
+      "url": "http://www.ifs.or.kr/bbs/board.php?bo_table=globalnewsfocus&wr_id=338",
+      "sub": ""
+    },
+    {
+      "title": "금시세(금값) 11일",
+      "date": "Mon, 11 May 2026 09:16:00",
+      "source": "bntnews.co.kr",
+      "url": "https://www.bntnews.co.kr/article/view/bnt202605110005",
+      "sub": ""
+    },
+    {
+      "title": "코스피 8000갈까…\"나만 소외된다\" 불안감에 대출까지 끌어다 주식으로",
+      "date": "Mon, 11 May 2026 09:12:00",
+      "source": "n.news.naver.com",
+      "url": "http://www.joseilbo.com/news/news_read.php?uid=568006&class=1&grp=",
+      "sub": ""
+    },
+    {
+      "title": "이번주 ‘코스피 8000’ 갈까…증권가선 “1만2000포인트도 가능” [투자...",
+      "date": "Mon, 11 May 2026 08:54:00",
+      "source": "n.news.naver.com",
+      "url": "https://biz.heraldcorp.com/article/10734814?ref=naver",
+      "sub": ""
+    },
+    {
+      "title": "코스피 8,000선 도전… 반도체·로봇주 상승 주도",
+      "date": "Mon, 11 May 2026 08:40:00",
       "source": "tokenpost.kr",
-      "url": "https://www.tokenpost.kr/news/market/358076",
+      "url": "https://www.tokenpost.kr/news/market/358248",
       "sub": ""
     },
     {
-      "title": "[마켓인사이트] '7천피' 달성 韓증시, 한주만 '8천피' 도전 나서나",
-      "date": "Sun, 10 May 2026 07:00:00",
+      "title": "최고치 경신 코스피,…8천피 전인미답 고지 밟나",
+      "date": "Mon, 11 May 2026 08:15:00",
+      "source": "jnilbo.com",
+      "url": "https://www.jnilbo.com/news/articleView.html?idxno=90000034178",
+      "sub": ""
+    },
+    {
+      "title": "[굿모닝 마켓] S&P500·나스닥 모두 사상 최고치 또다시 경신",
+      "date": "Mon, 11 May 2026 08:14:00",
       "source": "n.news.naver.com",
-      "url": "https://www.yna.co.kr/view/AKR20260508177100008?input=1195m",
+      "url": "https://biz.sbs.co.kr/article_hub/20000309346?division=NAVER",
       "sub": ""
     },
     {
-      "title": "'코스피 7500', '반도체 호황'에도 체감 경기는 '꽁꽁'",
-      "date": "Sat, 09 May 2026 09:06:00",
-      "source": "ftoday.co.kr",
-      "url": "http://www.ftoday.co.kr/news/articleView.html?idxno=358654",
-      "sub": ""
-    },
-    {
-      "title": "美 고용 호조에 뉴욕증시 강세…S&P500·나스닥 또 사상 최고",
-      "date": "Sat, 09 May 2026 08:28:00",
-      "source": "straightnews.co.kr",
-      "url": "https://www.straightnews.co.kr/news/articleView.html?idxno=302005",
-      "sub": ""
-    },
-    {
-      "title": "유통가 5월 대목 잡기…보드게임부터 반값 전복까지 ‘가족 지갑’ 열린...",
-      "date": "Sat, 09 May 2026 08:17:00",
+      "title": "[마켓뷰] '7천피' 기록한 코스피, '8천피' 갈까 차익실현 매물 쏟아질까",
+      "date": "Mon, 11 May 2026 08:02:00",
       "source": "n.news.naver.com",
-      "url": "https://www.segye.com/newsView/20260509502306?OutUrl=naver",
+      "url": "https://www.yna.co.kr/view/AKR20260511015700008?input=1195m",
       "sub": ""
     },
     {
-      "title": "“주식으로 돈 번 사람 넘치는데 우리 집은 왜?”…더 싸늘해진 체감경...",
-      "date": "Sat, 09 May 2026 08:01:00",
+      "title": "[증시전망대] '7천피' 찍은 코스피, 이번 주엔 '8천피' 문 두드리나",
+      "date": "Mon, 11 May 2026 07:30:00",
+      "source": "newsroad.co.kr",
+      "url": "http://www.newsroad.co.kr/news/articleView.html?idxno=59151",
+      "sub": ""
+    },
+    {
+      "title": "환율이 몰고 온 위기...서민 경제는 '각자도생'",
+      "date": "Mon, 11 May 2026 06:01:00",
       "source": "n.news.naver.com",
-      "url": "https://www.mk.co.kr/article/12042217",
-      "sub": ""
-    },
-    {
-      "title": "[뉴욕증시] 못 말리는 반도체 '또 최고치'···인텔 14%↑·마이크론 15...",
-      "date": "Sat, 09 May 2026 07:07:00",
-      "source": "seoulfn.com",
-      "url": "https://www.seoulfn.com/news/articleView.html?idxno=628357",
-      "sub": ""
-    },
-    {
-      "title": "뉴욕증시, 고용 강세와 반도체주 급등으로 최고치 경신",
-      "date": "Sat, 09 May 2026 06:40:00",
-      "source": "tokenpost.kr",
-      "url": "https://www.tokenpost.kr/news/market/357827",
-      "sub": ""
-    },
-    {
-      "title": "삼성전자·SK하이닉스 주식 갖고 있는 사람들을 기쁘게 하는 소식이 전...",
-      "date": "Sat, 09 May 2026 06:40:00",
-      "source": "wikitree.co.kr",
-      "url": "https://www.wikitree.co.kr/articles/1135669",
-      "sub": ""
-    },
-    {
-      "title": "고유가 부담에 미국 소비자 심리 또 역대 최저",
-      "date": "Sat, 09 May 2026 04:40:00",
-      "source": "n.news.naver.com",
-      "url": "https://www.ytn.co.kr/_ln/0104_202605090440082602",
+      "url": "https://economist.co.kr/article/view/ecn202605040034",
       "sub": ""
     }
   ],
@@ -217,6 +217,62 @@
   ],
   "rate": [
     {
+      "title": "5대 은행, 1분기 대출 실적 '마이너스'…하반기, '금리 인상' 예상, '이자...",
+      "date": "Mon, 11 May 2026 09:26:00",
+      "source": "ftoday.co.kr",
+      "url": "http://www.ftoday.co.kr/news/articleView.html?idxno=358689",
+      "sub": ""
+    },
+    {
+      "title": "은행권, 하반기 금리인상 전망…\"현금 확보·분산투자 추천\"",
+      "date": "Mon, 11 May 2026 07:19:00",
+      "source": "n.news.naver.com",
+      "url": "https://biz.sbs.co.kr/article_hub/20000309342?division=NAVER",
+      "sub": ""
+    },
+    {
+      "title": "금리 인상 시그널, '금융주'엔 호재?",
+      "date": "Mon, 11 May 2026 07:09:00",
+      "source": "n.news.naver.com",
+      "url": "https://www.dailian.co.kr/news/view/1642192/?sc=Naver",
+      "sub": ""
+    },
+    {
+      "title": "[천지일보 이슈종합]나무호 비행체 타격·유가 환율 상승·검사 이탈 가...",
+      "date": "Mon, 11 May 2026 07:02:00",
+      "source": "newscj.com",
+      "url": "https://www.newscj.com/news/articleView.html?idxno=3399777",
+      "sub": ""
+    },
+    {
+      "title": "금리 인상 예고, 투자자 '현금 확보' 전략 필요",
+      "date": "Mon, 11 May 2026 06:40:00",
+      "source": "tokenpost.kr",
+      "url": "https://www.tokenpost.kr/news/economy/358233",
+      "sub": ""
+    },
+    {
+      "title": "[기자의 눈] '깜짝 성장'의 청구서, 이제 남은 건 금리 인상",
+      "date": "Mon, 11 May 2026 06:02:00",
+      "source": "ajunews.com",
+      "url": "https://www.ajunews.com/view/20260508143652958",
+      "sub": ""
+    },
+    {
+      "title": "은행권, 하반기 금리인상 전망…\"현금 확보·분산투자\" 조언",
+      "date": "Mon, 11 May 2026 05:55:00",
+      "source": "n.news.naver.com",
+      "url": "https://www.yna.co.kr/view/AKR20260510044700002?input=1195m",
+      "sub": ""
+    },
+    {
+      "title": "유가·환율 상승에 '피벗' 전망… 재정운용 부담 커질 듯",
+      "date": "Sun, 10 May 2026 19:00:00",
+      "source": "newscj.com",
+      "url": "https://www.newscj.com/news/articleView.html?idxno=3399695",
+      "sub": ""
+    },
+    {
       "title": "“기름값은 겨우 눌렀는데”… 이제 국채·세금·대출금리 흔들리나",
       "date": "Sun, 10 May 2026 14:05:00",
       "source": "n.news.naver.com",
@@ -228,62 +284,6 @@
       "date": "Sun, 10 May 2026 11:20:00",
       "source": "ntoday.co.kr",
       "url": "https://www.ntoday.co.kr/news/articleView.html?idxno=126978",
-      "sub": ""
-    },
-    {
-      "title": "'기준금리 인상' 가능성 부상…정부 재정운용 부담 커지나",
-      "date": "Sun, 10 May 2026 09:22:00",
-      "source": "n.news.naver.com",
-      "url": "https://www.newsis.com/view/NISX20260510_0003623055",
-      "sub": ""
-    },
-    {
-      "title": "환율 1470원 재돌파에 꼬여버린 금리 셈법 … 한은 ‘매파 동결’ 고개",
-      "date": "Fri, 08 May 2026 16:52:00",
-      "source": "biz.newdaily.co.kr",
-      "url": "https://biz.newdaily.co.kr/site/data/html/2026/05/08/2026050800221.html",
-      "sub": ""
-    },
-    {
-      "title": "[긴축의 귀환]② 금리 인하 기대 후퇴…기업·가계 덮친 비용 인플레",
-      "date": "Fri, 08 May 2026 14:26:00",
-      "source": "opinionnews.co.kr",
-      "url": "http://www.opinionnews.co.kr/news/articleView.html?idxno=138102",
-      "sub": ""
-    },
-    {
-      "title": "[긴축의 귀환]① 다시 살아난 금리 인상론…연준·한은 긴축 기류 커지...",
-      "date": "Fri, 08 May 2026 14:26:00",
-      "source": "opinionnews.co.kr",
-      "url": "http://www.opinionnews.co.kr/news/articleView.html?idxno=138100",
-      "sub": ""
-    },
-    {
-      "title": "'금리 인상' 꺼낸 한은 부총재도 \"반도체 꺾이면 경제 우려\"",
-      "date": "Fri, 08 May 2026 11:26:00",
-      "source": "n.news.naver.com",
-      "url": "https://www.ytn.co.kr/_ln/0102_202605081126179036",
-      "sub": ""
-    },
-    {
-      "title": "[첫 인상 언제] \"돌다리도 두드려보고 건너야\"…8월이 좋은 이유",
-      "date": "Fri, 08 May 2026 10:56:00",
-      "source": "news.einfomax.co.kr",
-      "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4413788",
-      "sub": ""
-    },
-    {
-      "title": "\"전쟁 빨리 끝나야 하는데\" … 글로벌 '연쇄 금리인상', 나스닥·코스피...",
-      "date": "Fri, 08 May 2026 10:28:00",
-      "source": "biz.newdaily.co.kr",
-      "url": "https://biz.newdaily.co.kr/site/data/html/2026/05/08/2026050800083.html",
-      "sub": ""
-    },
-    {
-      "title": "‘금리 인상’ 깜박이 켠 한은… 1분기 깜짝 성장에 기류 급변",
-      "date": "Thu, 07 May 2026 17:01:00",
-      "source": "n.news.naver.com",
-      "url": "https://economist.co.kr/article/view/ecn202605070033",
       "sub": ""
     }
   ],
@@ -540,17 +540,17 @@
       "sub": ""
     },
     {
-      "title": "[유통가 레이더] 런치플레이션엔 역시 '혜자'... GS25 '김혜자 간편식' ...",
-      "date": "Thu, 23 Apr 2026 12:06:00",
-      "source": "greened.kr",
-      "url": "https://www.greened.kr/news/articleView.html?idxno=339704",
-      "sub": ""
-    },
-    {
       "title": "[유통소식] GS25 '김혜자 간편식', 재출시 3년 만 1억개 판매",
       "date": "Thu, 23 Apr 2026 12:06:00",
       "source": "4th.kr",
       "url": "http://www.4th.kr/news/articleView.html?idxno=2110851",
+      "sub": ""
+    },
+    {
+      "title": "[유통가 레이더] 런치플레이션엔 역시 '혜자'... GS25 '김혜자 간편식' ...",
+      "date": "Thu, 23 Apr 2026 12:06:00",
+      "source": "greened.kr",
+      "url": "https://www.greened.kr/news/articleView.html?idxno=339704",
       "sub": ""
     },
     {
@@ -575,5 +575,5 @@
       "sub": ""
     }
   ],
-  "updated": "2026.05.10 16:37"
+  "updated": "2026.05.11 10:41"
 }
