@@ -375,9 +375,6 @@ footer{padding:1.25rem;text-align:center;font-size:11px;color:var(--text3);borde
    ═══════════════════════════════════════════ */
 var ECOS_KEY    = 'SUMYLXA0YAQ1FNS9I8GL';
 var KOSIS_KEY   = 'MmMwYTNiZWQ5MTJhZmM5MzI3Yzk4N2ZhYTg1N2VhZmQ=';
-var ECOS_BASE_M = 'https://ecos.bok.or.kr/api/StatisticSearch/' + ECOS_KEY + '/json/kr/1/14/';
-var ECOS_BASE_D = 'https://ecos.bok.or.kr/api/StatisticSearch/' + ECOS_KEY + '/json/kr/1/400/';
-var KOSIS_BASE  = 'https://kosis.kr/openapi/Param/statisticsParameterData.do?method=getList&format=json&jsonVD=Y&outputFields=ITM_ID+PRD_DE+DT&prdInterval=1&apiKey=';
 var KOSIS_PROXY = 'https://nameless-block-94fb.lahs0406.workers.dev';
 var ANTHROPIC_KEY = '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';
 
@@ -891,142 +888,6 @@ function updateKPI(d) {
 }
 
 /* ═══════════════════════════════════════════
-   JS § 11. ECOS API fetch
-   · fetchEcosTimeSeries(key): 최근 시계열
-   · fetchPrevEcos(key): 전년 동기 시계열
-   · CORS 프록시: ECOS + KOSIS 모두 Cloudflare Worker 경유
-   ═══════════════════════════════════════════ */
-async function fetchEcosTimeSeries(key) {
-  var cfg = ECOS_MAP[key];
-  if(!cfg) return null;
-  var endYM, startYM;
-  if(cfg.cycle === 'D') {
-    var now = new Date();
-    var yr = now.getFullYear(), mo = now.getMonth(), dy = now.getDate();
-    endYM = yr.toString()+(mo<9?'0':'')+(mo+1).toString()+(dy<10?'0':'')+dy.toString();
-    var past = new Date(now); past.setFullYear(past.getFullYear()-1);
-    var py=past.getFullYear(),pm=past.getMonth(),pd=past.getDate();
-    startYM = py.toString()+(pm<9?'0':'')+(pm+1).toString()+(pd<10?'0':'')+pd.toString();
-  } else if(cfg.cycle === 'Q') {
-    var now2 = new Date();
-    var yr2=now2.getFullYear(), q2=Math.ceil((now2.getMonth()+1)/3);
-    endYM = yr2+'Q'+q2;
-    startYM = (yr2-2)+'Q1';
-  } else {
-    endYM   = nowYM();
-    startYM = addMonths(endYM, -13);
-  }
-  var ecosUrl = (cfg.cycle==='D'?ECOS_BASE_D:ECOS_BASE_M)+cfg.stat+'/'+cfg.cycle+'/'+startYM+'/'+endYM+'/'+cfg.item;
-  if(cfg.item2) ecosUrl += '/'+cfg.item2;
-  if(cfg.item3) ecosUrl += '/'+cfg.item3;
-  try {
-    var res = await fetch(KOSIS_PROXY + '?url=' + encodeURIComponent(ecosUrl));
-    var json = await res.json();
-    var rows = (json.StatisticSearch||{}).row||[];
-    if(rows.length===0) return null;
-    return rows.map(function(r){ return {ym:r.TIME, val:parseFloat(r.DATA_VALUE)}; });
-  } catch(e) { return null; }
-}
-
-// 전년 동기 ECOS fetch
-async function fetchPrevEcos(key) {
-  var cfg = ECOS_MAP[key];
-  if(!cfg) return null;
-  var endYM2, startYM2;
-  if(cfg.cycle==='D') {
-    var now=new Date(); now.setFullYear(now.getFullYear()-1);
-    var yr=now.getFullYear(),mo=now.getMonth(),dy=now.getDate();
-    endYM2 = yr.toString()+(mo<9?'0':'')+(mo+1).toString()+(dy<10?'0':'')+dy.toString();
-    var past=new Date(now); past.setFullYear(past.getFullYear()-1);
-    var py=past.getFullYear(),pm=past.getMonth(),pd=past.getDate();
-    startYM2 = py.toString()+(pm<9?'0':'')+(pm+1).toString()+(pd<10?'0':'')+pd.toString();
-  } else if(cfg.cycle==='Q') {
-    var now3=new Date();
-    var yr3=now3.getFullYear()-1, q3=Math.ceil((now3.getMonth()+1)/3);
-    endYM2   = yr3+'Q'+q3;
-    startYM2 = (yr3-2)+'Q1';
-  } else {
-    endYM2   = addMonths(nowYM(),-13);
-    startYM2 = addMonths(endYM2,-13);
-  }
-  var base2=(cfg.cycle==='D'?ECOS_BASE_D:ECOS_BASE_M)+cfg.stat+'/'+cfg.cycle+'/'+startYM2+'/'+endYM2+'/'+cfg.item;
-  if(cfg.item2) base2 += '/'+cfg.item2;
-  if(cfg.item3) base2 += '/'+cfg.item3;
-  try {
-    var res2=await fetch(KOSIS_PROXY + '?url=' + encodeURIComponent(base2));
-    var outer2=await res2.json();
-    var rows2=(outer2.StatisticSearch||{}).row||[];
-    if(rows2.length===0) return null;
-    return rows2.map(function(r){ return {ym:r.TIME, val:parseFloat(r.DATA_VALUE)}; });
-  } catch(e) { return null; }
-}
-
-/* ═══════════════════════════════════════════
-   JS § 12. KOSIS API fetch
-   · fetchKosisTimeSeries(key): 최근 13개월
-   · fetchPrevKosis(key): 전년 동기 13개월
-   ═══════════════════════════════════════════ */
-/* ─── KOSIS fetch (Cloudflare Worker 프록시 경유) ────────── */
-async function _kosisOneFetch(cfg, sliceFn, prdSe, newEstPrdCnt) {
-  var kosisUrl = 'https://kosis.kr/openapi/Param/statisticsParameterData.do'
-    + '?method=getList&format=json&jsonVD=Y'
-    + '&outputFields=ITM_ID+PRD_DE+DT'
-    + '&prdSe='  + (prdSe || 'M')
-    + '&newEstPrdCnt=' + (newEstPrdCnt || 26)
-    + '&prdInterval=1'
-    + '&apiKey=' + KOSIS_KEY
-    + '&orgId='  + cfg.orgId
-    + '&tblId='  + cfg.tblId
-    + '&itmId='  + cfg.itmId
-    + '&objL1='  + (cfg.objL1 || '')
-    + '&objL2='  + (cfg.objL2 || '')
-    + '&objL3=&objL4=&objL5=&objL6=&objL7=&objL8=';
-
-  var proxyUrl = KOSIS_PROXY + '?url=' + encodeURIComponent(kosisUrl);
-
-  try {
-    var res  = await fetch(proxyUrl);
-    var rows = await res.json();
-    if(!Array.isArray(rows) || rows.length === 0) return null;
-    var f = cfg.filter;
-    var filtered = rows.filter(function(r){
-      return Object.keys(f).every(function(k){ return r[k] === f[k]; });
-    });
-    if(filtered.length === 0) return null;
-    filtered.sort(function(a,b){ return a.PRD_DE.localeCompare(b.PRD_DE); });
-    var sliced = sliceFn(filtered);
-    return sliced.map(function(r){ return {ym: r.PRD_DE, val: parseFloat(r.DT)}; });
-  } catch(e) { return null; }
-}
-
-/* ─── 최근 13개월: 1차 cfg 실패 시 fallback cfg 시도 ────── */
-async function fetchKosisTimeSeries(key) {
-  var cfg = KOSIS_MAP[key];
-  if(!cfg) return null;
-  var sliceFn = function(arr){ return arr.slice(-13); };
-  var result = await _kosisOneFetch(cfg, sliceFn);
-  if(!result && cfg.fallback) {
-    result = await _kosisOneFetch(cfg.fallback, sliceFn);
-  }
-  return result;
-}
-
-/* ─── 전년 동기 13개월: 1차 cfg 실패 시 fallback cfg 시도 ─ */
-async function fetchPrevKosis(key) {
-  var cfg = KOSIS_MAP[key];
-  if(!cfg) return null;
-  var sliceFn = function(arr){
-    var prev = arr.slice(0, arr.length - 13);
-    return prev.slice(-13);
-  };
-  var result = await _kosisOneFetch(cfg, sliceFn);
-  if(!result && cfg.fallback) {
-    result = await _kosisOneFetch(cfg.fallback, sliceFn);
-  }
-  return result;
-}
-
-/* ═══════════════════════════════════════════
    JS § 13. ECOS 차트 로드 (loadEcosChart)
    · API 성공 → 실시간 데이터로 KPI + 차트 갱신
    · API 실패 → 샘플 데이터 fallback
@@ -1083,39 +944,7 @@ async function loadEcosChart(key) {
    · 연간 레이블: "2020", "2021" ... 형식으로 표시
    · 차트: 막대(bar) 형태로 연도별 추이 강조
    ═══════════════════════════════════════════ */
-async function fetchKosisAnnual(key) {
-  var cfg = KOSIS_ANNUAL_MAP[key];
-  if(!cfg) return null;
 
-  var kosisUrl = 'https://kosis.kr/openapi/Param/statisticsParameterData.do'
-    + '?method=getList&format=json&jsonVD=Y'
-    + '&outputFields=ITM_ID+PRD_DE+DT'
-    + '&prdSe=Y&newEstPrdCnt=13&prdInterval=1'
-    + '&apiKey=' + KOSIS_KEY
-    + '&orgId='  + cfg.orgId
-    + '&tblId='  + cfg.tblId
-    + '&itmId='  + cfg.itmId
-    + '&objL1='  + (cfg.objL1 || '')
-    + '&objL2='  + (cfg.objL2 || '')
-    + '&objL3=&objL4=&objL5=&objL6=&objL7=&objL8=';
-
-  var proxyUrl = KOSIS_PROXY + '?url=' + encodeURIComponent(kosisUrl);
-
-  try {
-    var res  = await fetch(proxyUrl);
-    var rows = await res.json();
-    if(!Array.isArray(rows) || rows.length === 0) return null;
-    var f = cfg.filter;
-    var filtered = rows.filter(function(r){
-      return Object.keys(f).every(function(k){ return r[k] === f[k]; });
-    });
-    if(filtered.length === 0) return null;
-    filtered.sort(function(a,b){ return a.PRD_DE.localeCompare(b.PRD_DE); });
-    return filtered.slice(-13).map(function(r){
-      return {ym: r.PRD_DE, val: parseFloat(r.DT)};
-    });
-  } catch(e) { return null; }
-}
 
 async function loadKosisAnnualChart(key) {
   var d = CD[key]; if(!d) return;
