@@ -136,7 +136,7 @@ def main():
 
     # 3. 환율
     print("\n[3] 환율 USD/KRW")
-    rows = ecos_fetch("731Y004", "0000003", "M", m3, today[:6])
+    rows = ecos_fetch("731Y004", "0000001", "M", m3, today[:6])
     if rows:
         s = data.get("fx", [])
         for r in rows: s = upsert(s, r["ym"], r["val"])
@@ -191,7 +191,7 @@ def main():
 
     # 9. 고용률
     print("\n[9] 고용률")
-    rows = kosis_fetch("101", "DT_1DA7002S", "13102_ALL", "ALL", months_ago(4), today[:6])
+    new_rows = ecos_fetch("901Y027", "I61E", "M", m3, today[:6])
     if rows:
         s = data.get("employ", [])
         for r in rows: s = upsert(s, r["ym"], r["val"])
