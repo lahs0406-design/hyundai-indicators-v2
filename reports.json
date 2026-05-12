@@ -125,6 +125,12 @@
   ],
   "bok": [
     {
+      "title": "'비둘기' 떠나고 '매파' 온다…금통위 긴축 기류 강해지나",
+      "date": "Tue, 12 May 2026 15:52:00",
+      "source": "n.news.naver.com",
+      "url": "https://www.dailian.co.kr/news/view/1643345/?sc=Naver"
+    },
+    {
       "title": "팔천피 넘어 1만피 시대 전망하는 증권업계…\"반도체 슈퍼사이클 지속\"",
       "date": "Tue, 12 May 2026 15:22:00",
       "source": "ntoday.co.kr",
@@ -177,12 +183,6 @@
       "date": "Tue, 12 May 2026 13:08:00",
       "source": "naeil.com",
       "url": "https://www.naeil.com/news/read/588409?ref=naver"
-    },
-    {
-      "title": "AI 반도체가 바꾼 한국·대만 경제 지형도",
-      "date": "Tue, 12 May 2026 13:08:00",
-      "source": "naeil.com",
-      "url": "https://www.naeil.com/news/read/588383?ref=naver"
     }
   ],
   "kiep": [
@@ -309,5 +309,5 @@
       "url": "https://www.financialpost.co.kr/news/articleView.html?idxno=255093"
     }
   ],
-  "updated": "2026.05.12 15:47"
+  "updated": "2026.05.12 15:55"
 }
