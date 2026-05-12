@@ -13,20 +13,18 @@ import os, json, urllib.request, urllib.parse, datetime
 
 CLIENT_ID     = os.environ["NAVER_CLIENT_ID"]
 CLIENT_SECRET = os.environ["NAVER_CLIENT_SECRET"]
-DISPLAY       = 10
+DISPLAY       = 10  # 카테고리별 기사 수
 
+# 카테고리별 검색 키워드 정의
 CATEGORIES = {
-    "dept":    "백화점 유통 소비 트렌드",
-    "csi":     "소비자심리지수 소비 경기 물가",
-    "income":  "가계소득 실질임금 고용 소비여력",
-    "rate":    "기준금리 한국은행 환율 경기",
-    "asset":   "KOSPI 주가 자산효과 부동산 소비",
-    "channel": "백화점 대형마트 온라인쇼핑 유통채널",
-    "demo":    "인구구조 1인가구 MZ세대 시니어 소비",
-    "trend":   "소비트렌드 팝업스토어 명품 체험소비",
+    "dept":    "현대백화점 롯데백화점 신세계백화점 아울렛 무신사 올리브영 유통업계 백화점업계 명품 패션 팝업스토어 팝업 성수동 유니클로",
+    "trend":   "트렌드 유행 미식 웰니스 K컬쳐 인스타 인플루언서 유행어 릴스 숏츠 컨텐츠 알파세대",
+    "rate":    "환율 달러 엔화 미국 일본 중국 대만 베트남 관광객 월드컵 글로벌 여행 명동 중국인 일본인",
+    "asset":   "코스피 주가 자산효과 부동산 소비심리 물가 기준금리 금리 경제 가계소득 실질임금 고용 소비여력 반도체 투자",
 }
 
 def search_naver(query: str, display: int = DISPLAY) -> list:
+    """네이버 뉴스 검색 API 호출 → 기사 리스트 반환"""
     encoded = urllib.parse.quote(query)
     url = (
         f"https://openapi.naver.com/v1/search/news.json"
@@ -41,13 +39,13 @@ def search_naver(query: str, display: int = DISPLAY) -> list:
             data = json.loads(res.read().decode("utf-8"))
             items = []
             for item in data.get("items", []):
-                title  = (item["title"]
-                          .replace("<b>","").replace("</b>","")
-                          .replace("&quot;",'"').replace("&amp;","&").replace("&#39;","'"))
+                # HTML 태그 제거
+                title  = item["title"].replace("<b>","").replace("</b>","").replace("&quot;",'"').replace("&amp;","&").replace("&#39;","'")
                 source = item["link"].split("/")[2].replace("www.","")
+                # pubDate: "Fri, 08 May 2026 10:00:00 +0900" 형태 그대로 저장
                 items.append({
                     "title":  title,
-                    "date":   item.get("pubDate","").split(" +")[0],
+                    "date":   item.get("pubDate","").split(" +")[0],  # timezone 제거
                     "source": source,
                     "url":    item["originallink"] or item["link"],
                     "sub":    ""
