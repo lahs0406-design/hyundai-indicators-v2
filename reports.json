@@ -1,251 +1,313 @@
 {
   "hri": [
     {
+      "title": "신현송, 친정 BIS서 글로벌 기류 점검 … 환율·물가·금리 해법 실마리...",
+      "date": "Tue, 12 May 2026 10:54:00",
+      "source": "biz.newdaily.co.kr",
+      "url": "https://biz.newdaily.co.kr/site/data/html/2026/05/12/2026051200099.html"
+    },
+    {
+      "title": "국장은 뜨거운데 내 지갑은 왜 이렇게 차갑나···경제지표 호황 속 밥...",
+      "date": "Sat, 09 May 2026 07:00:00",
+      "source": "n.news.naver.com",
+      "url": "https://www.khan.co.kr/article/202605090700001"
+    },
+    {
+      "title": "[긴축의 귀환]② 금리 인하 기대 후퇴…기업·가계 덮친 비용 인플레",
+      "date": "Fri, 08 May 2026 14:26:00",
+      "source": "opinionnews.co.kr",
+      "url": "http://www.opinionnews.co.kr/news/articleView.html?idxno=138102"
+    },
+    {
+      "title": "'금리 인상' 꺼낸 한은 부총재도 \"반도체 꺾이면 경제 우려\"",
+      "date": "Fri, 08 May 2026 11:26:00",
+      "source": "n.news.naver.com",
+      "url": "https://www.ytn.co.kr/_ln/0102_202605081126179036"
+    },
+    {
+      "title": "[위클리오늘] 올해 경제성장률 1.9%→ 2.7% 상향 조정···반도체 호황...",
+      "date": "Thu, 07 May 2026 17:58:00",
+      "source": "weeklytoday.com",
+      "url": "http://www.weeklytoday.com/news/articleView.html?idxno=774607"
+    },
+    {
+      "title": "[광화문]인플레가 불러온 통화정책전환 기대",
+      "date": "Thu, 07 May 2026 05:00:00",
+      "source": "n.news.naver.com",
+      "url": "https://www.mt.co.kr/opinion/2026/05/07/2026050414155744165"
+    },
+    {
+      "title": "오락가락 전망치…반도체에 가려진 성장률의 ‘역설’",
+      "date": "Wed, 06 May 2026 05:04:00",
+      "source": "n.news.naver.com",
+      "url": "https://www.seoul.co.kr/news/economy/2026/05/06/20260506031005?wlog_tag3=naver"
+    },
+    {
+      "title": "3%까지 오른 韓 성장 전망…'양극화 심화' 방심은 금물",
+      "date": "Tue, 05 May 2026 09:00:00",
+      "source": "n.news.naver.com",
+      "url": "https://www.newsis.com/view/NISX20260504_0003616587"
+    },
+    {
+      "title": "일본 제치고 '수출 5강' 등극?…\"반도체 빼면 암울\" 한국 경제 명과 암",
+      "date": "Tue, 05 May 2026 06:30:00",
+      "source": "n.news.naver.com",
+      "url": "https://www.mt.co.kr/economy/2026/05/05/2026050408291692237"
+    },
+    {
+      "title": "'반도체 호조' 국내외 기관, 韓성장률 2%대 중후반 상향…1%p 넘게 올리...",
+      "date": "Mon, 04 May 2026 14:38:00",
+      "source": "n.news.naver.com",
+      "url": "https://www.news1.kr/economy/trend/6156384"
+    }
+  ],
+  "kdi": [
+    {
+      "title": "KDI \"경기 회복세 확인\"…중동전쟁발 물가 충격은 부담",
+      "date": "Tue, 12 May 2026 15:06:00",
+      "source": "newspim.com",
+      "url": "https://www.newspim.com/news/view/20260512000875"
+    },
+    {
+      "title": "KDI \"반도체 호황에 경기 회복세…중동전쟁 하방위험 여전\"",
+      "date": "Tue, 12 May 2026 14:52:00",
+      "source": "seouleconews.com",
+      "url": "http://www.seouleconews.com/news/articleView.html?idxno=91187"
+    },
+    {
+      "title": "KDI, 경기판단 개선…“반도체 호조에 회복세, 중동 변수는 부담”",
+      "date": "Tue, 12 May 2026 14:11:00",
+      "source": "n.news.naver.com",
+      "url": "https://biz.heraldcorp.com/article/10736151?ref=naver"
+    },
+    {
+      "title": "KDI \"고유가 길어지면 올해 물가 1.6%p 추가 상승 여지\"",
+      "date": "Tue, 12 May 2026 13:52:00",
+      "source": "science.ytn.co.kr",
+      "url": "https://science.ytn.co.kr/program/view.php?mcd=0082&hcd=&key=202605111603257271"
+    },
+    {
+      "title": "KDI, '기대인플레 상승' 경고…중동전쟁發 '금리경로' 불확실성 확대",
+      "date": "Tue, 12 May 2026 13:44:00",
+      "source": "newsfc.co.kr",
+      "url": "http://www.newsfc.co.kr/news/articleView.html?idxno=78634"
+    },
+    {
+      "title": "KDI \"국제유가 4월 수준 이어지면 소비자물가 올해 1.6%p, 내년 1.8%p 더 ...",
+      "date": "Tue, 12 May 2026 13:14:00",
+      "source": "todaykorea.co.kr",
+      "url": "https://www.todaykorea.co.kr/news/articleView.html?idxno=401582"
+    },
+    {
+      "title": "[고유권 칼럼] 초과세수와 불황대비기금",
+      "date": "Tue, 12 May 2026 13:12:00",
+      "source": "news.einfomax.co.kr",
+      "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4414352"
+    },
+    {
+      "title": "KDI, 韓 경제 '회복세' 진단…반도체·소비 개선에도 중동 리스크 경고",
+      "date": "Tue, 12 May 2026 12:58:00",
+      "source": "youthdaily.co.kr",
+      "url": "https://www.youthdaily.co.kr/news/article.html?no=218973"
+    },
+    {
+      "title": "반도체가 떠받친 경기…고유가에 물가·건설은 흔들",
+      "date": "Tue, 12 May 2026 12:08:00",
+      "source": "n.news.naver.com",
+      "url": "https://www.dt.co.kr/article/12061966?ref=naver"
+    },
+    {
+      "title": "KDI \"반도체·소비 회복에 경기 개선세…중동 전쟁은 하방 요인\"",
+      "date": "Tue, 12 May 2026 12:02:00",
+      "source": "ajunews.com",
+      "url": "https://www.ajunews.com/view/20260512111208212"
+    }
+  ],
+  "bok": [
+    {
+      "title": "팔천피 넘어 1만피 시대 전망하는 증권업계…\"반도체 슈퍼사이클 지속\"",
+      "date": "Tue, 12 May 2026 15:22:00",
+      "source": "ntoday.co.kr",
+      "url": "https://www.ntoday.co.kr/news/articleView.html?idxno=127020"
+    },
+    {
+      "title": "주담대 '연 7%' 진입…'고금리 고착화' 현실화",
+      "date": "Tue, 12 May 2026 15:18:00",
+      "source": "newsway.co.kr",
+      "url": "https://www.newsway.co.kr/news/view?ud=2026051214312048143"
+    },
+    {
+      "title": "[나이스뷰] 한국경제, 1분기 1.7% 성장…주요국 중 최고치",
+      "date": "Tue, 12 May 2026 15:16:00",
+      "source": "niceeconomy.co.kr",
+      "url": "http://www.niceeconomy.co.kr/news/articleView.html?idxno=89821"
+    },
+    {
+      "title": "[MD포커스] 韓 성장률 세계 1위…반도체가 끌어올린 ‘AI 슈퍼사이클’",
+      "date": "Tue, 12 May 2026 14:54:00",
+      "source": "n.news.naver.com",
+      "url": "https://www.mydaily.co.kr/page/view/2026051214341846269"
+    },
+    {
+      "title": "[뉴스현장] 코스피 8천 시대 오나…불장에 '1만피' 전망도",
+      "date": "Tue, 12 May 2026 14:40:00",
+      "source": "n.news.naver.com",
+      "url": "http://www.yonhapnewstv.co.kr/news/MYH20260512143838njA"
+    },
+    {
+      "title": "\"매파로 한 발 더\"···한은 금리인상 시계 빨라지나",
+      "date": "Tue, 12 May 2026 14:37:00",
+      "source": "seoulfn.com",
+      "url": "https://www.seoulfn.com/news/articleView.html?idxno=628544"
+    },
+    {
+      "title": "한국, 1분기 성장률 주요국 1위…전망치도 상향",
+      "date": "Tue, 12 May 2026 13:54:00",
+      "source": "n.news.naver.com",
+      "url": "http://www.yonhapnewstv.co.kr/news/MYH202605121353068VS"
+    },
+    {
+      "title": "지붕 뚫은 AI 반도체… 韓·대만 '산유국급' 초대형 흑자 시대",
+      "date": "Tue, 12 May 2026 13:32:00",
+      "source": "n.news.naver.com",
+      "url": "http://www.fnnews.com/news/202605121230325243"
+    },
+    {
+      "title": "AI 반도체가 바꾼 한국·대만 경제 지형도",
+      "date": "Tue, 12 May 2026 13:08:00",
+      "source": "naeil.com",
+      "url": "https://www.naeil.com/news/read/588383?ref=naver"
+    },
+    {
+      "title": "증권가 \"한은, 연내 기준금리 2회 인상 전망\"",
+      "date": "Tue, 12 May 2026 13:08:00",
+      "source": "naeil.com",
+      "url": "https://www.naeil.com/news/read/588409?ref=naver"
+    }
+  ],
+  "kiep": [
+    {
       "title": "증시도 산업도 ‘K자’…대만 전철 밟나",
       "date": "Mon, 11 May 2026 21:01:00",
       "source": "n.news.naver.com",
       "url": "https://www.mk.co.kr/article/12040949"
     },
     {
-      "title": "반도체 굴기, 경기 회복 ‘단비’ 될까",
-      "date": "Mon, 11 May 2026 18:10:00",
-      "source": "asiatime.co.kr",
-      "url": "https://www.asiatime.co.kr/article/20260511500432"
+      "title": "5월 1주 주요 제조업 전망",
+      "date": "Wed, 06 May 2026 23:05:00",
+      "source": "laborplus.co.kr",
+      "url": "https://www.laborplus.co.kr/news/articleView.html?idxno=40793"
     },
     {
-      "title": "프로야구 흥행에 홈쇼핑·패션·헬스케어까지 홈런 노린다",
-      "date": "Mon, 11 May 2026 17:08:00",
-      "source": "sisaon.co.kr",
-      "url": "https://www.sisaon.co.kr/news/articleView.html?idxno=200976"
+      "title": "반도체 수출이 원유 수입 2배…유가 120달러에도 韓 코스피 신고가 비밀",
+      "date": "Mon, 04 May 2026 04:16:00",
+      "source": "g-enews.com",
+      "url": "https://www.g-enews.com/view.php?ud=202605031345089013fbbec65dfb_1"
     },
     {
-      "title": "2% 후반대로 오르는 성장률 기대치…KDI·한은도 상향하나",
-      "date": "Mon, 11 May 2026 14:08:00",
-      "source": "asiatime.co.kr",
-      "url": "https://www.asiatime.co.kr/article/20260511500242"
+      "title": "[박근종 칼럼] 이란전쟁 충격 딛고 빠르게 반등하는 증시, '투기적 거래...",
+      "date": "Sun, 03 May 2026 20:32:00",
+      "source": "mhns.co.kr",
+      "url": "https://www.mhns.co.kr/news/articleView.html?idxno=746457"
     },
     {
-      "title": "\"환율 10% 오르면 소비자물가 최대 0.5%p 올라\"",
-      "date": "Sun, 10 May 2026 20:13:00",
-      "source": "n.news.naver.com",
-      "url": "http://www.inews24.com/view/1967162"
+      "title": "원·달러 환율 1500원, 뉴노멀인가 | “고환율, 일시적 한파 아니라 생태...",
+      "date": "Wed, 29 Apr 2026 09:38:00",
+      "source": "monthly.chosun.com",
+      "url": "http://monthly.chosun.com/client/news/viw.asp?ctcd=B&nNewsNumb=202605100052"
     },
     {
-      "title": "현대硏 \"환율 10% 오르면 물가 최대 0.5%p↑…취약층 부담확대\"",
-      "date": "Sun, 10 May 2026 19:33:00",
-      "source": "n.news.naver.com",
-      "url": "https://news.tvchosun.com/site/data/html_dir/2026/05/10/2026051090179.html"
+      "title": "KDI “중동전쟁에 경기 하방 확대”…수출 48.3% 늘었지만 불안 커져",
+      "date": "Tue, 07 Apr 2026 13:12:00",
+      "source": "thepowernews.co.kr",
+      "url": "https://www.thepowernews.co.kr/view.php?ud=202604071308024304de3f0aa1be_7"
     },
     {
-      "title": "현대硏 \"환율 10% 뛰면 물가 최대 0.5%p 상승\"",
-      "date": "Sun, 10 May 2026 14:29:00",
-      "source": "n.news.naver.com",
-      "url": "http://www.fnnews.com/news/202605101358186779"
+      "title": "[박근종 칼럼] 반도체 덕에 수출 50% 급증, 규제 혁파와 세제 지원 신산...",
+      "date": "Tue, 24 Mar 2026 06:56:00",
+      "source": "mhns.co.kr",
+      "url": "https://www.mhns.co.kr/news/articleView.html?idxno=742417"
     },
     {
-      "title": "현대硏 \"환율 10% 상승하면 물가 최대 0.5%p 치솟아... 환율충격, 수입물...",
-      "date": "Sun, 10 May 2026 12:20:00",
-      "source": "getnews.co.kr",
-      "url": "https://www.getnews.co.kr/news/articleView.html?idxno=869753"
+      "title": "‘중동 원유 의존도 70%인데…’ 한국 경제에 드리운 스태그플레이션 공...",
+      "date": "Wed, 11 Mar 2026 18:18:00",
+      "source": "ilyo.co.kr",
+      "url": "https://ilyo.co.kr/?ac=article_view&entry_id=509522"
     },
     {
-      "title": "현대硏 \"환율 10% 상승은 소비자물가 0.3~0.5%p↑영향\"",
-      "date": "Sun, 10 May 2026 11:52:00",
-      "source": "efnews.co.kr",
-      "url": "http://www.efnews.co.kr/news/articleView.html?idxno=129652"
+      "title": "인도네시아 경제 동향 및 2026년 전망",
+      "date": "Tue, 10 Mar 2026 15:22:00",
+      "source": "dream.kotra.or.kr",
+      "url": "http://dream.kotra.or.kr/kotranews/cms/news/actionKotraBoardDetail.do?SITE_NO=3&MENU_ID=80&CONTENTS_NO=2&bbsGbn=242&bbsSn=242&pNttSn=239456"
     },
     {
-      "title": "\"환율 10% 오르면 물가 최대 0.5%p↑\"…민간소비 위축 우려",
-      "date": "Sun, 10 May 2026 11:28:00",
-      "source": "n.news.naver.com",
-      "url": "http://mbn.mk.co.kr/pages/news/newsView.php?category=mbn00009&news_seq_no=5192867"
-    }
-  ],
-  "seri": [
-    {
-      "title": "한국이 약소국이어도, 세계인이 ‘헌트릭스’에 열광했을까",
-      "date": "Sat, 09 May 2026 00:05:00",
-      "source": "n.news.naver.com",
-      "url": "https://www.joongang.co.kr/article/25426858"
-    },
-    {
-      "title": "새벽부터 CEO 400여명 모여 '반도체 기정학' 열공",
-      "date": "Tue, 05 May 2026 18:11:00",
-      "source": "n.news.naver.com",
-      "url": "https://www.hankyung.com/article/2026050568501"
-    },
-    {
-      "title": "[유재욱 한국고객만족경영학회 학회장] 학문적 엄밀성과 산업 현장의 현...",
-      "date": "Mon, 27 Apr 2026 12:58:00",
-      "source": "chiefexe.com",
-      "url": "https://www.chiefexe.com/news/ArticleView.asp?listId=NDg4M3x8bGltaXRfZmFsc2Ug"
-    },
-    {
-      "title": "독일 박람회에서 5일 내내 금 가격 예측 적중, 세계 놀래킨 한국 스타트...",
-      "date": "Thu, 29 Jan 2026 04:51:00",
-      "source": "n.news.naver.com",
-      "url": "https://www.chosun.com/economy/startup_story/2026/01/26/NYDCF2LZPZC7NFUH65KQEROA7E/?utm_source=naver&utm_medium=referral&utm_campaign=naver-news"
-    },
-    {
-      "title": "[아주초대석] 박찬수 STEPI 부원장, 민간과 정책 잇는 과학기술 '설계자...",
-      "date": "Tue, 13 Jan 2026 07:28:00",
+      "title": "[유가 100달러 돌파] 중동發 리스크에 바람 잘 날 없는 한국경제",
+      "date": "Mon, 09 Mar 2026 18:30:00",
       "source": "ajunews.com",
-      "url": "https://www.ajunews.com/view/20260112135605033"
-    },
-    {
-      "title": "기고만장 송년회 원더랜드, 윤영돈 코치 초청 '팀핏 시대가 온다! 채용...",
-      "date": "Fri, 05 Dec 2025 13:48:00",
-      "source": "lecturernews.com",
-      "url": "https://www.lecturernews.com/news/articleView.html?idxno=192172"
-    },
-    {
-      "title": "원자재·신제품 수요 예측 해드립니다",
-      "date": "Sun, 16 Nov 2025 17:50:00",
-      "source": "n.news.naver.com",
-      "url": "https://www.mk.co.kr/article/11469395"
-    },
-    {
-      "title": "국내 최고 커리어코치 윤영돈의 『채용 트렌드 2026』 \"이제는 팀핏 시...",
-      "date": "Mon, 13 Oct 2025 12:18:00",
-      "source": "lecturernews.com",
-      "url": "https://www.lecturernews.com/news/articleView.html?idxno=188584"
-    },
-    {
-      "title": "[글로벌 ‘AI+X’ 스타트업 (22)] ‘사이프리스(Cypris)’, AI로 연구개발...",
-      "date": "Thu, 02 Oct 2025 00:32:00",
-      "source": "news2day.co.kr",
-      "url": "https://www.news2day.co.kr/article/20251001500242"
-    },
-    {
-      "title": "[Who Is ?] 정현호 삼성전자 사업지원TF장 부회장",
-      "date": "Tue, 24 Jun 2025 08:14:00",
-      "source": "businesspost.co.kr",
-      "url": "https://www.businesspost.co.kr/BP?command=article_view&num=400287"
+      "url": "https://www.ajunews.com/view/20260309135103774"
     }
   ],
-  "kdi": [
+  "kif": [
     {
-      "title": "중동전쟁 길어지면 소비자물가 최대 1.6%p 더 뛸 수 있어",
-      "date": "Mon, 11 May 2026 16:04:00",
+      "title": "급등과 급락 사이…코스닥 투자 체크 포인트",
+      "date": "Mon, 11 May 2026 06:02:00",
+      "source": "magazine.hankyung.com",
+      "url": "https://magazine.hankyung.com/money/article/202604153763c"
+    },
+    {
+      "title": "캠벨 하버드대 교수 \"주식·채권 동조화 더 강해질 가능성...미국 주식 ...",
+      "date": "Fri, 08 May 2026 00:38:00",
+      "source": "asiatime.co.kr",
+      "url": "https://www.asiatime.co.kr/article/20260508500002"
+    },
+    {
+      "title": "[딜로이트 글로벌 경제 리뷰] 페트로달러 논쟁과 달러화의 미래",
+      "date": "Fri, 01 May 2026 05:00:00",
       "source": "financialpost.co.kr",
-      "url": "https://www.financialpost.co.kr/news/articleView.html?idxno=258586"
+      "url": "https://www.financialpost.co.kr/news/articleView.html?idxno=257536"
     },
     {
-      "title": "올해 3%대 물가 우려..KDI, “에너지 운송 불안이 1~1.6%p 높여”",
-      "date": "Mon, 11 May 2026 13:15:00",
-      "source": "n.news.naver.com",
-      "url": "https://www.joongang.co.kr/article/25427270"
+      "title": "\"돈 빌릴 권리도 인권\"…국회서 불붙은 '금융기본권' 법제화",
+      "date": "Thu, 30 Apr 2026 10:38:00",
+      "source": "ebn.co.kr",
+      "url": "https://www.ebn.co.kr/news/articleView.html?idxno=1707247"
     },
     {
-      "title": "한경협, 전문가 모여 ‘노동시장 개편방향’ 모색한다",
-      "date": "Mon, 11 May 2026 10:24:00",
-      "source": "viva100.com",
-      "url": "https://www.viva100.com/article/20260511500358"
+      "title": "원·달러 환율 1500원, 뉴노멀인가 | “고환율, 일시적 한파 아니라 생태...",
+      "date": "Wed, 29 Apr 2026 09:38:00",
+      "source": "monthly.chosun.com",
+      "url": "http://monthly.chosun.com/client/news/viw.asp?ctcd=B&nNewsNumb=202605100052"
     },
     {
-      "title": "한경협, 19일 '고용 유연성 제고 등 노동시장 개편 방향' 세미나",
-      "date": "Mon, 11 May 2026 09:58:00",
-      "source": "worktoday.co.kr",
-      "url": "http://www.worktoday.co.kr/news/articleView.html?idxno=84470"
+      "title": "[증권 뉴스브리핑] 공모주, 반년 이상 보유 기관에 사전 배정/NH투자증권...",
+      "date": "Fri, 24 Apr 2026 11:24:00",
+      "source": "asiatime.co.kr",
+      "url": "https://www.asiatime.co.kr/article/20260424500058"
     },
     {
-      "title": "고용안전망 확충을 위한 노동시장 개편방향 ..어디로 가나?",
-      "date": "Mon, 11 May 2026 09:53:00",
-      "source": "n.news.naver.com",
-      "url": "http://www.wowtv.co.kr/NewsCenter/News/Read?articleId=A202605110097&t=NN"
+      "title": "[증권 뉴스브리핑] 국민연금, 환헤지 비율 확대 조정/거래소, 'ICGN 코리...",
+      "date": "Tue, 14 Apr 2026 23:40:00",
+      "source": "asiatime.co.kr",
+      "url": "https://www.asiatime.co.kr/article/20260414500397"
     },
     {
-      "title": "한경협, '고용 유연성 제고 등 노동시장 개편 방향' 세미나",
-      "date": "Mon, 11 May 2026 08:33:00",
-      "source": "n.news.naver.com",
-      "url": "https://www.nocutnews.co.kr/news/6514795?utm_source=naver&utm_medium=article&utm_campaign=20260511083252"
-    },
-    {
-      "title": "효성重 제안 화성과천道, 민자적격성 완료… 2028년 착공 목표",
-      "date": "Mon, 11 May 2026 07:24:00",
+      "title": "미·이란 결렬에 \"금리 더 오르는데\"… 은행은 예대마진에 '방긋'",
+      "date": "Mon, 13 Apr 2026 17:50:00",
       "source": "news.mtn.co.kr",
-      "url": "https://news.mtn.co.kr/news-detail/2026051107222324049"
+      "url": "https://news.mtn.co.kr/news-detail/2026041316131741763"
     },
     {
-      "title": "한경협, 다음주 ‘고용유연성 제고 방향’ 세미나 연다",
-      "date": "Mon, 11 May 2026 07:09:00",
+      "title": "에버 타이트닝 시대...건설·내수 부담, 은행은 반사이익",
+      "date": "Sat, 11 Apr 2026 21:01:00",
       "source": "n.news.naver.com",
-      "url": "https://biz.heraldcorp.com/article/10734749?ref=naver"
+      "url": "https://www.mk.co.kr/article/12007155"
     },
     {
-      "title": "'고용 유연성' 제고 위한 노동시장 개편방향 세미나",
-      "date": "Mon, 11 May 2026 06:02:00",
-      "source": "n.news.naver.com",
-      "url": "http://www.edaily.co.kr/news/newspath.asp?newsid=01617046645447936"
-    },
-    {
-      "title": "한경협, '노동시장 개편방향' 세미나 연다…고용유연성·안전망 강화 논...",
-      "date": "Mon, 11 May 2026 06:02:00",
-      "source": "etoday.co.kr",
-      "url": "https://www.etoday.co.kr/news/view/2583040"
+      "title": "[딜로이트 글로벌 경제 리뷰] 사모대출과 합성위험이전 위험: 바퀴벌레...",
+      "date": "Sat, 11 Apr 2026 05:00:00",
+      "source": "financialpost.co.kr",
+      "url": "https://www.financialpost.co.kr/news/articleView.html?idxno=255093"
     }
   ],
-  "bok": [
-    {
-      "title": "금통위 대표 '비둘기파' 신성환의 '매파' 메시지 의미는",
-      "date": "Mon, 11 May 2026 18:30:00",
-      "source": "news.einfomax.co.kr",
-      "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4414177"
-    },
-    {
-      "title": "정부 '반도체 호조'에 확장재정 지속 조짐, 한은 '금리 인상' 기류와 엇...",
-      "date": "Mon, 11 May 2026 15:58:00",
-      "source": "businesspost.co.kr",
-      "url": "https://www.businesspost.co.kr/BP?command=article_view&num=437491"
-    },
-    {
-      "title": "'비둘기파'마저 \"인하 어렵다\"···금리 인상 이제 코앞",
-      "date": "Mon, 11 May 2026 15:00:00",
-      "source": "n.news.naver.com",
-      "url": "http://www.fnnews.com/news/202605111029299624"
-    },
-    {
-      "title": "금융硏 \"올 경제성장률 전망치 2.1%→2.8% 상향 조정\"",
-      "date": "Mon, 11 May 2026 14:00:00",
-      "source": "n.news.naver.com",
-      "url": "https://www.newsis.com/view/NISX20260511_0003624289"
-    },
-    {
-      "title": "반도체 호황에도 고환율…한은 금리 셈법, '인상' 고민?",
-      "date": "Mon, 11 May 2026 07:50:00",
-      "source": "metroseoul.co.kr",
-      "url": "http://www.metroseoul.co.kr/article/20260511500012"
-    },
-    {
-      "title": "[노트북 너머] 금통위 떠나는 '슈퍼 비둘기', 그가 남긴 과제",
-      "date": "Mon, 11 May 2026 06:02:00",
-      "source": "etoday.co.kr",
-      "url": "https://www.etoday.co.kr/news/view/2583001"
-    },
-    {
-      "title": "'순부채 10%'의 환상과 'D2-60%'의 경고: 국제금융계의 기준으로 보아야...",
-      "date": "Sun, 10 May 2026 17:10:00",
-      "source": "ifs.or.kr",
-      "url": "http://www.ifs.or.kr/bbs/board.php?bo_table=News&wr_id=55761"
-    },
-    {
-      "title": "'반도체의 힘', 경상수지 373억 달러…한은, 금리 인상 '무게추'",
-      "date": "Sat, 09 May 2026 07:10:00",
-      "source": "n.news.naver.com",
-      "url": "https://www.dailian.co.kr/news/view/1642119/?sc=Naver"
-    },
-    {
-      "title": "9시만 되면 출렁이는 코스피…VI, 장 초반에만 두 배 급증",
-      "date": "Fri, 08 May 2026 07:11:00",
-      "source": "n.news.naver.com",
-      "url": "https://www.sedaily.com/article/20041542?ref=naver"
-    },
-    {
-      "title": "‘금리 인상’ 깜박이 켠 한은… 1분기 깜짝 성장에 기류 급변",
-      "date": "Thu, 07 May 2026 17:01:00",
-      "source": "n.news.naver.com",
-      "url": "https://economist.co.kr/article/view/ecn202605070033"
-    }
-  ],
-  "updated": "2026.05.11 23:04"
+  "updated": "2026.05.12 15:30"
 }
