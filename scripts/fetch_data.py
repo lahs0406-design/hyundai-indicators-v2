@@ -160,15 +160,23 @@ def main():
         data["rate"] = sorted(series, key=lambda x: x["ym"])[-18:]
         print(f"  → 최신: {data['rate'][-1]}")
 
-    # ── 3. 환율 (USD/KRW) — ECOS 월별
+    # ── 3. 환율 (USD/KRW) — ECOS 월별 (731Y003: 원/달러 매매기준율)
     print("\n[3] 환율")
-    new_rows = ecos_fetch("731Y004", "0000003", "M", m3, today[:6])
-    if new_rows:
-        series = data.get("fx", [])
-        for r in new_rows:
-            series = upsert(series, r["ym"], r["val"])
-        data["fx"] = sorted(series, key=lambda x: x["ym"])[-18:]
-        print(f"  → 최신: {data['fx'][-1]}")
+    new_rows = ecos_fetch("731Y003", "0000001", "M", m3, today[:6])
+    if not new_rows:
+        # fallback: 기존 값 유지 (이상한 값으로 덮어쓰지 않음)
+        print("  → 환율 API 실패, 기존 값 유지")
+    else:
+        # 값 범위 검증 (원/달러는 1000~2000원 범위여야 함)
+        valid = [r for r in new_rows if 1000 <= r["val"] <= 2000]
+        if valid:
+            series = data.get("fx", [])
+            for r in valid:
+                series = upsert(series, r["ym"], r["val"])
+            data["fx"] = sorted(series, key=lambda x: x["ym"])[-18:]
+            print(f"  → 최신: {data['fx'][-1]}")
+        else:
+            print(f"  → 환율 범위 오류 (값: {[r['val'] for r in new_rows]}), 기존 값 유지")
 
     # ── 4. 소비자물가지수 (CPI) — ECOS 월별
     print("\n[4] CPI 소비자물가지수")
