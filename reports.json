@@ -63,6 +63,36 @@
   ],
   "kdi": [
     {
+      "title": "고물가 시름 깊어진다…“지금도 너무 올랐는데, 내년까지 지속”",
+      "date": "Tue, 12 May 2026 21:48:00",
+      "source": "ekn.kr",
+      "url": "https://www.ekn.kr/web/view.php?key=20260512021344030"
+    },
+    {
+      "title": "중동 악재에도 \"경기 회복\"…반도체가 이끌었다",
+      "date": "Tue, 12 May 2026 19:25:00",
+      "source": "n.news.naver.com",
+      "url": "http://www.yonhapnewstv.co.kr/news/MYH202605121924346wa"
+    },
+    {
+      "title": "한국 1분기 성장률 1.7%로 中 제쳐…대만은 11.9% 고성장",
+      "date": "Tue, 12 May 2026 19:20:00",
+      "source": "n.news.naver.com",
+      "url": "https://www.donga.com/news/Economy/article/all/20260512/133906251/1"
+    },
+    {
+      "title": "KDI “반도체 호조에 경기 회복세... 중동발 위험은 여전”",
+      "date": "Tue, 12 May 2026 17:46:00",
+      "source": "viva100.com",
+      "url": "https://www.viva100.com/article/20260512501099"
+    },
+    {
+      "title": "유가, 표면상 잠복…고유가에 또 반등 우려",
+      "date": "Tue, 12 May 2026 17:22:00",
+      "source": "newstomato.com",
+      "url": "http://www.newstomato.com/ReadNews.aspx?no=1300661&inflow=N"
+    },
+    {
       "title": "김용범 靑정책실장이 쏘아올린 공…“역대급 세수, 국민배당금 논의 필...",
       "date": "Tue, 12 May 2026 17:04:00",
       "source": "n.news.naver.com",
@@ -81,7 +111,7 @@
       "url": "https://www.ggilbo.com/news/articleView.html?idxno=1157639"
     },
     {
-      "title": "석유값에 더해 버텨주던 '먹거리 물가'도 흔들, 정부·한은 '복합 물가 ...",
+      "title": "석유 가격 급등에도 버텨주던 '먹거리 물가' 흔들, 정부·한은 '복합 물...",
       "date": "Tue, 12 May 2026 16:42:00",
       "source": "businesspost.co.kr",
       "url": "https://www.businesspost.co.kr/BP?command=article_view&num=437625"
@@ -91,41 +121,47 @@
       "date": "Tue, 12 May 2026 16:22:00",
       "source": "newsprime.co.kr",
       "url": "http://www.newsprime.co.kr/news/article.html?no=733193"
-    },
-    {
-      "title": "KDI \"경기 회복세 확인\"…중동전쟁발 물가 충격은 부담",
-      "date": "Tue, 12 May 2026 15:06:00",
-      "source": "newspim.com",
-      "url": "https://www.newspim.com/news/view/20260512000875"
-    },
-    {
-      "title": "KDI \"반도체 호황에 경기 회복세…중동전쟁 하방위험 여전\"",
-      "date": "Tue, 12 May 2026 14:52:00",
-      "source": "seouleconews.com",
-      "url": "http://www.seouleconews.com/news/articleView.html?idxno=91187"
-    },
-    {
-      "title": "KDI, 경기판단 개선…“반도체 호조에 회복세, 중동 변수는 부담”",
-      "date": "Tue, 12 May 2026 14:11:00",
-      "source": "n.news.naver.com",
-      "url": "https://biz.heraldcorp.com/article/10736151?ref=naver"
-    },
-    {
-      "title": "KDI \"고유가 길어지면 올해 물가 1.6%p 추가 상승 여지\"",
-      "date": "Tue, 12 May 2026 13:52:00",
-      "source": "science.ytn.co.kr",
-      "url": "https://science.ytn.co.kr/program/view.php?mcd=0082&hcd=&key=202605111603257271"
-    },
-    {
-      "title": "KDI, '기대인플레 상승' 경고…중동전쟁發 '금리경로' 불확실성 확대",
-      "date": "Tue, 12 May 2026 13:44:00",
-      "source": "newsfc.co.kr",
-      "url": "http://www.newsfc.co.kr/news/articleView.html?idxno=78634"
     }
   ],
   "bok": [
     {
-      "title": "석유값에 더해 버텨주던 '먹거리 물가'도 흔들, 정부·한은 '복합 물가 ...",
+      "title": "“이 정도일 줄 몰랐다” 주식 205% 뛸 때 고작 ‘0.2%’…채권펀드 투자...",
+      "date": "Tue, 12 May 2026 20:40:00",
+      "source": "n.news.naver.com",
+      "url": "https://biz.heraldcorp.com/article/10736079?ref=naver"
+    },
+    {
+      "title": "[기획] 반도체 심장으로 한국이 뛴다",
+      "date": "Tue, 12 May 2026 19:21:00",
+      "source": "n.news.naver.com",
+      "url": "https://www.dt.co.kr/article/12062100?ref=naver"
+    },
+    {
+      "title": "한국 1분기 성장률 1.7%로 中 제쳐…대만은 11.9% 고성장",
+      "date": "Tue, 12 May 2026 19:20:00",
+      "source": "n.news.naver.com",
+      "url": "https://www.donga.com/news/Economy/article/all/20260512/133906251/1"
+    },
+    {
+      "title": "은행권 장기예금 금리 반등…증시 머니무브 방어막 될까",
+      "date": "Tue, 12 May 2026 18:00:00",
+      "source": "asiatoday.co.kr",
+      "url": "https://www.asiatoday.co.kr/kn/view.php?key=20260512010003033"
+    },
+    {
+      "title": "KB국민은행, 장애 청년 대학생에 노트북 전달로 포용금융 실천 外",
+      "date": "Tue, 12 May 2026 17:46:00",
+      "source": "rcast.co.kr",
+      "url": "https://www.rcast.co.kr/news/articleView.html?idxno=30746"
+    },
+    {
+      "title": "'비둘기파' 실종…금통위 몇번 인상할까",
+      "date": "Tue, 12 May 2026 17:43:00",
+      "source": "n.news.naver.com",
+      "url": "https://www.wowtv.co.kr/NewsCenter/News/Read?articleId=A202605120491&t=NNv"
+    },
+    {
+      "title": "석유 가격 급등에도 버텨주던 '먹거리 물가' 흔들, 정부·한은 '복합 물...",
       "date": "Tue, 12 May 2026 16:42:00",
       "source": "businesspost.co.kr",
       "url": "https://www.businesspost.co.kr/BP?command=article_view&num=437625"
@@ -147,42 +183,6 @@
       "date": "Tue, 12 May 2026 16:00:00",
       "source": "financialpost.co.kr",
       "url": "https://www.financialpost.co.kr/news/articleView.html?idxno=258733"
-    },
-    {
-      "title": "'비둘기' 떠나고 '매파' 온다…금통위 긴축 기류 강해지나",
-      "date": "Tue, 12 May 2026 15:52:00",
-      "source": "n.news.naver.com",
-      "url": "https://www.dailian.co.kr/news/view/1643345/?sc=Naver"
-    },
-    {
-      "title": "팔천피 넘어 1만피 시대 전망하는 증권업계…\"반도체 슈퍼사이클 지속\"",
-      "date": "Tue, 12 May 2026 15:22:00",
-      "source": "ntoday.co.kr",
-      "url": "https://www.ntoday.co.kr/news/articleView.html?idxno=127020"
-    },
-    {
-      "title": "주담대 '연 7%' 진입…'고금리 고착화' 현실화",
-      "date": "Tue, 12 May 2026 15:18:00",
-      "source": "newsway.co.kr",
-      "url": "https://www.newsway.co.kr/news/view?ud=2026051214312048143"
-    },
-    {
-      "title": "[나이스뷰] 한국경제, 1분기 1.7% 성장…주요국 중 최고치",
-      "date": "Tue, 12 May 2026 15:16:00",
-      "source": "niceeconomy.co.kr",
-      "url": "http://www.niceeconomy.co.kr/news/articleView.html?idxno=89821"
-    },
-    {
-      "title": "[MD포커스] 韓 성장률 세계 1위…반도체가 끌어올린 ‘AI 슈퍼사이클’",
-      "date": "Tue, 12 May 2026 14:54:00",
-      "source": "n.news.naver.com",
-      "url": "https://www.mydaily.co.kr/page/view/2026051214341846269"
-    },
-    {
-      "title": "[뉴스현장] 코스피 8천 시대 오나…불장에 '1만피' 전망도",
-      "date": "Tue, 12 May 2026 14:40:00",
-      "source": "n.news.naver.com",
-      "url": "http://www.yonhapnewstv.co.kr/news/MYH20260512143838njA"
     }
   ],
   "kiep": [
@@ -309,5 +309,5 @@
       "url": "https://www.financialpost.co.kr/news/articleView.html?idxno=255093"
     }
   ],
-  "updated": "2026.05.12 17:15"
+  "updated": "2026.05.12 22:47"
 }
