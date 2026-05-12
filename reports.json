@@ -173,16 +173,16 @@
       "url": "http://www.fnnews.com/news/202605121230325243"
     },
     {
-      "title": "AI 반도체가 바꾼 한국·대만 경제 지형도",
-      "date": "Tue, 12 May 2026 13:08:00",
-      "source": "naeil.com",
-      "url": "https://www.naeil.com/news/read/588383?ref=naver"
-    },
-    {
       "title": "증권가 \"한은, 연내 기준금리 2회 인상 전망\"",
       "date": "Tue, 12 May 2026 13:08:00",
       "source": "naeil.com",
       "url": "https://www.naeil.com/news/read/588409?ref=naver"
+    },
+    {
+      "title": "AI 반도체가 바꾼 한국·대만 경제 지형도",
+      "date": "Tue, 12 May 2026 13:08:00",
+      "source": "naeil.com",
+      "url": "https://www.naeil.com/news/read/588383?ref=naver"
     }
   ],
   "kiep": [
@@ -309,5 +309,5 @@
       "url": "https://www.financialpost.co.kr/news/articleView.html?idxno=255093"
     }
   ],
-  "updated": "2026.05.12 15:30"
+  "updated": "2026.05.12 15:47"
 }
