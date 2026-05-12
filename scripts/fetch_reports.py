@@ -15,11 +15,13 @@ CLIENT_ID     = os.environ["NAVER_CLIENT_ID"]
 CLIENT_SECRET = os.environ["NAVER_CLIENT_SECRET"]
 DISPLAY       = 10
 
+# 기관별 검색 키워드
 ORGS = {
-    "hri":  "현대경제연구원 경제 소비 전망",
-    "seri": "삼성경제연구소 경제 산업 트렌드",
-    "kdi":  "KDI 한국개발연구원 경제 정책",
-    "bok":  "한국은행 통화정책 경상수지 금리 물가",
+    "hri":  "현대경제연구원 현대경제연구원 전망 현대경제연구원 지표",
+    "kdi":  "KDI 한국개발연구원 한국개발연구원 전망",
+    "bok":  "한국은행 한국은행 전망 한국은행 경제 한국은행 금리",
+    "kiep": "대외경제 통상 글로벌경제 환율전망 무역수지",
+    "kif":  "금융연구원 금융시장 금리전망 은행 자본시장",
 }
 
 def search_naver(query: str, display: int = DISPLAY) -> list:
