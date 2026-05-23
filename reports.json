@@ -63,6 +63,30 @@
   ],
   "kdi": [
     {
+      "title": "반세기 넘은 한시적 세금 감면…올해는 장수 조세특례 정비될까[Pick코노...",
+      "date": "Sat, 23 May 2026 13:01:00",
+      "source": "n.news.naver.com",
+      "url": "https://www.sedaily.com/article/20047588?ref=naver"
+    },
+    {
+      "title": "조선일보 \"6억 받는 이들의 파업위협, 끝 아냐\" 한겨레·경향 \"초과이익...",
+      "date": "Sat, 23 May 2026 12:21:00",
+      "source": "n.news.naver.com",
+      "url": "https://www.mediatoday.co.kr/news/articleView.html?idxno=334611"
+    },
+    {
+      "title": "“한국 2000억 달러 흑자, 미국이 그냥 둘까”",
+      "date": "Sat, 23 May 2026 00:54:00",
+      "source": "n.news.naver.com",
+      "url": "https://www.joongang.co.kr/article/25430724"
+    },
+    {
+      "title": "정부-정유업계, “손실 보전 논의 본격화…7월 정산”",
+      "date": "Fri, 22 May 2026 22:10:00",
+      "source": "ekn.kr",
+      "url": "https://www.ekn.kr/web/view.php?key=20260522023317258"
+    },
+    {
       "title": "교육교부금 내년엔 100조 …\"지급기준 바꾸고 사용처 늘려야\"",
       "date": "Fri, 22 May 2026 17:52:00",
       "source": "n.news.naver.com",
@@ -97,92 +121,68 @@
       "date": "Fri, 22 May 2026 14:45:00",
       "source": "n.news.naver.com",
       "url": "https://www.dailian.co.kr/news/view/1647582/?sc=Naver"
-    },
-    {
-      "title": "[경제 포커스] IMF 사태 직후 인건비 줄이려 도입된 성과급… 이제는 ‘...",
-      "date": "Fri, 22 May 2026 14:18:00",
-      "source": "n.news.naver.com",
-      "url": "https://biz.chosun.com/policy/policy_sub/2026/05/22/2L3Y2LV5RZCNJDNC4AGH3BWERI/?utm_source=naver&utm_medium=original&utm_campaign=biz"
-    },
-    {
-      "title": "중동사태 우려 넘은 증시 활황…충북 소비심리 껑충",
-      "date": "Fri, 22 May 2026 14:02:00",
-      "source": "n.news.naver.com",
-      "url": "http://www.inews24.com/view/1970805"
-    },
-    {
-      "title": "[고유권 칼럼] '그들만의 잔치'가 끌어올릴 물가",
-      "date": "Fri, 22 May 2026 10:22:00",
-      "source": "news.einfomax.co.kr",
-      "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4416323"
-    },
-    {
-      "title": "반도체 호황의 역설…예상 밖 '원화 약세' 재료 된 성장 견인차",
-      "date": "Fri, 22 May 2026 10:20:00",
-      "source": "news.einfomax.co.kr",
-      "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4416322"
     }
   ],
   "bok": [
     {
-      "title": "환율 1517원대로 급등…엔화 약세·유가 상승에 외국인 매도 압박",
-      "date": "Fri, 22 May 2026 18:46:00",
-      "source": "industrynews.co.kr",
-      "url": "https://www.industrynews.co.kr/news/articleView.html?idxno=81373"
+      "title": "남들 주식할 때 노는 내 돈…연 7% 저축은행 파킹통장 어떨까",
+      "date": "Sat, 23 May 2026 16:02:00",
+      "source": "asiatime.co.kr",
+      "url": "https://www.asiatime.co.kr/article/20260519500376"
     },
     {
-      "title": "\"나라 망한다\"던 1500원이 뉴노멀…'무역 흑자=원화 강세' 공식 깨졌다",
-      "date": "Fri, 22 May 2026 17:57:00",
+      "title": "다음주 한은 금리 결정 촉각… 성장률 전망 조정 주목",
+      "date": "Sat, 23 May 2026 15:42:00",
+      "source": "newscj.com",
+      "url": "https://www.newscj.com/news/articleView.html?idxno=3403318"
+    },
+    {
+      "title": "[5월 셋째 주 세계경제동향 브리핑] 코스피 7,800선 돌파…한미 증시 동...",
+      "date": "Sat, 23 May 2026 12:14:00",
+      "source": "kihoilbo.co.kr",
+      "url": "https://www.kihoilbo.co.kr/news/articleView.html?idxno=3023739"
+    },
+    {
+      "title": "한은 금통위·산업활동 지표 줄줄이…다음 주 경제 분수령",
+      "date": "Sat, 23 May 2026 12:10:00",
+      "source": "cbci.co.kr",
+      "url": "https://www.cbci.co.kr/news/articleView.html?idxno=576744"
+    },
+    {
+      "title": "다음주 한은 금통위 주목…기준금리 동결 전망",
+      "date": "Sat, 23 May 2026 11:24:00",
+      "source": "mbnmoney.mbn.co.kr",
+      "url": "http://mbnmoney.mbn.co.kr/news/view?news_no=MM1005842099"
+    },
+    {
+      "title": "한은, 28일 기준금리 결정…성장률 상향 주목",
+      "date": "Sat, 23 May 2026 10:12:00",
       "source": "n.news.naver.com",
-      "url": "https://www.hankyung.com/article/2026052248641"
+      "url": "https://news.tvchosun.com/site/data/html_dir/2026/05/23/2026052390025.html"
     },
     {
-      "title": "환율 1500원이면 나라 망한다더니…한국인들 차분한 이유",
-      "date": "Fri, 22 May 2026 17:57:00",
+      "title": "채권자경단이 돌아왔다…내 지갑이 위험하다",
+      "date": "Sat, 23 May 2026 10:00:00",
       "source": "n.news.naver.com",
-      "url": "https://www.hankyung.com/article/2026052248491"
+      "url": "https://www.khan.co.kr/article/202605231000031"
     },
     {
-      "title": "\"예금서 투자로\"…연합인포맥스 창사 26주년 컨퍼런스 성료(종합)",
-      "date": "Fri, 22 May 2026 16:52:00",
-      "source": "news.einfomax.co.kr",
-      "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4416406"
+      "title": "1520원 턱밑까지 치솟은 환율…외환당국 \"필요 시 단호히 조치\"",
+      "date": "Sat, 23 May 2026 09:58:00",
+      "source": "ftoday.co.kr",
+      "url": "http://www.ftoday.co.kr/news/articleView.html?idxno=359405"
     },
     {
-      "title": "소비자심리지수 미국 이란 전쟁 여파로 하락하다 석 달 만에 상승 : 반도...",
-      "date": "Fri, 22 May 2026 16:46:00",
-      "source": "huffingtonpost.kr",
-      "url": "https://www.huffingtonpost.kr/article/257406"
+      "title": "신현송號 첫 금통위…동결 전망 속 ‘매파 메시지’ 주목",
+      "date": "Sat, 23 May 2026 09:20:00",
+      "source": "betanews.net",
+      "url": "https://www.betanews.net/article/view/beta202605230001"
     },
     {
-      "title": "[미리보는 금통위] 힘받는 7월 금리 인상론···관전 포인트는 '신호 수...",
-      "date": "Fri, 22 May 2026 16:23:00",
+      "title": "[데스크 칼럼] IT 버블의 기시감(旣視感)",
+      "date": "Sat, 23 May 2026 09:00:00",
       "source": "seoulfn.com",
-      "url": "https://www.seoulfn.com/news/articleView.html?idxno=629488"
-    },
-    {
-      "title": "기업들, 동반성장 위해 협력사·이종기업과 협력 강화",
-      "date": "Fri, 22 May 2026 16:04:00",
-      "source": "wsobi.com",
-      "url": "http://www.wsobi.com/news/articleView.html?idxno=312394"
-    },
-    {
-      "title": "[금융정책] 5월 28일 금통위 D-6…인상 신호 나오나, 동결로 버티나",
-      "date": "Fri, 22 May 2026 16:04:00",
-      "source": "todayeconomic.com",
-      "url": "https://www.todayeconomic.com/news/article.html?no=30707"
-    },
-    {
-      "title": "ING \"5월 금통위서 금리 동결 전망⋯최소 한 명 인상 소수의견 낼 것\"",
-      "date": "Fri, 22 May 2026 15:50:00",
-      "source": "etoday.co.kr",
-      "url": "https://www.etoday.co.kr/news/view/2587236"
-    },
-    {
-      "title": "5월 소비자심리지수 106.1",
-      "date": "Fri, 22 May 2026 15:46:00",
-      "source": "datasom.co.kr",
-      "url": "https://www.datasom.co.kr/news/articleView.html?idxno=208697"
+      "url": "https://www.seoulfn.com/news/articleView.html?idxno=629414"
     }
   ],
   "kiep": [
@@ -309,5 +309,5 @@
       "url": "https://www.financialpost.co.kr/news/articleView.html?idxno=255093"
     }
   ],
-  "updated": "2026.05.22 19:35"
+  "updated": "2026.05.23 16:56"
 }
