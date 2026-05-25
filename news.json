@@ -1,77 +1,98 @@
 {
   "dept": [
     {
+      "title": "1년 넘게 공석 창원시장…새 주인은 누구?",
+      "date": "Mon, 25 May 2026 22:18:00",
+      "source": "n.news.naver.com",
+      "url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8569546&ref=A",
+      "sub": ""
+    },
+    {
+      "title": "“제니가 쓴 K안경 어디거야?”…일본·중국·미국 곳곳에 매장낸다",
+      "date": "Mon, 25 May 2026 22:12:00",
+      "source": "n.news.naver.com",
+      "url": "https://www.mk.co.kr/article/12057150",
+      "sub": ""
+    },
+    {
+      "title": "빌라봉, 성수동 매장 오픈",
+      "date": "Mon, 25 May 2026 22:04:00",
+      "source": "apparelnews.co.kr",
+      "url": "http://www.apparelnews.co.kr/news/news_view/?idx=225416",
+      "sub": ""
+    },
+    {
+      "title": "[이재경] 패션업계의 '갑질', 악마는 아직도 프라다를 입는다",
+      "date": "Mon, 25 May 2026 22:02:00",
+      "source": "apparelnews.co.kr",
+      "url": "http://www.apparelnews.co.kr/news/news_view/?idx=225413",
+      "sub": ""
+    },
+    {
+      "title": "[핵심 상권 리포트] 홍대 / 성수 / 이태원",
+      "date": "Mon, 25 May 2026 22:02:00",
+      "source": "apparelnews.co.kr",
+      "url": "http://www.apparelnews.co.kr/news/news_view/?idx=225415",
+      "sub": ""
+    },
+    {
+      "title": "[건설 HOT 뉴스] \"오는 26일 1조3600억원 '성수4지구' 재개발 입찰 마감…...",
+      "date": "Mon, 25 May 2026 22:02:00",
+      "source": "bizwnews.com",
+      "url": "http://www.bizwnews.com/news/articleView.html?idxno=137332",
+      "sub": ""
+    },
+    {
+      "title": "관망하던 패션 업계, 잇달아 '쿠팡行'",
+      "date": "Mon, 25 May 2026 22:02:00",
+      "source": "apparelnews.co.kr",
+      "url": "http://www.apparelnews.co.kr/news/news_view/?idx=225410",
+      "sub": ""
+    },
+    {
+      "title": "K패션 B2B 플랫폼 '샤카라카', 올해 두 배 성장 목표",
+      "date": "Mon, 25 May 2026 22:02:00",
+      "source": "apparelnews.co.kr",
+      "url": "http://www.apparelnews.co.kr/news/news_view/?idx=225412",
+      "sub": ""
+    },
+    {
+      "title": "[김종석의 오프닝]선거전 번진 ‘스타벅스 논란’…송미령의 제안",
+      "date": "Mon, 25 May 2026 22:00:00",
+      "source": "n.news.naver.com",
+      "url": "https://www.ichannela.com/news/main/news_detailPage.do?publishId=000000530925",
+      "sub": ""
+    },
+    {
       "title": "[국힘]김경희 후보, 관고시장 상권 활성화 공약",
       "date": "Mon, 25 May 2026 21:50:00",
       "source": "sentv.co.kr",
       "url": "https://www.sentv.co.kr/article/view/sentv202605250033",
       "sub": ""
-    },
-    {
-      "title": "장동혁 “이번 ‘죽창가’는 스타벅스”…민주 “국힘, 찬반 나눠 선동...",
-      "date": "Mon, 25 May 2026 21:48:00",
-      "source": "n.news.naver.com",
-      "url": "https://www.hani.co.kr/arti/politics/politics_general/1260330.html",
-      "sub": ""
-    },
-    {
-      "title": "송언석 “李대통령, 스벅 저격 등 SNS정치 폭주…선거개입 중단해야”",
-      "date": "Mon, 25 May 2026 21:44:00",
-      "source": "n.news.naver.com",
-      "url": "https://www.munhwa.com/article/11591119?ref=naver",
-      "sub": ""
-    },
-    {
-      "title": "좋은삼정병원, 찾아가는 주민건강강좌 진행",
-      "date": "Mon, 25 May 2026 21:42:00",
-      "source": "ulsanpress.net",
-      "url": "https://www.ulsanpress.net/news/articleView.html?idxno=575799",
-      "sub": ""
-    },
-    {
-      "title": "野 \"인민 재판\" 與 \"국민분노 대변\"",
-      "date": "Mon, 25 May 2026 21:42:00",
-      "source": "ulsanpress.net",
-      "url": "https://www.ulsanpress.net/news/articleView.html?idxno=575812",
-      "sub": ""
-    },
-    {
-      "title": "[르포] 라떼와 함께 즐기는 '글로벌 1위 팩트'…애경산업 무빙 팝업 현장...",
-      "date": "Mon, 25 May 2026 21:42:00",
-      "source": "pointdaily.co.kr",
-      "url": "https://www.pointdaily.co.kr/news/articleView.html?idxno=305948",
-      "sub": ""
-    },
-    {
-      "title": "[마케팅 톡톡]성공하는 자사몰 특징-채널서 팔고 자사몰서 남겨라",
-      "date": "Mon, 25 May 2026 21:24:00",
-      "source": "idaegu.co.kr",
-      "url": "https://www.idaegu.co.kr/news/articleView.html?idxno=549134",
-      "sub": ""
-    },
-    {
-      "title": "[유통 이모저모] 롯데百 '롯데월드몰 '메이플 어택!' 팝업 성황', 현대百...",
-      "date": "Mon, 25 May 2026 21:18:00",
-      "source": "bizwnews.com",
-      "url": "http://www.bizwnews.com/news/articleView.html?idxno=137336",
-      "sub": ""
-    },
-    {
-      "title": "롯데백화점 대구점, ‘슈콤마보니’ 신상 여름 샌들 출시",
-      "date": "Mon, 25 May 2026 21:16:00",
-      "source": "n.news.naver.com",
-      "url": "https://biz.heraldcorp.com/article/10755568?ref=naver",
-      "sub": ""
-    },
-    {
-      "title": "\"인문학 상상력·과학기술 교육으로 미래 인재 키울 것\"",
-      "date": "Mon, 25 May 2026 21:16:00",
-      "source": "gnmaeil.com",
-      "url": "http://www.gnmaeil.com/news/articleView.html?idxno=587259",
-      "sub": ""
     }
   ],
   "trend": [
+    {
+      "title": "테니스 메이저 대회와 남반구 관광의 결합…'2027 호주오픈' 하이엔드 투...",
+      "date": "Mon, 25 May 2026 22:40:00",
+      "source": "ttlnews.com",
+      "url": "http://www.ttlnews.com/news/articleView.html?idxno=3110946",
+      "sub": ""
+    },
+    {
+      "title": "천호성 교육감 후보 딸 SNS 영상, 조회수 15만회 돌파",
+      "date": "Mon, 25 May 2026 22:36:00",
+      "source": "etoday.co.kr",
+      "url": "https://www.etoday.co.kr/news/view/2587529",
+      "sub": ""
+    },
+    {
+      "title": "대한노인회 충남 홍성군지회 부설 3개 노인대학 현장체험학습 다녀와",
+      "date": "Mon, 25 May 2026 22:06:00",
+      "source": "100ssd.co.kr",
+      "url": "https://www.100ssd.co.kr/news/articleView.html?idxno=209569",
+      "sub": ""
+    },
     {
       "title": "프라하가 천만 영화라면 이곳은 독립영화… 체코 비소치나주 여행",
       "date": "Mon, 25 May 2026 21:49:00",
@@ -80,7 +101,7 @@
       "sub": ""
     },
     {
-      "title": "메디시티 대구의 새 성장공식 '오래 머무는 의료관광'",
+      "title": "[글로벌 의료도시 경쟁력 강화] 메디시티 대구의 새 성장공식 '오래 머...",
       "date": "Mon, 25 May 2026 21:44:00",
       "source": "idaegu.co.kr",
       "url": "https://www.idaegu.co.kr/news/articleView.html?idxno=549202",
@@ -120,27 +141,6 @@
       "source": "vegannews.co.kr",
       "url": "https://www.vegannews.co.kr/news/article.html?no=382882",
       "sub": ""
-    },
-    {
-      "title": "해운대 걷고 금정산 오르고…외국인, 부산 자연에 빠졌다",
-      "date": "Mon, 25 May 2026 20:22:00",
-      "source": "n.news.naver.com",
-      "url": "http://www.kookje.co.kr/news2011/asp/newsbody.asp?code=0200&key=20260526.22003006382",
-      "sub": ""
-    },
-    {
-      "title": "여수세계섬박람회 성공 개최 준비 ‘착착’",
-      "date": "Mon, 25 May 2026 20:20:00",
-      "source": "kjdaily.com",
-      "url": "http://www.kjdaily.com/article.php?aid=1779706725679269002",
-      "sub": ""
-    },
-    {
-      "title": "대구 수성구, '2026년 경영혁신 외식 서비스 지원사업' 추진",
-      "date": "Mon, 25 May 2026 19:30:00",
-      "source": "hidomin.com",
-      "url": "https://www.hidomin.com/news/articleView.html?idxno=706747",
-      "sub": ""
     }
   ],
   "rate": [
@@ -149,6 +149,13 @@
       "date": "Sun, 24 May 2026 14:58:00",
       "source": "ibabynews.com",
       "url": "https://www.ibabynews.com/news/articleView.html?idxno=151597",
+      "sub": ""
+    },
+    {
+      "title": "중국 관광객 만족도, 아시아 도시 중 부산 1위",
+      "date": "Mon, 25 May 2026 22:31:00",
+      "source": "n.news.naver.com",
+      "url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8569561&ref=A",
       "sub": ""
     },
     {
@@ -180,7 +187,7 @@
       "sub": ""
     },
     {
-      "title": "\"수유실에 웬 라면?\" 알고 보니…中서 퍼진 인천공항 꿀팁",
+      "title": "\"컵라면은 수유실에서\"…중국서 퍼진 인천공항 '황당' 꿀팁",
       "date": "Mon, 25 May 2026 21:21:00",
       "source": "n.news.naver.com",
       "url": "http://www.wowtv.co.kr/NewsCenter/News/Read?articleId=A202605250204&t=NN",
@@ -206,13 +213,6 @@
       "source": "n.news.naver.com",
       "url": "https://news.jtbc.co.kr/article/NB12299765?influxDiv=NAVER",
       "sub": ""
-    },
-    {
-      "title": "해운대 걷고 금정산 오르고…외국인, 부산 자연에 빠졌다",
-      "date": "Mon, 25 May 2026 20:22:00",
-      "source": "n.news.naver.com",
-      "url": "http://www.kookje.co.kr/news2011/asp/newsbody.asp?code=0200&key=20260526.22003006382",
-      "sub": ""
     }
   ],
   "asset": [
@@ -224,24 +224,52 @@
       "sub": ""
     },
     {
-      "title": "[국힘]양향자 후보, “반도체·GTX로 여주 대전환”",
-      "date": "Mon, 25 May 2026 21:50:00",
-      "source": "sentv.co.kr",
-      "url": "https://www.sentv.co.kr/article/view/sentv202605250032",
+      "title": "[고양 톺아보기] 특례시 걸맞은 자주재원 확충 ‘가속화’",
+      "date": "Mon, 25 May 2026 23:04:00",
+      "source": "ekn.kr",
+      "url": "https://www.ekn.kr/web/view.php?key=20260525027297731",
       "sub": ""
     },
     {
-      "title": "[더민주]민주당 지도부 총출동… 현근택 후보 지원 유세 총력전",
-      "date": "Mon, 25 May 2026 21:50:00",
-      "source": "sentv.co.kr",
-      "url": "https://www.sentv.co.kr/article/view/sentv202605250034",
+      "title": "[선거 현장을 가다] 대구 수성구청장 2파전, “AI 신도시” vs “사람이...",
+      "date": "Mon, 25 May 2026 22:11:00",
+      "source": "n.news.naver.com",
+      "url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8569540&ref=A",
       "sub": ""
     },
     {
-      "title": "중동 사태에도 내달 제조업 경기전망 상승",
-      "date": "Mon, 25 May 2026 21:44:00",
-      "source": "idaegu.co.kr",
-      "url": "https://www.idaegu.co.kr/news/articleView.html?idxno=549209",
+      "title": "[갈라진 노동시장] 억대 성과급 요구 vs 최저임금 줄다리기… 한 지붕 두...",
+      "date": "Mon, 25 May 2026 22:10:00",
+      "source": "ajunews.com",
+      "url": "https://www.ajunews.com/view/20260525113937861",
+      "sub": ""
+    },
+    {
+      "title": "[갈라진 노동시장] \"몇백원 인상도 절실\" vs \"버틸 여력 없다\"",
+      "date": "Mon, 25 May 2026 22:10:00",
+      "source": "ajunews.com",
+      "url": "https://www.ajunews.com/view/20260525153004969",
+      "sub": ""
+    },
+    {
+      "title": "수원시, 수원 경제자유구역 구축 '첨단과학연구 중심도시' 속도낸다",
+      "date": "Mon, 25 May 2026 22:04:00",
+      "source": "m-i.kr",
+      "url": "https://www.m-i.kr/news/articleView.html?idxno=1375785",
+      "sub": ""
+    },
+    {
+      "title": "양향자 경기지사 후보, '워킹맘 걱정 없는 경기도' 보육 공약 발표",
+      "date": "Mon, 25 May 2026 22:04:00",
+      "source": "m-i.kr",
+      "url": "https://www.m-i.kr/news/articleView.html?idxno=1375819",
+      "sub": ""
+    },
+    {
+      "title": "추미애 경기지사 후보, \"31개 시·군 승리로 경기도 과제 해결\"",
+      "date": "Mon, 25 May 2026 22:04:00",
+      "source": "m-i.kr",
+      "url": "https://www.m-i.kr/news/articleView.html?idxno=1375816",
       "sub": ""
     },
     {
@@ -252,40 +280,12 @@
       "sub": ""
     },
     {
-      "title": "[한눈에후보] 경기 이천. 양평. 여주. 가평",
-      "date": "Mon, 25 May 2026 21:34:00",
-      "source": "n.news.naver.com",
-      "url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8569504&ref=A",
-      "sub": ""
-    },
-    {
-      "title": "지난달 충남 수출 161억 달러…경기 이어 전국 2위",
-      "date": "Mon, 25 May 2026 21:34:00",
-      "source": "n.news.naver.com",
-      "url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8569503&ref=A",
-      "sub": ""
-    },
-    {
       "title": "[미리보는 이데일리 신문]'사회적 감수성' 놓친 마케팅…기업 생존 위협...",
       "date": "Mon, 25 May 2026 20:52:00",
       "source": "n.news.naver.com",
       "url": "https://www.edaily.co.kr/news/newspath.asp?newsid=02082806645452528",
       "sub": ""
-    },
-    {
-      "title": "[월드 e 브리핑] 일본, 29조 원 추경 카드…엔저·금리 불안 자극 우려",
-      "date": "Mon, 25 May 2026 20:44:00",
-      "source": "obsnews.co.kr",
-      "url": "https://www.obsnews.co.kr/news/articleView.html?idxno=1525545",
-      "sub": ""
-    },
-    {
-      "title": "5월 소비자심리지수 106.1…전월 대비 6.9p 큰 폭 상승",
-      "date": "Mon, 25 May 2026 20:42:00",
-      "source": "phmbc.co.kr",
-      "url": "http://www.phmbc.co.kr/www/news/desk_news?idx=202763&mode=view",
-      "sub": ""
     }
   ],
-  "updated": "2026.05.25 22:00"
+  "updated": "2026.05.25 23:06"
 }
