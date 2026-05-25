@@ -117,13 +117,19 @@
       "url": "https://www.mk.co.kr/article/12056772"
     },
     {
-      "title": "[재경부 성과목표] 세수 오차율 5% 이내로…추계에 한은·산업계 참여",
+      "title": "[재경부 성과목표] 성장률 '30-50 클럽'보다 높게…물가 전망치 대비 '±...",
       "date": "Mon, 25 May 2026 08:08:00",
       "source": "news.einfomax.co.kr",
-      "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4416527"
+      "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4416526"
     }
   ],
   "bok": [
+    {
+      "title": "울산 소비자심리 한달만에 '낙관' 전환",
+      "date": "Mon, 25 May 2026 21:42:00",
+      "source": "ulsanpress.net",
+      "url": "https://www.ulsanpress.net/news/articleView.html?idxno=575787"
+    },
     {
       "title": "건설투자 역성장, 끝이 안 보인다",
       "date": "Mon, 25 May 2026 20:36:00",
@@ -177,12 +183,6 @@
       "date": "Mon, 25 May 2026 17:36:00",
       "source": "n.news.naver.com",
       "url": "https://www.sedaily.com/article/20047912?ref=naver"
-    },
-    {
-      "title": "\"한은, 연말까지 기준금리 두차례 인상…내년엔 年 3.25%\"",
-      "date": "Mon, 25 May 2026 17:24:00",
-      "source": "n.news.naver.com",
-      "url": "https://www.hankyung.com/article/2026052573371"
     }
   ],
   "kiep": [
@@ -309,5 +309,5 @@
       "url": "https://www.financialpost.co.kr/news/articleView.html?idxno=255093"
     }
   ],
-  "updated": "2026.05.25 21:13"
+  "updated": "2026.05.25 22:00"
 }
