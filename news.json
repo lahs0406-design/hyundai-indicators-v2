@@ -1,6 +1,13 @@
 {
   "dept": [
     {
+      "title": "메타가 연 국내 스마트글래스 시장, 삼성·구글도 출격 임박",
+      "date": "Mon, 25 May 2026 23:08:00",
+      "source": "ktnews.com",
+      "url": "http://www.ktnews.com/news/articleView.html?idxno=146198",
+      "sub": ""
+    },
+    {
       "title": "1년 넘게 공석 창원시장…새 주인은 누구?",
       "date": "Mon, 25 May 2026 22:18:00",
       "source": "n.news.naver.com",
@@ -61,13 +68,6 @@
       "date": "Mon, 25 May 2026 22:00:00",
       "source": "n.news.naver.com",
       "url": "https://www.ichannela.com/news/main/news_detailPage.do?publishId=000000530925",
-      "sub": ""
-    },
-    {
-      "title": "[국힘]김경희 후보, 관고시장 상권 활성화 공약",
-      "date": "Mon, 25 May 2026 21:50:00",
-      "source": "sentv.co.kr",
-      "url": "https://www.sentv.co.kr/article/view/sentv202605250033",
       "sub": ""
     }
   ],
@@ -252,10 +252,10 @@
       "sub": ""
     },
     {
-      "title": "수원시, 수원 경제자유구역 구축 '첨단과학연구 중심도시' 속도낸다",
+      "title": "추미애 경기지사 후보, \"31개 시·군 승리로 경기도 과제 해결\"",
       "date": "Mon, 25 May 2026 22:04:00",
       "source": "m-i.kr",
-      "url": "https://www.m-i.kr/news/articleView.html?idxno=1375785",
+      "url": "https://www.m-i.kr/news/articleView.html?idxno=1375816",
       "sub": ""
     },
     {
@@ -266,10 +266,10 @@
       "sub": ""
     },
     {
-      "title": "추미애 경기지사 후보, \"31개 시·군 승리로 경기도 과제 해결\"",
+      "title": "수원시, 수원 경제자유구역 구축 '첨단과학연구 중심도시' 속도낸다",
       "date": "Mon, 25 May 2026 22:04:00",
       "source": "m-i.kr",
-      "url": "https://www.m-i.kr/news/articleView.html?idxno=1375816",
+      "url": "https://www.m-i.kr/news/articleView.html?idxno=1375785",
       "sub": ""
     },
     {
@@ -287,5 +287,5 @@
       "sub": ""
     }
   ],
-  "updated": "2026.05.25 23:06"
+  "updated": "2026.05.25 23:14"
 }
