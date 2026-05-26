@@ -27,6 +27,7 @@ jobs:
           KOSIS_PROXY: ${{ secrets.KOSIS_PROXY }}
           KMA_KEY:     ${{ secrets.KMA_KEY }}
           HOLIDAY_KEY: ${{ secrets.HOLIDAY_KEY }}
+          TOURISM_KEY: ${{ secrets.TOURISM_KEY }}
         run: python scripts/fetch_data.py
 
       - name: Fetch news
