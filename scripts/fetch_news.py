@@ -12,6 +12,7 @@ import os, json, urllib.request, urllib.parse, datetime
 CLIENT_ID     = os.environ["NAVER_CLIENT_ID"]
 CLIENT_SECRET = os.environ["NAVER_CLIENT_SECRET"]
 DISPLAY       = 10  # 키워드당 기사 수 (필터링 후 줄어드므로 넉넉히)
+MAX_PER_KW    = 3   # 키워드당 최대 기사 수
 
 # 제목 필터 예외 키워드 (본문에만 있어도 허용)
 TITLE_FILTER_EXCEPTIONS = {
@@ -95,14 +96,18 @@ def main():
         seen_urls = set()
         articles = []
         for kw in keywords:
+            kw_count = 0  # 키워드당 기사 수 카운트
             items = search_naver(kw)
             for item in items:
+                if kw_count >= MAX_PER_KW:
+                    break
                 if item["url"] in seen_urls:
                     continue
                 if not title_matches(item["title"], kw):
                     continue
                 seen_urls.add(item["url"])
                 articles.append(item)
+                kw_count += 1
 
         # 날짜 최신순 정렬
         articles.sort(key=lambda x: x["date"], reverse=True)
