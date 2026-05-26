@@ -9,15 +9,17 @@ ECOS(한국은행) + KOSIS(통계청) + 기상청 API → data.json 생성
   KOSIS_KEY   KOSIS API 인증키 (Base64)
   KOSIS_PROXY Cloudflare Worker 프록시 URL (KOSIS CORS 우회용)
               없으면 직접 호출 시도
-  KMA_KEY     기상청 공공데이터포털 API 인증키 (없으면 날씨 수집 skip)
+  KMA_KEY     기상청 API Hub 인증키 (없으면 날씨 수집 skip)
+  HOLIDAY_KEY 공공데이터포털 인증키 (한국천문연구원 특일정보, 없으면 공휴일 수집 skip)
 """
 
 import os, json, urllib.request, urllib.parse, datetime, time
 
 ECOS_KEY    = os.environ["ECOS_KEY"]
 KOSIS_KEY   = os.environ["KOSIS_KEY"]
-KOSIS_PROXY = os.environ.get("KOSIS_PROXY", "")  # 없어도 동작
-KMA_KEY     = os.environ.get("KMA_KEY", "")       # 없으면 날씨 수집 skip
+KOSIS_PROXY = os.environ.get("KOSIS_PROXY", "")    # 없어도 동작
+KMA_KEY     = os.environ.get("KMA_KEY", "")         # 없으면 날씨 수집 skip
+HOLIDAY_KEY = os.environ.get("HOLIDAY_KEY", "")     # 없으면 공휴일 수집 skip
 
 # 기상청 ASOS 지점번호
 KMA_STATIONS = {
@@ -417,9 +419,69 @@ def main():
         data["outbound"] = sorted(series, key=lambda x: x["ym"])[-18:]
         print(f"  → 최신: {data['outbound'][-1]}")
 
-    # ── 17. 날씨 (기상청 ASOS 일별) ───────────────────────
+    # ── 17. 공휴일 (한국천문연구원 특일정보) ──────────────
+    if HOLIDAY_KEY:
+        print("\n[17] 공휴일 수집 (한국천문연구원 특일정보)")
+        holidays = data.get("holidays", {})
+
+        # 수집 연도: 금년 + 전년 (달력 비교에 2년치 필요)
+        this_year = int(today[:4])
+        target_years = [this_year - 1, this_year]
+
+        for year in target_years:
+            year_key = str(year)
+            # 이미 수집된 전년도는 재수집 생략 (확정값)
+            if year_key in holidays and year < this_year:
+                print(f"  {year}년 캐시 사용 ({len(holidays[year_key])}건)")
+                continue
+
+            year_hols = {}
+            for month in range(1, 13):
+                params = urllib.parse.urlencode({
+                    "serviceKey": HOLIDAY_KEY,
+                    "solYear":    year,
+                    "solMonth":   f"{month:02d}",
+                    "numOfRows":  "20",
+                    "_type":      "json",
+                })
+                url = (
+                    "http://apis.data.go.kr/B090041/openapi/service"
+                    f"/SpcdeInfoService/getRestDeInfo?{params}"
+                )
+                try:
+                    with urllib.request.urlopen(url, timeout=10) as res:
+                        body = json.loads(res.read().decode("utf-8"))
+                        items = (
+                            body.get("response", {})
+                                .get("body", {})
+                                .get("items", {})
+                        )
+                        # items가 없거나 빈 경우 처리
+                        if not items:
+                            continue
+                        rows = items.get("item", [])
+                        if isinstance(rows, dict):   # 1건이면 dict로 옴
+                            rows = [rows]
+                        for r in rows:
+                            date_str = str(r.get("locdate", ""))  # 'YYYYMMDD'
+                            name     = r.get("dateName", "")
+                            is_hol   = r.get("isHoliday", "N")
+                            if date_str and is_hol == "Y":
+                                year_hols[date_str] = name
+                except Exception as e:
+                    print(f"  [공휴일 오류] {year}-{month:02d}: {e}")
+                time.sleep(0.1)
+
+            holidays[year_key] = year_hols
+            print(f"  {year}년: {len(year_hols)}건 수집 — {list(year_hols.values())[:5]}...")
+
+        data["holidays"] = holidays
+    else:
+        print("\n[17] 공휴일 수집 skip (HOLIDAY_KEY 없음)")
+
+    # ── 18. 날씨 (기상청 ASOS 일별) ───────────────────────
     if KMA_KEY:
-        print("\n[17] 날씨 (기상청 ASOS)")
+        print("\n[18] 날씨 (기상청 ASOS)")
         weather = data.get("weather", {})
 
         # ── 수집 대상 ym 목록 생성 ──────────────────────────
@@ -467,7 +529,7 @@ def main():
 
         data["weather"] = weather
     else:
-        print("\n[17] 날씨 수집 skip (KMA_KEY 없음)")
+        print("\n[18] 날씨 수집 skip (KMA_KEY 없음)")
 
     # ── 저장 ──────────────────────────────────────────
     with open("data.json", "w", encoding="utf-8") as f:
