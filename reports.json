@@ -1,6 +1,12 @@
 {
   "hri": [
     {
+      "title": "李 \"명목성장률 10%\"…국민소득 4만달러 시대 열리나 [김익환의 부처 핸...",
+      "date": "Tue, 26 May 2026 14:35:00",
+      "source": "n.news.naver.com",
+      "url": "https://www.hankyung.com/article/202605269071i"
+    },
+    {
       "title": "'경제대도약 골든타임' 잡는다…정부, 하반기 성장전략 수립 착수",
       "date": "Tue, 26 May 2026 14:04:00",
       "source": "news.einfomax.co.kr",
@@ -53,15 +59,15 @@
       "date": "Thu, 21 May 2026 14:02:00",
       "source": "cbci.co.kr",
       "url": "https://www.cbci.co.kr/news/articleView.html?idxno=576201"
-    },
-    {
-      "title": "삼성전자 파국 피한 韓경제…고물가·금리·환율 변수는 남아",
-      "date": "Thu, 21 May 2026 09:56:00",
-      "source": "n.news.naver.com",
-      "url": "https://www.yna.co.kr/view/AKR20260520071900002?input=1195m"
     }
   ],
   "kdi": [
+    {
+      "title": "[기획]반도체 독주 속 수출 디커플링 심화",
+      "date": "Tue, 26 May 2026 14:26:00",
+      "source": "m-i.kr",
+      "url": "https://www.m-i.kr/news/articleView.html?idxno=1376097"
+    },
     {
       "title": "[이제 1만 간다]① 팔천피의 힘…반도체·정책이 밀어 올린 코스피, 짙어...",
       "date": "Tue, 26 May 2026 10:46:00",
@@ -115,15 +121,21 @@
       "date": "Mon, 25 May 2026 12:20:00",
       "source": "dnews.co.kr",
       "url": "https://www.dnews.co.kr/uhtml/view.jsp?idxno=202605250756416070834"
-    },
-    {
-      "title": "물동량만으론 1등 못 간다… 부산항 다음 경쟁력은 '해양금융'",
-      "date": "Mon, 25 May 2026 11:40:00",
-      "source": "mhns.co.kr",
-      "url": "https://www.mhns.co.kr/news/articleView.html?idxno=748319"
     }
   ],
   "bok": [
+    {
+      "title": "[셀럽의 한 수] 코스피 장중 8천선 돌파…한때 8,100선 터치",
+      "date": "Tue, 26 May 2026 14:36:00",
+      "source": "n.news.naver.com",
+      "url": "https://biz.sbs.co.kr/article_hub/20000312507?division=NAVER"
+    },
+    {
+      "title": "로이터 \"한은, 28일 금리 동결 전망 우세…연내 인상론도 급부상\"",
+      "date": "Tue, 26 May 2026 14:26:00",
+      "source": "ajunews.com",
+      "url": "https://www.ajunews.com/view/20260526133846522"
+    },
     {
       "title": "\"기준금리 연2회 인상\" 전망…변동금리 대출차주 '한숨'",
       "date": "Tue, 26 May 2026 14:06:00",
@@ -171,18 +183,6 @@
       "date": "Tue, 26 May 2026 11:23:00",
       "source": "n.news.naver.com",
       "url": "https://biz.heraldcorp.com/article/10755954?ref=naver"
-    },
-    {
-      "title": "금통위 앞두고 커진 경계감…채권시장 심리 한 달 새 급락",
-      "date": "Tue, 26 May 2026 11:08:00",
-      "source": "ezyeconomy.com",
-      "url": "https://www.ezyeconomy.com/news/articleView.html?idxno=235713"
-    },
-    {
-      "title": "[더벨][금통위 POLL] 기준금리 인상 시그널 뚜렷해진다",
-      "date": "Tue, 26 May 2026 11:02:00",
-      "source": "thebell.co.kr",
-      "url": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202605220404470360101745"
     }
   ],
   "kiep": [
@@ -309,5 +309,5 @@
       "url": "https://www.mk.co.kr/article/12007155"
     }
   ],
-  "updated": "2026.05.26 14:21"
+  "updated": "2026.05.26 14:48"
 }
