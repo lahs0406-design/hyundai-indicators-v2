@@ -23,15 +23,15 @@ KMA_KEY      = os.environ.get("KMA_KEY", "")         # 없으면 날씨 수집 s
 HOLIDAY_KEY  = os.environ.get("HOLIDAY_KEY", "")     # 없으면 공휴일 수집 skip
 TOURISM_KEY  = os.environ.get("TOURISM_KEY", "")     # 없으면 관광 수집 skip
 
-# 현대백화점 출점 광역시도 코드 (API 응답의 areaCode 기준)
+# 현대백화점 출점 광역시도 (API areaNm 기준)
 TOURISM_AREAS = {
-    "서울": "1",
-    "인천": "2",
-    "대전": "3",
-    "대구": "4",
-    "광주": "5",
-    "부산": "6",
-    "울산": "7",
+    "서울특별시": "서울",
+    "부산광역시": "부산",
+    "대구광역시": "대구",
+    "인천광역시": "인천",
+    "광주광역시": "광주",
+    "대전광역시": "대전",
+    "울산광역시": "울산",
 }
 
 # 기상청 ASOS 지점번호
@@ -587,7 +587,6 @@ def main():
                 "MobileApp":  "HyundaiDashboard",
                 "startYmd":   start_ymd,
                 "endYmd":     end_ymd,
-                "_type":      "json",
             })
             url = (
                 "https://apis.data.go.kr/B551011/DataLabService"
@@ -595,44 +594,46 @@ def main():
             )
             try:
                 with urllib.request.urlopen(url, timeout=15) as res:
-                    body = json.loads(res.read().decode("utf-8"))
-                    items = (
-                        body.get("response", {})
-                            .get("body", {})
-                            .get("items", {})
-                            .get("item", [])
-                    )
-                    if isinstance(items, dict):
-                        items = [items]
+                    raw = res.read().decode("utf-8")
 
-                    # 출점 지역만 필터 후 날짜별 집계
-                    month_data = {}   # {지역명: {ymd: visitors}}
-                    for item in items:
-                        area_nm  = item.get("areaNm", "")
-                        ymd      = str(item.get("baseYmd", ""))
-                        visitors = item.get("touDivNm", "")   # 내국인/외국인 구분
-                        cnt      = item.get("daywkDivNm", "") # 방문자수 필드 확인용
-                        # 실제 방문자수 필드
-                        raw_cnt  = item.get("touNum", 0) or item.get("visitCnt", 0) or 0
-                        if area_nm in TOURISM_AREAS and ymd:
-                            if area_nm not in month_data:
-                                month_data[area_nm] = {}
-                            prev = month_data[area_nm].get(ymd, 0)
-                            month_data[area_nm][ymd] = prev + int(raw_cnt)
+                # XML 파싱 (응답이 XML)
+                import xml.etree.ElementTree as ET
+                root = ET.fromstring(raw)
+                items = root.findall(".//item")
 
-                    # 월별 합산으로 변환 후 저장
-                    if month_data:
-                        if ym not in tourism:
-                            tourism[ym] = {}
-                        for area_nm, day_dict in month_data.items():
-                            total = sum(day_dict.values())
-                            tourism[ym][area_nm] = {
-                                "total":   total,
-                                "daily":   day_dict,
-                            }
-                        print(f"  {ym}: {list(tourism[ym].keys())} 수집완료")
-                    else:
-                        print(f"  {ym}: 데이터 없음 (응답 {len(items)}건)")
+                # 출점 지역 × 외지인(b, touDivCd=2) 필터 후 날짜별 집계
+                # 외지인 = 일상생활권 밖에서 온 방문자 → 관광·쇼핑 목적에 가까움
+                month_data = {}  # {지역단축명: {ymd: visitors}}
+                for item in items:
+                    area_nm  = (item.findtext("areaNm") or "").strip()
+                    tou_div  = (item.findtext("touDivCd") or "").strip()
+                    ymd      = (item.findtext("baseYmd") or "").strip()
+                    raw_num  = item.findtext("touNum") or "0"
+
+                    short_nm = TOURISM_AREAS.get(area_nm)
+                    if not short_nm or tou_div != "2" or not ymd:
+                        continue
+                    try:
+                        cnt = float(raw_num)
+                    except ValueError:
+                        continue
+
+                    if short_nm not in month_data:
+                        month_data[short_nm] = {}
+                    month_data[short_nm][ymd] = round(cnt)
+
+                if month_data:
+                    if ym not in tourism:
+                        tourism[ym] = {}
+                    for short_nm, day_dict in month_data.items():
+                        tourism[ym][short_nm] = {
+                            "total": sum(day_dict.values()),
+                            "daily": day_dict,
+                        }
+                    areas_collected = list(tourism[ym].keys())
+                    print(f"  {ym}: {areas_collected} 수집완료")
+                else:
+                    print(f"  {ym}: 데이터 없음 (응답 {len(items)}건)")
 
             except Exception as e:
                 print(f"  [관광 오류] {ym}: {e}")
