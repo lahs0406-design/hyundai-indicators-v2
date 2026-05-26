@@ -125,6 +125,12 @@
   ],
   "bok": [
     {
+      "title": "채권전문가 99% \"5월 한은 금통위서 기준금리 동결할 것\"",
+      "date": "Tue, 26 May 2026 12:00:00",
+      "source": "getnews.co.kr",
+      "url": "https://www.getnews.co.kr/news/articleView.html?idxno=870906"
+    },
+    {
       "title": "美국채 금리 쇼크에 원화 요동…‘환율 1500원 뉴노멀’ 굳어지나 [코스...",
       "date": "Tue, 26 May 2026 11:23:00",
       "source": "n.news.naver.com",
@@ -177,12 +183,6 @@
       "date": "Tue, 26 May 2026 10:00:00",
       "source": "lcnews.co.kr",
       "url": "https://www.lcnews.co.kr/news/articleView.html?idxno=202592"
-    },
-    {
-      "title": "韓경제, 성장률 전망 숫자론 '확장'…체감 경기로는 '글쎄'",
-      "date": "Tue, 26 May 2026 09:47:00",
-      "source": "n.news.naver.com",
-      "url": "https://www.newsis.com/view/NISX20260525_0003643024"
     }
   ],
   "kiep": [
@@ -309,5 +309,5 @@
       "url": "https://www.mk.co.kr/article/12007155"
     }
   ],
-  "updated": "2026.05.26 11:55"
+  "updated": "2026.05.26 12:00"
 }
