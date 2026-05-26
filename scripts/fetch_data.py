@@ -11,15 +11,28 @@ ECOS(한국은행) + KOSIS(통계청) + 기상청 API → data.json 생성
               없으면 직접 호출 시도
   KMA_KEY     기상청 API Hub 인증키 (없으면 날씨 수집 skip)
   HOLIDAY_KEY 공공데이터포털 인증키 (한국천문연구원 특일정보, 없으면 공휴일 수집 skip)
+  TOURISM_KEY 한국관광공사 빅데이터 GW 인증키 (없으면 관광 수집 skip)
 """
 
 import os, json, urllib.request, urllib.parse, datetime, time
 
-ECOS_KEY    = os.environ["ECOS_KEY"]
-KOSIS_KEY   = os.environ["KOSIS_KEY"]
-KOSIS_PROXY = os.environ.get("KOSIS_PROXY", "")    # 없어도 동작
-KMA_KEY     = os.environ.get("KMA_KEY", "")         # 없으면 날씨 수집 skip
-HOLIDAY_KEY = os.environ.get("HOLIDAY_KEY", "")     # 없으면 공휴일 수집 skip
+ECOS_KEY     = os.environ["ECOS_KEY"]
+KOSIS_KEY    = os.environ["KOSIS_KEY"]
+KOSIS_PROXY  = os.environ.get("KOSIS_PROXY", "")    # 없어도 동작
+KMA_KEY      = os.environ.get("KMA_KEY", "")         # 없으면 날씨 수집 skip
+HOLIDAY_KEY  = os.environ.get("HOLIDAY_KEY", "")     # 없으면 공휴일 수집 skip
+TOURISM_KEY  = os.environ.get("TOURISM_KEY", "")     # 없으면 관광 수집 skip
+
+# 현대백화점 출점 광역시도 코드 (API 응답의 areaCode 기준)
+TOURISM_AREAS = {
+    "서울": "1",
+    "인천": "2",
+    "대전": "3",
+    "대구": "4",
+    "광주": "5",
+    "부산": "6",
+    "울산": "7",
+}
 
 # 기상청 ASOS 지점번호
 KMA_STATIONS = {
@@ -530,6 +543,104 @@ def main():
         data["weather"] = weather
     else:
         print("\n[18] 날씨 수집 skip (KMA_KEY 없음)")
+
+    # ── 19. 관광 방문자수 (한국관광공사 빅데이터 GW) ─────────
+    if TOURISM_KEY:
+        print("\n[19] 관광 방문자수 (한국관광공사 빅데이터)")
+        tourism = data.get("tourism", {})
+
+        def iter_yms_tourism(start_ym: str, count: int) -> list:
+            y, m = int(start_ym[:4]), int(start_ym[4:])
+            result = []
+            for _ in range(count):
+                result.append(f"{y}{m:02d}")
+                m -= 1
+                if m == 0:
+                    m = 12
+                    y -= 1
+            return result
+
+        import calendar as _cal
+        base_ym    = today[:6]
+        cur_yms    = iter_yms_tourism(base_ym, 13)
+        prev_yms   = [f"{int(ym[:4])-1}{ym[4:]}" for ym in cur_yms]
+        target_yms = sorted(set(cur_yms + prev_yms))
+
+        print(f"  수집 범위: {target_yms[0]} ~ {target_yms[-1]} ({len(target_yms)}개월)")
+
+        for ym in target_yms:
+            is_current = (ym == base_ym)
+            if not is_current and ym in tourism:
+                print(f"  {ym} 캐시 사용")
+                continue
+
+            y, m   = int(ym[:4]), int(ym[4:])
+            last_d = _cal.monthrange(y, m)[1]
+            start_ymd = f"{ym}01"
+            end_ymd   = f"{ym}{last_d:02d}"
+
+            params = urllib.parse.urlencode({
+                "serviceKey": TOURISM_KEY,
+                "numOfRows":  "1000",
+                "pageNo":     "1",
+                "MobileOS":   "ETC",
+                "MobileApp":  "HyundaiDashboard",
+                "startYmd":   start_ymd,
+                "endYmd":     end_ymd,
+                "_type":      "json",
+            })
+            url = (
+                "https://apis.data.go.kr/B551011/DataLabService"
+                f"/metcoRegnVisitrDDList?{params}"
+            )
+            try:
+                with urllib.request.urlopen(url, timeout=15) as res:
+                    body = json.loads(res.read().decode("utf-8"))
+                    items = (
+                        body.get("response", {})
+                            .get("body", {})
+                            .get("items", {})
+                            .get("item", [])
+                    )
+                    if isinstance(items, dict):
+                        items = [items]
+
+                    # 출점 지역만 필터 후 날짜별 집계
+                    month_data = {}   # {지역명: {ymd: visitors}}
+                    for item in items:
+                        area_nm  = item.get("areaNm", "")
+                        ymd      = str(item.get("baseYmd", ""))
+                        visitors = item.get("touDivNm", "")   # 내국인/외국인 구분
+                        cnt      = item.get("daywkDivNm", "") # 방문자수 필드 확인용
+                        # 실제 방문자수 필드
+                        raw_cnt  = item.get("touNum", 0) or item.get("visitCnt", 0) or 0
+                        if area_nm in TOURISM_AREAS and ymd:
+                            if area_nm not in month_data:
+                                month_data[area_nm] = {}
+                            prev = month_data[area_nm].get(ymd, 0)
+                            month_data[area_nm][ymd] = prev + int(raw_cnt)
+
+                    # 월별 합산으로 변환 후 저장
+                    if month_data:
+                        if ym not in tourism:
+                            tourism[ym] = {}
+                        for area_nm, day_dict in month_data.items():
+                            total = sum(day_dict.values())
+                            tourism[ym][area_nm] = {
+                                "total":   total,
+                                "daily":   day_dict,
+                            }
+                        print(f"  {ym}: {list(tourism[ym].keys())} 수집완료")
+                    else:
+                        print(f"  {ym}: 데이터 없음 (응답 {len(items)}건)")
+
+            except Exception as e:
+                print(f"  [관광 오류] {ym}: {e}")
+            time.sleep(0.3)
+
+        data["tourism"] = tourism
+    else:
+        print("\n[19] 관광 수집 skip (TOURISM_KEY 없음)")
 
     # ── 저장 ──────────────────────────────────────────
     with open("data.json", "w", encoding="utf-8") as f:
