@@ -63,6 +63,18 @@
   ],
   "kdi": [
     {
+      "title": "산업연, 올해 성장률 1.9→2.5% 상향…“이란전 장기화-고유가 변수”",
+      "date": "Tue, 26 May 2026 15:01:00",
+      "source": "n.news.naver.com",
+      "url": "https://www.donga.com/news/Economy/article/all/20260526/133991553/1"
+    },
+    {
+      "title": "산업硏 \"올해 2.5% 경제 성장⋯반도체 앞세워 사상 첫 수출 9000억불 돌파...",
+      "date": "Tue, 26 May 2026 15:00:00",
+      "source": "etoday.co.kr",
+      "url": "https://www.etoday.co.kr/news/view/2587805"
+    },
+    {
       "title": "[기획]반도체 독주 속 수출 디커플링 심화",
       "date": "Tue, 26 May 2026 14:26:00",
       "source": "m-i.kr",
@@ -109,21 +121,27 @@
       "date": "Mon, 25 May 2026 16:06:00",
       "source": "n.news.naver.com",
       "url": "https://www.hankyung.com/article/2026052572027"
-    },
-    {
-      "title": "반도체 슈퍼사이클에…한은 올해 성장률 2.0%→2%대 중후반 상향 전망",
-      "date": "Mon, 25 May 2026 13:49:00",
-      "source": "n.news.naver.com",
-      "url": "https://www.news1.kr/economy/trend/6176765"
-    },
-    {
-      "title": "신현송, 첫 금통위서 금리 동결 유력…인상 시그널 나오나",
-      "date": "Mon, 25 May 2026 12:20:00",
-      "source": "dnews.co.kr",
-      "url": "https://www.dnews.co.kr/uhtml/view.jsp?idxno=202605250756416070834"
     }
   ],
   "bok": [
+    {
+      "title": "대구경북 소비심리 한숨 돌렸지만 체감 경기는 여전히 냉랭",
+      "date": "Tue, 26 May 2026 15:00:00",
+      "source": "idaegu.com",
+      "url": "https://www.idaegu.com/news/articleView.html?idxno=662788"
+    },
+    {
+      "title": "대구경북 소비자심리지수 3개월 만에 반등",
+      "date": "Tue, 26 May 2026 14:58:00",
+      "source": "n.news.naver.com",
+      "url": "https://www.nocutnews.co.kr/news/6522473?utm_source=naver&utm_medium=article&utm_campaign=20260526030207"
+    },
+    {
+      "title": "[도약의 대가, 취약층에 몰린 3高] 고금리·고물가·고환율이 성공 비용...",
+      "date": "Tue, 26 May 2026 14:56:00",
+      "source": "ajunews.com",
+      "url": "https://www.ajunews.com/view/20260526142814593"
+    },
     {
       "title": "[셀럽의 한 수] 코스피 장중 8천선 돌파…한때 8,100선 터치",
       "date": "Tue, 26 May 2026 14:36:00",
@@ -165,24 +183,6 @@
       "date": "Tue, 26 May 2026 13:06:00",
       "source": "naeil.com",
       "url": "https://www.naeil.com/news/read/589832?ref=naver"
-    },
-    {
-      "title": "NH證, 환율 전망 '상고하저'로 변경…\"한은 연내 2회 금리인상\"",
-      "date": "Tue, 26 May 2026 12:12:00",
-      "source": "news.einfomax.co.kr",
-      "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4416704"
-    },
-    {
-      "title": "채권전문가 99% \"5월 한은 금통위서 기준금리 동결할 것\"",
-      "date": "Tue, 26 May 2026 12:00:00",
-      "source": "getnews.co.kr",
-      "url": "https://www.getnews.co.kr/news/articleView.html?idxno=870906"
-    },
-    {
-      "title": "美국채 금리 쇼크에 원화 요동…‘환율 1500원 뉴노멀’ 굳어지나 [코스...",
-      "date": "Tue, 26 May 2026 11:23:00",
-      "source": "n.news.naver.com",
-      "url": "https://biz.heraldcorp.com/article/10755954?ref=naver"
     }
   ],
   "kiep": [
@@ -309,5 +309,5 @@
       "url": "https://www.mk.co.kr/article/12007155"
     }
   ],
-  "updated": "2026.05.26 14:48"
+  "updated": "2026.05.26 15:07"
 }
