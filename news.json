@@ -1,82 +1,124 @@
 {
   "dept": [
     {
-      "title": "강기정 광주시장 “정용진 회장 사죄 기자회견에 사과·진상규명·책임...",
-      "date": "Tue, 26 May 2026 11:59:00",
+      "title": "[현장에서] 정용진 신세계 회장, '5·18 탱크데이' 논란 사과…\"모두 제...",
+      "date": "Tue, 26 May 2026 14:06:00",
+      "source": "bizwnews.com",
+      "url": "http://www.bizwnews.com/news/articleView.html?idxno=137378",
+      "sub": ""
+    },
+    {
+      "title": "신세계그룹 회장 정용진의 고개 숙인 5분 그리고 퇴장 : \"모든 책임은 제...",
+      "date": "Tue, 26 May 2026 14:06:00",
+      "source": "huffingtonpost.kr",
+      "url": "https://www.huffingtonpost.kr/article/257442",
+      "sub": ""
+    },
+    {
+      "title": "[유통레이더] 롯데면세점, hy, 롯데백화점, 코스맥스, 롯데칠성음료 外",
+      "date": "Tue, 26 May 2026 14:04:00",
+      "source": "daily.hankooki.com",
+      "url": "https://daily.hankooki.com/news/articleView.html?idxno=1370530",
+      "sub": ""
+    },
+    {
+      "title": "정용진 스타벅스 사과, 강기정 \"사과·진상규명·책임 빠진 3무 회견\"",
+      "date": "Tue, 26 May 2026 14:04:00",
+      "source": "gjdream.com",
+      "url": "http://www.gjdream.com/news/articleView.html?idxno=669705",
+      "sub": ""
+    },
+    {
+      "title": "이재현 회장, 美 현장 경영… '더 CJ컵' 찍고 올리브영 1호점 간다",
+      "date": "Tue, 26 May 2026 14:00:00",
+      "source": "woman.chosun.com",
+      "url": "http://woman.chosun.com/news/articleView.html?idxno=125898",
+      "sub": ""
+    },
+    {
+      "title": "롯데백화점, 7개 계열사 통합 캠페인 '엘패스' 진행",
+      "date": "Tue, 26 May 2026 13:58:00",
+      "source": "weekly.hankooki.com",
+      "url": "https://weekly.hankooki.com/news/articleView.html?idxno=7165954",
+      "sub": ""
+    },
+    {
+      "title": "롯데百 본점에 아우어노스텔지아 첫 팝업…여름 신상품 최대 40% 할인",
+      "date": "Tue, 26 May 2026 13:58:00",
+      "source": "newsquest.co.kr",
+      "url": "https://www.newsquest.co.kr/news/articleView.html?idxno=266796",
+      "sub": ""
+    },
+    {
+      "title": "삼양그룹, 무신사 손잡고 만든 한정판 티셔츠 출시",
+      "date": "Tue, 26 May 2026 13:57:00",
       "source": "n.news.naver.com",
-      "url": "https://www.chosun.com/national/national_general/2026/05/26/6A2E4X5V2JGN7A5LHCAH37ECRQ/?utm_source=naver&utm_medium=referral&utm_campaign=naver-news",
+      "url": "https://www.sedaily.com/article/20048231?ref=naver",
       "sub": ""
     },
     {
-      "title": "[현장] 정용진 신세계 그룹 회장, 스타벅스 사태에 사죄… “모든 책임...",
-      "date": "Tue, 26 May 2026 11:58:00",
-      "source": "mediawatch.kr",
-      "url": "https://www.mediawatch.kr/news/article.html?no=259750",
-      "sub": ""
-    },
-    {
-      "title": "정용진, 오늘 오전 9시 대국민 사과…자체 진상조사 결과 공개 예정 [아...",
-      "date": "Tue, 26 May 2026 11:56:00",
+      "title": "[포토]롯데백화점 광주점 '망고 디저트 축제'",
+      "date": "Tue, 26 May 2026 13:49:00",
       "source": "n.news.naver.com",
-      "url": "http://www.mbn.co.kr/pages/news/newsView.php?news_seq_no=5195928",
+      "url": "https://view.asiae.co.kr/article/2026052613073010540",
       "sub": ""
     },
     {
-      "title": "압구정 현백에서도 ‘시몬스 체험’… 연이은 팝업에 고객 만족↑",
-      "date": "Tue, 26 May 2026 11:40:00",
-      "source": "segyebiz.com",
-      "url": "http://www.segyebiz.com/newsView/20260526506944?OutUrl=naver",
-      "sub": ""
-    },
-    {
-      "title": "시몬스, 현대백화점 본점에 팝업스토어 오픈",
-      "date": "Tue, 26 May 2026 11:34:00",
-      "source": "n.news.naver.com",
-      "url": "https://www.etnews.com/20260526000201",
-      "sub": ""
-    },
-    {
-      "title": "삼양그룹, 무신사와 협업해 소재 기술을 패션으로 풀어내다",
-      "date": "Tue, 26 May 2026 11:32:00",
-      "source": "e-science.co.kr",
-      "url": "https://www.e-science.co.kr/news/articleView.html?idxno=130026",
-      "sub": ""
-    },
-    {
-      "title": "오이오티 더현대 팝업, 여름 피부 열감 낮추는 ‘죽순 진정 리추얼’ 선...",
-      "date": "Tue, 26 May 2026 11:26:00",
-      "source": "segyebiz.com",
-      "url": "http://www.segyebiz.com/newsView/20260526506593?OutUrl=naver",
-      "sub": ""
-    },
-    {
-      "title": "삼양그룹, 무신사와 이색 맞손…네티즌 농담서 착안한 한정판 티셔츠 '...",
-      "date": "Tue, 26 May 2026 11:24:00",
-      "source": "thefairnews.co.kr",
-      "url": "https://www.thefairnews.co.kr/news/articleView.html?idxno=77904",
-      "sub": ""
-    },
-    {
-      "title": "시몬스 침대, 내달 7일까지 현대백화점 본점에 팝업스토어",
-      "date": "Tue, 26 May 2026 11:20:00",
-      "source": "n.news.naver.com",
-      "url": "https://economist.co.kr/article/view/ecn202605260028",
-      "sub": ""
-    },
-    {
-      "title": "\"라면 먹을 때 입지 마세요\"...삼양그룹, 무신사와 손잡고 '스페셜티' 티...",
-      "date": "Tue, 26 May 2026 11:20:00",
-      "source": "the-pr.co.kr",
-      "url": "https://www.the-pr.co.kr/news/articleView.html?idxno=61423",
+      "title": "시몬스, 현대백화점 본점 팝업 오픈… 강남 프리미엄 고객 공략",
+      "date": "Tue, 26 May 2026 13:38:00",
+      "source": "megaeconomy.co.kr",
+      "url": "https://www.megaeconomy.co.kr/news/newsview.php?ncode=1065587685526813",
       "sub": ""
     }
   ],
   "trend": [
     {
-      "title": "김고은, 사랑스러운 인사",
-      "date": "Tue, 26 May 2026 11:58:00",
+      "title": "[포토+] 이정재, '감탄을 부르는 멋진 남자'",
+      "date": "Tue, 26 May 2026 14:05:00",
       "source": "m.entertain.naver.com",
-      "url": "https://www.news1.kr/photos/7925323",
+      "url": "https://www.hankyung.com/article/202605269138H",
+      "sub": ""
+    },
+    {
+      "title": "박서준, 빛나는 손 인사",
+      "date": "Tue, 26 May 2026 14:05:00",
+      "source": "m.entertain.naver.com",
+      "url": "https://www.news1.kr/photos/7925585",
+      "sub": ""
+    },
+    {
+      "title": "[포토+] 박서준, '팬들 반하게 만드는 볼하트'",
+      "date": "Tue, 26 May 2026 14:04:00",
+      "source": "m.entertain.naver.com",
+      "url": "https://www.hankyung.com/article/202605269128H",
+      "sub": ""
+    },
+    {
+      "title": "한소희, 칸 영화제서 부쉐론 하이주얼리 착용",
+      "date": "Tue, 26 May 2026 14:02:00",
+      "source": "vegannews.co.kr",
+      "url": "https://www.vegannews.co.kr/news/article.html?no=382901",
+      "sub": ""
+    },
+    {
+      "title": "부쉐론, 칸 국제영화제서 한소희 하이주얼리 스타일링 공개",
+      "date": "Tue, 26 May 2026 13:42:00",
+      "source": "handmk.com",
+      "url": "https://www.handmk.com/news/articleView.html?idxno=38426",
+      "sub": ""
+    },
+    {
+      "title": "예맥디자인그룹, 싱가포르 피큐리어 컨셉과 함께 합작법인 '블랙 엘리펀...",
+      "date": "Tue, 26 May 2026 13:26:00",
+      "source": "n.news.naver.com",
+      "url": "https://www.etnews.com/20260526000263",
+      "sub": ""
+    },
+    {
+      "title": "'대국민 지지 호소' 장동혁 \"투표해야 李의 폭주 멈춰 세울 수 있어\" [뉴...",
+      "date": "Tue, 26 May 2026 12:43:00",
+      "source": "n.news.naver.com",
+      "url": "https://www.newsis.com/view/NISX20260526_0003643993",
       "sub": ""
     },
     {
@@ -87,24 +129,10 @@
       "sub": ""
     },
     {
-      "title": "김건희 '주가조작·금품수수' 상고심 대법 2부 배당…주심 박영재",
-      "date": "Tue, 26 May 2026 11:47:00",
-      "source": "n.news.naver.com",
-      "url": "https://www.nocutnews.co.kr/news/6522481?utm_source=naver&utm_medium=article&utm_campaign=20260526113936",
-      "sub": ""
-    },
-    {
       "title": "장동혁 \"마지막이란 각오로 모든 것 바쳐 뛰겠다… 결론은 국민의힘\"",
       "date": "Tue, 26 May 2026 11:38:00",
       "source": "metroseoul.co.kr",
       "url": "http://www.metroseoul.co.kr/article/20260526500125",
-      "sub": ""
-    },
-    {
-      "title": "[초점] 군살 뺀 유통업계, 내국인 소비 회복·외국인에 '알짜 성장' 본격...",
-      "date": "Tue, 26 May 2026 11:38:00",
-      "source": "newsian.co.kr",
-      "url": "http://www.newsian.co.kr/news/articleView.html?idxno=90090",
       "sub": ""
     },
     {
@@ -113,114 +141,100 @@
       "source": "n.news.naver.com",
       "url": "https://biz.heraldcorp.com/article/10756009?ref=naver",
       "sub": ""
-    },
-    {
-      "title": "[시포TV] 장동혁 \"지선, 민생 붕괴 막을 기회…투표해야 이재명 폭주 멈...",
-      "date": "Tue, 26 May 2026 11:10:00",
-      "source": "sisafocus.co.kr",
-      "url": "http://www.sisafocus.co.kr/news/articleView.html?idxno=360479",
-      "sub": ""
-    },
-    {
-      "title": "\"게시물 하나에 8억\" 리사가 SNS에 올린 월드컵 공식 음원 뮤비 비하인드...",
-      "date": "Tue, 26 May 2026 11:00:00",
-      "source": "insight.co.kr",
-      "url": "https://www.insight.co.kr/news/555546",
-      "sub": ""
-    },
-    {
-      "title": "장동혁 \"李 정부·민주당, 국민 자유 박탈하려 해…투표로 심판해달라\"",
-      "date": "Tue, 26 May 2026 10:59:00",
-      "source": "n.news.naver.com",
-      "url": "https://www.newsis.com/view/NISX20260526_0003643742",
-      "sub": ""
-    },
-    {
-      "title": "예맥디자인그룹, 싱가포르 합작법인 'Black Elephant Design' 설립…글로...",
-      "date": "Tue, 26 May 2026 10:50:00",
-      "source": "n.news.naver.com",
-      "url": "https://www.hankyung.com/article/202605268560O",
-      "sub": ""
     }
   ],
   "rate": [
     {
-      "title": "정부, 경제대도약 골든타임…하반기 ‘AI·반도체·공급망’ 총력",
-      "date": "Tue, 26 May 2026 11:56:00",
+      "title": "숲과 정원, 그리고 휴식, 가평에서 찾아 떠나는 가볼 만한 곳",
+      "date": "Tue, 26 May 2026 14:06:00",
+      "source": "cbci.co.kr",
+      "url": "https://www.cbci.co.kr/news/articleView.html?idxno=577121",
+      "sub": ""
+    },
+    {
+      "title": "당진, 봄의 활기를 느끼는 자연과 바다가 어우러진 가볼 만한 곳",
+      "date": "Tue, 26 May 2026 14:06:00",
+      "source": "cbci.co.kr",
+      "url": "https://www.cbci.co.kr/news/articleView.html?idxno=577120",
+      "sub": ""
+    },
+    {
+      "title": "대구·경북 광역철도망 확장 본격화…전략산업·미래교육까지 지역 성장...",
+      "date": "Tue, 26 May 2026 14:06:00",
+      "source": "ekn.kr",
+      "url": "https://www.ekn.kr/web/view.php?key=20260526029467806",
+      "sub": ""
+    },
+    {
+      "title": "코레일관광개발, 남도 기차둘레길 여행 활성화 나선다",
+      "date": "Tue, 26 May 2026 14:04:00",
+      "source": "gukjenews.com",
+      "url": "https://www.gukjenews.com/news/articleView.html?idxno=3592088",
+      "sub": ""
+    },
+    {
+      "title": "올여름 여행, 숙박 할인권 받고 인구감소지역으로 떠나요",
+      "date": "Tue, 26 May 2026 14:02:00",
+      "source": "ksilbo.co.kr",
+      "url": "https://www.ksilbo.co.kr/news/articleView.html?idxno=1057716",
+      "sub": ""
+    },
+    {
+      "title": "올 여름 숙박할인 최대 7만 원 쏜다…인구감소지역 85곳",
+      "date": "Tue, 26 May 2026 14:02:00",
+      "source": "korea.kr",
+      "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148965065&call_from=naver_news",
+      "sub": ""
+    },
+    {
+      "title": "예천문화관광재단, ‘문화장날 시장와락(樂)’ 두 번째 장 개최",
+      "date": "Tue, 26 May 2026 14:02:00",
       "source": "n.news.naver.com",
-      "url": "https://www.dailian.co.kr/news/view/1648576/?sc=Naver",
+      "url": "https://sports.donga.com/region/article/all/20260526/133992563/1",
       "sub": ""
     },
     {
-      "title": "박용철 강화군수 후보, 서도·교동면서 1박2일 민생 유세 펼쳐",
-      "date": "Tue, 26 May 2026 11:56:00",
-      "source": "ngonews.kr",
-      "url": "https://www.ngonews.kr/news/articleView.html?idxno=230243",
+      "title": "대구-광주 꿈드림청소년단, 달빛 아래 하나로… 영·호남 청소년 교류 ...",
+      "date": "Tue, 26 May 2026 13:56:00",
+      "source": "breaknews.com",
+      "url": "http://www.breaknews.com/1209747",
       "sub": ""
     },
     {
-      "title": "[위클리오늘] 2026 포천 한탄강 봄 가든 페스타, 관람객 10만 명 돌파",
-      "date": "Tue, 26 May 2026 11:54:00",
-      "source": "weeklytoday.com",
-      "url": "http://www.weeklytoday.com/news/articleView.html?idxno=777110",
+      "title": "[관광정책 포커스] 바가지·파라솔 횡포 강력 제재... 112억 투입 여름휴...",
+      "date": "Tue, 26 May 2026 13:40:00",
+      "source": "financialreview.co.kr",
+      "url": "http://www.financialreview.co.kr/news/articleView.html?idxno=42484",
       "sub": ""
     },
     {
-      "title": "한화리조트, 6만 원 런트립 오픈런 터졌다",
-      "date": "Tue, 26 May 2026 11:46:00",
+      "title": "(LEAD) LIV Golf visits S. Korea amid uncertainty over future",
+      "date": "Tue, 26 May 2026 13:26:00",
       "source": "n.news.naver.com",
-      "url": "https://sports.donga.com/life/article/all/20260526/133991795/1",
-      "sub": ""
-    },
-    {
-      "title": "지방재정공제회·관광공사 지방소멸 대응 협력",
-      "date": "Tue, 26 May 2026 11:40:00",
-      "source": "safetimes.co.kr",
-      "url": "https://www.safetimes.co.kr/news/articleView.html?idxno=243006",
-      "sub": ""
-    },
-    {
-      "title": "정부, 인구감소지역 숙박할인권 30만 장 배포…다음 달 11일부터 최대 7...",
-      "date": "Tue, 26 May 2026 11:38:00",
-      "source": "n.news.naver.com",
-      "url": "https://www.khan.co.kr/article/202605261138001",
-      "sub": ""
-    },
-    {
-      "title": "‘한국인처럼 먹고 즐긴다’…진화하는 외국인관광",
-      "date": "Tue, 26 May 2026 11:31:00",
-      "source": "n.news.naver.com",
-      "url": "https://biz.heraldcorp.com/article/10755991?ref=naver",
-      "sub": ""
-    },
-    {
-      "title": "Putin exploits openings in Trump and Xi’s security bargaining (KOR)",
-      "date": "Tue, 26 May 2026 10:25:00",
-      "source": "n.news.naver.com",
-      "url": "https://koreajoongangdaily.joins.com/news/2026-05-26/englishStudy/bilingualNews/Putin-exploits-openings-in-Trump-and-Xis-security-bargaining-KOR/2600757",
-      "sub": ""
-    },
-    {
-      "title": "One-sided overtures leave only embarrassment in inter-Korean relations (K...",
-      "date": "Tue, 26 May 2026 10:19:00",
-      "source": "n.news.naver.com",
-      "url": "https://koreajoongangdaily.joins.com/news/2026-05-26/englishStudy/bilingualNews/Onesided-overtures-leave-only-embarrassment-in-interKorean-relations-KOR/2600745",
-      "sub": ""
-    },
-    {
-      "title": "오세훈 \"제가 안전불감증? 지하철 스크린도어로 사망률 0% 가까워...장동...",
-      "date": "Tue, 26 May 2026 10:02:00",
-      "source": "news.bbsi.co.kr",
-      "url": "https://news.bbsi.co.kr/news/articleView.html?idxno=4085472",
+      "url": "https://en.yna.co.kr/view/AEN20260526002351315?input=2106m",
       "sub": ""
     }
   ],
   "asset": [
     {
-      "title": "\"6월 금통위, 기준금리 동결할 것\"",
-      "date": "Tue, 26 May 2026 11:56:00",
-      "source": "bizwnews.com",
-      "url": "http://www.bizwnews.com/news/articleView.html?idxno=137361",
+      "title": "\"기준금리 연2회 인상\" 전망…변동금리 대출차주 '한숨'",
+      "date": "Tue, 26 May 2026 14:06:00",
+      "source": "asiatime.co.kr",
+      "url": "https://www.asiatime.co.kr/article/20260526500249",
+      "sub": ""
+    },
+    {
+      "title": "채권 시장 참여자 99% \"5월 금통위 기준금리 동결 예상\"",
+      "date": "Tue, 26 May 2026 13:54:00",
+      "source": "n.news.naver.com",
+      "url": "https://www.mt.co.kr/stock/2026/05/26/2026052613392397443",
+      "sub": ""
+    },
+    {
+      "title": "6월 채권심리 일제히 악화…\"기준금리 동결 무게\"",
+      "date": "Tue, 26 May 2026 13:30:00",
+      "source": "newspim.com",
+      "url": "https://www.newspim.com/news/view/20260526000737",
       "sub": ""
     },
     {
@@ -231,5 +245,5 @@
       "sub": ""
     }
   ],
-  "updated": "2026.05.26 12:00"
+  "updated": "2026.05.26 14:07"
 }
