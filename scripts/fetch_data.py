@@ -1,7 +1,7 @@
 """
 fetch_data.py
 ─────────────────────────────────────────────────
-ECOS(한국은행) + KOSIS(통계청) API → data.json 생성
+ECOS(한국은행) + KOSIS(통계청) + 기상청 API → data.json 생성
 기존 data.json을 불러와 새 데이터를 누적 추가
 
 환경변수:
@@ -9,6 +9,7 @@ ECOS(한국은행) + KOSIS(통계청) API → data.json 생성
   KOSIS_KEY   KOSIS API 인증키 (Base64)
   KOSIS_PROXY Cloudflare Worker 프록시 URL (KOSIS CORS 우회용)
               없으면 직접 호출 시도
+  KMA_KEY     기상청 공공데이터포털 API 인증키 (없으면 날씨 수집 skip)
 """
 
 import os, json, urllib.request, urllib.parse, datetime, time
@@ -16,6 +17,19 @@ import os, json, urllib.request, urllib.parse, datetime, time
 ECOS_KEY    = os.environ["ECOS_KEY"]
 KOSIS_KEY   = os.environ["KOSIS_KEY"]
 KOSIS_PROXY = os.environ.get("KOSIS_PROXY", "")  # 없어도 동작
+KMA_KEY     = os.environ.get("KMA_KEY", "")       # 없으면 날씨 수집 skip
+
+# 기상청 ASOS 지점번호
+KMA_STATIONS = {
+    "seoul":    "108",
+    "busan":    "159",
+    "daegu":    "143",
+    "incheon":  "112",
+    "gwangju":  "156",
+    "daejeon":  "133",
+    "ulsan":    "152",
+    "cheongju": "131",
+}
 
 # ── 기존 data.json 로드 (누적용) ──────────────────────
 def load_existing():
@@ -119,6 +133,94 @@ def kosis_fetch(org_id: str, tbl_id: str, itm_id: str,
             print(f"  [KOSIS 오류] {tbl_id} via {url[:50]}...: {e}")
             continue
     return []
+
+# ── 기상청 ASOS 일별 기후값 조회 ──────────────────────
+def _kma_parse_csv(text: str) -> list:
+    """
+    기상청 API Hub CSV 응답 파싱 (kma_sfcdd3 — 공백 구분)
+    응답 형식: #START7777 ... 데이터행 ... #7777END
+    컬럼(공백구분, 0-index): 0=YYYYMMDD, 1=STN, 10=TA_AVG, 38=RN_DAY
+    결측값(-9.0 이하) → temp=None, rain=0.0
+    """
+    result = []
+    for line in text.splitlines():
+        line = line.strip()
+        if not line or line.startswith("#"):
+            continue
+        cols = line.split()
+        if len(cols) < 39:
+            continue
+        ymd_raw = cols[0]
+        if len(ymd_raw) == 6:          # YYMMDD → YYYYMMDD
+            ymd_raw = "20" + ymd_raw
+        try:
+            t_raw = float(cols[10])    # TA_AVG
+            r_raw = float(cols[38])    # RN_DAY
+            result.append({
+                "ymd":  ymd_raw,
+                "temp": None if t_raw <= -9.0 else t_raw,
+                "rain": 0.0  if r_raw <= -9.0 else r_raw,
+            })
+        except (ValueError, IndexError):
+            continue
+    return result
+
+
+def kma_fetch_month(station_id: str, ym: str) -> dict:
+    """
+    기상청 API Hub kma_sfcdd3 — 기간 조회 (월 1회 호출)
+    tm1=YYYYMM01 ~ tm2=YYYYMM말일, stn=지점번호
+    반환: {
+      "ym": "202505",
+      "days": [{"d": 1, "temp": 18.2, "rain": 0.0}, ...],
+      "avg_temp": 17.4, "max_temp": 26.1,
+      "total_rain": 84.0, "rain_days": 7,
+    }
+    """
+    import calendar
+    if not KMA_KEY:
+        return None
+    y, m   = int(ym[:4]), int(ym[4:6])
+    last_d = calendar.monthrange(y, m)[1]
+    tm1    = f"{ym}01"
+    tm2    = f"{ym}{last_d:02d}"
+    url    = (
+        f"https://apihub.kma.go.kr/api/typ01/url/kma_sfcdd3.php"
+        f"?tm1={tm1}&tm2={tm2}&stn={station_id}&authKey={KMA_KEY}"
+    )
+    try:
+        with urllib.request.urlopen(url, timeout=15) as res:
+            raw = res.read().decode("euc-kr", errors="replace")
+    except Exception as e:
+        print(f"  [KMA 오류] stn={station_id} {ym}: {e}")
+        return None
+
+    rows = _kma_parse_csv(raw)
+    if not rows:
+        return None
+
+    days_data = []
+    temps, total_rain, rain_days = [], 0.0, 0
+    for r in rows:
+        d  = int(r["ymd"][6:8])
+        t  = r["temp"]
+        rn = r["rain"]
+        days_data.append({"d": d, "temp": t, "rain": rn})
+        if t is not None:
+            temps.append(t)
+        total_rain += rn
+        if rn > 0:
+            rain_days += 1
+
+    return {
+        "ym":         ym,
+        "days":       days_data,
+        "avg_temp":   round(sum(temps) / len(temps), 1) if temps else None,
+        "max_temp":   round(max(temps), 1) if temps else None,
+        "total_rain": round(total_rain, 1),
+        "rain_days":  rain_days,
+    }
+
 
 # ── 날짜 헬퍼 ─────────────────────────────────────────
 def today_str(fmt="%Y%m%d"): return datetime.date.today().strftime(fmt)
@@ -314,6 +416,58 @@ def main():
             series = upsert(series, r["ym"], r["val"])
         data["outbound"] = sorted(series, key=lambda x: x["ym"])[-18:]
         print(f"  → 최신: {data['outbound'][-1]}")
+
+    # ── 17. 날씨 (기상청 ASOS 일별) ───────────────────────
+    if KMA_KEY:
+        print("\n[17] 날씨 (기상청 ASOS)")
+        weather = data.get("weather", {})
+
+        # ── 수집 대상 ym 목록 생성 ──────────────────────────
+        # 금년: 최근 13개월 (이번달 포함, 13개월 전까지)
+        # 전년: 금년 각 달의 -1년 동월
+        # 예) 2025-05 기준 → 2024-05~2025-05(13개월) + 2023-05~2024-05(13개월)
+        def iter_yms(start_ym: str, count: int) -> list:
+            """start_ym 부터 과거로 count개월치 ym 리스트 반환 (최신순)"""
+            y, m = int(start_ym[:4]), int(start_ym[4:])
+            result = []
+            for _ in range(count):
+                result.append(f"{y}{m:02d}")
+                m -= 1
+                if m == 0:
+                    m = 12
+                    y -= 1
+            return result
+
+        base_ym   = today[:6]   # 이번달
+        cur_yms   = iter_yms(base_ym, 13)                        # 금년 13개월
+        prev_yms  = [f"{int(ym[:4])-1}{ym[4:]}" for ym in cur_yms]  # 전년 동월
+        target_yms = sorted(set(cur_yms + prev_yms))             # 중복제거 + 오름차순
+
+        print(f"  수집 범위: {target_yms[0]} ~ {target_yms[-1]} ({len(target_yms)}개월 × {len(KMA_STATIONS)}지역)")
+
+        for region, stn in KMA_STATIONS.items():
+            region_data = weather.get(region, {})
+            new_count, skip_count = 0, 0
+            for ym in target_yms:
+                # 이미 수집된 과거 확정 데이터는 재수집 생략
+                # (당월은 매일 갱신 필요 → 항상 재수집)
+                is_current_month = (ym == base_ym)
+                if not is_current_month and ym in region_data:
+                    skip_count += 1
+                    continue
+                result = kma_fetch_month(stn, ym)
+                if result:
+                    region_data[ym] = result
+                    new_count += 1
+                else:
+                    print(f"    {region}/{ym} 데이터 없음")
+                time.sleep(0.2)
+            print(f"  {region}: 신규 {new_count}건, 캐시 {skip_count}건")
+            weather[region] = region_data
+
+        data["weather"] = weather
+    else:
+        print("\n[17] 날씨 수집 skip (KMA_KEY 없음)")
 
     # ── 저장 ──────────────────────────────────────────
     with open("data.json", "w", encoding="utf-8") as f:
