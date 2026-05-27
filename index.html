@@ -1969,19 +1969,9 @@ function wxBuildDowIdx(curY, curM) {
   if (!body) return;
   body.innerHTML = '';
 
-  // 금년은 데이터 있는 날까지만 카운트
-  var now = new Date();
-  var curYm = wxYm(curY, curM);
-  var regionData = (_wxData && _wxData[wxRegion]) ? _wxData[wxRegion][curYm] : null;
-  var curLastDay;
-  if (curY === now.getFullYear() && curM === now.getMonth()) {
-    curLastDay = regionData && regionData.days && regionData.days.length
-      ? regionData.days[regionData.days.length - 1].d
-      : now.getDate() - 1;
-  } else {
-    curLastDay = wxDaysInMonth(curY, curM);
-  }
-  var lyLastDay = wxDaysInMonth(lyY, lyM);
+  // 요일지수는 날씨 데이터와 무관하게 달력 기준 해당 월 전체 일수로 계산
+  var curLastDay = wxDaysInMonth(curY, curM);
+  var lyLastDay  = wxDaysInMonth(lyY, lyM);
 
   function countDow(y, m, lastDay) {
     var dc = [0,0,0,0,0,0,0]; var hc = 0; var hlist = [];
@@ -1995,8 +1985,7 @@ function wxBuildDowIdx(curY, curM) {
   }
 
   var cur = countDow(curY, curM, curLastDay);
-  // 전년도 비교: 금년과 동일한 일수까지만 카운트 (공정 비교)
-  var ly  = countDow(lyY, lyM, Math.min(curLastDay, lyLastDay));
+  var ly  = countDow(lyY, lyM, lyLastDay);
 
   document.getElementById('wx-di-month').textContent =
     '— ' + wxMonthStr(curY, curM) + ' vs ' + wxMonthStr(lyY, lyM);
