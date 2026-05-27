@@ -259,6 +259,10 @@ footer{padding:1.25rem;text-align:center;font-size:11px;color:var(--text3);borde
   /* KPI 필: 3열 유지하되 글자 조금 줄임 */
   .kpill .kv{font-size:12px}
   .kpill .kl{font-size:9px}
+
+  /* 날씨 달력: 모바일에서 세로 스택 */
+  .wx-cals{grid-template-columns:1fr}
+  .wx-summary{grid-template-columns:1fr 1fr}
 }
 </style>
 </head>
@@ -343,7 +347,7 @@ footer{padding:1.25rem;text-align:center;font-size:11px;color:var(--text3);borde
   </div>
   <div class="wx-summary" id="wx-summary">
     <div class="wx-sum-card"><div class="wx-sum-lbl">월평균기온</div><div class="wx-sum-val" id="wx-s-temp">—</div><div class="wx-sum-diff" id="wx-s-tdiff"></div></div>
-    <div class="wx-sum-card"><div class="wx-sum-lbl">월강수량</div><div class="wx-sum-val" id="wx-s-rain">—</div><div class="wx-sum-diff" id="wx-s-rdiff"></div></div>
+    <div class="wx-sum-card"><div class="wx-sum-lbl">일평균강수량</div><div class="wx-sum-val" id="wx-s-rain">—</div><div class="wx-sum-diff" id="wx-s-rdiff"></div></div>
   </div>
   <div class="wx-cals">
     <div class="wx-cal">
@@ -366,7 +370,7 @@ footer{padding:1.25rem;text-align:center;font-size:11px;color:var(--text3);borde
   <div class="wx-dow-idx">
     <div class="wx-di-hd">
       <span class="wx-di-hd-lbl">요일지수 <span id="wx-di-month" style="font-size:9px;font-weight:400;color:var(--text2)"></span></span>
-      <span class="wx-di-hd-sub">금년 vs 전년 동월 · 영업일수 차이</span>
+      <span class="wx-di-hd-sub">금년 vs 전년 동월</span>
     </div>
     <div class="wx-di-body" id="wx-di-body"></div>
   </div>
@@ -395,13 +399,13 @@ footer{padding:1.25rem;text-align:center;font-size:11px;color:var(--text3);borde
     <span style="font-size:10px;padding:2px 8px;border-radius:5px;font-weight:500;white-space:nowrap" id="tour-avg-badge">—</span>
   </div>
   <div id="tour-card-view">
-<div style="display:grid;grid-template-columns:1fr 1fr 1fr 1fr;gap:6px" id="tour-city-grid"></div>
+    <div style="display:grid;grid-template-columns:1fr 1fr 1fr 1fr;gap:6px" id="tour-city-grid"></div>
   </div>
   <div id="tour-chart-view" style="display:none">
     <div style="border:.5px solid var(--border);border-radius:8px;overflow:hidden">
       <div style="padding:7px 10px;background:var(--bg2);border-bottom:.5px solid var(--border);display:flex;justify-content:space-between;align-items:center">
         <span style="font-size:11px;font-weight:600;color:var(--text)" id="tour-chart-title">전체 도시 추이</span>
-        <span style="font-size:9px;color:var(--text2)">내·외국인 전체 월별 방문자수 · 만명</span>
+        <span style="font-size:9px;color:var(--text2)">외지인 월별 방문자수 · 만명</span>
       </div>
       <div style="padding:12px;height:180px;position:relative"><canvas id="tour-chart"></canvas></div>
       <div style="display:flex;gap:8px;padding:0 12px 10px;flex-wrap:wrap" id="tour-chart-legend"></div>
@@ -1887,9 +1891,165 @@ function wxBuildGrid(gridEl, region, y, m, isCur) {
   var start = wxFirstDow(y, m);
   var now = new Date();
   var todayD = (isCur && y === now.getFullYear() && m === now.getMonth()) ? now.getDate() : -1;
-  var lastData = isCur ? now.getDate() - 1 : days;
+  // 당월이면 data.json에 실제 있는 마지막 날까지만 표시 (API 수집 기준)
   var ym = wxYm(y, m);
   var regionData = (_wxData && _wxData[region]) ? _wxData[region][ym] : null;
+  var lastData;
+  if (isCur && regionData && regionData.days && regionData.days.length) {
+    lastData = regionData.days[regionData.days.length - 1].d;
+  } else if (isCur) {
+    lastData = now.getDate() - 1;
+  } else {
+    lastData = days;
+  }
+
+  for (var i = 0; i < start; i++) {
+    var e = document.createElement('div');
+    e.className = 'wx-cell empty';
+    gridEl.appendChild(e);
+  }
+  for (var d = 1; d <= days; d++) {
+    var dow = (start + d - 1) % 7;
+    var holName = wxGetHoliday(y, m, d);
+    var cell = document.createElement('div');
+    var cls = 'wx-cell';
+    if (dow === 0) cls += ' sun';
+    if (dow === 6) cls += ' sat';
+    if (d === todayD) cls += ' today';
+    if (isCur && d > lastData) cls += ' future';
+    if (holName && !(isCur && d > lastData)) cls += ' holiday';
+    cell.className = cls;
+
+    var numEl = document.createElement('div');
+    numEl.className = 'wx-dnum';
+    numEl.textContent = d;
+    cell.appendChild(numEl);
+
+    if (holName) {
+      var hn = document.createElement('div');
+      hn.className = 'wx-hname';
+      hn.textContent = holName;
+      cell.appendChild(hn);
+    }
+
+    var hasData = !isCur || d <= lastData;
+    if (hasData && regionData) {
+      var dayObj = null;
+      for (var k = 0; k < regionData.days.length; k++) {
+        if (regionData.days[k].d === d) { dayObj = regionData.days[k]; break; }
+      }
+      if (dayObj) {
+        if (dayObj.temp !== null && dayObj.temp !== undefined) {
+          var tv = document.createElement('div');
+          tv.className = 'wx-temp';
+          tv.textContent = dayObj.temp + '°';
+          cell.appendChild(tv);
+        }
+        if (dayObj.rain > 0) {
+          var rv = document.createElement('div');
+          rv.className = 'wx-rain';
+          rv.textContent = dayObj.rain + 'mm';
+          cell.appendChild(rv);
+        }
+      }
+    } else if (!hasData) {
+      var nd = document.createElement('div');
+      nd.className = 'wx-nd';
+      nd.textContent = '—';
+      cell.appendChild(nd);
+    }
+    gridEl.appendChild(cell);
+  }
+}
+
+function wxBuildDowIdx(curY, curM) {
+  var lyY = curY - 1, lyM = curM;
+  var DOW_NAMES = ['일','월','화','수','목','금','토'];
+  var body = document.getElementById('wx-di-body');
+  if (!body) return;
+  body.innerHTML = '';
+
+  // 금년은 데이터 있는 날까지만 카운트
+  var now = new Date();
+  var curYm = wxYm(curY, curM);
+  var regionData = (_wxData && _wxData[wxRegion]) ? _wxData[wxRegion][curYm] : null;
+  var curLastDay;
+  if (curY === now.getFullYear() && curM === now.getMonth()) {
+    curLastDay = regionData && regionData.days && regionData.days.length
+      ? regionData.days[regionData.days.length - 1].d
+      : now.getDate() - 1;
+  } else {
+    curLastDay = wxDaysInMonth(curY, curM);
+  }
+  var lyLastDay = wxDaysInMonth(lyY, lyM);
+
+  function countDow(y, m, lastDay) {
+    var dc = [0,0,0,0,0,0,0]; var hc = 0; var hlist = [];
+    for (var d = 1; d <= lastDay; d++) {
+      var dow = new Date(y, m, d).getDay();
+      var hol = wxGetHoliday(y, m, d);
+      if (hol && dow !== 0 && dow !== 6) { hc++; hlist.push(hol); }
+      else dc[dow]++;
+    }
+    return { dc: dc, hc: hc, hlist: hlist };
+  }
+
+  var cur = countDow(curY, curM, curLastDay);
+  // 전년도 비교: 금년과 동일한 일수까지만 카운트 (공정 비교)
+  var ly  = countDow(lyY, lyM, Math.min(curLastDay, lyLastDay));
+
+  document.getElementById('wx-di-month').textContent =
+    '— ' + wxMonthStr(curY, curM) + ' vs ' + wxMonthStr(lyY, lyM);
+
+  // 일~토 전체 (0~6), 금년 기준: 금년>전년이면 왼쪽(pos), 금년<전년이면 오른쪽(neg)
+  var DOW_ORDER = [1,2,3,4,5,6,0]; // 월~토~일 순
+  DOW_ORDER.forEach(function(i) {
+    var diff = cur.dc[i] - ly.dc[i];
+    var row = document.createElement('div'); row.className = 'wx-di-row';
+    var nm = document.createElement('div'); nm.className = 'wx-di-name';
+    nm.textContent = DOW_NAMES[i] + '요일';
+    var bwrap = document.createElement('div'); bwrap.className = 'wx-di-bar-wrap';
+    var mid = document.createElement('div'); mid.className = 'wx-di-mid'; bwrap.appendChild(mid);
+    var bar = document.createElement('div');
+    var pct = Math.min(Math.abs(diff) * 40, 48);
+    // 금년>전년 = 왼쪽(pos/빨강), 금년<전년 = 오른쪽(neg/파랑)
+    if (diff > 0)      { bar.className = 'wx-di-bar pos'; bar.style.width = pct + '%'; }
+    else if (diff < 0) { bar.className = 'wx-di-bar neg'; bar.style.width = pct + '%'; }
+    else               { bar.className = 'wx-di-bar zero'; }
+    bwrap.appendChild(bar);
+    var val = document.createElement('div');
+    val.className = 'wx-di-val ' + (diff > 0 ? 'pos' : diff < 0 ? 'neg' : 'zero');
+    val.textContent = (diff > 0 ? '+' : '') + diff + '일';
+    row.appendChild(nm); row.appendChild(bwrap); row.appendChild(val);
+    body.appendChild(row);
+  });
+
+  var sep = document.createElement('hr'); sep.className = 'wx-di-sep'; body.appendChild(sep);
+
+  var holDiff = cur.hc - ly.hc;
+  var holRow = document.createElement('div'); holRow.className = 'wx-di-row';
+  var holNm = document.createElement('div'); holNm.className = 'wx-di-name';
+  holNm.innerHTML = '공휴일 <span style="font-size:9px">(평일)</span>';
+  var holBwrap = document.createElement('div'); holBwrap.className = 'wx-di-bar-wrap';
+  var holMid = document.createElement('div'); holMid.className = 'wx-di-mid'; holBwrap.appendChild(holMid);
+  var holBar = document.createElement('div');
+  var holPct = Math.min(Math.abs(holDiff) * 40, 48);
+  if (holDiff > 0)      { holBar.className = 'wx-di-bar pos'; holBar.style.width = holPct + '%'; }
+  else if (holDiff < 0) { holBar.className = 'wx-di-bar neg'; holBar.style.width = holPct + '%'; }
+  else                  { holBar.className = 'wx-di-bar zero'; }
+  holBwrap.appendChild(holBar);
+  var holVal = document.createElement('div');
+  holVal.className = 'wx-di-val ' + (holDiff > 0 ? 'pos' : holDiff < 0 ? 'neg' : 'zero');
+  holVal.textContent = (holDiff > 0 ? '+' : '') + holDiff + '일';
+  holRow.appendChild(holNm); holRow.appendChild(holBwrap); holRow.appendChild(holVal);
+  body.appendChild(holRow);
+
+  var holDetail = document.createElement('div'); holDetail.className = 'wx-di-hol-detail';
+  holDetail.textContent =
+    '금년: ' + (cur.hlist.length ? cur.hlist.join('·') : '없음') +
+    ' / 전년: ' + (ly.hlist.length ? ly.hlist.join('·') : '없음');
+  body.appendChild(holDetail);
+}
 
   for (var i = 0; i < start; i++) {
     var e = document.createElement('div');
@@ -2058,8 +2218,12 @@ function wxRender() {
   }
   setSum('wx-s-temp', curMon ? curMon.avg_temp : null, 'wx-s-tdiff',
          curMon ? curMon.avg_temp : null, lyMon ? lyMon.avg_temp : null, '°C');
-  setSum('wx-s-rain', curMon ? curMon.total_rain : null, 'wx-s-rdiff',
-         curMon ? curMon.total_rain : null, lyMon ? lyMon.total_rain : null, 'mm');
+  // 일평균 강수량 = 월강수량 / 집계일수
+  var curRainAvg = (curMon && curMon.total_rain != null && curMon.days && curMon.days.length)
+    ? Math.round(curMon.total_rain / curMon.days.length * 10) / 10 : null;
+  var lyRainAvg  = (lyMon  && lyMon.total_rain  != null && lyMon.days  && lyMon.days.length)
+    ? Math.round(lyMon.total_rain  / lyMon.days.length  * 10) / 10 : null;
+  setSum('wx-s-rain', curRainAvg, 'wx-s-rdiff', curRainAvg, lyRainAvg, 'mm');
 
   wxBuildDowIdx(wxY, wxM);
 }
