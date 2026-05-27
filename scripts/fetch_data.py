@@ -413,7 +413,7 @@ def main():
         print(f"  → 최신: {data['online'][-1]}")
 
     print("\n[15] 방한외국인")
-    new_rows = kosis_fetch("101", "DT_1KE10081", "T1", "ALL",
+    new_rows = kosis_fetch("314", "DT_TRD_TGT_ENT_AGG_MONTH", "13103314422T01", "ALL",
                            months_ago(4), today[:6])
     if new_rows:
         series = data.get("tourist", [])
@@ -423,7 +423,7 @@ def main():
         print(f"  → 최신: {data['tourist'][-1]}")
 
     print("\n[16] 내국인출국")
-    new_rows = kosis_fetch("101", "DT_1KE10081", "T2", "ALL",
+    new_rows = kosis_fetch("314", "DT_SEX_DEP_AGG_MONTH", "13103314008T01", "ALL",
                            months_ago(4), today[:6])
     if new_rows:
         series = data.get("outbound", [])
