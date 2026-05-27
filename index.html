@@ -2051,65 +2051,6 @@ function wxBuildDowIdx(curY, curM) {
   body.appendChild(holDetail);
 }
 
-  for (var i = 0; i < start; i++) {
-    var e = document.createElement('div');
-    e.className = 'wx-cell empty';
-    gridEl.appendChild(e);
-  }
-  for (var d = 1; d <= days; d++) {
-    var dow = (start + d - 1) % 7;
-    var holName = wxGetHoliday(y, m, d);
-    var cell = document.createElement('div');
-    var cls = 'wx-cell';
-    if (dow === 0) cls += ' sun';
-    if (dow === 6) cls += ' sat';
-    if (d === todayD) cls += ' today';
-    if (isCur && d > lastData) cls += ' future';
-    if (holName && !(isCur && d > lastData)) cls += ' holiday';
-    cell.className = cls;
-
-    var numEl = document.createElement('div');
-    numEl.className = 'wx-dnum';
-    numEl.textContent = d;
-    cell.appendChild(numEl);
-
-    if (holName) {
-      var hn = document.createElement('div');
-      hn.className = 'wx-hname';
-      hn.textContent = holName;
-      cell.appendChild(hn);
-    }
-
-    var hasData = !isCur || d <= lastData;
-    if (hasData && regionData) {
-      var dayObj = null;
-      for (var k = 0; k < regionData.days.length; k++) {
-        if (regionData.days[k].d === d) { dayObj = regionData.days[k]; break; }
-      }
-      if (dayObj) {
-        if (dayObj.temp !== null && dayObj.temp !== undefined) {
-          var tv = document.createElement('div');
-          tv.className = 'wx-temp';
-          tv.textContent = dayObj.temp + '°';
-          cell.appendChild(tv);
-        }
-        if (dayObj.rain > 0) {
-          var rv = document.createElement('div');
-          rv.className = 'wx-rain';
-          rv.textContent = dayObj.rain + 'mm';
-          cell.appendChild(rv);
-        }
-      }
-    } else if (!hasData) {
-      var nd = document.createElement('div');
-      nd.className = 'wx-nd';
-      nd.textContent = '—';
-      cell.appendChild(nd);
-    }
-    gridEl.appendChild(cell);
-  }
-}
-
 function wxBuildDowIdx(curY, curM) {
   var lyY = curY - 1, lyM = curM;
   var DOW_NAMES = ['일','월','화','수','목','금','토'];
