@@ -259,7 +259,7 @@ def main():
 
     # ── 1. 소비자심리지수 (CCSI) — ECOS 월별
     print("\n[1] CSI 소비자심리지수")
-    new_rows = ecos_fetch("521Y001", "FME", "M", m3, today[:6])
+    new_rows = ecos_fetch("511Y002", "FME", "M", m3, today[:6])
     if new_rows:
         series = data.get("csi", [])
         for r in new_rows:
@@ -277,9 +277,9 @@ def main():
         data["rate"] = sorted(series, key=lambda x: x["ym"])[-18:]
         print(f"  → 최신: {data['rate'][-1]}")
 
-    # ── 3. 환율 (USD/KRW) — ECOS 월별 (731Y003: 원/달러 매매기준율)
+    # ── 3. 환율 (USD/KRW) — ECOS 월별
     print("\n[3] 환율")
-    new_rows = ecos_fetch("731Y003", "0000001", "M", m3, today[:6])
+    new_rows = ecos_fetch("731Y004", "0000001", "M", m3, today[:6])
     if not new_rows:
         # fallback: 기존 값 유지 (이상한 값으로 덮어쓰지 않음)
         print("  → 환율 API 실패, 기존 값 유지")
@@ -318,7 +318,7 @@ def main():
 
     # ── 6. 주택가격지수 — ECOS 월별
     print("\n[6] 주택가격지수")
-    new_rows = ecos_fetch("512Y006", "P63AA", "M", m3, today[:6])
+    new_rows = ecos_fetch("901Y062", "P63A", "M", m3, today[:6])
     if new_rows:
         series = data.get("houseprice", [])
         for r in new_rows:
@@ -611,7 +611,7 @@ def main():
                     raw_num  = item.findtext("touNum") or "0"
 
                     short_nm = TOURISM_AREAS.get(area_nm)
-                    if not short_nm or not tou_div or not ymd:
+                    if not short_nm or tou_div != "2" or not ymd:
                         continue
                     try:
                         cnt = float(raw_num)
