@@ -63,6 +63,12 @@
   ],
   "kdi": [
     {
+      "title": "이재명 대통령 \"올해 명목성장률 10% 관측\"…24년만에 두자리 성장하나",
+      "date": "Wed, 27 May 2026 14:40:00",
+      "source": "n.news.naver.com",
+      "url": "https://www.sidae.com/article/2026052714333431600"
+    },
+    {
       "title": "국책연구기관, \"올해 하반기 'MORE BIG 반도체 슈퍼 사이클' 전망\"",
       "date": "Wed, 27 May 2026 12:00:00",
       "source": "ftoday.co.kr",
@@ -115,15 +121,33 @@
       "date": "Wed, 27 May 2026 00:31:00",
       "source": "n.news.naver.com",
       "url": "https://www.donga.com/news/Economy/article/all/20260526/133996426/2"
-    },
-    {
-      "title": "쿠팡은 되고 마트는 안 된다...대형마트 '새벽배송' 규제 풀릴까",
-      "date": "Tue, 26 May 2026 19:26:00",
-      "source": "4th.kr",
-      "url": "http://www.4th.kr/news/articleView.html?idxno=2112282"
     }
   ],
   "bok": [
+    {
+      "title": "[김윤섭의 Fin포인트] 요즘 누가 예금하나…'역대급' 머니무브에 은행들...",
+      "date": "Wed, 27 May 2026 15:08:00",
+      "source": "ajunews.com",
+      "url": "https://www.ajunews.com/view/20260527133848256"
+    },
+    {
+      "title": "우리은행, ‘부천 대장~홍대 광역철도’ 1조9천억원 금융주선…수도권...",
+      "date": "Wed, 27 May 2026 14:58:00",
+      "source": "todayeconomic.com",
+      "url": "https://www.todayeconomic.com/news/article.html?no=30738"
+    },
+    {
+      "title": "한은 금통위 D-1…연내 '금리 인상' 신호 나올까",
+      "date": "Wed, 27 May 2026 14:56:00",
+      "source": "newsworks.co.kr",
+      "url": "https://www.newsworks.co.kr/news/articleView.html?idxno=841996"
+    },
+    {
+      "title": "광주전남 5월 소비자심리 호전",
+      "date": "Wed, 27 May 2026 14:05:00",
+      "source": "n.news.naver.com",
+      "url": "https://www.yna.co.kr/view/AKR20260527103100054?input=1195m"
+    },
     {
       "title": "[증권가 NOW!] 신한투자·한화투자·교보·키움·미래에셋...\"AI 공시부터...",
       "date": "Wed, 27 May 2026 13:38:00",
@@ -159,35 +183,11 @@
       "date": "Wed, 27 May 2026 12:19:00",
       "source": "n.news.naver.com",
       "url": "http://www.joseilbo.com/news/news_read.php?uid=568994&class=18&grp="
-    },
-    {
-      "title": "로이터 \"한국은행 6월 기준금리 동결 전망 우세\", 연말까지 인상폭 전망...",
-      "date": "Wed, 27 May 2026 12:04:00",
-      "source": "businesspost.co.kr",
-      "url": "https://www.businesspost.co.kr/BP?command=article_view&num=438664"
-    },
-    {
-      "title": "코스피 불장에 외국인 자산 ‘쑥’…순대외금융자산 2분기 연속↓",
-      "date": "Wed, 27 May 2026 12:03:00",
-      "source": "n.news.naver.com",
-      "url": "https://www.edaily.co.kr/news/newspath.asp?newsid=03867126645453184"
-    },
-    {
-      "title": "[금통위 인터뷰] ING \"5월 동결 전망…인상 소수의견 최소 1명\"",
-      "date": "Wed, 27 May 2026 11:34:00",
-      "source": "news.einfomax.co.kr",
-      "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4416902"
-    },
-    {
-      "title": "신현송 첫 시험대…동결 유력 속 매파 신호 주목",
-      "date": "Wed, 27 May 2026 11:24:00",
-      "source": "mediapen.com",
-      "url": "https://www.mediapen.com/news/view/1101124"
     }
   ],
   "kiep": [
     {
-      "title": "한은, 성장률 상향 촉각…1인당 GDP '3만달러 박스권' 벗어나나",
+      "title": "한은, 성장률 상향 촉각…1인당 GDP '4만 달러' 당겨질까",
       "date": "Wed, 27 May 2026 10:25:00",
       "source": "n.news.naver.com",
       "url": "https://www.sidae.com/article/2026052707513769941"
@@ -309,5 +309,5 @@
       "url": "https://news.mtn.co.kr/news-detail/2026041316131741763"
     }
   ],
-  "updated": "2026.05.27 13:49"
+  "updated": "2026.05.27 15:11"
 }

@@ -30310,12 +30310,12 @@
           {
             "d": 27,
             "temp": null,
-            "rain": 11.2
+            "rain": 12.2
           }
         ],
         "avg_temp": 18.3,
         "max_temp": 23.9,
-        "total_rain": 86.2,
+        "total_rain": 87.2,
         "rain_days": 9
       }
     },
