@@ -1445,6 +1445,8 @@ async function fetchNewsAI() {
 function fnews(cat, btn) {
   document.querySelectorAll('.kwbtn').forEach(function(b){ b.classList.remove('on'); });
   btn.classList.add('on');
+  var hidden = document.getElementById('nwrap-hidden');
+  if (hidden) hidden.style.display = '';
   document.querySelectorAll('.news-item').forEach(function(item){
     item.style.display = (cat==='all' || item.dataset.cat===cat) ? '' : 'none';
   });
