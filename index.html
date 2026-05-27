@@ -2002,7 +2002,7 @@ function wxBuildDowIdx(curY, curM) {
     var bwrap = document.createElement('div'); bwrap.className = 'wx-di-bar-wrap';
     var mid = document.createElement('div'); mid.className = 'wx-di-mid'; bwrap.appendChild(mid);
     var bar = document.createElement('div');
-    var pct = Math.min(Math.abs(diff) * 40, 48);
+    var pct = Math.min(Math.abs(diff) * 9.6, 48);
     // 금년>전년 = 왼쪽(pos/빨강), 금년<전년 = 오른쪽(neg/파랑)
     if (diff > 0)      { bar.className = 'wx-di-bar pos'; bar.style.width = pct + '%'; }
     else if (diff < 0) { bar.className = 'wx-di-bar neg'; bar.style.width = pct + '%'; }
@@ -2024,7 +2024,7 @@ function wxBuildDowIdx(curY, curM) {
   var holBwrap = document.createElement('div'); holBwrap.className = 'wx-di-bar-wrap';
   var holMid = document.createElement('div'); holMid.className = 'wx-di-mid'; holBwrap.appendChild(holMid);
   var holBar = document.createElement('div');
-  var holPct = Math.min(Math.abs(holDiff) * 40, 48);
+  var holPct = Math.min(Math.abs(holDiff) * 9.6, 48);
   if (holDiff > 0)      { holBar.className = 'wx-di-bar pos'; holBar.style.width = holPct + '%'; }
   else if (holDiff < 0) { holBar.className = 'wx-di-bar neg'; holBar.style.width = holPct + '%'; }
   else                  { holBar.className = 'wx-di-bar zero'; }
