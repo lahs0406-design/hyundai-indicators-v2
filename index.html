@@ -2053,7 +2053,9 @@ function wxRender() {
   document.getElementById('wx-cur-lbl').textContent  = wxMonthStr(wxY, wxM);
   document.getElementById('wx-prev-lbl').textContent = wxMonthStr(lyY, lyM);
 
-  var atMax = (wxY === now.getFullYear() && wxM === now.getMonth());
+  var futureLimit = new Date(now.getFullYear(), now.getMonth() + 3, 1);
+var atMax = (wxY > futureLimit.getFullYear()) || 
+            (wxY === futureLimit.getFullYear() && wxM >= futureLimit.getMonth());
   document.getElementById('wx-next').disabled = atMax;
 
   wxBuildGrid(document.getElementById('wx-grid-cur'),  wxRegion, wxY,  wxM,  true);
