@@ -1918,7 +1918,8 @@ function wxBuildGrid(gridEl, region, y, m, isCur) {
     if (dow === 0) cls += ' sun';
     if (dow === 6) cls += ' sat';
     if (d === todayD) cls += ' today';
-    if (isCur && d > lastData) cls += ' future';
+    var isCurrentMonth = (y === now.getFullYear() && m === now.getMonth());
+if (isCurrentMonth && d > lastData) cls += ' future';
     if (holName && !(isCur && d > lastData)) cls += ' holiday';
     cell.className = cls;
 
