@@ -129,7 +129,13 @@ def kosis_fetch(org_id: str, tbl_id: str, itm_id: str,
 
     for url in urls_to_try:
         try:
-            with urllib.request.urlopen(url, timeout=15) as res:
+            # 브라우저인 것처럼 속이기 위한 헤더 추가
+            headers = {
+                "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+            }
+            req = urllib.request.Request(url, headers=headers)
+          
+            with urllib.request.urlopen(req, timeout=15) as res:
                 rows = json.loads(res.read().decode("utf-8"))
                 if not isinstance(rows, list):
                     continue
