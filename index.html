@@ -295,14 +295,15 @@ footer{padding:1.25rem;text-align:center;font-size:11px;color:var(--text3);borde
   <!-- § 3-1. 카테고리 버튼 그리드 -->
   <div class="sidebar-hd">
     <div class="sidebar-label">1 · 지표 추세 <span id="data-updated" style="font-size:9px;font-weight:400;color:var(--text3);text-transform:none;letter-spacing:0;margin-left:4px"></span></div>
-    <div class="cat-grid">
-      <button class="cat-col-btn open" onclick="toggleCat(this,'grp1')"><span class="em">💬</span>소비심리</button>
-      <button class="cat-col-btn" onclick="toggleCat(this,'grp2')"><span class="em">💰</span>소득·고용</button>
-      <button class="cat-col-btn" onclick="toggleCat(this,'grp3')"><span class="em">📈</span>물가·금리</button>
-      <button class="cat-col-btn" onclick="toggleCat(this,'grp4')"><span class="em">🏠</span>자산시장</button>
-      <button class="cat-col-btn" onclick="toggleCat(this,'grp5')"><span class="em">🛍️</span>유통채널</button>
-      <button class="cat-col-btn" onclick="toggleCat(this,'grp6')"><span class="em">👶</span>인구동향</button>
-    </div>
+<div class="cat-grid">
+  <button class="cat-col-btn open" onclick="toggleCat(this,'grp1')"><span class="em">💬</span>소비심리</button>
+  <button class="cat-col-btn" onclick="toggleCat(this,'grp3')"><span class="em">📈</span>물가·금리</button>
+  <button class="cat-col-btn" onclick="toggleCat(this,'grp4')"><span class="em">🏠</span>자산시장</button>
+  <button class="cat-col-btn" onclick="toggleCat(this,'grp7')"><span class="em">✈️</span>관광객</button>
+  <button class="cat-col-btn" onclick="toggleCat(this,'grp2')"><span class="em">💰</span>소득·고용</button>
+  <button class="cat-col-btn" onclick="toggleCat(this,'grp5')"><span class="em">🛍️</span>유통채널</button>
+  <button class="cat-col-btn" onclick="toggleCat(this,'grp6')"><span class="em">👶</span>인구동향</button>
+</div>
   </div>
   <!-- § 3-2. 지표별 서브 버튼 패널 -->
   <div class="sub-panel open" id="grp1"><button class="sub-btn on" onclick="selChart('csi',this,'grp1')">소비자심리지수</button></div>
@@ -310,7 +311,11 @@ footer{padding:1.25rem;text-align:center;font-size:11px;color:var(--text3);borde
   <div class="sub-panel" id="grp3"><button class="sub-btn" onclick="selChart('cpi',this,'grp3')">소비자물가</button><button class="sub-btn" onclick="selChart('rate',this,'grp3')">기준금리</button></div>
   <div class="sub-panel" id="grp4"><button class="sub-btn" onclick="selChart('kospi',this,'grp4')">KOSPI</button><button class="sub-btn" onclick="selChart('houseprice',this,'grp4')">주택매매가격</button><button class="sub-btn" onclick="selChart('fx',this,'grp4')">환율</button></div>
   <div class="sub-panel" id="grp5"><button class="sub-btn" onclick="selChart('dept',this,'grp5')">백화점매출(전년비)</button><button class="sub-btn" onclick="selChart('mart',this,'grp5')">대형마트매출</button><button class="sub-btn" onclick="selChart('convenience',this,'grp5')">편의점매출</button><button class="sub-btn" onclick="selChart('online',this,'grp5')">온라인쇼핑</button><button class="sub-btn" onclick="selChart('retail',this,'grp5')">소매판매지수</button><button class="sub-btn" onclick="selChart('service',this,'grp5')">서비스업생산</button><button class="sub-btn" onclick="selChart('tourist',this,'grp5')">방한외국인</button><button class="sub-btn" onclick="selChart('outbound',this,'grp5')">내국인출국</button></div>
-  <div class="sub-panel" id="grp6"><button class="sub-btn" onclick="selChart('birthrate',this,'grp6')">합계출산율(TFR)</button><button class="sub-btn" onclick="selChart('marriagerate',this,'grp6')">조혼인율</button></div>
+<div class="sub-panel" id="grp7">
+  <button class="sub-btn" onclick="selChart('tourist',this,'grp7')">방한외국인</button>
+  <button class="sub-btn" onclick="selChart('outbound',this,'grp7')">내국인출국</button>
+</div>
+   <div class="sub-panel" id="grp6"><button class="sub-btn" onclick="selChart('birthrate',this,'grp6')">합계출산율(TFR)</button><button class="sub-btn" onclick="selChart('marriagerate',this,'grp6')">조혼인율</button></div>
   <!-- § 3-3. 차트 + KPI 수치 -->
   <div class="sidebar-chart">
     <div class="chart-name" id="ctitle">소비자심리지수 (CCSI)</div>
@@ -1278,9 +1283,10 @@ async function selChartWithAPI(key, btn, grpId) {
   document.querySelectorAll('.cat-col-btn').forEach(function(b){ b.classList.remove('open'); });
   var grp = document.getElementById(grpId);
   if(grp) grp.classList.add('open');
-  var idx = parseInt(grpId.replace('grp',''))-1;
-  var catBtns = document.querySelectorAll('.cat-col-btn');
-  if(catBtns[idx]) catBtns[idx].classList.add('open');
+var grpToBtnIdx = {'grp1':0,'grp3':1,'grp4':2,'grp7':3,'grp2':4,'grp5':5,'grp6':6};
+var idx = grpToBtnIdx[grpId];
+var catBtns = document.querySelectorAll('.cat-col-btn');
+if(idx !== undefined && catBtns[idx]) catBtns[idx].classList.add('open');
 
 
 
