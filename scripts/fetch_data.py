@@ -611,7 +611,7 @@ def main():
                     raw_num  = item.findtext("touNum") or "0"
 
                     short_nm = TOURISM_AREAS.get(area_nm)
-                    if not short_nm or tou_div != "2" or not ymd:
+                    if not short_nm or tou_div != "3" or not ymd:
                         continue
                     try:
                         cnt = float(raw_num)
