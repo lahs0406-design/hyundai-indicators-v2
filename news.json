@@ -1,27 +1,6 @@
 {
   "dept": [
     {
-      "title": "더현대 서울에 등장한 ‘수면 체험형’ 가누다·까르마 팝업",
-      "date": "Wed, 27 May 2026 21:50:00",
-      "source": "wemakenews.co.kr",
-      "url": "https://wemakenews.co.kr/news/view.php?no=25352",
-      "sub": ""
-    },
-    {
-      "title": "가누다-까르마, 더현대 서울 팝업스토어 운영…\"맞춤 수면제품 찾으세요...",
-      "date": "Wed, 27 May 2026 18:10:00",
-      "source": "k-health.com",
-      "url": "https://www.k-health.com/news/articleView.html?idxno=92609",
-      "sub": ""
-    },
-    {
-      "title": "[포토] 더현대 서울에 열린 '케데헌' 1주년 팝업",
-      "date": "Wed, 27 May 2026 16:31:00",
-      "source": "enewstoday.co.kr",
-      "url": "http://www.enewstoday.co.kr/news/articleView.html?idxno=2433309",
-      "sub": ""
-    },
-    {
       "title": "신동빈 공들인 베트남 에코스마트 시티, 10년 만에 탄력…현지 부동산 ...",
       "date": "Wed, 27 May 2026 08:24:00",
       "source": "theguru.co.kr",
@@ -36,38 +15,59 @@
       "sub": ""
     },
     {
-      "title": "성시경의 ‘경탁주’, 부산 팝업 개최",
-      "date": "Thu, 28 May 2026 08:52:00",
-      "source": "bntnews.co.kr",
-      "url": "https://www.bntnews.co.kr/article/view/bnt202605280072",
-      "sub": ""
-    },
-    {
-      "title": "성시경 주류 브랜드 '경탁주 12도', 부산 팝업스토어 연다",
-      "date": "Thu, 28 May 2026 08:50:00",
-      "source": "topstarnews.net",
-      "url": "https://www.topstarnews.net/news/articleView.html?idxno=16073565",
-      "sub": ""
-    },
-    {
-      "title": "유니클로, '감사제' 진행...김정윤 'UTme!' 스탬프 디자인 공개",
-      "date": "Thu, 28 May 2026 08:48:00",
-      "source": "slist.kr",
-      "url": "https://www.slist.kr/news/articleView.html?idxno=741791",
-      "sub": ""
-    },
-    {
-      "title": "유니폼 입고 응원을…무신사, 월드컵 앞두고 ‘스포츠위크’",
-      "date": "Thu, 28 May 2026 08:47:00",
+      "title": "\"여름 라이프웨어 저렴하게 득템하자\" 유니클로, 감사제 돌입",
+      "date": "Thu, 28 May 2026 10:22:00",
       "source": "n.news.naver.com",
-      "url": "https://biz.heraldcorp.com/article/10757491?ref=naver",
+      "url": "https://www.newsis.com/view/NISX20260528_0003646996",
       "sub": ""
     },
     {
-      "title": "\"4년 만에 생크림빵 1억 개 판매 기념\" 연세유업, '빵빵랜드' 팝업",
-      "date": "Thu, 28 May 2026 08:46:00",
+      "title": "[줌업] \"일베벅스 안 가\"...정용진 사과에도 결제액 85억 증발 '신뢰 흔...",
+      "date": "Thu, 28 May 2026 10:22:00",
+      "source": "startuptoday.co.kr",
+      "url": "https://www.startuptoday.co.kr/news/articleView.html?idxno=802178",
+      "sub": ""
+    },
+    {
+      "title": "[유통업계] 갤러리아점·현대백화점·뉴발란스, 여름 맞아 패션·문화 마...",
+      "date": "Thu, 28 May 2026 10:16:00",
+      "source": "weeklytoday.com",
+      "url": "http://www.weeklytoday.com/news/articleView.html?idxno=777483",
+      "sub": ""
+    },
+    {
+      "title": "린드버그 바이 금강안경, 롯데백화점 잠실점에 신규 스토어 오픈",
+      "date": "Thu, 28 May 2026 10:16:00",
+      "source": "stardailynews.co.kr",
+      "url": "https://www.stardailynews.co.kr/news/articleView.html?idxno=537479",
+      "sub": ""
+    },
+    {
+      "title": "스타벅스 '5·18 논란' 결국 정용진 향했다",
+      "date": "Thu, 28 May 2026 10:16:00",
+      "source": "safetimes.co.kr",
+      "url": "https://www.safetimes.co.kr/news/articleView.html?idxno=242896",
+      "sub": ""
+    },
+    {
+      "title": "OTT 웨이브, 올리브영과 미디어 커머스 선봬",
+      "date": "Thu, 28 May 2026 10:15:00",
       "source": "n.news.naver.com",
-      "url": "https://www.newsis.com/view/NISX20260528_0003646697",
+      "url": "https://zdnet.co.kr/view/?no=20260528091513",
+      "sub": ""
+    },
+    {
+      "title": "[기획] 명동 복귀한 유니클로, 옛 명성 되찾을까...K-컬처 변수",
+      "date": "Thu, 28 May 2026 10:12:00",
+      "source": "tleaves.co.kr",
+      "url": "https://www.tleaves.co.kr/news/articleView.html?idxno=9323",
+      "sub": ""
+    },
+    {
+      "title": "현대백화점, 지식 스포츠 문화 넓힌다…판교점 '브리지 챔피언십' 성료",
+      "date": "Thu, 28 May 2026 10:08:00",
+      "source": "cnbnews.com",
+      "url": "https://www.cnbnews.com/news/articleView.html?idxno=1002900",
       "sub": ""
     }
   ],
@@ -87,17 +87,52 @@
       "sub": ""
     },
     {
-      "title": "MBC아카데미뷰티미용학원 수원지점, '취업지원센터' 오픈",
-      "date": "Wed, 27 May 2026 17:04:00",
-      "source": "enetnews.co.kr",
-      "url": "https://www.enetnews.co.kr/news/articleView.html?idxno=50530",
+      "title": "'우리, 지금 여기'... 홍대서 열린 '계약하는 전시'",
+      "date": "Thu, 28 May 2026 10:06:00",
+      "source": "asiaa.co.kr",
+      "url": "https://www.asiaa.co.kr/news/articleView.html?idxno=250761",
       "sub": ""
     },
     {
-      "title": "2026 워치스 앤 원더스에서 만난 넘실거리는 시간의 흐름",
-      "date": "Wed, 27 May 2026 10:00:00",
+      "title": "반클리프 아펠의 아카이브가 미래의 주인공이 되기까지",
+      "date": "Thu, 28 May 2026 10:02:00",
+      "source": "vogue.co.kr",
+      "url": "https://www.vogue.co.kr/2026/05/28/%eb%b0%98%ed%81%b4%eb%a6%ac%ed%94%84-%ec%95%84%ed%8e%a0%ec%9d%98-%ec%95%84%ec%b9%b4%ec%9d%b4%eb%b8%8c%ea%b0%80-%eb%af%b8%eb%9e%98%ec%9d%98-%ec%a3%bc%ec%9d%b8%ea%b3%b5%ec%9d%b4-%eb%90%98%ea%b8%b0/?utm_source=naver&utm_medium=partnership",
+      "sub": ""
+    },
+    {
+      "title": "워치스 앤 원더스 2026, 까르띠에",
+      "date": "Thu, 28 May 2026 10:00:00",
       "source": "gqkorea.co.kr",
-      "url": "https://www.gqkorea.co.kr/2026/05/27/%ec%9b%8c%ec%b9%98%ec%8a%a4-%ec%95%a4-%ec%9b%90%eb%8d%94%ec%8a%a4%ec%97%90%ec%84%9c-%eb%a7%8c%eb%82%9c-%eb%84%98%ec%8b%a4%ea%b1%b0%eb%a6%ac%eb%8a%94-%ec%8b%9c%ea%b0%84%ec%9d%98-%ed%9d%90%eb%a6%84/?utm_source=naver&utm_medium=partnership",
+      "url": "https://www.gqkorea.co.kr/2026/05/28/%ec%9b%8c%ec%b9%98%ec%8a%a4-%ec%95%a4-%ec%9b%90%eb%8d%94%ec%8a%a4-2026-%ea%b9%8c%eb%a5%b4%eb%9d%a0%ec%97%90/?utm_source=naver&utm_medium=partnership",
+      "sub": ""
+    },
+    {
+      "title": "[미르의 알기쉬운 비즈니스]인도에서도 주목한 K뷰티 제국…미국 제치고...",
+      "date": "Thu, 28 May 2026 10:00:00",
+      "source": "mediapen.com",
+      "url": "https://www.mediapen.com/news/view/1101309",
+      "sub": ""
+    },
+    {
+      "title": "워치스 앤 원더스 2026, 샤넬 워치",
+      "date": "Thu, 28 May 2026 10:00:00",
+      "source": "gqkorea.co.kr",
+      "url": "https://www.gqkorea.co.kr/2026/05/28/%ec%9b%8c%ec%b9%98%ec%8a%a4-%ec%95%a4-%ec%9b%90%eb%8d%94%ec%8a%a4-2026-%ec%83%a4%eb%84%ac-%ec%9b%8c%ec%b9%98/?utm_source=naver&utm_medium=partnership",
+      "sub": ""
+    },
+    {
+      "title": "부산시장 TV토론 '시계 공방'… '받았나 안 받았나'엔 끝내 답 안 한 전...",
+      "date": "Thu, 28 May 2026 09:40:00",
+      "source": "pk.newdaily.co.kr",
+      "url": "https://pk.newdaily.co.kr/site/data/html/2026/05/28/2026052800052.html",
+      "sub": ""
+    },
+    {
+      "title": "루이비통 포 유니세프, 파트너십 10주년 기념 활동 펼쳐",
+      "date": "Thu, 28 May 2026 09:38:00",
+      "source": "fashionbiz.co.kr",
+      "url": "https://www.fashionbiz.co.kr/article/226626",
       "sub": ""
     },
     {
@@ -105,41 +140,6 @@
       "date": "Thu, 28 May 2026 08:52:00",
       "source": "n.news.naver.com",
       "url": "https://www.imaeil.com/page/view/2026052808515324075",
-      "sub": ""
-    },
-    {
-      "title": "[포토] 김고은, 같은 드레스 다른 느낌...'우아함과 러블리 사이'",
-      "date": "Thu, 28 May 2026 08:50:00",
-      "source": "slist.kr",
-      "url": "https://www.slist.kr/news/articleView.html?idxno=741793",
-      "sub": ""
-    },
-    {
-      "title": "[포토] 코르티스 마틴-건호, 숏폼 감성 가득한 'REDRED' 현장 압도",
-      "date": "Thu, 28 May 2026 08:40:00",
-      "source": "slist.kr",
-      "url": "https://www.slist.kr/news/articleView.html?idxno=741789",
-      "sub": ""
-    },
-    {
-      "title": "[포토] 코르티스 건호 '미소 짓는 조각 미남'",
-      "date": "Thu, 28 May 2026 08:30:00",
-      "source": "slist.kr",
-      "url": "https://www.slist.kr/news/articleView.html?idxno=741780",
-      "sub": ""
-    },
-    {
-      "title": "“기술 넘어 감성으로 시계를 빚다”…캐서린 레니에의 반클리프 아펠 ...",
-      "date": "Thu, 28 May 2026 07:00:00",
-      "source": "n.news.naver.com",
-      "url": "https://www.joongang.co.kr/article/25431909",
-      "sub": ""
-    },
-    {
-      "title": "[상권 빨아들이는 ‘삼전닉세권’] ② 명품시계·보석 매출 견인… 외식...",
-      "date": "Thu, 28 May 2026 05:22:00",
-      "source": "dnews.co.kr",
-      "url": "https://www.dnews.co.kr/uhtml/view.jsp?idxno=202605271053241310103",
       "sub": ""
     }
   ],
@@ -166,13 +166,6 @@
       "sub": ""
     },
     {
-      "title": "Motive behind North Korea's rare \"mixed firing\" exericise",
-      "date": "Wed, 27 May 2026 20:00:00",
-      "source": "arirang.com",
-      "url": "https://www.arirang.com/news/view?id=296542",
-      "sub": ""
-    },
-    {
       "title": "승우여행사, 코리아둘레길 스탬프북 출시… 최초 완주자에 800만원 여행...",
       "date": "Wed, 27 May 2026 18:44:00",
       "source": "n.news.naver.com",
@@ -194,42 +187,56 @@
       "sub": ""
     },
     {
-      "title": "김해공항 외래관광객 유치 한국관광공사·에어부산 손잡고 나섰다",
-      "date": "Wed, 27 May 2026 15:38:00",
-      "source": "gukjenews.com",
-      "url": "https://www.gukjenews.com/news/articleView.html?idxno=3593218",
+      "title": "종로4·5가 기준용적률 600%로↑ 방배 서울레미콘 부지는 19층 지식산업...",
+      "date": "Thu, 28 May 2026 10:26:00",
+      "source": "n.news.naver.com",
+      "url": "https://www.sedaily.com/article/20049128?ref=naver",
       "sub": ""
     },
     {
-      "title": "제천한방천연물산업박람회 아이디어 공모전 개최…총 10팀 선정",
-      "date": "Thu, 28 May 2026 08:54:00",
-      "source": "shinailbo.co.kr",
-      "url": "https://www.shinailbo.co.kr/news/articleView.html?idxno=5024888",
+      "title": "반하다밀양 반값여행, 6월에도 흥행 열기 이어지다",
+      "date": "Thu, 28 May 2026 10:25:00",
+      "source": "enewstoday.co.kr",
+      "url": "http://www.enewstoday.co.kr/news/articleView.html?idxno=2433695",
       "sub": ""
     },
     {
-      "title": "김포시, 친선결연도시 방문객 숙박 할인 지원",
-      "date": "Thu, 28 May 2026 08:54:00",
-      "source": "shinailbo.co.kr",
-      "url": "https://www.shinailbo.co.kr/news/articleView.html?idxno=5024901",
+      "title": "대전 유성구청장 후보들 사전투표 앞두고 막판 표심 공략",
+      "date": "Thu, 28 May 2026 10:25:00",
+      "source": "n.news.naver.com",
+      "url": "https://www.daejonilbo.com/news/articleView.html?idxno=2277979",
+      "sub": ""
+    },
+    {
+      "title": "Industry minister cautiously optimistic about Korea's bid for Canadian su...",
+      "date": "Thu, 28 May 2026 10:24:00",
+      "source": "n.news.naver.com",
+      "url": "https://koreajoongangdaily.joins.com/news/2026-05-28/business/industry/Industry-minister-cautiously-optimistic-about-Koreas-bid-for-Canadian-submarine-project/2602856",
       "sub": ""
     }
   ],
   "asset": [
     {
-      "title": "美연준 리사 쿡 \"물가 상승 지속⋯기준금리 올릴 수 있다\"",
-      "date": "Thu, 28 May 2026 08:46:00",
-      "source": "etoday.co.kr",
-      "url": "https://www.etoday.co.kr/news/view/2588443",
+      "title": "한은, 기준금리 8연속 2.50% 동결···물가·성장 압력에 긴축 신호 '주...",
+      "date": "Thu, 28 May 2026 10:26:00",
+      "source": "newsfreezone.co.kr",
+      "url": "https://www.newsfreezone.co.kr/news/articleView.html?idxno=691960",
       "sub": ""
     },
     {
-      "title": "\"한국은행 금통위 회의…현재 경제 불확실성 속 기준금리 결정 주목\"",
-      "date": "Thu, 28 May 2026 08:34:00",
-      "source": "gokorea.kr",
-      "url": "https://www.gokorea.kr/news/articleView.html?idxno=867607",
+      "title": "한은, 기준금리 2.5% 동결...신현송 체제 첫 금통위서 '긴축 신호' 주목",
+      "date": "Thu, 28 May 2026 10:24:00",
+      "source": "polinews.co.kr",
+      "url": "https://www.polinews.co.kr/news/articleView.html?idxno=732401",
+      "sub": ""
+    },
+    {
+      "title": "한은, 기준금리 8연속 동결…성장률 2.6%로 대폭 상향(종합)",
+      "date": "Thu, 28 May 2026 10:23:00",
+      "source": "n.news.naver.com",
+      "url": "https://www.busan.com/view/busan/view.php?code=2026052810220762387",
       "sub": ""
     }
   ],
-  "updated": "2026.05.28 08:55"
+  "updated": "2026.05.28 10:28"
 }
