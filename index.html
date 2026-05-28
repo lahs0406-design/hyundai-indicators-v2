@@ -2021,7 +2021,7 @@ function wxBuildDowIdx(curY, curM) {
   var holDiff = cur.hc - ly.hc;
   var holRow = document.createElement('div'); holRow.className = 'wx-di-row';
   var holNm = document.createElement('div'); holNm.className = 'wx-di-name';
-  holNm.innerHTML = '공휴일 <span style="font-size:9px">(평일)</span>';
+  holNm.innerHTML = '공휴일<span style="font-size:9px;white-space:nowrap">(평일)</span>';
   var holBwrap = document.createElement('div'); holBwrap.className = 'wx-di-bar-wrap';
   var holMid = document.createElement('div'); holMid.className = 'wx-di-mid'; holBwrap.appendChild(holMid);
   var holBar = document.createElement('div');
