@@ -1,6 +1,18 @@
 {
   "hri": [
     {
+      "title": "[경제 전망] 2026년 경제성장률 KDI 2.5%, 현대경제연구원 2.7%, 한국금융...",
+      "date": "Sat, 30 May 2026 15:56:00",
+      "source": "sisacast.kr",
+      "url": "http://www.sisacast.kr/news/articleView.html?idxno=95959"
+    },
+    {
+      "title": "가계부채보다 '물가·환율'에 방점…예고된 '긴축 시대'",
+      "date": "Sat, 30 May 2026 10:04:00",
+      "source": "ntoday.co.kr",
+      "url": "https://www.ntoday.co.kr/news/articleView.html?idxno=127354"
+    },
+    {
       "title": "중동 충격에 흔들린 실물경기...물가 고통 이제 시작?",
       "date": "Fri, 29 May 2026 18:14:00",
       "source": "n.news.naver.com",
@@ -47,21 +59,51 @@
       "date": "Tue, 26 May 2026 15:36:00",
       "source": "newscj.com",
       "url": "https://www.newscj.com/news/articleView.html?idxno=3404001"
-    },
-    {
-      "title": "반도체 초호황, 증시·성장 견인효과와 슈퍼사이클 한계론 사이",
-      "date": "Tue, 26 May 2026 15:32:00",
-      "source": "updownnews.co.kr",
-      "url": "http://www.updownnews.co.kr/news/articleView.html?idxno=317330"
-    },
-    {
-      "title": "李 \"명목성장률 10%\"…국민소득 4만달러 시대 열리나 [김익환의 부처 핸...",
-      "date": "Tue, 26 May 2026 14:35:00",
-      "source": "n.news.naver.com",
-      "url": "https://www.hankyung.com/article/202605269071i"
     }
   ],
   "kdi": [
+    {
+      "title": "'고용없는 성장' 늪에 빠진 한국 경제[한국경제 K자형 성장의 그림자]③",
+      "date": "Sun, 31 May 2026 08:01:00",
+      "source": "n.news.naver.com",
+      "url": "https://economist.co.kr/article/view/ecn202605280042"
+    },
+    {
+      "title": "경제 성장률 2.5%·코스피 8000시대에 가려진 그늘[한국경제 K자형 성장...",
+      "date": "Sun, 31 May 2026 06:01:00",
+      "source": "n.news.naver.com",
+      "url": "https://economist.co.kr/article/view/ecn202605280001"
+    },
+    {
+      "title": "마트 '평일휴업·새벽배송' 길 열리나…지방선거 후 논의 전망",
+      "date": "Sun, 31 May 2026 06:00:00",
+      "source": "n.news.naver.com",
+      "url": "https://www.yna.co.kr/view/AKR20260529134300030?input=1195m"
+    },
+    {
+      "title": "[선택 2026, 우리 동네 일꾼은?] 관록이냐 변화냐..나주혁신도시 활성화...",
+      "date": "Sat, 30 May 2026 20:25:00",
+      "source": "kjmbc.co.kr",
+      "url": "https://kjmbc.co.kr/NewsArticle/1520928"
+    },
+    {
+      "title": "[경제 전망] 2026년 경제성장률 KDI 2.5%, 현대경제연구원 2.7%, 한국금융...",
+      "date": "Sat, 30 May 2026 15:56:00",
+      "source": "sisacast.kr",
+      "url": "http://www.sisacast.kr/news/articleView.html?idxno=95959"
+    },
+    {
+      "title": "“연공서열형 임금체계, 이대로 괜찮은가” [경제적 질문]",
+      "date": "Sat, 30 May 2026 14:32:00",
+      "source": "n.news.naver.com",
+      "url": "https://www.segye.com/newsView/20260529507556?OutUrl=naver"
+    },
+    {
+      "title": "구윤철 '증시 과열 우려' 일축…\"혁신 노력 안할 때가 버블\"",
+      "date": "Sat, 30 May 2026 10:53:00",
+      "source": "n.news.naver.com",
+      "url": "https://www.sidae.com/article/2026053010415485558"
+    },
     {
       "title": "국내 배출권 가격 상승압력 커진다...KAU25 이틀 연속 급등",
       "date": "Fri, 29 May 2026 18:10:00",
@@ -79,110 +121,68 @@
       "date": "Fri, 29 May 2026 13:50:00",
       "source": "ktv.go.kr",
       "url": "https://www.ktv.go.kr/content/view?content_id=755692"
-    },
-    {
-      "title": "화재·신제품 출시 등 단기요인 영향…5월 생산·소비·투자 반등하나",
-      "date": "Fri, 29 May 2026 10:52:00",
-      "source": "n.news.naver.com",
-      "url": "https://www.mt.co.kr/economy/2026/05/29/2026052908453964279"
-    },
-    {
-      "title": "농림어업용 면세유 보조금 리터당 최대 42원 올린다",
-      "date": "Fri, 29 May 2026 10:17:00",
-      "source": "n.news.naver.com",
-      "url": "https://www.imaeil.com/page/view/2026052910162549112"
-    },
-    {
-      "title": "구윤철 \"4월 산업생산 일시적 조정…소비·기업심리 개선 지속\"",
-      "date": "Fri, 29 May 2026 10:06:00",
-      "source": "iminju.net",
-      "url": "http://www.iminju.net/news/articleView.html?idxno=164488"
-    },
-    {
-      "title": "고유가 부담 완화·유턴기업 제도 개선…구윤철 \"경기 개선 흐름 재개\"",
-      "date": "Fri, 29 May 2026 09:02:00",
-      "source": "n.news.naver.com",
-      "url": "https://www.nocutnews.co.kr/news/6524558?utm_source=naver&utm_medium=article&utm_campaign=20260529090125"
-    },
-    {
-      "title": "구윤철 부총리 \"4월 산업생산 일시 조정…개선흐름 재개될 것\"",
-      "date": "Fri, 29 May 2026 09:00:00",
-      "source": "ajunews.com",
-      "url": "https://www.ajunews.com/view/20260529085708554"
-    },
-    {
-      "title": "구윤철 부총리 \"해외진출 기업 '유턴' 인정 요건 완화…산업생산, 5월 개...",
-      "date": "Fri, 29 May 2026 08:53:00",
-      "source": "newspim.com",
-      "url": "https://www.newspim.com/news/view/20260529000095"
-    },
-    {
-      "title": "구윤철 부총리 “4월 산업생산 일시 조정…5월엔 개선흐름 재개 전망”",
-      "date": "Fri, 29 May 2026 08:44:00",
-      "source": "n.news.naver.com",
-      "url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8573106&ref=A"
     }
   ],
   "bok": [
     {
-      "title": "'코스피 8000' 속 은행의 반격…예·적금 금리 3%대 돌파",
-      "date": "Sat, 30 May 2026 07:02:00",
-      "source": "newsway.co.kr",
-      "url": "https://www.newsway.co.kr/news/view?ud=2026052910585985022"
-    },
-    {
-      "title": "서울 재건축·반도체 셔세권…하반기 2만 가구 쏟아진다",
-      "date": "Sat, 30 May 2026 06:36:00",
+      "title": "2금융으로 발길 돌린 차주들…주담대 10조6000억원 증가",
+      "date": "Sun, 31 May 2026 08:00:00",
       "source": "n.news.naver.com",
-      "url": "https://www.sedaily.com/article/20049952?ref=naver"
+      "url": "https://economist.co.kr/article/view/ecn202605270026"
     },
     {
-      "title": "산업부 “반도체 이익은 재투자”…노동부 “초과이윤 재분배” 정면충...",
-      "date": "Sat, 30 May 2026 06:34:00",
+      "title": "'빚투' 36조 돌파했는데…한은 긴축 시그널에 긴장감 고조",
+      "date": "Sun, 31 May 2026 07:07:00",
       "source": "n.news.naver.com",
-      "url": "https://www.sedaily.com/article/20049950?ref=naver"
+      "url": "https://www.dailian.co.kr/news/view/1650346/?sc=Naver"
     },
     {
-      "title": "“금리인하 물 건너갔다”…영끌·빚투족 덮친 ‘이자 공포’[주형연의...",
-      "date": "Sat, 30 May 2026 06:30:00",
+      "title": "금리 올라도 집값 오른다…서울 매매·전세 상승세 지속 전망",
+      "date": "Sun, 31 May 2026 07:05:00",
       "source": "n.news.naver.com",
-      "url": "https://www.dt.co.kr/article/12064947?ref=naver"
+      "url": "https://www.news1.kr/realestate/general/6182021"
     },
     {
-      "title": "[경제 포커스] ‘세금 많이 걷은 세무서’ 전국 1위 서울 남대문.. “증...",
-      "date": "Sat, 30 May 2026 06:01:00",
+      "title": "'집값·환율·물가' 삼중 압박에…한은, 인플레 차단 총력전",
+      "date": "Sun, 31 May 2026 07:00:00",
       "source": "n.news.naver.com",
-      "url": "https://biz.chosun.com/policy/policy_sub/2026/05/30/4B2JMYJT4JCD5MRHQE7YSCBCWE/?utm_source=naver&utm_medium=original&utm_campaign=biz"
+      "url": "https://www.news1.kr/economy/trend/6181889"
     },
     {
-      "title": "금리인상으로의 공식화, 한국은행의 인상 횟수는?",
-      "date": "Sat, 30 May 2026 06:01:00",
+      "title": "\"갈 길 명확하다\" 신현송 한마디에 주담대 금리 7% 공포…'영끌족' 한숨",
+      "date": "Sun, 31 May 2026 06:52:00",
       "source": "n.news.naver.com",
-      "url": "https://magazine.hankyung.com/business/article/202605270385b"
+      "url": "https://www.news1.kr/finance/general-finance/6181285"
     },
     {
-      "title": "주담대 금리 10년 새 두 번째 고점… 금리인상 가능성에 차주 ‘이자 공...",
-      "date": "Sat, 30 May 2026 05:00:00",
-      "source": "g-enews.com",
-      "url": "https://www.g-enews.com/view.php?ud=202605291634494806bb91c46fcd_1"
-    },
-    {
-      "title": "[박근종 칼럼] 기준금리 동결에도 연내 금리 인상 기정사실화, 물가·가...",
-      "date": "Sat, 30 May 2026 03:20:00",
-      "source": "mhns.co.kr",
-      "url": "https://www.mhns.co.kr/news/articleView.html?idxno=748779"
-    },
-    {
-      "title": "[사설]고물가에 실질소득 0%대 증가… ‘인플레와의 전쟁’ 고삐 좨야",
-      "date": "Fri, 29 May 2026 23:28:00",
+      "title": "[이재명정부 1년] ⑥ 코스피 8천시대 개막…부동산·환율은 아직 숙제로",
+      "date": "Sun, 31 May 2026 06:01:00",
       "source": "n.news.naver.com",
-      "url": "https://www.donga.com/news/Opinion/article/all/20260529/134019575/2"
+      "url": "https://www.yna.co.kr/view/AKR20260530060000002?input=1195m"
     },
     {
-      "title": "중동 충격에 흔들린 실물경기...물가 고통 이제 시작?",
-      "date": "Fri, 29 May 2026 18:14:00",
+      "title": "[주간증시전망] 8000선 다지는 코스피… 엔비디아 컴퓨텍스와 6·3 지방선...",
+      "date": "Sun, 31 May 2026 06:01:00",
       "source": "n.news.naver.com",
-      "url": "https://www.ytn.co.kr/_ln/0102_202605291814548008"
+      "url": "https://biz.chosun.com/stock/stock_general/2026/05/31/LOQX3PB4FBDZPBTNIKJZZCQ4BQ/?utm_source=naver&utm_medium=original&utm_campaign=biz"
+    },
+    {
+      "title": "기준금리 인상 공식화…1100조 자영업자 대출 최대 뇌관",
+      "date": "Sun, 31 May 2026 05:46:00",
+      "source": "n.news.naver.com",
+      "url": "https://biz.heraldcorp.com/article/10760042?ref=naver"
+    },
+    {
+      "title": "중동 종전·경제지표·'엔비디아 모멘텀' 주목…코스피 7500~8600 [주간 증...",
+      "date": "Sun, 31 May 2026 00:11:00",
+      "source": "n.news.naver.com",
+      "url": "https://www.dailian.co.kr/news/view/1650371/?sc=Naver"
+    },
+    {
+      "title": "미국이 받은 처참한 청구서...속 타들어가는 트럼프 [Y녹취록]",
+      "date": "Sat, 30 May 2026 20:05:00",
+      "source": "n.news.naver.com",
+      "url": "https://www.ytn.co.kr/_ln/0134_202605302005162534"
     }
   ],
   "kiep": [
@@ -309,5 +309,5 @@
       "url": "https://www.asiatime.co.kr/article/20260414500397"
     }
   ],
-  "updated": "2026.05.30 09:03"
+  "updated": "2026.05.31 08:54"
 }
