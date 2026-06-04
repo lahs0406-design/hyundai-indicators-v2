@@ -1750,32 +1750,16 @@ function tourRenderCards(yms) {
   if (!grid) return;
   grid.innerHTML = '';
 
+  var today = new Date();
+  var isCurrentMonth = (ym === today.getFullYear().toString() + (today.getMonth()<9?'0':'')+(today.getMonth()+1).toString());
+  var lastDay = new Date(parseInt(ym.slice(0,4)), parseInt(ym.slice(4,6)), 0).getDate();
+
   var totCur = 0, totPrev = 0;
   TOUR_CITIES.forEach(function(city, i) {
-    var todayYmd = new Date().toISOString().slice(0,10).replace(/-/g,'');
-var isCurrentMonth = (ym === todayYmd.slice(0,6));
-
-function sumUntilDay(cityData, lastDay) {
-  if (!cityData || !cityData.daily) return null;
-  var total = 0, found = false;
-  Object.keys(cityData.daily).forEach(function(ymd) {
-    if (ymd <= lastDay) { total += cityData.daily[ymd]; found = true; }
-  });
-  return found ? total : null;
-}
-
-var cRaw, pRaw;
-if (isCurrentMonth) {
-  var lastCurYmd = Object.keys(cur[city] && cur[city].daily || {}).sort().slice(-1)[0] || todayYmd;
-  var lastPrevYmd = (parseInt(lastCurYmd.slice(0,4))-1) + lastCurYmd.slice(4);
-  cRaw = sumUntilDay(cur[city],  lastCurYmd);
-  pRaw = sumUntilDay(prev[city], lastPrevYmd);
-} else {
-  cRaw = cur[city]  ? cur[city].total  : null;
-  pRaw = prev[city] ? prev[city].total : null;
-}
-var cVal = cRaw !== null ? Math.round(cRaw / 10000) : null;
-var pVal = pRaw !== null ? Math.round(pRaw / 10000) : null;
+    var curDays = cur[city] && cur[city].daily ? Object.keys(cur[city].daily).length : 0;
+    var monthComplete = !isCurrentMonth || curDays >= lastDay;
+    var cVal = (cur[city] && monthComplete) ? Math.round(cur[city].total / 10000) : null;
+    var pVal = prev[city] ? Math.round(prev[city].total / 10000) : null;
     if (cVal !== null) totCur  += cVal;
     if (pVal !== null) totPrev += pVal;
 
