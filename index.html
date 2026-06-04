@@ -1719,11 +1719,23 @@ function tourInit() {
     var yms = Object.keys(_tourData).sort();
     if (!yms.length) return;
 
-    var slider = document.getElementById('tour-slider');
-    slider.min = 0;
-    slider.max = yms.length - 1;
-    slider.value = yms.length - 1;
-    tourIdx = yms.length - 1;
+    // 말일까지 데이터가 완전한 달만 필터링
+yms = yms.filter(function(ym) {
+  var lastDay = new Date(parseInt(ym.slice(0,4)), parseInt(ym.slice(4,6)), 0).getDate();
+  var cities = _tourData[ym] ? Object.keys(_tourData[ym]) : [];
+  if (!cities.length) return false;
+  var minDays = Math.min.apply(null, cities.map(function(city) {
+    return _tourData[ym][city] && _tourData[ym][city].daily ? Object.keys(_tourData[ym][city].daily).length : 0;
+  }));
+  return minDays >= lastDay;
+});
+if (!yms.length) return;
+
+var slider = document.getElementById('tour-slider');
+slider.min = 0;
+slider.max = yms.length - 1;
+slider.value = yms.length - 1;
+tourIdx = yms.length - 1;
 
     slider.addEventListener('input', function() {
       tourIdx = +this.value;
