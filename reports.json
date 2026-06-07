@@ -63,6 +63,24 @@
   ],
   "kdi": [
     {
+      "title": "韓 1분기 성장률 잠정치는...美 CPI 주목 [한동훈의 위클리전망대]",
+      "date": "Sun, 07 Jun 2026 07:01:00",
+      "source": "n.news.naver.com",
+      "url": "https://www.sedaily.com/article/20052515?ref=naver"
+    },
+    {
+      "title": "취업자 얼마나 늘었나…결혼 친화형 제도도 관심[재경부·기획처 주간예...",
+      "date": "Sun, 07 Jun 2026 06:02:00",
+      "source": "n.news.naver.com",
+      "url": "https://www.edaily.co.kr/news/newspath.asp?newsid=01092246645479424"
+    },
+    {
+      "title": "[김남현의 채권썰] 악재 쓰나미 “나 떨고 있니”..feat. 월드컵 개막",
+      "date": "Sat, 06 Jun 2026 16:48:00",
+      "source": "etoday.co.kr",
+      "url": "https://www.etoday.co.kr/news/view/2591044"
+    },
+    {
       "title": "수출 '호조' 내수 '개선'...양극화 해소 난제",
       "date": "Sat, 06 Jun 2026 08:46:00",
       "source": "n.news.naver.com",
@@ -103,86 +121,68 @@
       "date": "Fri, 05 Jun 2026 15:15:00",
       "source": "n.news.naver.com",
       "url": "https://www.etnews.com/20260605000279"
-    },
-    {
-      "title": "한은, 부총재보에 이지호·김제현 임명",
-      "date": "Fri, 05 Jun 2026 15:14:00",
-      "source": "metroseoul.co.kr",
-      "url": "http://www.metroseoul.co.kr/article/20260605500113"
-    },
-    {
-      "title": "도입 4년 만에 성과 가시화…개량운영형 민자도로 속도",
-      "date": "Fri, 05 Jun 2026 11:22:00",
-      "source": "dnews.co.kr",
-      "url": "https://www.dnews.co.kr/uhtml/view.jsp?idxno=202606041533209870125"
-    },
-    {
-      "title": "4월 경상수지 역대 2위…하반기도 '반도체 고공행진' 이어질까",
-      "date": "Fri, 05 Jun 2026 10:50:00",
-      "source": "greened.kr",
-      "url": "https://www.greened.kr/news/articleView.html?idxno=341934"
     }
   ],
   "bok": [
     {
-      "title": "한국 경제, 고용·성장·가계대출 지표로 내주 체력 시험대",
-      "date": "Sat, 06 Jun 2026 08:14:00",
+      "title": "환율 '초(超)비상'...금융·통화·외환정책 '비상 플랜' 즉각 가동하라",
+      "date": "Sun, 07 Jun 2026 08:58:00",
+      "source": "newsfc.co.kr",
+      "url": "http://www.newsfc.co.kr/news/articleView.html?idxno=79098"
+    },
+    {
+      "title": "물가 3%대, 채권금리도 출렁…한은 '금리 인상론' 힘 받나",
+      "date": "Sun, 07 Jun 2026 08:54:00",
+      "source": "metroseoul.co.kr",
+      "url": "http://www.metroseoul.co.kr/article/20260607500018"
+    },
+    {
+      "title": "삼성전자·SK하이닉스 흔든 외국인 매도…진짜 변수는 환율",
+      "date": "Sun, 07 Jun 2026 08:14:00",
+      "source": "topstarnews.net",
+      "url": "https://www.topstarnews.net/news/articleView.html?idxno=16082143"
+    },
+    {
+      "title": "신현송 언급 빈도 급증…낯선 단어 ‘GDI’는 왜 지금 한국에 중요한가",
+      "date": "Sun, 07 Jun 2026 08:01:00",
+      "source": "n.news.naver.com",
+      "url": "https://www.chosun.com/economy/economy_general/2026/06/07/VZUBE7DRARHIBDCVXBNIV2TDCA/?utm_source=naver&utm_medium=referral&utm_campaign=naver-news"
+    },
+    {
+      "title": "미·이란 전쟁발 인플레, 세계경제 압박…미 고용 호조에 금리인상론 고...",
+      "date": "Sun, 07 Jun 2026 07:42:00",
+      "source": "asiatoday.co.kr",
+      "url": "https://www.asiatoday.co.kr/kn/view.php?key=20260607010001990"
+    },
+    {
+      "title": "[박상규의 직설] 3高 쓰나미가 몰려온다",
+      "date": "Sun, 07 Jun 2026 07:32:00",
+      "source": "pennmike.com",
+      "url": "https://www.pennmike.com/news/articleView.html?idxno=121727"
+    },
+    {
+      "title": "韓 1분기 성장률 잠정치는...美 CPI 주목 [한동훈의 위클리전망대]",
+      "date": "Sun, 07 Jun 2026 07:01:00",
+      "source": "n.news.naver.com",
+      "url": "https://www.sedaily.com/article/20052515?ref=naver"
+    },
+    {
+      "title": "구두개입도 속수무책, 1560원 뚫은 환율 쇼크…\"당국 카드 제한적\"",
+      "date": "Sun, 07 Jun 2026 06:15:00",
+      "source": "n.news.naver.com",
+      "url": "https://www.news1.kr/economy/trend/6189091"
+    },
+    {
+      "title": "원/달러 환율, 외환위기 이후 최고치 기록… 한국 금융시장 불안 급증",
+      "date": "Sun, 07 Jun 2026 06:14:00",
       "source": "tokenpost.kr",
-      "url": "https://www.tokenpost.kr/news/economy/366549"
+      "url": "https://www.tokenpost.kr/news/economy/366708"
     },
     {
-      "title": "[여경 코멘토] 5월 마지막 주 5명 활동···41건 코멘트 무슨 내용?",
-      "date": "Sat, 06 Jun 2026 08:02:00",
-      "source": "womaneconomy.co.kr",
-      "url": "https://www.womaneconomy.co.kr/news/articleView.html?idxno=254771"
-    },
-    {
-      "title": "인천서 인구 가장 빠르게 느는 검단…2293억 친환경 단지 닻 올려",
-      "date": "Sat, 06 Jun 2026 07:51:00",
+      "title": "\"반드시 부동산 투기 공화국 탈출\"...집권 2년차 행보는?",
+      "date": "Sun, 07 Jun 2026 06:04:00",
       "source": "n.news.naver.com",
-      "url": "https://www.sedaily.com/article/20052458?ref=naver"
-    },
-    {
-      "title": "원달러 환율 1549원 급등…물가 3.1% 치솟아",
-      "date": "Sat, 06 Jun 2026 06:30:00",
-      "source": "bntnews.co.kr",
-      "url": "https://www.bntnews.co.kr/article/view/bnt202606060013"
-    },
-    {
-      "title": "환율 1550원 육박에 '초비상'…신현송, 금리인상 결단하나",
-      "date": "Sat, 06 Jun 2026 05:02:00",
-      "source": "n.news.naver.com",
-      "url": "https://www.nocutnews.co.kr/news/6528792?utm_source=naver&utm_medium=article&utm_campaign=20260606050102"
-    },
-    {
-      "title": "\"젠슨 황이 승인해야 팔 수 있다\" 같이 크는 협력이자 영광스러운 종속...",
-      "date": "Sat, 06 Jun 2026 05:02:00",
-      "source": "n.news.naver.com",
-      "url": "https://www.nocutnews.co.kr/news/6528851?utm_source=naver&utm_medium=article&utm_campaign=20260606050104"
-    },
-    {
-      "title": "외국인에 휘둘리는 환율…17년 만에 1550원대 육박",
-      "date": "Sat, 06 Jun 2026 01:08:00",
-      "source": "n.news.naver.com",
-      "url": "https://www.joongang.co.kr/article/25434361"
-    },
-    {
-      "title": "[DCM] 대한항공 회사채 1.1조 '뭉칫돈'…아시아나 합병에 베팅한 기관들",
-      "date": "Fri, 05 Jun 2026 20:04:00",
-      "source": "fntimes.com",
-      "url": "http://www.fntimes.com/html/view.php?ud=202606051851234410141825007d_18"
-    },
-    {
-      "title": "거세진 3高 파도…경제팀 시험대 올랐다",
-      "date": "Fri, 05 Jun 2026 18:40:00",
-      "source": "n.news.naver.com",
-      "url": "https://www.sedaily.com/article/20052388?ref=naver"
-    },
-    {
-      "title": "40년 저금리 특수 종언…돈의 질서가 바뀐다[북스&]",
-      "date": "Fri, 05 Jun 2026 18:13:00",
-      "source": "n.news.naver.com",
-      "url": "https://www.sedaily.com/article/20052370?ref=naver"
+      "url": "https://www.ytn.co.kr/_ln/0102_202606070604330282"
     }
   ],
   "kiep": [
@@ -309,5 +309,5 @@
       "url": "http://monthly.chosun.com/client/news/viw.asp?ctcd=B&nNewsNumb=202605100052"
     }
   ],
-  "updated": "2026.06.06 09:00"
+  "updated": "2026.06.07 09:00"
 }
