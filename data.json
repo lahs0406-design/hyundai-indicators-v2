@@ -6398,11 +6398,21 @@
           },
           {
             "d": 12,
+            "temp": 22.4,
+            "rain": 0.0
+          },
+          {
+            "d": 13,
+            "temp": 24.1,
+            "rain": 0.0
+          },
+          {
+            "d": 14,
             "temp": null,
             "rain": 0.0
           }
         ],
-        "avg_temp": 22.5,
+        "avg_temp": 22.6,
         "max_temp": 25.5,
         "total_rain": 3.6,
         "rain_days": 3
@@ -10499,11 +10509,21 @@
           },
           {
             "d": 12,
+            "temp": 23.4,
+            "rain": 0.0
+          },
+          {
+            "d": 13,
+            "temp": 23.4,
+            "rain": 0.0
+          },
+          {
+            "d": 14,
             "temp": null,
             "rain": 0.0
           }
         ],
-        "avg_temp": 22.2,
+        "avg_temp": 22.4,
         "max_temp": 24.1,
         "total_rain": 24.9,
         "rain_days": 4
@@ -14600,12 +14620,22 @@
           },
           {
             "d": 12,
+            "temp": 24.2,
+            "rain": 0.0
+          },
+          {
+            "d": 13,
+            "temp": 25.3,
+            "rain": 0.0
+          },
+          {
+            "d": 14,
             "temp": null,
             "rain": 0.0
           }
         ],
-        "avg_temp": 22.6,
-        "max_temp": 24.8,
+        "avg_temp": 22.9,
+        "max_temp": 25.3,
         "total_rain": 11.1,
         "rain_days": 2
       }
@@ -18701,6 +18731,16 @@
           },
           {
             "d": 12,
+            "temp": 20.9,
+            "rain": 0.0
+          },
+          {
+            "d": 13,
+            "temp": 23.0,
+            "rain": 0.0
+          },
+          {
+            "d": 14,
             "temp": null,
             "rain": 0.0
           }
@@ -22807,11 +22847,16 @@
           },
           {
             "d": 13,
+            "temp": 24.2,
+            "rain": 0.0
+          },
+          {
+            "d": 14,
             "temp": null,
             "rain": 0.0
           }
         ],
-        "avg_temp": 22.7,
+        "avg_temp": 22.8,
         "max_temp": 24.4,
         "total_rain": 15.3,
         "rain_days": 3
@@ -26913,11 +26958,16 @@
           },
           {
             "d": 13,
+            "temp": 24.2,
+            "rain": 0.0
+          },
+          {
+            "d": 14,
             "temp": null,
             "rain": 0.0
           }
         ],
-        "avg_temp": 22.6,
+        "avg_temp": 22.8,
         "max_temp": 25.2,
         "total_rain": 5.4,
         "rain_days": 1
@@ -31019,12 +31069,17 @@
           },
           {
             "d": 13,
+            "temp": 23.1,
+            "rain": 0.0
+          },
+          {
+            "d": 14,
             "temp": null,
             "rain": 0.0
           }
         ],
-        "avg_temp": 21.3,
-        "max_temp": 22.7,
+        "avg_temp": 21.4,
+        "max_temp": 23.1,
         "total_rain": 20.2,
         "rain_days": 3
       }
@@ -35125,11 +35180,16 @@
           },
           {
             "d": 13,
+            "temp": 25.4,
+            "rain": 0.0
+          },
+          {
+            "d": 14,
             "temp": null,
             "rain": 0.0
           }
         ],
-        "avg_temp": 23.6,
+        "avg_temp": 23.8,
         "max_temp": 26.0,
         "total_rain": 6.1,
         "rain_days": 1
