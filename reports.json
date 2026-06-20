@@ -1,6 +1,12 @@
 {
   "hri": [
     {
+      "title": "은행 생산적 금융 늘었지만…'3고'에 운전자금 대출 더 빨리 늘었다",
+      "date": "Fri, 19 Jun 2026 16:21:00",
+      "source": "n.news.naver.com",
+      "url": "https://news.bizwatch.co.kr/article/finance/2026/06/19/0020"
+    },
+    {
       "title": "한숨 돌렸지만 불안한 환율·높은 체감물가...양극화 심화 우려",
       "date": "Tue, 16 Jun 2026 13:52:00",
       "source": "science.ytn.co.kr",
@@ -53,15 +59,27 @@
       "date": "Mon, 08 Jun 2026 11:12:00",
       "source": "n.news.naver.com",
       "url": "https://www.ytn.co.kr/_ln/0102_202606081112149179"
-    },
-    {
-      "title": "7100선까지 증시 조정 가능성...고환율·고금리·고물가에 夏鬪까지 악성...",
-      "date": "Mon, 08 Jun 2026 10:14:00",
-      "source": "financialpost.co.kr",
-      "url": "https://www.financialpost.co.kr/news/articleView.html?idxno=261762"
     }
   ],
   "kdi": [
+    {
+      "title": "경부·서해안고속도로 정체 숨통…태안~안성 길 뚫린다",
+      "date": "Sat, 20 Jun 2026 07:00:00",
+      "source": "n.news.naver.com",
+      "url": "https://www.joongang.co.kr/article/25438371"
+    },
+    {
+      "title": "유가 급락·종전 호재도 소용없다…원·달러 환율 1500원대 고착화 왜?",
+      "date": "Fri, 19 Jun 2026 16:46:00",
+      "source": "newspim.com",
+      "url": "https://www.newspim.com/news/view/20260619000540"
+    },
+    {
+      "title": "오세훈의 '9조 철도망'…이재명 정부 '예타' 넘을까",
+      "date": "Fri, 19 Jun 2026 10:34:00",
+      "source": "n.news.naver.com",
+      "url": "http://www.wowtv.co.kr/NewsCenter/News/Read?articleId=A202606190358&t=NN"
+    },
     {
       "title": "홍천역 위치 논의 곧 시작…최초안은 ‘북방면 하화계리’",
       "date": "Fri, 19 Jun 2026 00:20:00",
@@ -103,86 +121,68 @@
       "date": "Thu, 18 Jun 2026 15:54:00",
       "source": "ajunews.com",
       "url": "https://www.ajunews.com/view/20260618153859045"
-    },
-    {
-      "title": "태안군, 태안~안성 민자고속도로 적격성 통과…태안 교통지형 바뀐다",
-      "date": "Thu, 18 Jun 2026 13:18:00",
-      "source": "shinailbo.co.kr",
-      "url": "https://www.shinailbo.co.kr/news/articleView.html?idxno=5031931"
-    },
-    {
-      "title": "태안군 6만 군민 숙원 '태안~안성 민자고속도로' 적격성조사 통과",
-      "date": "Thu, 18 Jun 2026 11:34:00",
-      "source": "jeonmae.co.kr",
-      "url": "https://www.jeonmae.co.kr/news/articleView.html?idxno=1266449"
-    },
-    {
-      "title": "태안~안성 민자고속도로 적격성 통과…'고속도로 없는 관광도시' 숙원 ...",
-      "date": "Thu, 18 Jun 2026 10:34:00",
-      "source": "m-i.kr",
-      "url": "https://www.m-i.kr/news/articleView.html?idxno=1382776"
     }
   ],
   "bok": [
     {
-      "title": "[지금, 일본] 日, 31년 만에 기준금리 1%…추가 인상도 예고",
-      "date": "Fri, 19 Jun 2026 08:28:00",
-      "source": "theviewers.co.kr",
-      "url": "https://theviewers.co.kr/View.aspx?No=4118005"
-    },
-    {
-      "title": "[이슈분석] '반도체 착시현상'에 빠진 한국 경제",
-      "date": "Fri, 19 Jun 2026 08:12:00",
-      "source": "monthly.chosun.com",
-      "url": "https://monthly.chosun.com/news/articleView.html?idxno=70439"
-    },
-    {
-      "title": "[아주증시포커스] 증시 호황에 증권사 교육세 부담 급증…올해 1분기, 작...",
-      "date": "Fri, 19 Jun 2026 07:54:00",
-      "source": "ajunews.com",
-      "url": "https://www.ajunews.com/view/20260619075223315"
-    },
-    {
-      "title": "워시 체제 美 연준, 금리 동결에도 연내 인상 신호 강화",
-      "date": "Fri, 19 Jun 2026 07:30:00",
-      "source": "newswhoplus.com",
-      "url": "https://www.newswhoplus.com/news/articleView.html?idxno=62610"
-    },
-    {
-      "title": "종전·연준 금리 인상 시사…한국 환율과 금리에 미칠 영향",
-      "date": "Fri, 19 Jun 2026 06:06:00",
+      "title": "기준금리 인상 앞두고 금융안정 상황 주시[한은 미리보기]",
+      "date": "Sat, 20 Jun 2026 08:02:00",
       "source": "n.news.naver.com",
-      "url": "https://www.nocutnews.co.kr/news/6535367?utm_source=naver&utm_medium=article&utm_campaign=20260619060535"
+      "url": "https://www.edaily.co.kr/news/newspath.asp?newsid=01167686645483688"
     },
     {
-      "title": "[긴축의 귀환] 세계 중앙은행 다시 매파로…유동성 파티 끝나나",
-      "date": "Fri, 19 Jun 2026 06:02:00",
-      "source": "ajunews.com",
-      "url": "https://www.ajunews.com/view/20260618142127725"
-    },
-    {
-      "title": "[긴축의 귀환] '연 2.50%' 시대 끝났다… 한은, 금리 인상 사이클 진입 ...",
-      "date": "Fri, 19 Jun 2026 06:02:00",
-      "source": "ajunews.com",
-      "url": "https://www.ajunews.com/view/20260618153707042"
-    },
-    {
-      "title": "'매의 발톱' 드러낸 美 워시…한은 내달 인상 유력",
-      "date": "Fri, 19 Jun 2026 05:12:00",
+      "title": "“왜 못 막나” 환율 1500원대 고착화…한국은행 대응법은",
+      "date": "Sat, 20 Jun 2026 08:01:00",
       "source": "n.news.naver.com",
-      "url": "https://www.edaily.co.kr/news/newspath.asp?newsid=01784326645483360"
+      "url": "https://economist.co.kr/article/view/ecn202606150050"
     },
     {
-      "title": "AI가 물가 잡나… \"지금은 인플레, 디스인플레는 나중\"",
-      "date": "Fri, 19 Jun 2026 04:16:00",
-      "source": "g-enews.com",
-      "url": "https://www.g-enews.com/view.php?ud=202606182043427216fbbec65dfb_1"
+      "title": "[다음주 경제] 체감경기 개선됐나…출생 증가세 지속도 관심",
+      "date": "Sat, 20 Jun 2026 07:48:00",
+      "source": "n.news.naver.com",
+      "url": "https://www.yna.co.kr/view/AKR20260620012300002?input=1195m"
     },
     {
-      "title": "4%에 갇힌 미 물가, ‘2% 목표’ 포기 못 하는 연준의 속내",
-      "date": "Fri, 19 Jun 2026 03:26:00",
+      "title": "신현송 한은 총재, 한국 경제 성장률 상향 가능성 언급",
+      "date": "Sat, 20 Jun 2026 01:54:00",
+      "source": "tokenpost.kr",
+      "url": "https://www.tokenpost.kr/news/economy/371181"
+    },
+    {
+      "title": "한은 총재 \"올해 성장률, 애초 전망치 2.6%보다 상향될 것\"",
+      "date": "Fri, 19 Jun 2026 20:28:00",
+      "source": "etoday.co.kr",
+      "url": "https://www.etoday.co.kr/news/view/2595532"
+    },
+    {
+      "title": "신현송 총재 \"올해 성장률 2.6%보다 높을 것…명목 GDP도 함께 봐야\"",
+      "date": "Fri, 19 Jun 2026 20:21:00",
+      "source": "n.news.naver.com",
+      "url": "https://www.mt.co.kr/economy/2026/06/19/2026061919553660149"
+    },
+    {
+      "title": "신현송 한은 총재, 올해 경제 성장률 2.6%서 추가 상향 조정 가능성 언급",
+      "date": "Fri, 19 Jun 2026 20:16:00",
       "source": "g-enews.com",
-      "url": "https://www.g-enews.com/view.php?ud=202606181423237156fbbec65dfb_1"
+      "url": "https://www.g-enews.com/view.php?ud=202606192003529103bb91c46fcd_1"
+    },
+    {
+      "title": "한은 총재 \"올해 성장률 전망 상향 조정 가능…반도체·AI 호황 영향\"",
+      "date": "Fri, 19 Jun 2026 19:52:00",
+      "source": "shinailbo.co.kr",
+      "url": "https://www.shinailbo.co.kr/news/articleView.html?idxno=5032406"
+    },
+    {
+      "title": "신현송 \"앞으로 실질 GDP뿐 아니라 명목 GDP도 봐야\"",
+      "date": "Fri, 19 Jun 2026 18:54:00",
+      "source": "news.einfomax.co.kr",
+      "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4420988"
+    },
+    {
+      "title": "신현송 총재 \"반도체 호황이 낮은 성장률·중립금리 바꿀 수도\"",
+      "date": "Fri, 19 Jun 2026 18:46:00",
+      "source": "n.news.naver.com",
+      "url": "https://www.hankyung.com/article/202606197525i"
     }
   ],
   "kiep": [
@@ -309,5 +309,5 @@
       "url": "https://www.straightnews.co.kr/news/articleView.html?idxno=303959"
     }
   ],
-  "updated": "2026.06.19 09:21"
+  "updated": "2026.06.20 09:05"
 }
