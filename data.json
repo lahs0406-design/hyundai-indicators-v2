@@ -6453,14 +6453,24 @@
           },
           {
             "d": 19,
+            "temp": 26.4,
+            "rain": 8.0
+          },
+          {
+            "d": 20,
+            "temp": 21.3,
+            "rain": 71.7
+          },
+          {
+            "d": 21,
             "temp": null,
             "rain": 0.0
           }
         ],
         "avg_temp": 23.6,
         "max_temp": 27.2,
-        "total_rain": 6.0,
-        "rain_days": 4
+        "total_rain": 85.7,
+        "rain_days": 6
       }
     },
     "busan": {
@@ -10589,14 +10599,24 @@
           },
           {
             "d": 19,
+            "temp": 23.7,
+            "rain": 18.0
+          },
+          {
+            "d": 20,
+            "temp": 23.6,
+            "rain": 36.3
+          },
+          {
+            "d": 21,
             "temp": null,
             "rain": 0.0
           }
         ],
-        "avg_temp": 22.9,
+        "avg_temp": 23.0,
         "max_temp": 24.5,
-        "total_rain": 25.5,
-        "rain_days": 5
+        "total_rain": 79.8,
+        "rain_days": 7
       }
     },
     "daegu": {
@@ -14725,14 +14745,24 @@
           },
           {
             "d": 19,
+            "temp": 25.7,
+            "rain": 4.9
+          },
+          {
+            "d": 20,
+            "temp": 25.9,
+            "rain": 17.0
+          },
+          {
+            "d": 21,
             "temp": null,
             "rain": 0.0
           }
         ],
-        "avg_temp": 23.6,
+        "avg_temp": 23.8,
         "max_temp": 27.1,
-        "total_rain": 11.2,
-        "rain_days": 3
+        "total_rain": 33.1,
+        "rain_days": 5
       }
     },
     "incheon": {
@@ -18861,14 +18891,24 @@
           },
           {
             "d": 19,
+            "temp": 25.6,
+            "rain": 6.1
+          },
+          {
+            "d": 20,
+            "temp": 21.5,
+            "rain": 50.4
+          },
+          {
+            "d": 21,
             "temp": null,
             "rain": 0.0
           }
         ],
-        "avg_temp": 22.4,
-        "max_temp": 25.4,
-        "total_rain": 0.9,
-        "rain_days": 1
+        "avg_temp": 22.6,
+        "max_temp": 25.6,
+        "total_rain": 57.4,
+        "rain_days": 3
       }
     },
     "gwangju": {
@@ -22997,14 +23037,24 @@
           },
           {
             "d": 19,
+            "temp": 25.0,
+            "rain": 14.1
+          },
+          {
+            "d": 20,
+            "temp": 23.0,
+            "rain": 20.9
+          },
+          {
+            "d": 21,
             "temp": null,
-            "rain": 0.0
+            "rain": 0.3
           }
         ],
-        "avg_temp": 23.5,
+        "avg_temp": 23.6,
         "max_temp": 26.2,
-        "total_rain": 15.3,
-        "rain_days": 3
+        "total_rain": 50.6,
+        "rain_days": 6
       }
     },
     "daejeon": {
@@ -27133,14 +27183,24 @@
           },
           {
             "d": 19,
+            "temp": 25.8,
+            "rain": 10.3
+          },
+          {
+            "d": 20,
+            "temp": 22.1,
+            "rain": 61.2
+          },
+          {
+            "d": 21,
             "temp": null,
-            "rain": 0.0
+            "rain": 0.7
           }
         ],
         "avg_temp": 23.4,
         "max_temp": 26.8,
-        "total_rain": 27.2,
-        "rain_days": 4
+        "total_rain": 99.4,
+        "rain_days": 7
       }
     },
     "ulsan": {
@@ -31269,14 +31329,24 @@
           },
           {
             "d": 19,
+            "temp": 23.9,
+            "rain": 22.6
+          },
+          {
+            "d": 20,
+            "temp": 25.1,
+            "rain": 35.6
+          },
+          {
+            "d": 21,
             "temp": null,
             "rain": 0.0
           }
         ],
-        "avg_temp": 21.9,
-        "max_temp": 24.3,
-        "total_rain": 20.2,
-        "rain_days": 3
+        "avg_temp": 22.1,
+        "max_temp": 25.1,
+        "total_rain": 78.4,
+        "rain_days": 5
       }
     },
     "cheongju": {
@@ -35405,14 +35475,24 @@
           },
           {
             "d": 19,
+            "temp": 27.4,
+            "rain": 9.3
+          },
+          {
+            "d": 20,
+            "temp": 22.8,
+            "rain": 38.4
+          },
+          {
+            "d": 21,
             "temp": null,
             "rain": 0.0
           }
         ],
-        "avg_temp": 24.4,
+        "avg_temp": 24.5,
         "max_temp": 27.9,
-        "total_rain": 13.6,
-        "rain_days": 3
+        "total_rain": 61.3,
+        "rain_days": 5
       }
     }
   },
