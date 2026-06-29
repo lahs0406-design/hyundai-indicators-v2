@@ -198,13 +198,18 @@ def kma_fetch_month(station_id: str, ym: str) -> dict:
       "total_rain": 84.0, "rain_days": 7,
     }
     """
-    import calendar
+    import calendar, datetime
     if not KMA_KEY:
         return None
     y, m   = int(ym[:4]), int(ym[4:6])
     last_d = calendar.monthrange(y, m)[1]
     tm1    = f"{ym}01"
-    tm2    = f"{ym}{last_d:02d}"
+    # 당월이면 어제까지만 요청 (오늘 데이터는 미완성이라 -99.0 결측값 포함됨)
+    _today = datetime.date.today()
+    if ym == _today.strftime("%Y%m"):
+        tm2 = (_today - datetime.timedelta(days=1)).strftime("%Y%m%d")
+    else:
+        tm2 = f"{ym}{last_d:02d}"
     url    = (
         f"https://apihub.kma.go.kr/api/typ01/url/kma_sfcdd3.php"
         f"?tm1={tm1}&tm2={tm2}&stn={station_id}&authKey={KMA_KEY}"
@@ -215,11 +220,9 @@ def kma_fetch_month(station_id: str, ym: str) -> dict:
     except Exception as e:
         print(f"  [KMA 오류] stn={station_id} {ym}: {e}")
         return None
-
     rows = _kma_parse_csv(raw)
     if not rows:
         return None
-
     days_data = []
     temps, total_rain, rain_days = [], 0.0, 0
     for r in rows:
