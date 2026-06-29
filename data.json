@@ -6502,14 +6502,34 @@
           },
           {
             "d": 24,
-            "temp": null,
+            "temp": 24.3,
+            "rain": 0.0
+          },
+          {
+            "d": 25,
+            "temp": 22.3,
+            "rain": 0.3
+          },
+          {
+            "d": 26,
+            "temp": 23.5,
+            "rain": 0.0
+          },
+          {
+            "d": 27,
+            "temp": 26.3,
+            "rain": 0.0
+          },
+          {
+            "d": 28,
+            "temp": 26.1,
             "rain": 0.0
           }
         ],
-        "avg_temp": 23.7,
+        "avg_temp": 23.9,
         "max_temp": 27.2,
-        "total_rain": 85.7,
-        "rain_days": 6
+        "total_rain": 86.0,
+        "rain_days": 7
       }
     },
     "busan": {
@@ -10663,14 +10683,34 @@
           },
           {
             "d": 24,
-            "temp": null,
+            "temp": 20.4,
+            "rain": 0.1
+          },
+          {
+            "d": 25,
+            "temp": 22.8,
+            "rain": 1.4
+          },
+          {
+            "d": 26,
+            "temp": 22.3,
+            "rain": 0.0
+          },
+          {
+            "d": 27,
+            "temp": 21.6,
+            "rain": 0.0
+          },
+          {
+            "d": 28,
+            "temp": 22.3,
             "rain": 0.0
           }
         ],
-        "avg_temp": 22.7,
+        "avg_temp": 22.5,
         "max_temp": 24.5,
-        "total_rain": 81.0,
-        "rain_days": 9
+        "total_rain": 82.5,
+        "rain_days": 11
       }
     },
     "daegu": {
@@ -14824,11 +14864,31 @@
           },
           {
             "d": 24,
-            "temp": null,
+            "temp": 20.8,
+            "rain": 0.0
+          },
+          {
+            "d": 25,
+            "temp": 21.6,
+            "rain": 0.0
+          },
+          {
+            "d": 26,
+            "temp": 23.1,
+            "rain": 0.0
+          },
+          {
+            "d": 27,
+            "temp": 22.2,
+            "rain": 0.0
+          },
+          {
+            "d": 28,
+            "temp": 23.6,
             "rain": 0.0
           }
         ],
-        "avg_temp": 23.5,
+        "avg_temp": 23.3,
         "max_temp": 27.1,
         "total_rain": 33.1,
         "rain_days": 5
@@ -18985,12 +19045,32 @@
           },
           {
             "d": 24,
-            "temp": null,
+            "temp": 24.3,
+            "rain": 0.0
+          },
+          {
+            "d": 25,
+            "temp": 23.1,
+            "rain": 0.0
+          },
+          {
+            "d": 26,
+            "temp": 22.9,
+            "rain": 0.0
+          },
+          {
+            "d": 27,
+            "temp": 25.7,
+            "rain": 0.0
+          },
+          {
+            "d": 28,
+            "temp": 24.2,
             "rain": 0.0
           }
         ],
-        "avg_temp": 22.8,
-        "max_temp": 25.6,
+        "avg_temp": 23.0,
+        "max_temp": 25.7,
         "total_rain": 57.4,
         "rain_days": 3
       }
@@ -23167,11 +23247,6 @@
           {
             "d": 28,
             "temp": 25.9,
-            "rain": 0.0
-          },
-          {
-            "d": 29,
-            "temp": null,
             "rain": 0.0
           }
         ],
@@ -27354,11 +27429,6 @@
             "d": 28,
             "temp": 25.8,
             "rain": 0.3
-          },
-          {
-            "d": 29,
-            "temp": null,
-            "rain": 0.0
           }
         ],
         "avg_temp": 23.5,
@@ -31540,11 +31610,6 @@
             "d": 28,
             "temp": 21.0,
             "rain": 0.0
-          },
-          {
-            "d": 29,
-            "temp": null,
-            "rain": 0.0
           }
         ],
         "avg_temp": 21.5,
@@ -35725,11 +35790,6 @@
           {
             "d": 28,
             "temp": 26.8,
-            "rain": 0.0
-          },
-          {
-            "d": 29,
-            "temp": null,
             "rain": 0.0
           }
         ],
