@@ -327,9 +327,10 @@ def main():
         data["kospi"] = sorted(series, key=lambda x: x["ym"])[-400:]
         print(f"  → 최신: {data['kospi'][-1]}")
 
-    # ── 6. 주택가격지수 — ECOS 월별
-    print("\n[6] 주택가격지수")
-    new_rows = ecos_fetch("901Y062", "P63A", "M", m3, today[:6])
+    # ── 6. 공동주택 매매 실거래가 — KOSIS
+    print("\n[6] 공동주택 매매 실거래가")
+    new_rows = kosis_fetch("101", "DT_1K41012", "T1", "G0",
+                           months_ago(4), today[:6])
     if new_rows:
         series = data.get("houseprice", [])
         for r in new_rows:
@@ -352,7 +353,7 @@ def main():
 
     # ── 8~10. 소매판매·고용·서비스업 — KOSIS
     print("\n[8] 소매판매액지수")
-    new_rows = kosis_fetch("101", "DT_1KE10051", "T10", "ALL",
+    new_rows = kosis_fetch("101", "DT_1K41012", "T1", "G0",
                            months_ago(4), today[:6])
     if new_rows:
         series = data.get("retail", [])
@@ -372,7 +373,7 @@ def main():
         print(f"  → 최신: {data['employ'][-1]}")
 
     print("\n[10] 서비스업생산지수")
-    new_rows = kosis_fetch("101", "DT_1KE10062", "T10", "ALL",
+    new_rows = kosis_fetch("101", "DT_1KC2000", "T1", "E",
                            months_ago(4), today[:6])
     if new_rows:
         series = data.get("service", [])
@@ -383,7 +384,7 @@ def main():
 
     # ── 11~13. 유통업태별 판매액 — KOSIS
     print("\n[11] 백화점 판매액")
-    new_rows = kosis_fetch("101", "DT_1KE10041", "T20", "ALL",
+    new_rows = kosis_fetch("115", "DT_115023_200", "T002", "0013",
                            months_ago(4), today[:6])
     if new_rows:
         series = data.get("dept", [])
@@ -393,7 +394,7 @@ def main():
         print(f"  → 최신: {data['dept'][-1]}")
 
     print("\n[12] 대형마트 판매액")
-    new_rows = kosis_fetch("101", "DT_1KE10041", "T30", "ALL",
+    new_rows = kosis_fetch("115", "DT_115023_100", "T002", "0011",
                            months_ago(4), today[:6])
     if new_rows:
         series = data.get("mart", [])
@@ -403,7 +404,7 @@ def main():
         print(f"  → 최신: {data['mart'][-1]}")
 
     print("\n[13] 편의점 판매액")
-    new_rows = kosis_fetch("101", "DT_1KE10041", "T60", "ALL",
+    new_rows = kosis_fetch("115", "DT_115023_300", "T002", "0010",
                            months_ago(4), today[:6])
     if new_rows:
         series = data.get("convenience", [])
@@ -414,7 +415,7 @@ def main():
 
     # ── 14~16. 온라인·관광 — KOSIS
     print("\n[14] 온라인쇼핑 거래액")
-    new_rows = kosis_fetch("101", "DT_1KE10071", "A", "ALL",
+    new_rows = kosis_fetch("115", "DT_115023_400", "T002", "0001",
                            months_ago(4), today[:6])
     if new_rows:
         series = data.get("online", [])
