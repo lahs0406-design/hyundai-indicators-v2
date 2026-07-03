@@ -124,7 +124,7 @@ def kosis_fetch(org_id: str, tbl_id: str, itm_id: str,
     base_url = "https://kosis.kr/openapi/Param/statisticsParameterData.do"
     urls_to_try = []
     if KOSIS_PROXY:
-    urls_to_try.append(f"{KOSIS_PROXY}?{params}")
+        urls_to_try.append(f"{KOSIS_PROXY}?{params}")
     urls_to_try.append(f"{base_url}?{params}")
 
     for url in urls_to_try:
