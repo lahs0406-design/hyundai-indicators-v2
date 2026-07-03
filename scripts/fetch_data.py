@@ -94,7 +94,7 @@ def ecos_fetch(stat_code: str, item_code: str, cycle: str,
                         pass
             return result
     except Exception as e:
-        print(f"  [ECOS 오류] {stat_code}/{item_code}: {e}")
+        print(f"  [ECOS 오류] {stat_code}/{item_code}: {type(e).__name__}: {e}")
         return []
 
 # ── KOSIS API 호출 ─────────────────────────────────────
@@ -151,7 +151,7 @@ def kosis_fetch(org_id: str, tbl_id: str, itm_id: str,
                 if result:
                     return result
         except Exception as e:
-            print(f"  [KOSIS 오류] {tbl_id} via {url[:50]}...: {e}")
+            print(f"  [KOSIS 오류] {tbl_id} via {url[:50]}...: {type(e).__name__}: {e}")
             continue
     return []
 
@@ -218,7 +218,7 @@ def kma_fetch_month(station_id: str, ym: str) -> dict:
         with urllib.request.urlopen(url, timeout=15) as res:
             raw = res.read().decode("euc-kr", errors="replace")
     except Exception as e:
-        print(f"  [KMA 오류] stn={station_id} {ym}: {e}")
+        print(f"  [KMA 오류] stn={station_id} {ym}: {type(e).__name__}: {e}")
         return None
     rows = _kma_parse_csv(raw)
     if not rows:
