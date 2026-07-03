@@ -125,6 +125,12 @@
   ],
   "bok": [
     {
+      "title": "수은, 환율 피해 중소기업에 3%대 초저금리 대출 긴급 지원",
+      "date": "Fri, 03 Jul 2026 14:38:00",
+      "source": "viva100.com",
+      "url": "https://www.viva100.com/article/20260703500357"
+    },
+    {
       "title": "\"불황에 뜬다\"…금융권, 체크카드로 충성고객 확보전 '점화'",
       "date": "Fri, 03 Jul 2026 14:01:00",
       "source": "n.news.naver.com",
@@ -177,12 +183,6 @@
       "date": "Fri, 03 Jul 2026 09:58:00",
       "source": "weeklytoday.com",
       "url": "http://www.weeklytoday.com/news/articleView.html?idxno=783305"
-    },
-    {
-      "title": "OECD, 韓 성장률 2.6% 유지...\"반도체 성장 효과 전 산업 확산해야\"",
-      "date": "Fri, 03 Jul 2026 09:50:00",
-      "source": "joongangenews.com",
-      "url": "https://www.joongangenews.com/news/articleView.html?idxno=530276"
     }
   ],
   "kiep": [
@@ -309,5 +309,5 @@
       "url": "https://www.edaily.co.kr/news/newspath.asp?newsid=04362406645482704"
     }
   ],
-  "updated": "2026.07.03 14:19"
+  "updated": "2026.07.03 14:50"
 }
