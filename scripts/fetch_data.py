@@ -128,31 +128,33 @@ def kosis_fetch(org_id: str, tbl_id: str, itm_id: str,
     urls_to_try.append(f"{base_url}?{params}")
 
     for url in urls_to_try:
-        try:
-            # 브라우저인 것처럼 속이기 위한 헤더 추가
-            headers = {
-                "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
-            }
-            req = urllib.request.Request(url, headers=headers)
-          
-            with urllib.request.urlopen(req, timeout=15) as res:
-                rows = json.loads(res.read().decode("utf-8"))
-                if not isinstance(rows, list):
-                    continue
-                result = []
-                for r in rows:
-                    ym  = r.get("PRD_DE", "")
-                    val = r.get("DT", "")
-                    if ym and val and val.strip():
-                        try:
-                            result.append({"ym": ym, "val": float(val.replace(",", ""))})
-                        except ValueError:
-                            pass
-                if result:
-                    return result
-        except Exception as e:
-            print(f"  [KOSIS 오류] {tbl_id} via {url[:50]}...: {type(e).__name__}: {e}")
-            continue
+        for attempt in range(2):  # 최대 2회 시도 (실패 시 1회 재시도)
+            try:
+                headers = {
+                    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                }
+                req = urllib.request.Request(url, headers=headers)
+                with urllib.request.urlopen(req, timeout=30) as res:
+                    rows = json.loads(res.read().decode("utf-8"))
+                    if not isinstance(rows, list):
+                        break
+                    result = []
+                    for r in rows:
+                        ym  = r.get("PRD_DE", "")
+                        val = r.get("DT", "")
+                        if ym and val and val.strip():
+                            try:
+                                result.append({"ym": ym, "val": float(val.replace(",", ""))})
+                            except ValueError:
+                                pass
+                    if result:
+                        return result
+                    break
+            except Exception as e:
+                print(f"  [KOSIS 오류] {tbl_id} via {url[:50]}... (시도 {attempt+1}/2): {type(e).__name__}: {e}")
+                if attempt == 0:
+                    time.sleep(3)  # 재시도 전 3초 대기
+                continue
     return []
 
 # ── 기상청 ASOS 일별 기후값 조회 ──────────────────────
@@ -215,7 +217,7 @@ def kma_fetch_month(station_id: str, ym: str) -> dict:
         f"?tm1={tm1}&tm2={tm2}&stn={station_id}&authKey={KMA_KEY}"
     )
     try:
-        with urllib.request.urlopen(url, timeout=15) as res:
+        with urllib.request.urlopen(url, timeout=30) as res:
             raw = res.read().decode("euc-kr", errors="replace")
     except Exception as e:
         print(f"  [KMA 오류] stn={station_id} {ym}: {type(e).__name__}: {e}")
