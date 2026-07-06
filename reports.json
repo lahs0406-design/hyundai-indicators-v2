@@ -1,6 +1,18 @@
 {
   "hri": [
     {
+      "title": "고용없는 성장, 청년에 더 큰 타격… 15∼29세만 5개월째 취업 감소",
+      "date": "Mon, 06 Jul 2026 04:36:00",
+      "source": "n.news.naver.com",
+      "url": "https://www.donga.com/news/Economy/article/all/20260706/134240644/2"
+    },
+    {
+      "title": "반도체 호황에도 고용 침체…AI 활용 늘며 2030 채용 더 줄어",
+      "date": "Sun, 05 Jul 2026 17:48:00",
+      "source": "n.news.naver.com",
+      "url": "https://www.donga.com/news/Economy/article/all/20260705/134238685/1"
+    },
+    {
       "title": "[AI로 읽는 경제] \"반도체만 잘 나간다고 끝 아냐\"…하반기 韓 덮칠 '5대...",
       "date": "Wed, 01 Jul 2026 16:20:00",
       "source": "newspim.com",
@@ -47,142 +59,130 @@
       "date": "Sun, 28 Jun 2026 19:11:00",
       "source": "n.news.naver.com",
       "url": "https://www.dt.co.kr/article/12069918?ref=naver"
-    },
-    {
-      "title": "현대경제연, 고용 없는 성장 등 하반기 5대 위험 경고",
-      "date": "Sun, 28 Jun 2026 15:49:00",
-      "source": "n.news.naver.com",
-      "url": "http://www.inews24.com/view/1980336"
-    },
-    {
-      "title": "반도체 호황에도 웃지 못하는 韓경제…하반기 ‘5대 리스크’ 경고등",
-      "date": "Sun, 28 Jun 2026 12:44:00",
-      "source": "n.news.naver.com",
-      "url": "https://www.dt.co.kr/article/12069826?ref=naver"
     }
   ],
   "kdi": [
     {
-      "title": "반도체 호황에도 고용은 ‘제자리’…고용탄성치 8년 만에 최저 전망",
-      "date": "Sun, 05 Jul 2026 07:41:00",
+      "title": "AI 확산에 직격탄 맞은 청년 고용",
+      "date": "Mon, 06 Jul 2026 06:04:00",
       "source": "n.news.naver.com",
-      "url": "https://biz.heraldcorp.com/article/10798192?ref=naver"
+      "url": "https://www.segye.com/newsView/20260705507753?OutUrl=naver"
     },
     {
-      "title": "반도체 '날개'에도 고용 부진…고용탄성치 8년 만에 최저 전망",
-      "date": "Sun, 05 Jul 2026 05:47:00",
+      "title": "[부동산 稅전쟁]④ 전문가 10명 중 7명 “거래세 낮춰야 매물 나온다”",
+      "date": "Mon, 06 Jul 2026 06:01:00",
       "source": "n.news.naver.com",
-      "url": "https://www.yna.co.kr/view/AKR20260704018500002?input=1195m"
+      "url": "https://biz.chosun.com/real_estate/real_estate_general/2026/07/06/AS5DNXP4FJAHLCAOWGUJ6S4AVQ/?utm_source=naver&utm_medium=original&utm_campaign=biz"
     },
     {
-      "title": "홈플러스 무너져…이마트·롯데마트 묶는 ‘공룡 규제’ 아직도 맞나 [...",
-      "date": "Sat, 04 Jul 2026 14:45:00",
+      "title": "건설사 폐업·부도 감소…건설경기 회복은 '아직'",
+      "date": "Mon, 06 Jul 2026 06:00:00",
       "source": "n.news.naver.com",
-      "url": "https://view.asiae.co.kr/article/2026070313455401009"
+      "url": "https://www.newsis.com/view/NISX20260705_0003696089"
     },
     {
-      "title": "결국 멈춰선 홈플러스…이마트·롯데마트 반사이익?",
-      "date": "Sat, 04 Jul 2026 11:31:00",
+      "title": "주거용 건설투자 25.8% 급감… 금리 상승·금융비용 증가 탓 [경제 레이...",
+      "date": "Mon, 06 Jul 2026 05:02:00",
       "source": "n.news.naver.com",
-      "url": "https://biz.heraldcorp.com/article/10797867?ref=naver"
+      "url": "https://www.segye.com/newsView/20260705507751?OutUrl=naver"
     },
     {
-      "title": "3년 8개월 내 최고 금리, 당신의 지갑 겨누고 있다",
-      "date": "Sat, 04 Jul 2026 07:01:00",
+      "title": "“미쳐버린 취업난”…중소기업 1명 뽑는데 1800명 몰렸다",
+      "date": "Mon, 06 Jul 2026 05:00:00",
       "source": "n.news.naver.com",
-      "url": "https://shindonga.donga.com/3/all/13/6286534/1"
+      "url": "https://www.joongang.co.kr/article/25442624"
     },
     {
-      "title": "창원시, 동남권 순환 광역철도 예타 통과 촉구 서명 돌입",
-      "date": "Fri, 03 Jul 2026 16:07:00",
-      "source": "newspim.com",
-      "url": "https://www.newspim.com/news/view/20260703000769"
-    },
-    {
-      "title": "창원시, '부울경 GTX' 동남권 광역철도 서명운동 돌입...예타 통과 총력",
-      "date": "Fri, 03 Jul 2026 15:48:00",
-      "source": "ajunews.com",
-      "url": "https://www.ajunews.com/view/20260703153837275"
-    },
-    {
-      "title": "‘정책성 강화’ 위례~삼동선 예타 늦춰져… 통과 여부 4분기 판가름",
-      "date": "Fri, 03 Jul 2026 15:34:00",
-      "source": "kyeongin.com",
-      "url": "https://www.kyeongin.com/article/1766719"
-    },
-    {
-      "title": "창원시도 '동남권 순환 광역철도' 예타 통과 촉구 서명운동 진행",
-      "date": "Fri, 03 Jul 2026 13:25:00",
+      "title": "성장률 1.1%→2.5% 뛴다는데 고용은 뒷걸음질",
+      "date": "Mon, 06 Jul 2026 04:35:00",
       "source": "n.news.naver.com",
-      "url": "https://www.yna.co.kr/view/AKR20260703079100052?input=1195m"
+      "url": "https://www.donga.com/news/Economy/article/all/20260706/134240849/2"
     },
     {
-      "title": "'받는 사람' 급증에 국민연금 급여지출 1년만에 12% 늘었다…'구조개혁...",
-      "date": "Fri, 03 Jul 2026 11:00:00",
+      "title": "기업 회생신청 급증… 3년새 2배로 늘었다",
+      "date": "Mon, 06 Jul 2026 04:35:00",
       "source": "n.news.naver.com",
-      "url": "https://view.asiae.co.kr/article/2026070210024546017"
+      "url": "https://www.donga.com/news/Economy/article/all/20260706/134240846/2"
+    },
+    {
+      "title": "[사설] 반도체 호황에 드리워진 ‘고용 없는 성장’ 그늘",
+      "date": "Mon, 06 Jul 2026 01:21:00",
+      "source": "n.news.naver.com",
+      "url": "https://www.kmib.co.kr/article/view.asp?arcid=1783238235&code=11171111&cp=nv"
+    },
+    {
+      "title": "AI가 먼저 삼킨 청년 일자리… 반도체발 성장에도 힘겨운 20대",
+      "date": "Mon, 06 Jul 2026 00:08:00",
+      "source": "n.news.naver.com",
+      "url": "https://www.kmib.co.kr/article/view.asp?arcid=1783243071&code=11151100&cp=nv"
+    },
+    {
+      "title": "[기획] 반도체 호황 '남 일'… 청년고용 멈췄다",
+      "date": "Sun, 05 Jul 2026 18:51:00",
+      "source": "n.news.naver.com",
+      "url": "https://www.dt.co.kr/article/12071242?ref=naver"
     }
   ],
   "bok": [
     {
-      "title": "원/달러 24시 거래로 환율 안정될까...상반기 평균 1,484원",
-      "date": "Sun, 05 Jul 2026 08:52:00",
-      "source": "tjb.co.kr",
-      "url": "https://www.tjb.co.kr/news05/bodo/view/id/100416"
-    },
-    {
-      "title": "환율 '1600원' 전망도…5차례 구두개입·외화공급 총동원에도 '백약무효...",
-      "date": "Sun, 05 Jul 2026 07:15:00",
+      "title": "20년 노포도 백기 들었다… 1100조 빚더미에 짓눌린 자영업 ‘시한폭탄...",
+      "date": "Mon, 06 Jul 2026 08:32:00",
       "source": "n.news.naver.com",
-      "url": "https://www.news1.kr/economy/trend/6217527"
+      "url": "https://www.dt.co.kr/article/12071263?ref=naver"
     },
     {
-      "title": "삼성전자 2분기 실적 관심...IMF 韓 성장률 얼마나 올리나 [한동훈의 위...",
-      "date": "Sun, 05 Jul 2026 06:00:00",
+      "title": "공급 부족·전셋값 상승에 매수 심리 꿈틀…하반기 부동산 변동성 커진...",
+      "date": "Mon, 06 Jul 2026 07:54:00",
+      "source": "cstimes.com",
+      "url": "https://www.cstimes.com/news/articleView.html?idxno=712216"
+    },
+    {
+      "title": "'전쟁발 에너지 충격'에 무너진 금리 정석…유럽·일본 '긴축' 속 미 연...",
+      "date": "Mon, 06 Jul 2026 07:41:00",
       "source": "n.news.naver.com",
-      "url": "https://www.sedaily.com/article/20063783?ref=naver"
+      "url": "http://www.wowtv.co.kr/NewsCenter/News/Read?articleId=A202607060016&t=NN"
     },
     {
-      "title": "\"AI가 물가 잡는다\"는 워시… 검증 나선 시장",
-      "date": "Sun, 05 Jul 2026 06:00:00",
-      "source": "n.news.naver.com",
-      "url": "https://www.mt.co.kr/world/2026/07/05/2026070210231834744"
+      "title": "원·달러 환율 30.2원 급락...美 고용 부진에도 '1500원대 고착' 우려",
+      "date": "Mon, 06 Jul 2026 07:30:00",
+      "source": "newswhoplus.com",
+      "url": "https://www.newswhoplus.com/news/articleView.html?idxno=63867"
     },
     {
-      "title": "외인 156조 순매도에 원화가치 6%↓…24시 거래로 환율 안정될까",
-      "date": "Sun, 05 Jul 2026 05:53:00",
-      "source": "n.news.naver.com",
-      "url": "https://www.yna.co.kr/view/AKR20260704030300002?input=1195m"
+      "title": "[Invest]\"반도체 가격이 금리 결정한다\"…한국 채권시장까지 흔드는 AI",
+      "date": "Mon, 06 Jul 2026 07:02:00",
+      "source": "investchosun.com",
+      "url": "https://www.investchosun.com/site/data/html_dir/2026/07/03/2026070380106.html"
     },
     {
-      "title": "[정책노트] 환율은 최고치, 정책은 한계…정부의 다음 카드는?",
-      "date": "Sat, 04 Jul 2026 17:00:00",
+      "title": "[코스닥 대전환①] 코스피 두 배 뛸 때, 코스닥은 30년 전 출발선으로 '...",
+      "date": "Mon, 06 Jul 2026 07:00:00",
       "source": "the-biz.co.kr",
-      "url": "http://www.the-biz.co.kr/news/articleView.html?idxno=723792"
+      "url": "http://www.the-biz.co.kr/news/articleView.html?idxno=723779"
     },
     {
-      "title": "3년 8개월 내 최고 금리, 당신의 지갑 겨누고 있다",
-      "date": "Sat, 04 Jul 2026 07:01:00",
+      "title": "\"'K자형 호황'을 경계한다\"…기준금리 3.5% 전망에 대한 반론",
+      "date": "Mon, 06 Jul 2026 06:50:00",
+      "source": "ebn.co.kr",
+      "url": "https://www.ebn.co.kr/news/articleView.html?idxno=1715136"
+    },
+    {
+      "title": "[사설] 삼중고(三重高) 고통 지역경제, 선제 위기관리 필요",
+      "date": "Mon, 06 Jul 2026 06:02:00",
+      "source": "yeongnam.com",
+      "url": "https://www.yeongnam.com/web/view.php?key=20260705020494087"
+    },
+    {
+      "title": "'수출 1조 달러·4% 성장' 기대감…반도체發 'K자형 회복'의 그늘",
+      "date": "Mon, 06 Jul 2026 06:00:00",
       "source": "n.news.naver.com",
-      "url": "https://shindonga.donga.com/3/all/13/6286534/1"
+      "url": "https://www.news1.kr/economy/trend/6217576"
     },
     {
-      "title": "반도체株 비상...IMF·BIS AI버블 경고",
-      "date": "Sat, 04 Jul 2026 06:30:00",
-      "source": "g-enews.com",
-      "url": "https://www.g-enews.com/view.php?ud=2026070406251087002bd56fbc3c_1"
-    },
-    {
-      "title": "[박근종 칼럼] 수출 1,000억 달러·성장 4%에도 물가 3.2%·환율 1,600원,...",
-      "date": "Sat, 04 Jul 2026 00:04:00",
-      "source": "mhns.co.kr",
-      "url": "https://www.mhns.co.kr/news/articleView.html?idxno=752280"
-    },
-    {
-      "title": "중소기업 부채비율 146%…고금리 공포 닥친다",
-      "date": "Sat, 04 Jul 2026 00:02:00",
-      "source": "n.news.naver.com",
-      "url": "https://www.joongang.co.kr/article/25442302"
+      "title": "[필드뒷얘기] \"환율 말하면 '좌우' 낙인\"…애널리스트에 씌워진 재갈",
+      "date": "Mon, 06 Jul 2026 05:56:00",
+      "source": "kbanker.co.kr",
+      "url": "https://www.kbanker.co.kr/news/articleView.html?idxno=225362"
     }
   ],
   "kiep": [
@@ -309,5 +309,5 @@
       "url": "https://www.edaily.co.kr/news/newspath.asp?newsid=04362406645482704"
     }
   ],
-  "updated": "2026.07.05 09:02"
+  "updated": "2026.07.06 09:00"
 }
