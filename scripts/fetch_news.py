@@ -21,6 +21,19 @@ TITLE_FILTER_EXCEPTIONS = {
     "Visit Korea", "코리아둘레길", "관광 활성화"
 }
 
+# 제목 필터 완화용 별칭 (검색 키워드는 그대로, 제목 판정만 유연하게)
+# - 값이 리스트인 키워드는 "OR" 조건: 리스트 중 하나라도 제목에 있으면 통과
+# - 값이 튜플인 키워드는 "AND" 조건: 튜플 안 단어가 전부 제목에 있어야 통과
+TITLE_MATCH_ALIASES = {
+    "소비자심리지수": ["소비자심리지수", "소비심리"],
+    "코스피지수":     ["코스피"],
+    "소매판매지수":   ["소매판매"],
+    "소비물가지수":   ["소비자물가지수", "물가지수"],   # 오타 보정 (자 누락)
+    "반도체 주가":    ("반도체", "주가"),               # AND 조건
+    "경기 침체 소비": ("경기", "침체"),                 # AND 조건
+    "경기 회복 소비": ("경기", "회복"),                 # AND 조건
+}
+
 CATEGORIES = {
     "dept": [
         "현대백화점", "롯데백화점", "신세계백화점",
@@ -48,7 +61,8 @@ CATEGORIES = {
     "asset": [
         "소비자심리지수", "기준금리", "내수 소비",
         "반도체 주가", "코스피지수", "가계소득",
-        "소매판매지수", "소비물가지수", "경기 침체 소비"
+        "소매판매지수", "소비물가지수", "경기 침체 소비",
+        "경기 회복 소비", "금리"
     ],
 }
 
@@ -84,9 +98,16 @@ def search_naver(query: str, display: int = DISPLAY) -> list:
         return []
 
 def title_matches(title: str, keyword: str) -> bool:
-    """제목에 키워드가 포함되는지 확인 (예외 키워드는 통과)"""
+    """제목에 키워드가 포함되는지 확인 (예외/별칭 키워드는 완화된 기준 적용)"""
     if keyword in TITLE_FILTER_EXCEPTIONS:
         return True
+    alias = TITLE_MATCH_ALIASES.get(keyword)
+    if alias is not None:
+        if isinstance(alias, tuple):
+            # AND 조건: 튜플 안 단어가 전부 제목에 있어야 통과
+            return all(a in title for a in alias)
+        # OR 조건: 리스트 중 하나라도 있으면 통과
+        return any(a in title for a in alias)
     return keyword in title
 
 def main():
