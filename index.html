@@ -391,38 +391,33 @@ footer{padding:1.25rem;text-align:center;font-size:11px;color:var(--text3);borde
 </div>
 
 <!-- ═══════════════════════════════════════════
-     HTML § 3-5. 주요 지역 방문자 섹션
+     HTML § 3-6. 서울·수도권 지표 지도 섹션
      ═══════════════════════════════════════════ -->
-<div class="wx-section" id="tour-section">
+<div class="wx-section" id="map-section">
   <div style="display:flex;align-items:flex-start;justify-content:space-between;margin-bottom:8px;gap:8px;flex-wrap:wrap">
     <div>
-      <div class="wx-section-label" style="margin-bottom:4px">3 · 주요 지역 방문자 (외국인) 현황</div>
-      <div style="font-size:10px;color:var(--text2);line-height:1.6">
-        SK텔레콤(외국인) 이동통신 데이터 기반 · 거주·통근·통학 등 일상생활권을 벗어나 관광 목적으로 방문한 <b style="font-weight:600;color:var(--text)">외국인 전체</b> 기준입니다.<br>
-        일자별 순방문자 수 기준(동일인이 2박3일 머무를 경우 = 3명 집계) · 추세 분석 목적으로 활용 권장
-      </div>
+      <div class="wx-section-label" style="margin-bottom:4px">4 · 서울·수도권 지표 지도 <span id="map-updated" style="font-size:9px;font-weight:400;color:var(--text3);text-transform:none;letter-spacing:0;margin-left:4px"></span></div>
     </div>
-    <div style="display:flex;gap:4px;flex-shrink:0">
-      <button class="wx-rtab on" id="tour-tab-card" onclick="tourSetView('card',this)">카드</button>
-      <button class="wx-rtab" id="tour-tab-chart" onclick="tourSetView('chart',this)">추이</button>
+    <div class="map-metric-toggle" id="map-metric-toggle">
+      <button data-metric="population" class="on">인구수</button>
+      <button data-metric="price">아파트 평당가</button>
+      <button data-metric="grdp">GRDP</button>
     </div>
   </div>
-  <div style="display:flex;align-items:center;gap:10px;margin-bottom:12px;padding:8px 10px;background:var(--bg2);border-radius:6px">
-    <span style="font-size:12px;font-weight:600;color:var(--text);min-width:76px" id="tour-sl-label">2025년 04월</span>
-    <input type="range" id="tour-slider" min="0" max="12" value="11" step="1" style="flex:1">
-    <span style="font-size:10px;padding:2px 8px;border-radius:5px;font-weight:500;white-space:nowrap" id="tour-avg-badge">—</span>
-  </div>
-  <div id="tour-card-view">
-    <div style="display:grid;grid-template-columns:1fr 1fr 1fr 1fr;gap:6px" id="tour-city-grid"></div>
-  </div>
-  <div id="tour-chart-view" style="display:none">
-    <div style="border:.5px solid var(--border);border-radius:8px;overflow:hidden">
-      <div style="padding:7px 10px;background:var(--bg2);border-bottom:.5px solid var(--border);display:flex;justify-content:space-between;align-items:center">
-        <span style="font-size:11px;font-weight:600;color:var(--text)" id="tour-chart-title">전체 도시 추이</span>
-        <span style="font-size:9px;color:var(--text2)">외지인 월별 방문자수 · 만명</span>
+
+  <div class="map-layout">
+    <div class="map-left-col">
+      <div class="map-card">
+        <svg id="mapSvg" viewBox="0 0 800 760" xmlns="http://www.w3.org/2000/svg"></svg>
+        <div class="map-legend">
+          <span class="map-swatch-item"><span class="map-swatch gray"></span>기본</span>
+          <span class="map-swatch-item"><span class="map-swatch blue"></span>선택됨</span>
+        </div>
       </div>
-      <div style="padding:12px;height:180px;position:relative"><canvas id="tour-chart"></canvas></div>
-      <div style="display:flex;gap:8px;padding:0 12px 10px;flex-wrap:wrap" id="tour-chart-legend"></div>
+      <div class="map-small-maps" id="mapSmallMaps"></div>
+    </div>
+    <div class="map-panel" id="mapPanel">
+      <div class="map-empty">지도에서 구/도시를 클릭하면 인구·아파트 평당가·GRDP가 기준 시점, 전년 동기 대비 증감률과 함께 표시됩니다.</div>
     </div>
   </div>
 </div>
