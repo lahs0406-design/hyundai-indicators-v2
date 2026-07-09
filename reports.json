@@ -1,6 +1,18 @@
 {
   "hri": [
     {
+      "title": "[박근종 칼럼] IMF 한국 성장 전망치 2.6%로 대폭 상향에도 '고용 없는 성...",
+      "date": "Thu, 09 Jul 2026 01:44:00",
+      "source": "mhns.co.kr",
+      "url": "https://www.mhns.co.kr/news/articleView.html?idxno=752820"
+    },
+    {
+      "title": "[줌인] 현대무벡스, '디지털 안전 시스템' 도입으로 현장 리스크 낮춘다",
+      "date": "Wed, 08 Jul 2026 17:56:00",
+      "source": "dailypop.kr",
+      "url": "http://www.dailypop.kr/news/articleView.html?idxno=100442"
+    },
+    {
       "title": "[박근종 칼럼] 눈부신 반도체 호황 질주에도 짙어지는 '3고(高)' 속 '고용...",
       "date": "Tue, 07 Jul 2026 15:40:00",
       "source": "mhns.co.kr",
@@ -47,142 +59,130 @@
       "date": "Wed, 01 Jul 2026 15:06:00",
       "source": "n.news.naver.com",
       "url": "https://www.yna.co.kr/view/AKR20260630173251002?input=1195m"
-    },
-    {
-      "title": "[양극화 K] 말라가는 중소기업…\"결혼도, 자녀 갖기도 어렵다\"",
-      "date": "Tue, 30 Jun 2026 15:12:00",
-      "source": "straightnews.co.kr",
-      "url": "https://www.straightnews.co.kr/news/articleView.html?idxno=305930"
-    },
-    {
-      "title": "반도체 생산 10% 급감···산업생산 2개월 연속 감소",
-      "date": "Tue, 30 Jun 2026 14:00:00",
-      "source": "todaykorea.co.kr",
-      "url": "https://www.todaykorea.co.kr/news/articleView.html?idxno=403249"
     }
   ],
   "kdi": [
     {
-      "title": "'대형마트 새벽배송' 향방은...국회 원 구성 난항에 '안갯속'",
-      "date": "Wed, 08 Jul 2026 07:02:00",
-      "source": "news2day.co.kr",
-      "url": "https://www.news2day.co.kr/article/20260707500118"
+      "title": "IMF \"韓, 올해 성장률 2.6%로 상향\"... 선진국 중 최고 수준 전망",
+      "date": "Thu, 09 Jul 2026 08:44:00",
+      "source": "getnews.co.kr",
+      "url": "https://www.getnews.co.kr/news/articleView.html?idxno=874565"
     },
     {
-      "title": "[유통혁명 2026②] 시대 변했는데 제도 그대로...홈플러스 몰락이 던진 ...",
-      "date": "Wed, 08 Jul 2026 06:00:00",
+      "title": "IMF, 한국 올해 성장률 2.6%로 상향-선진국 최고 수준 전망",
+      "date": "Thu, 09 Jul 2026 08:42:00",
+      "source": "mediafine.co.kr",
+      "url": "https://www.mediafine.co.kr/news/articleView.html?idxno=83044"
+    },
+    {
+      "title": "IMF, 韓 성장률 1.9→2.6% 상향 전망…주요 30개국 중 최대폭",
+      "date": "Thu, 09 Jul 2026 08:40:00",
+      "source": "segyebiz.com",
+      "url": "http://www.segyebiz.com/newsView/20260709505382?OutUrl=naver"
+    },
+    {
+      "title": "IMF, 한국 성장률 2.6%로 상향…선진국 중 최고 전망",
+      "date": "Thu, 09 Jul 2026 08:36:00",
+      "source": "straightnews.co.kr",
+      "url": "https://www.straightnews.co.kr/news/articleView.html?idxno=306677"
+    },
+    {
+      "title": "\"반도체·AI 성장 모멘텀 이어진다\"…韓성장 전망 3% 근접",
+      "date": "Thu, 09 Jul 2026 08:33:00",
+      "source": "n.news.naver.com",
+      "url": "https://www.newsis.com/view/NISX20260708_0003701474"
+    },
+    {
+      "title": "국제기구 올해 韓 성장률 상향…IMF·ADB 각각 0.7%p↑",
+      "date": "Thu, 09 Jul 2026 08:16:00",
+      "source": "joongangenews.com",
+      "url": "https://www.joongangenews.com/news/articleView.html?idxno=531612"
+    },
+    {
+      "title": "IMF·ADB, 韓성장률 2.6%로 잇단 상향…반도체 호조에 선진국 최고 전망",
+      "date": "Thu, 09 Jul 2026 08:08:00",
+      "source": "tjb.co.kr",
+      "url": "http://www.tjb.co.kr/sub0301/bodo/view/id/100663"
+    },
+    {
+      "title": "IMF, 한국 올해 성장률 2.6%로 대폭 상향…선진국 중 1위",
+      "date": "Thu, 09 Jul 2026 08:00:00",
+      "source": "jnilbo.com",
+      "url": "https://www.jnilbo.com/news/articleView.html?idxno=90000048714"
+    },
+    {
+      "title": "IMF, 한국 경제 성장률 2.6%로 상향… 선진국 중 최고 기록",
+      "date": "Thu, 09 Jul 2026 07:54:00",
+      "source": "gokorea.kr",
+      "url": "https://www.gokorea.kr/news/articleView.html?idxno=871598"
+    },
+    {
+      "title": "\"AI·반도체 수출 호조\"…IMF, 한국 성장률 2.6%로 상향",
+      "date": "Thu, 09 Jul 2026 07:32:00",
       "source": "ebn.co.kr",
-      "url": "https://www.ebn.co.kr/news/articleView.html?idxno=1715334"
-    },
-    {
-      "title": "교육교부금 '운명의 날'…기획처-교육부, 오늘 공개토론",
-      "date": "Wed, 08 Jul 2026 06:00:00",
-      "source": "n.news.naver.com",
-      "url": "https://www.newsis.com/view/NISX20260707_0003699670"
-    },
-    {
-      "title": "[증권 뉴스브리핑] '모험자본 투자플랫폼' 출범/금감원 퇴직자 재취업 ...",
-      "date": "Wed, 08 Jul 2026 01:58:00",
-      "source": "asiatime.co.kr",
-      "url": "https://www.asiatime.co.kr/article/20260708500002"
-    },
-    {
-      "title": "울산 울주군, 동남권순환 광역철도 유치 범군민 서명운동",
-      "date": "Tue, 07 Jul 2026 21:43:00",
-      "source": "ulsanpress.net",
-      "url": "https://www.ulsanpress.net/news/articleView.html?idxno=578707"
-    },
-    {
-      "title": "막힌 출퇴근길 뚫릴까...고양 3대 철도 사업 '청신호'",
-      "date": "Tue, 07 Jul 2026 21:36:00",
-      "source": "mygoyang.com",
-      "url": "http://www.mygoyang.com/news/articleView.html?idxno=89443"
-    },
-    {
-      "title": "울주군, 동남권순환 광역철도 예타 통과 '총력전'",
-      "date": "Tue, 07 Jul 2026 19:12:00",
-      "source": "iusm.co.kr",
-      "url": "https://www.iusm.co.kr/news/articleView.html?idxno=1065064"
-    },
-    {
-      "title": "홈플러스 청산 앞뒀지만···대형마트 규제 완화는 '제자리'",
-      "date": "Tue, 07 Jul 2026 18:38:00",
-      "source": "womaneconomy.co.kr",
-      "url": "https://www.womaneconomy.co.kr/news/articleView.html?idxno=255929"
-    },
-    {
-      "title": "수용률 143.6% 대전교도소…이전 논의 다시 속도전",
-      "date": "Tue, 07 Jul 2026 18:14:00",
-      "source": "n.news.naver.com",
-      "url": "https://www.daejonilbo.com/news/articleView.html?idxno=2286392"
-    },
-    {
-      "title": "[2026 브릿지포럼] 한요셉 위원 “AI, 향후 대부분 업무 수행… 대량실업...",
-      "date": "Tue, 07 Jul 2026 17:06:00",
-      "source": "viva100.com",
-      "url": "https://www.viva100.com/article/20260707500904"
+      "url": "https://www.ebn.co.kr/news/articleView.html?idxno=1715646"
     }
   ],
   "bok": [
     {
-      "title": "[사설]금융연 구조적 고환율 경고, 물가 관리에 빈틈 없어야",
-      "date": "Wed, 08 Jul 2026 05:01:00",
+      "title": "[탐사경] 한국 경제 '역대급 성장'의 역설…물가·고환율에 '금리 인상'...",
+      "date": "Thu, 09 Jul 2026 07:23:00",
+      "source": "moneystorm.kr",
+      "url": "https://www.moneystorm.kr/news/articleView.html?idxno=4979"
+    },
+    {
+      "title": "'반도체의 힘' 5월 경상흑자 60조 육박…37개월째 흑자 행진",
+      "date": "Thu, 09 Jul 2026 00:33:00",
       "source": "n.news.naver.com",
-      "url": "https://www.edaily.co.kr/news/newspath.asp?newsid=01587526645512552"
+      "url": "https://www.segye.com/newsView/20260708520394?OutUrl=naver"
     },
     {
-      "title": "24시간 열린 원·달러…밤사이 '변동성 시간대' 옮겨졌다",
-      "date": "Wed, 08 Jul 2026 04:16:00",
-      "source": "g-enews.com",
-      "url": "https://www.g-enews.com/view.php?ud=202607071825146830fbbec65dfb_1"
-    },
-    {
-      "title": "[EBN 오늘(7일) 이슈 종합] SK하이닉스 ADR '통큰 투자', 중신용 대출금...",
-      "date": "Tue, 07 Jul 2026 20:50:00",
-      "source": "ebn.co.kr",
-      "url": "https://www.ebn.co.kr/news/articleView.html?idxno=1715466"
-    },
-    {
-      "title": "[퇴근길머니] 삼성전자 또 최대 실적…코스피는 7,600선 후퇴",
-      "date": "Tue, 07 Jul 2026 17:23:00",
+      "title": "‘5중 연쇄 충격’이 외환시장 변동성 키웠다",
+      "date": "Thu, 09 Jul 2026 00:14:00",
       "source": "n.news.naver.com",
-      "url": "http://www.yonhapnewstv.co.kr/news/MYH20260707172224fip"
+      "url": "https://www.kmib.co.kr/article/view.asp?arcid=1783499135&code=11151300&cp=nv"
     },
     {
-      "title": "[박근종 칼럼] 눈부신 반도체 호황 질주에도 짙어지는 '3고(高)' 속 '고용...",
-      "date": "Tue, 07 Jul 2026 15:40:00",
-      "source": "mhns.co.kr",
-      "url": "https://www.mhns.co.kr/news/articleView.html?idxno=752636"
-    },
-    {
-      "title": "한화證 “원·달러 환율, 대외 악재 정점 통과…점진적인 하락 전망”",
-      "date": "Tue, 07 Jul 2026 14:03:00",
+      "title": "구윤철 “외환시장 변동성 확대… 7월 원화 국제화 로드맵 발표”",
+      "date": "Thu, 09 Jul 2026 00:13:00",
       "source": "n.news.naver.com",
-      "url": "https://www.edaily.co.kr/news/newspath.asp?newsid=04047526645512224"
+      "url": "https://www.kmib.co.kr/article/view.asp?arcid=1783495679&code=11151200&cp=nv"
     },
     {
-      "title": "[프로필] 황정욱 수출입은행 신임 본부장, 리스크·현장·인사 두루 거친...",
-      "date": "Tue, 07 Jul 2026 14:02:00",
-      "source": "fntimes.com",
-      "url": "https://www.fntimes.com/html/view.php?ud=2026070708444854005e6e69892f_18"
-    },
-    {
-      "title": "[BOK포커스]금리 인상 가리키던 3대 요인…금통위 D-10, 어떻게 바뀌었나",
-      "date": "Tue, 07 Jul 2026 12:00:00",
+      "title": "롤러코스피에 멀미 난다…‘연 3% 이상 수익’ 정기예금 올라탈까",
+      "date": "Wed, 08 Jul 2026 20:33:00",
       "source": "n.news.naver.com",
-      "url": "https://view.asiae.co.kr/article/2026070710295716031"
+      "url": "https://www.khan.co.kr/article/202607082033015"
     },
     {
-      "title": "인플레 압력 가중과 올바른 금리정책[포럼]",
-      "date": "Tue, 07 Jul 2026 11:40:00",
+      "title": "[사설] 한계 자영업 도태 후유증 최소화해야 한다",
+      "date": "Wed, 08 Jul 2026 20:26:00",
+      "source": "kyeongin.com",
+      "url": "https://www.kyeongin.com/article/1767031"
+    },
+    {
+      "title": "[채권-마감] 국고 3년 0.5bp↓…중동 긴장에도 환율 급락에 단기물 강세",
+      "date": "Wed, 08 Jul 2026 18:50:00",
+      "source": "news.einfomax.co.kr",
+      "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4424029"
+    },
+    {
+      "title": "정부, 주식시장 변동성 확대에 대응 나서… 원화 국제화 로드맵 발표 예...",
+      "date": "Wed, 08 Jul 2026 18:36:00",
+      "source": "gokorea.kr",
+      "url": "https://www.gokorea.kr/news/articleView.html?idxno=871568"
+    },
+    {
+      "title": "\"환율·물가·집값 불안 … 이달 기준금리 인상 유력\"",
+      "date": "Wed, 08 Jul 2026 18:02:00",
       "source": "n.news.naver.com",
-      "url": "https://www.munhwa.com/article/11600826?ref=naver"
+      "url": "https://www.mk.co.kr/article/12093711"
     },
     {
-      "title": "[생보 1분기 결산] 보장성·건전성 잡았지만…실적은 제각각",
-      "date": "Tue, 07 Jul 2026 11:10:00",
-      "source": "ebn.co.kr",
-      "url": "https://www.ebn.co.kr/news/articleView.html?idxno=1715378"
+      "title": "경제·금융당국, 증시·환율 변동성 점검 강화...\"원화 국제화 로드맵 이...",
+      "date": "Wed, 08 Jul 2026 17:46:00",
+      "source": "thepublic.kr",
+      "url": "https://www.thepublic.kr/news/articleView.html?idxno=310579"
     }
   ],
   "kiep": [
@@ -249,6 +249,18 @@
   ],
   "kif": [
     {
+      "title": "은행주, 개미들 피난처 될까…주주환원 넘어 '빅테크·보험사 쇼핑'",
+      "date": "Thu, 09 Jul 2026 08:06:00",
+      "source": "ftoday.co.kr",
+      "url": "http://www.ftoday.co.kr/news/articleView.html?idxno=361843"
+    },
+    {
+      "title": "은행株, 반도체 변동성 피난처로 부각…“높아진 ROE가 밸류에이션 밀어...",
+      "date": "Thu, 09 Jul 2026 07:53:00",
+      "source": "n.news.naver.com",
+      "url": "https://www.edaily.co.kr/news/newspath.asp?newsid=02538726645512880"
+    },
+    {
       "title": "우리금융, 7월 금통위 인상 전망 무게…내년까지 최종 3%대 중반 예측",
       "date": "Fri, 03 Jul 2026 10:52:00",
       "source": "megaeconomy.co.kr",
@@ -295,19 +307,7 @@
       "date": "Tue, 23 Jun 2026 04:30:00",
       "source": "n.news.naver.com",
       "url": "https://www.sidae.com/article/2026062209112048428"
-    },
-    {
-      "title": "[경제소식] DB손보 '프로미119 안전리더 캠프' 모집",
-      "date": "Mon, 22 Jun 2026 11:54:00",
-      "source": "4th.kr",
-      "url": "http://www.4th.kr/news/articleView.html?idxno=2113505"
-    },
-    {
-      "title": "금리도 환율도 변동성 장세…“채권만으론 헤지 어렵다”",
-      "date": "Wed, 17 Jun 2026 15:11:00",
-      "source": "n.news.naver.com",
-      "url": "https://www.edaily.co.kr/news/newspath.asp?newsid=04362406645482704"
     }
   ],
-  "updated": "2026.07.08 08:48"
+  "updated": "2026.07.09 09:01"
 }

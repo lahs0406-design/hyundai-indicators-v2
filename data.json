@@ -1673,6 +1673,10 @@
     {
       "ym": "20260707",
       "val": 7656.31
+    },
+    {
+      "ym": "20260708",
+      "val": 7246.79
     }
   ],
   "houseprice": [
@@ -6659,12 +6663,22 @@
             "d": 6,
             "temp": 26.0,
             "rain": 4.9
+          },
+          {
+            "d": 7,
+            "temp": 28.2,
+            "rain": 5.7
+          },
+          {
+            "d": 8,
+            "temp": 25.1,
+            "rain": 26.1
           }
         ],
-        "avg_temp": 25.5,
-        "max_temp": 26.3,
-        "total_rain": 20.1,
-        "rain_days": 6
+        "avg_temp": 25.8,
+        "max_temp": 28.2,
+        "total_rain": 51.9,
+        "rain_days": 8
       }
     },
     "busan": {
@@ -10879,10 +10893,20 @@
             "d": 6,
             "temp": 25.2,
             "rain": 0.0
+          },
+          {
+            "d": 7,
+            "temp": 25.6,
+            "rain": 0.0
+          },
+          {
+            "d": 8,
+            "temp": 25.7,
+            "rain": 0.0
           }
         ],
-        "avg_temp": 23.1,
-        "max_temp": 25.2,
+        "avg_temp": 23.8,
+        "max_temp": 25.7,
         "total_rain": 58.8,
         "rain_days": 3
       }
@@ -15099,12 +15123,22 @@
             "d": 6,
             "temp": 28.1,
             "rain": 0.0
+          },
+          {
+            "d": 7,
+            "temp": 28.0,
+            "rain": 1.4
+          },
+          {
+            "d": 8,
+            "temp": 28.6,
+            "rain": 0.0
           }
         ],
-        "avg_temp": 25.4,
-        "max_temp": 28.1,
-        "total_rain": 8.7,
-        "rain_days": 3
+        "avg_temp": 26.1,
+        "max_temp": 28.6,
+        "total_rain": 10.1,
+        "rain_days": 4
       }
     },
     "incheon": {
@@ -19319,12 +19353,22 @@
             "d": 6,
             "temp": 25.0,
             "rain": 4.9
+          },
+          {
+            "d": 7,
+            "temp": 26.8,
+            "rain": 23.3
+          },
+          {
+            "d": 8,
+            "temp": 24.7,
+            "rain": 25.1
           }
         ],
-        "avg_temp": 25.0,
-        "max_temp": 25.9,
-        "total_rain": 10.0,
-        "rain_days": 4
+        "avg_temp": 25.2,
+        "max_temp": 26.8,
+        "total_rain": 58.4,
+        "rain_days": 6
       }
     },
     "gwangju": {
@@ -23539,12 +23583,22 @@
             "d": 6,
             "temp": 26.4,
             "rain": 29.7
+          },
+          {
+            "d": 7,
+            "temp": 28.3,
+            "rain": 0.0
+          },
+          {
+            "d": 8,
+            "temp": 25.8,
+            "rain": 24.7
           }
         ],
-        "avg_temp": 24.4,
-        "max_temp": 26.4,
-        "total_rain": 112.0,
-        "rain_days": 5
+        "avg_temp": 25.1,
+        "max_temp": 28.3,
+        "total_rain": 136.7,
+        "rain_days": 6
       }
     },
     "daejeon": {
@@ -27759,12 +27813,22 @@
             "d": 6,
             "temp": 26.4,
             "rain": 5.3
+          },
+          {
+            "d": 7,
+            "temp": 27.9,
+            "rain": 22.1
+          },
+          {
+            "d": 8,
+            "temp": 24.8,
+            "rain": 129.6
           }
         ],
-        "avg_temp": 25.1,
-        "max_temp": 26.4,
-        "total_rain": 28.1,
-        "rain_days": 3
+        "avg_temp": 25.4,
+        "max_temp": 27.9,
+        "total_rain": 179.8,
+        "rain_days": 5
       }
     },
     "ulsan": {
@@ -31979,10 +32043,20 @@
             "d": 6,
             "temp": 27.0,
             "rain": 0.0
+          },
+          {
+            "d": 7,
+            "temp": 27.3,
+            "rain": 0.0
+          },
+          {
+            "d": 8,
+            "temp": 27.0,
+            "rain": 0.0
           }
         ],
-        "avg_temp": 23.4,
-        "max_temp": 27.0,
+        "avg_temp": 24.4,
+        "max_temp": 27.3,
         "total_rain": 27.2,
         "rain_days": 3
       }
@@ -36199,12 +36273,22 @@
             "d": 6,
             "temp": 27.4,
             "rain": 0.4
+          },
+          {
+            "d": 7,
+            "temp": 29.0,
+            "rain": 22.8
+          },
+          {
+            "d": 8,
+            "temp": 25.3,
+            "rain": 66.6
           }
         ],
-        "avg_temp": 26.2,
-        "max_temp": 27.4,
-        "total_rain": 10.0,
-        "rain_days": 3
+        "avg_temp": 26.4,
+        "max_temp": 29.0,
+        "total_rain": 99.4,
+        "rain_days": 5
       }
     }
   },
