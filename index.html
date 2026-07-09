@@ -239,12 +239,15 @@ footer{padding:1.25rem;text-align:center;font-size:11px;color:var(--text3);borde
 .map-metric-toggle{display:flex;gap:4px;background:var(--bg2);padding:3px;border-radius:8px;border:.5px solid var(--border2);flex-shrink:0}
 .map-metric-toggle button{appearance:none;border:none;background:transparent;color:var(--text2);font-size:10.5px;font-weight:600;padding:5px 9px;border-radius:6px;cursor:pointer;font-family:inherit;transition:all .15s;white-space:nowrap}
 .map-metric-toggle button.on{background:#185FA5;color:#E6F1FB}
-.map-layout{display:flex;gap:10px;align-items:flex-start;flex-wrap:wrap}
-.map-left-col{flex:1 1 260px;min-width:220px;display:flex;flex-direction:column;gap:8px}
-.map-panel{flex:0 0 200px;min-width:180px;background:var(--bg2);border:.5px solid var(--border);border-radius:8px;padding:10px;align-self:flex-start;position:sticky;top:8px}
-.map-card{background:var(--bg2);border:.5px solid var(--border);border-radius:8px;padding:8px}
-.map-card svg{width:100%;height:auto;display:block;overflow:visible}
-.map-region{fill:#d7dee6;stroke:var(--bg);stroke-width:1.2;cursor:pointer;transition:fill .12s ease}
+.map-card{background:var(--bg2);border:.5px solid var(--border);border-radius:8px;padding:8px;margin-bottom:8px}
+.map-zoom-wrap{position:relative;height:280px;border-radius:7px;overflow:hidden;background:var(--bg3)}
+.map-zoom-wrap svg{width:100%;height:100%;display:block;cursor:grab}
+.map-zoom-wrap svg.dragging{cursor:grabbing}
+.map-zoom-controls{position:absolute;right:6px;bottom:6px;display:flex;flex-direction:column;gap:4px;z-index:5}
+.map-zoom-btn{width:24px;height:24px;border-radius:6px;border:.5px solid var(--border2);background:var(--bg);color:var(--text);font-size:13px;font-weight:800;cursor:pointer;display:flex;align-items:center;justify-content:center}
+.map-zoom-btn:hover{background:var(--bg2)}
+.map-zoom-btn.reset{font-size:8px;font-weight:700}
+.map-region{fill:#d7dee6;stroke:var(--bg);stroke-width:1.2;cursor:pointer;transition:filter .12s ease}
 @media(prefers-color-scheme:dark){.map-region{fill:#3a4552;stroke:var(--bg)}}
 .map-region:hover{filter:brightness(0.94)}
 .map-region.on{fill:#60a5fa !important;stroke:#1d4ed8;stroke-width:2}
@@ -252,7 +255,8 @@ footer{padding:1.25rem;text-align:center;font-size:11px;color:var(--text3);borde
 .map-city-boundary{fill:none;stroke:#9aa4b0;stroke-width:1}
 .map-region-label{font-size:8.5px;fill:var(--text2);pointer-events:none;text-anchor:middle;font-weight:700;paint-order:stroke;stroke:var(--bg);stroke-width:2.2px;stroke-opacity:.85}
 .map-region-label.dim{font-size:7.5px}
-.map-store-marker{fill:#1e3a8a;stroke:var(--bg);stroke-width:1.4;cursor:pointer}
+.map-store-marker{fill:#1e3a8a;stroke:var(--bg);stroke-width:1.4;cursor:pointer;transition:transform .12s ease;transform-box:fill-box;transform-origin:center}
+.map-store-marker:hover{transform:scale(1.3)}
 .map-legend{display:flex;align-items:center;gap:10px;margin-top:6px;font-size:9.5px;color:var(--text2)}
 .map-swatch-item{display:flex;align-items:center;gap:4px;font-weight:600}
 .map-swatch{width:10px;height:10px;border-radius:3px;display:inline-block}
@@ -264,19 +268,27 @@ footer{padding:1.25rem;text-align:center;font-size:11px;color:var(--text3);borde
 .map-small-card .nm{font-size:9px;font-weight:700;margin-top:4px;color:var(--text)}
 .map-small-card .pp{font-size:8.5px;color:var(--text2)}
 .map-empty{font-size:11px;color:var(--text2);line-height:1.6}
+/* 상단 가로 지표 스트립 */
+.map-strip{background:var(--bg2);border:.5px solid var(--border);border-radius:8px;padding:9px 11px;margin-bottom:8px}
+.map-strip-head{display:flex;align-items:baseline;gap:8px;margin-bottom:6px;flex-wrap:wrap}
 .map-gu-name{font-size:14px;font-weight:700;color:var(--text)}
-.map-gu-sub{font-size:9.5px;color:var(--text3);margin-bottom:6px}
-.map-stat{background:var(--bg);border:.5px solid var(--border);border-radius:7px;padding:7px 9px;margin-top:6px}
+.map-gu-sub{font-size:9.5px;color:var(--text3)}
+.map-strip-row{display:flex;gap:8px;flex-wrap:nowrap}
+.map-stat{background:var(--bg);border:.5px solid var(--border);border-radius:7px;padding:7px 9px;flex:1 1 0;min-width:0}
 .map-stat .lb{font-size:9px;color:var(--text2);font-weight:600}
-.map-stat .vl{font-size:14px;font-weight:700;color:var(--text);margin-top:1px}
-.map-stat .vl .un{font-size:9.5px;color:var(--text2);font-weight:500;margin-left:3px}
-.map-stat .meta{display:flex;gap:6px;flex-wrap:wrap;margin-top:4px}
-.map-stat .asof{font-size:8.5px;font-weight:600;color:var(--text2);background:var(--bg2);border:.5px solid var(--border2);padding:1px 5px;border-radius:5px}
-.map-stat .yoy{font-size:9px;font-weight:700}
+.map-stat .vl{font-size:13px;font-weight:700;color:var(--text);margin-top:1px;white-space:nowrap}
+.map-stat .vl .un{font-size:9px;color:var(--text2);font-weight:500;margin-left:3px}
+.map-stat .meta{display:flex;gap:5px;flex-wrap:wrap;margin-top:4px}
+.map-stat .asof{font-size:8px;font-weight:600;color:var(--text2);background:var(--bg2);border:.5px solid var(--border2);padding:1px 5px;border-radius:5px}
+.map-stat .yoy{font-size:8.5px;font-weight:700}
 .map-stat .yoy.up{color:#dc2626}
 .map-stat .yoy.down{color:#185FA5}
 .map-stat .na{font-size:9.5px;color:var(--text3);font-weight:500}
 .map-tooltip{position:fixed;z-index:9999;pointer-events:none;display:none;background:#111827;color:#fff;padding:5px 9px;border-radius:6px;font-size:10.5px;font-weight:700;white-space:nowrap;transform:translate(-50%,-125%)}
+@media(max-width:520px){
+  .map-small-maps{grid-template-columns:repeat(2,1fr)}
+  .map-strip-row{flex-wrap:wrap}
+}
 /* CSS § 17. 반응형 - 모바일 (768px 이하: 세로 스택) */
 @media(max-width:768px){
   ...
@@ -484,21 +496,27 @@ footer{padding:1.25rem;text-align:center;font-size:11px;color:var(--text3);borde
     </div>
   </div>
 
-  <div class="map-layout">
-    <div class="map-left-col">
-      <div class="map-card">
-        <svg id="mapSvg" viewBox="0 0 800 760" xmlns="http://www.w3.org/2000/svg"></svg>
-        <div class="map-legend">
-          <span class="map-swatch-item"><span class="map-swatch gray"></span>기본</span>
-          <span class="map-swatch-item"><span class="map-swatch blue"></span>선택됨</span>
-        </div>
+  <div class="map-strip" id="mapStrip">
+    <div class="map-empty">지도에서 구/도시를 클릭하면 인구·아파트 평당가·GRDP가 기준 시점, 전년 동기 대비 증감률과 함께 표시됩니다.</div>
+  </div>
+
+  <div class="map-card">
+    <div class="map-zoom-wrap" id="mapZoomWrap">
+      <svg id="mapSvg" viewBox="0 0 800 760" xmlns="http://www.w3.org/2000/svg">
+        <g id="mapZoomGroup"></g>
+      </svg>
+      <div class="map-zoom-controls">
+        <button class="map-zoom-btn" id="mapZoomIn">+</button>
+        <button class="map-zoom-btn" id="mapZoomOut">−</button>
+        <button class="map-zoom-btn reset" id="mapZoomReset">1:1</button>
       </div>
-      <div class="map-small-maps" id="mapSmallMaps"></div>
     </div>
-    <div class="map-panel" id="mapPanel">
-      <div class="map-empty">지도에서 구/도시를 클릭하면 인구·아파트 평당가·GRDP가 기준 시점, 전년 동기 대비 증감률과 함께 표시됩니다.</div>
+    <div class="map-legend">
+      <span class="map-swatch-item"><span class="map-swatch gray"></span>기본</span>
+      <span class="map-swatch-item"><span class="map-swatch blue"></span>선택됨</span>
     </div>
   </div>
+  <div class="map-small-maps" id="mapSmallMaps"></div>
 </div>
 
 </div>
@@ -2213,6 +2231,71 @@ var _mapGeo = null, _mapData = null;
 var mapCurrentMetric = 'population';
 var mapSelected = null, mapSelectedIsMain = true;
 
+/* ── 확대/축소 & 팬 ── */
+var mapZoom = { scale: 1, tx: 0, ty: 0 };
+var MAP_ZOOM_MIN = 1, MAP_ZOOM_MAX = 6;
+
+function mapApplyZoom() {
+  var g = document.getElementById('mapZoomGroup');
+  if (g) g.setAttribute('transform', 'translate(' + mapZoom.tx + ',' + mapZoom.ty + ') scale(' + mapZoom.scale + ')');
+}
+function mapClampPan() {
+  var maxOffset = 800 * (mapZoom.scale - 1) + 100;
+  mapZoom.tx = Math.max(-maxOffset, Math.min(maxOffset, mapZoom.tx));
+  mapZoom.ty = Math.max(-maxOffset, Math.min(maxOffset, mapZoom.ty));
+}
+function mapZoomAt(factor, cx, cy) {
+  var newScale = Math.max(MAP_ZOOM_MIN, Math.min(MAP_ZOOM_MAX, mapZoom.scale * factor));
+  var ratio = newScale / mapZoom.scale;
+  mapZoom.tx = cx - (cx - mapZoom.tx) * ratio;
+  mapZoom.ty = cy - (cy - mapZoom.ty) * ratio;
+  mapZoom.scale = newScale;
+  mapClampPan();
+  mapApplyZoom();
+}
+function mapSvgPoint(evt, svgEl) {
+  var rect = svgEl.getBoundingClientRect();
+  var x = (evt.clientX - rect.left) / rect.width * 800;
+  var y = (evt.clientY - rect.top) / rect.height * 760;
+  return [x, y];
+}
+function mapInitZoomControls() {
+  var svgEl = document.getElementById('mapSvg');
+  if (!svgEl || svgEl.dataset.zoomBound) return;
+  svgEl.dataset.zoomBound = '1';
+
+  svgEl.addEventListener('wheel', function(e) {
+    e.preventDefault();
+    var p = mapSvgPoint(e, svgEl);
+    mapZoomAt(e.deltaY < 0 ? 1.15 : 1/1.15, p[0], p[1]);
+  }, { passive: false });
+
+  var dragging = false, dragStart = [0,0], zoomStart = {tx:0,ty:0};
+  svgEl.addEventListener('mousedown', function(e) {
+    dragging = true; svgEl.classList.add('dragging');
+    dragStart = [e.clientX, e.clientY];
+    zoomStart = { tx: mapZoom.tx, ty: mapZoom.ty };
+  });
+  window.addEventListener('mousemove', function(e) {
+    if (!dragging) return;
+    var rect = svgEl.getBoundingClientRect();
+    var dx = (e.clientX - dragStart[0]) / rect.width * 800;
+    var dy = (e.clientY - dragStart[1]) / rect.height * 760;
+    mapZoom.tx = zoomStart.tx + dx;
+    mapZoom.ty = zoomStart.ty + dy;
+    mapClampPan();
+    mapApplyZoom();
+  });
+  window.addEventListener('mouseup', function() { dragging = false; svgEl.classList.remove('dragging'); });
+
+  var inBtn = document.getElementById('mapZoomIn');
+  var outBtn = document.getElementById('mapZoomOut');
+  var resetBtn = document.getElementById('mapZoomReset');
+  if (inBtn) inBtn.addEventListener('click', function() { mapZoomAt(1.3, 400, 380); });
+  if (outBtn) outBtn.addEventListener('click', function() { mapZoomAt(1/1.3, 400, 380); });
+  if (resetBtn) resetBtn.addEventListener('click', function() { mapZoom = {scale:1, tx:0, ty:0}; mapApplyZoom(); });
+}
+
 function mapLonLatToSvg(lon, lat, proj) {
   proj = proj || _mapGeo.proj;
   var x = (lon - proj.minx) * proj.lon_scale;
@@ -2259,41 +2342,41 @@ function mapMetricValue(name, isMain, metric) {
 }
 
 function mapRenderMain() {
-  var svg = document.getElementById('mapSvg');
-  svg.innerHTML = '';
+  var g = document.getElementById('mapZoomGroup');
+  g.innerHTML = '';
   var names = Object.keys(_mapGeo.regions);
 
   names.forEach(function(name) {
-    var g = _mapGeo.regions[name];
+    var gg = _mapGeo.regions[name];
     var path = document.createElementNS('http://www.w3.org/2000/svg', 'path');
-    path.setAttribute('d', g.path);
+    path.setAttribute('d', gg.path);
     var isSel = (mapSelectedIsMain && name === mapSelected);
     path.setAttribute('class', 'map-region' + (isSel ? ' on' : ''));
-    path.addEventListener('click', function(nm, gg) {
-      return function() { mapSelected = nm; mapSelectedIsMain = true; mapRenderMain(); mapRenderSmall(); mapShowPanel(nm, true, gg); };
-    }(name, g));
-    svg.appendChild(path);
+    path.addEventListener('click', function(nm, ggg) {
+      return function() { mapSelected = nm; mapSelectedIsMain = true; mapRenderMain(); mapRenderSmall(); mapShowStrip(nm, true, ggg); };
+    }(name, gg));
+    g.appendChild(path);
   });
 
   var seoulB = document.createElementNS('http://www.w3.org/2000/svg', 'path');
   seoulB.setAttribute('d', _mapGeo.seoulBoundary);
   seoulB.setAttribute('class', 'map-seoul-boundary');
-  svg.appendChild(seoulB);
+  g.appendChild(seoulB);
 
   Object.values(_mapGeo.cityBoundaries).forEach(function(d) {
     var cb = document.createElementNS('http://www.w3.org/2000/svg', 'path');
     cb.setAttribute('d', d);
     cb.setAttribute('class', 'map-city-boundary');
-    svg.appendChild(cb);
+    g.appendChild(cb);
   });
 
   names.forEach(function(name) {
-    var g = _mapGeo.regions[name];
-    var c = mapComputeCentroid(g.path);
+    var gg = _mapGeo.regions[name];
+    var c = mapComputeCentroid(gg.path);
     var label = document.createElementNS('http://www.w3.org/2000/svg', 'text');
     label.setAttribute('x', c[0]); label.setAttribute('y', c[1]);
-    label.setAttribute('class', 'map-region-label' + (g.region === 'gyeonggi' ? ' dim' : ''));
-    if (g.region === 'gyeonggi' && name.length >= 5) {
+    label.setAttribute('class', 'map-region-label' + (gg.region === 'gyeonggi' ? ' dim' : ''));
+    if (gg.region === 'gyeonggi' && name.length >= 5) {
       var t1 = document.createElementNS('http://www.w3.org/2000/svg', 'tspan');
       t1.setAttribute('x', c[0]); t1.setAttribute('dy', '-0.3em'); t1.textContent = name.slice(0, 3);
       var t2 = document.createElementNS('http://www.w3.org/2000/svg', 'tspan');
@@ -2302,7 +2385,7 @@ function mapRenderMain() {
     } else {
       label.textContent = name;
     }
-    svg.appendChild(label);
+    g.appendChild(label);
   });
 
   (_mapGeo.storeMarkers || []).forEach(function(m) {
@@ -2313,8 +2396,11 @@ function mapRenderMain() {
     c.addEventListener('mouseenter', function(evt) { mapShowTooltip(evt, m.name); });
     c.addEventListener('mousemove', mapMoveTooltip);
     c.addEventListener('mouseleave', mapHideTooltip);
-    svg.appendChild(c);
+    g.appendChild(c);
   });
+
+  mapApplyZoom();
+  mapInitZoomControls();
 }
 
 function mapRenderSmall() {
@@ -2344,7 +2430,7 @@ function mapRenderSmall() {
     });
     wrapper.querySelector('path').addEventListener('click', function() {
       mapSelected = name; mapSelectedIsMain = false;
-      mapRenderMain(); mapRenderSmall(); mapShowPanel(name, false, g);
+      mapRenderMain(); mapRenderSmall(); mapShowStripSmall(name, g);
     });
     container.appendChild(wrapper);
   });
@@ -2357,7 +2443,7 @@ var MAP_METRIC_META = {
 };
 
 function mapYoyHtml(yoyPct) {
-  if (yoyPct == null) return '<span class="na">전년 동기 대비 데이터 없음</span>';
+  if (yoyPct == null) return '<span class="na">전년比 데이터 없음</span>';
   var up = yoyPct > 0, flat = yoyPct === 0;
   var arrow = flat ? '' : (up ? '▲' : '▼');
   var cls = flat ? '' : (up ? 'up' : 'down');
@@ -2380,15 +2466,20 @@ function mapStatBlockHtml(name, isMain, metric) {
     '</div>';
 }
 
-function mapShowPanel(name, isMain, geoEntry) {
-  var panel = document.getElementById('mapPanel');
+/* 상단 가로 스트립: 인구·평당가·GRDP를 한 줄로 표시 */
+function mapShowStrip(name, isMain, geoEntry) {
+  var strip = document.getElementById('mapStrip');
   var sub = isMain ? (geoEntry.region === 'seoul' ? '서울' : '경기') : '광역시/일반시';
-  panel.innerHTML =
-    '<div class="map-gu-name">' + name + '</div>' +
-    '<div class="map-gu-sub">' + sub + '</div>' +
+  strip.innerHTML =
+    '<div class="map-strip-head"><span class="map-gu-name">' + name + '</span><span class="map-gu-sub">' + sub + '</span></div>' +
+    '<div class="map-strip-row">' +
     mapStatBlockHtml(name, isMain, 'population') +
     (isMain ? mapStatBlockHtml(name, isMain, 'price') : '') +
-    (isMain ? mapStatBlockHtml(name, isMain, 'grdp') : '');
+    (isMain ? mapStatBlockHtml(name, isMain, 'grdp') : '') +
+    '</div>';
+}
+function mapShowStripSmall(name, g) {
+  mapShowStrip(name, false, g);
 }
 
 document.addEventListener('click', function(e) {
@@ -2416,8 +2507,8 @@ async function mapInit() {
     mapRenderSmall();
   } catch (e) {
     console.error('지도 데이터 로드 실패', e);
-    var panel = document.getElementById('mapPanel');
-    if (panel) panel.innerHTML = '<div class="map-empty">지도 데이터를 불러오지 못했습니다.</div>';
+    var strip = document.getElementById('mapStrip');
+    if (strip) strip.innerHTML = '<div class="map-empty">지도 데이터를 불러오지 못했습니다.</div>';
   }
 }
 </script>
