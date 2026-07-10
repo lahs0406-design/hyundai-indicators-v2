@@ -1,58 +1,92 @@
 """
 fetch_map_data.py
 ─────────────────────────────────────────────────
-서울 25개구 + 고양·부천·성남(구 단위) + 울산·대구·부산·청주
+서울 25개구 + 고양·성남(구 단위)·부천(시 단위) + 울산·대구·부산·청주
 지표 지도용 데이터 → map_data.json 생성
 
-기존 scripts/fetch_data.py 의 KOSIS 프록시(kosis_fetch) 패턴을 그대로 따릅니다.
-지도 SVG 지오메트리(map_geo.json)는 이 스크립트가 건드리지 않습니다 — 통계값만 갱신합니다.
+실제 채팅으로 KOSIS/R-ONE 화면에서 직접 확인한 파라미터를 그대로 반영했습니다
+(추측이 아니라, 브라우저에서 강남구 등을 선택 조회했을 때 실제로 나온 응답 기준).
 
-환경변수 (update-data.yml 에 이미 등록된 secrets 재사용):
+확인된 5개 지표 구조:
+  1. 인구수      KOSIS DT_1B040A3 (신식 5자리 코드, 서울만 지원) + 폴백 DT_1B04005N (전국)
+  2. 아파트 평균매매가격  R-ONE A_2024_00060 (CLS_ID, ITM_ID=100001, 단위=천원)
+  3. GRDP        KOSIS DT_1C65_03E (구식 코드 11010=종로부터 10씩 증가, ITM_ID=Z10, 단위=백만원)
+  4. 외국인수     KOSIS DT_1B040A9C (자체 코드 A003~A027, objL2=0, objL3=B001, ITM_ID=H001)
+  5. 1인가구비율   KOSIS DT_1YL21161 (구식 코드, ITM_ID=T10, 단위=%, 계산 불필요)
+
+환경변수:
   KOSIS_KEY    KOSIS API 인증키
   KOSIS_PROXY  Cloudflare Worker 프록시 URL (KOSIS CORS 우회용, 없어도 동작)
 
-※ 주의사항 (실행 전 반드시 확인) ────────────────────────
-  1. KOSIS_TBL_PRICE(아파트 매매 실거래 평균가격, orgId=408/DT_KAB_11672_S15)와
-     KOSIS_TBL_GRDP(DT_1C65_03E)는 실제 API 응답을 받아본 뒤
-     ITM_NM 매칭 문자열(예: "총인구", "지역내총생산", "아파트")이 맞는지 확인이 필요합니다.
-     GitHub Actions 환경에서는 kosis.kr에 실제 접근이 되므로, 첫 실행 후
-     Actions 로그에 찍히는 print() 출력으로 필드명을 검증해주세요.
-  2. 이 스크립트는 자치구(시군구) 단위로 34~38개 지역을 순회하며 호출하므로,
-     KOSIS 호출 정책상 과도한 트래픽이 되지 않도록 REQUEST_DELAY_SEC 만큼 쉬어갑니다.
+안전장치: KOSIS 응답에 같이 오는 지역명(C1_NM)이 우리가 기대한 구 이름과
+다르면 그 값은 버리고 경고만 남깁니다 — 코드가 틀렸을 때 엉뚱한 구에
+잘못된 숫자가 조용히 들어가는 사고를 막기 위함입니다.
 """
 
 import os, json, time, urllib.request, urllib.parse, datetime
 
 KOSIS_KEY   = os.environ["KOSIS_KEY"]
 KOSIS_PROXY = os.environ.get("KOSIS_PROXY", "")
+REB_API_KEY = os.environ.get("REB_API_KEY", "")  # R-ONE 인증키 (없으면 "sample"로 제한적 동작)
 
-REQUEST_DELAY_SEC = 0.6
+REQUEST_DELAY_SEC = 0.5
 
-# ── 지도에 표시할 지역 코드 (map_geo.json의 regions/smallMaps 키와 1:1 대응) ──
-# 시군구 행정표준코드 (5자리) — map_geo.json 의 "code" 필드와 동일한 값을 사용합니다.
-SEOUL_GU_CODES = {
-    "종로구": "11110", "중구": "11140", "용산구": "11170", "성동구": "11200",
-    "광진구": "11215", "동대문구": "11230", "중랑구": "11260", "성북구": "11290",
-    "강북구": "11305", "도봉구": "11320", "노원구": "11350", "은평구": "11380",
-    "서대문구": "11410", "마포구": "11440", "양천구": "11470", "강서구": "11500",
-    "구로구": "11530", "금천구": "11545", "영등포구": "11560", "동작구": "11590",
-    "관악구": "11620", "서초구": "11650", "강남구": "11680", "송파구": "11710",
-    "강동구": "11740",
+# ── 서울 25개구: 표준코드(신식, 5자리) / 구식코드(GRDP·1인가구비율용) / R-ONE CLS_ID / 외국인 A코드 ──
+SEOUL_GU = {
+    "종로구":   {"new": "11110", "old": "11010", "cls": "530011", "aCode": "A025"},
+    "중구":     {"new": "11140", "old": "11020", "cls": "530012", "aCode": "A026"},
+    "용산구":   {"new": "11170", "old": "11030", "cls": "530013", "aCode": "A023"},
+    "성동구":   {"new": "11200", "old": "11040", "cls": "530015", "aCode": "A018"},
+    "광진구":   {"new": "11215", "old": "11050", "cls": "530016", "aCode": "A008"},
+    "동대문구": {"new": "11230", "old": "11060", "cls": "530017", "aCode": "A013"},
+    "중랑구":   {"new": "11260", "old": "11070", "cls": "530018", "aCode": "A027"},
+    "성북구":   {"new": "11290", "old": "11080", "cls": "530019", "aCode": "A019"},
+    "강북구":   {"new": "11305", "old": "11090", "cls": "530020", "aCode": "A005"},
+    "도봉구":   {"new": "11320", "old": "11100", "cls": "530021", "aCode": "A012"},
+    "노원구":   {"new": "11350", "old": "11110", "cls": "530022", "aCode": "A011"},
+    "은평구":   {"new": "11380", "old": "11120", "cls": "530024", "aCode": "A024"},
+    "서대문구": {"new": "11410", "old": "11130", "cls": "530025", "aCode": "A016"},
+    "마포구":   {"new": "11440", "old": "11140", "cls": "530026", "aCode": "A015"},
+    "양천구":   {"new": "11470", "old": "11150", "cls": "530029", "aCode": "A021"},
+    "강서구":   {"new": "11500", "old": "11160", "cls": "530030", "aCode": "A006"},
+    "구로구":   {"new": "11530", "old": "11170", "cls": "530031", "aCode": "A009"},
+    "금천구":   {"new": "11545", "old": "11180", "cls": "530032", "aCode": "A010"},
+    "영등포구": {"new": "11560", "old": "11190", "cls": "530033", "aCode": "A022"},
+    "동작구":   {"new": "11590", "old": "11200", "cls": "530034", "aCode": "A014"},
+    "관악구":   {"new": "11620", "old": "11210", "cls": "530035", "aCode": "A007"},
+    "서초구":   {"new": "11650", "old": "11220", "cls": "530037", "aCode": "A017"},
+    "강남구":   {"new": "11680", "old": "11230", "cls": "530038", "aCode": "A003"},
+    "송파구":   {"new": "11710", "old": "11240", "cls": "530039", "aCode": "A020"},
+    "강동구":   {"new": "11740", "old": "11250", "cls": "530040", "aCode": "A004"},
 }
-GYEONGGI_CODES = {
-    "고양시덕양구": "31101", "고양시일산동구": "31103", "고양시일산서구": "31104",
-    "성남시수정구": "31021", "성남시중원구": "31022", "성남시분당구": "31023",
-    "부천시": "31050",
+# ⚠ "old"(구식) 코드는 종로(11010)부터 10씩 증가하는 패턴을 GRDP·1인가구비율 두 표에서
+#   앞 3개 구(종로·중구·용산)까지 실제 응답으로 확인했고, 나머지는 표준 서울 25개구
+#   순서 + 국가 표준 행정구역코드 규칙에 근거한 연장입니다. 아래 안전장치가
+#   실제 응답의 지역명과 대조해서, 혹시 어긋나는 구가 있으면 자동으로 걸러냅니다.
+
+# 고양·성남(구 단위), 부천(시 단위) — 신식코드 / R-ONE CLS_ID만 사용 (GRDP·1인가구비율은 서울 외 미지원 확인 전이라 스킵)
+GYEONGGI = {
+    "고양시덕양구":   {"new": "31101", "cls": "530088"},
+    "고양시일산동구": {"new": "31103", "cls": "530089"},
+    "고양시일산서구": {"new": "31104", "cls": "530090"},
+    "성남시수정구":   {"new": "31021", "cls": "530048"},
+    "성남시중원구":   {"new": "31022", "cls": "530049"},
+    "성남시분당구":   {"new": "31023", "cls": "530050"},
 }
+# 부천시 — 3구 CLS_ID (가격은 3구 평균으로 근사)
+BUCHEON_CLS = {"부천시원미구": "530091", "부천시소사구": "530092", "부천시오정구": "530093"}
+BUCHEON_NEW_CODE = "31050"
+
 SMALL_MAP_CODES = {
     "울산광역시": "31", "대구광역시": "27", "부산광역시": "26", "청주시": "33041",
 }
 
-ALL_REGIONS = {**SEOUL_GU_CODES, **GYEONGGI_CODES}
-
-KOSIS_TBL_POPULATION = "DT_1B040A3"     # 행정구역(시군구)별, 성별 인구수 (orgId=101)
-KOSIS_TBL_GRDP       = "DT_1C65_03E"    # 시군구별 지역내총생산 (orgId=101)
-KOSIS_TBL_PRICE      = "DT_KAB_11672_S15"  # 아파트 매매 실거래 평균가격 (orgId=408, 한국부동산원)
+KOSIS_TBL_POPULATION          = "DT_1B040A3"
+KOSIS_TBL_POPULATION_FALLBACK = "DT_1B04005N"
+KOSIS_TBL_GRDP                = "DT_1C65_03E"
+KOSIS_TBL_FOREIGN             = "DT_1B040A9C"
+KOSIS_TBL_SINGLE_HH           = "DT_1YL21161"
+REB_STATBL_PRICE              = "A_2024_00060"
 
 
 def load_existing():
@@ -63,68 +97,60 @@ def load_existing():
         return {"regions": {}, "smallMaps": {}, "generatedAt": ""}
 
 
-def kosis_fetch_named(org_id: str, tbl_id: str, obj_l1: str,
-                       start_prd: str, end_prd: str, prd_se: str = "Y") -> list:
-    """
-    KOSIS statisticsParameterData 호출 (fetch_data.py의 kosis_fetch와 동일 패턴)
-    항목명(ITM_NM)까지 받아와서 이름으로 값을 구분할 수 있게 합니다.
-    반환: [{"prd": "2026", "val": 559000.0, "itm": "총인구수 (명)"}, ...]
-    """
-    params = urllib.parse.urlencode({
-        "method": "getList",
-        "apiKey": KOSIS_KEY,
-        "format": "json",
-        "jsonVD": "Y",
-        "outputFields": "ITM_ID ITM_NM PRD_DE DT",
-        "orgId": org_id,
-        "tblId": tbl_id,
-        "objL1": obj_l1,
-        "itmId": "ALL",
-        "prdSe": prd_se,
-        "startPrdDe": start_prd,
-        "endPrdDe": end_prd,
-        "prdInterval": "1",
-    })
+# ────────────────────────────────────────────────────────────
+# KOSIS 호출
+# ────────────────────────────────────────────────────────────
+def kosis_call(org_id, tbl_id, obj_l1, start_prd, end_prd, prd_se,
+               obj_l2=None, obj_l3=None, itm_id="ALL"):
+    params_dict = {
+        "method": "getList", "apiKey": KOSIS_KEY, "format": "json", "jsonVD": "Y",
+        "outputFields": "ITM_ID ITM_NM C1_NM PRD_DE DT",
+        "orgId": org_id, "tblId": tbl_id, "objL1": obj_l1, "itmId": itm_id,
+        "prdSe": prd_se, "startPrdDe": start_prd, "endPrdDe": end_prd, "prdInterval": "1",
+    }
+    if obj_l2 is not None:
+        params_dict["objL2"] = obj_l2
+    if obj_l3 is not None:
+        params_dict["objL3"] = obj_l3
+    params = urllib.parse.urlencode(params_dict)
     base_url = "https://kosis.kr/openapi/Param/statisticsParameterData.do"
-    urls_to_try = []
-    if KOSIS_PROXY:
-        urls_to_try.append(f"{KOSIS_PROXY}?{params}")
-    urls_to_try.append(f"{base_url}?{params}")
+    urls = ([f"{KOSIS_PROXY}?{params}"] if KOSIS_PROXY else []) + [f"{base_url}?{params}"]
 
-    for url in urls_to_try:
+    for url in urls:
         for attempt in range(2):
             try:
                 headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"}
                 req = urllib.request.Request(url, headers=headers)
                 with urllib.request.urlopen(req, timeout=30) as res:
                     rows = json.loads(res.read().decode("utf-8"))
-                    if not isinstance(rows, list):
-                        print(f"    [KOSIS 응답 이상] {tbl_id}/{obj_l1}: {str(rows)[:200]}")
-                        break
-                    result = []
-                    for r in rows:
-                        prd = r.get("PRD_DE", "")
-                        val = r.get("DT", "")
-                        itm = r.get("ITM_NM", "")
-                        if prd and val and str(val).strip():
-                            try:
-                                result.append({"prd": prd, "val": float(str(val).replace(",", "")), "itm": itm})
-                            except ValueError:
-                                pass
-                    if result:
-                        return result
+                    if isinstance(rows, list):
+                        return rows
+                    print(f"    [KOSIS 오류] {tbl_id}/{obj_l1}: {str(rows)[:150]}")
                     break
             except Exception as e:
-                print(f"    [KOSIS 오류] {tbl_id}/{obj_l1} via {url[:60]}... (시도 {attempt+1}/2): {type(e).__name__}: {e}")
-                if attempt == 0:
-                    time.sleep(2)
-                continue
+                print(f"    [KOSIS 예외] {tbl_id}/{obj_l1} (시도 {attempt+1}/2): {type(e).__name__}: {e}")
+                time.sleep(2)
     return []
 
 
-def pick_latest_and_yoy(rows: list, itm_contains: str = None):
-    """항목명에 itm_contains가 포함된 행들 중 최신 시점과 1년 전 시점을 비교"""
-    filtered = [r for r in rows if (itm_contains is None or itm_contains in (r["itm"] or ""))]
+def pick_latest_yoy(rows, expected_name=None, itm_id_filter=None):
+    """
+    최신 시점 값과 1년 전 값을 비교. expected_name이 주어지면 C1_NM이 일치하는
+    행만 사용 (다른 구 데이터가 섞여 들어오는 사고 방지).
+    """
+    filtered = []
+    for r in rows:
+        if itm_id_filter and r.get("ITM_ID") != itm_id_filter:
+            continue
+        if expected_name and r.get("C1_NM") and r.get("C1_NM") != expected_name:
+            continue
+        val = r.get("DT")
+        prd = r.get("PRD_DE")
+        if val and prd and str(val).strip():
+            try:
+                filtered.append({"prd": prd, "val": float(str(val).replace(",", ""))})
+            except ValueError:
+                pass
     if not filtered:
         return {"value": None, "asOf": None, "yoyPct": None}
     filtered.sort(key=lambda r: r["prd"])
@@ -132,40 +158,80 @@ def pick_latest_and_yoy(rows: list, itm_contains: str = None):
     is_monthly = len(latest["prd"]) >= 6
     prev_prd = (str(int(latest["prd"][:4]) - 1) + latest["prd"][4:]) if is_monthly else str(int(latest["prd"]) - 1)
     prev = next((r for r in filtered if r["prd"] == prev_prd), None)
-    yoy = None
-    if prev and prev["val"]:
-        yoy = round((latest["val"] - prev["val"]) / prev["val"] * 100, 2)
+    yoy = round((latest["val"] - prev["val"]) / prev["val"] * 100, 2) if (prev and prev["val"]) else None
     return {"value": latest["val"], "asOf": latest["prd"], "yoyPct": yoy}
 
 
-def fetch_region_stats(name: str, code: str, today_y: str, today_ym: str) -> dict:
-    print(f"  → {name} ({code})")
-    out = {}
-
-    pop_rows = kosis_fetch_named("101", KOSIS_TBL_POPULATION, code,
-                                  str(int(today_y) - 2), today_y, "Y")
-    pop = pick_latest_and_yoy(pop_rows, "총인구")
-    if pop["value"] is not None:
-        out["population"] = {**pop, "estimated": False}
-    time.sleep(REQUEST_DELAY_SEC)
-
-    grdp_rows = kosis_fetch_named("101", KOSIS_TBL_GRDP, code,
-                                   str(int(today_y) - 4), str(int(today_y) - 1), "Y")
-    grdp = pick_latest_and_yoy(grdp_rows, "지역내총생산")
-    if grdp["value"] is not None:
-        out["grdp"] = {**grdp, "perCapita": None}
-    time.sleep(REQUEST_DELAY_SEC)
-
-    price_rows = kosis_fetch_named("408", KOSIS_TBL_PRICE, code,
-                                    str(int(today_ym) - 200), today_ym, "M")
-    price = pick_latest_and_yoy(price_rows, "아파트")
-    if price["value"] is not None:
-        out["price"] = {**price, "estimated": False}
-    time.sleep(REQUEST_DELAY_SEC)
-
-    return out
+def fetch_population(new_code, expected_name, today_y):
+    rows = kosis_call("101", KOSIS_TBL_POPULATION, new_code, str(int(today_y) - 2), today_y, "Y")
+    result = pick_latest_yoy(rows, expected_name, itm_id_filter=None)
+    if result["value"] is not None:
+        return result
+    # 폴백: 전국 지원 표 (월간, objL2="0" 전체연령, itmId="T2" 총인구수)
+    today_ym = datetime.date.today().strftime("%Y%m")
+    start_ym = str(int(today_ym[:4]) - 1) + today_ym[4:]
+    rows2 = kosis_call("101", KOSIS_TBL_POPULATION_FALLBACK, new_code, start_ym, today_ym, "M",
+                       obj_l2="0", itm_id="T2")
+    return pick_latest_yoy(rows2, expected_name, itm_id_filter="T2")
 
 
+def fetch_grdp(old_code, expected_name, today_y):
+    rows = kosis_call("101", KOSIS_TBL_GRDP, old_code, str(int(today_y) - 5), str(int(today_y) - 1), "Y",
+                       itm_id="Z10")
+    result = pick_latest_yoy(rows, expected_name, itm_id_filter="Z10")
+    if result["value"] is not None:
+        result["value"] = round(result["value"] / 100, 1)  # 백만원 → 억원
+    return result
+
+
+def fetch_foreign(a_code, expected_name, today_y):
+    rows = kosis_call("101", KOSIS_TBL_FOREIGN, a_code, str(int(today_y) - 2), today_y, "Y",
+                       obj_l2="0", obj_l3="B001", itm_id="H001")
+    return pick_latest_yoy(rows, expected_name, itm_id_filter="H001")
+
+
+def fetch_single_hh_ratio(old_code, expected_name, today_y):
+    rows = kosis_call("101", KOSIS_TBL_SINGLE_HH, old_code, str(int(today_y) - 2), today_y, "Y",
+                       itm_id="T10")
+    return pick_latest_yoy(rows, expected_name, itm_id_filter="T10")
+
+
+# ────────────────────────────────────────────────────────────
+# R-ONE (아파트 평균매매가격)
+# ────────────────────────────────────────────────────────────
+def fetch_price(cls_id, today_ym):
+    key = REB_API_KEY if REB_API_KEY else "sample"
+    start_ym = str(int(today_ym[:4]) - 1) + today_ym[4:]
+    params = urllib.parse.urlencode({
+        "STATBL_ID": REB_STATBL_PRICE, "DTACYCLE_CD": "MM", "CLS_ID": cls_id,
+        "ITM_ID": "100001", "START_WRTTIME": start_ym, "END_WRTTIME": today_ym,
+        "Type": "json", "KEY": key,
+    })
+    url = f"https://www.reb.or.kr/r-one/openapi/SttsApiTblData.do?{params}"
+    try:
+        headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"}
+        req = urllib.request.Request(url, headers=headers)
+        with urllib.request.urlopen(req, timeout=30) as res:
+            data = json.loads(res.read().decode("utf-8"))
+        rows = (data.get("SttsApiTblData") or [{}, {}])[1].get("row", [])
+    except Exception as e:
+        print(f"    [R-ONE 예외] CLS_ID={cls_id}: {type(e).__name__}: {e}")
+        return {"value": None, "asOf": None, "yoyPct": None}
+
+    if not rows:
+        return {"value": None, "asOf": None, "yoyPct": None}
+    sorted_rows = sorted(rows, key=lambda r: str(r["WRTTIME_IDTFR_ID"]))
+    latest = sorted_rows[-1]
+    latest_val = float(latest["DTA_VAL"])
+    prev_ym = str(int(latest["WRTTIME_IDTFR_ID"][:4]) - 1) + latest["WRTTIME_IDTFR_ID"][4:]
+    prev = next((r for r in sorted_rows if str(r["WRTTIME_IDTFR_ID"]) == prev_ym), None)
+    yoy = round((latest_val - float(prev["DTA_VAL"])) / float(prev["DTA_VAL"]) * 100, 2) if prev else None
+    return {"value": round(latest_val), "asOf": latest["WRTTIME_IDTFR_ID"], "yoyPct": yoy}
+
+
+# ────────────────────────────────────────────────────────────
+# 메인
+# ────────────────────────────────────────────────────────────
 def main():
     today = datetime.date.today()
     today_y = str(today.year)
@@ -175,35 +241,81 @@ def main():
     data.setdefault("regions", {})
     data.setdefault("smallMaps", {})
 
-    print(f"\n[지도] 서울·수도권 {len(ALL_REGIONS)}개 지역 통계 수집 시작")
-    for name, code in ALL_REGIONS.items():
-        try:
-            stats = fetch_region_stats(name, code, today_y, today_ym)
-            if stats:
-                data["regions"].setdefault(name, {})
-                data["regions"][name].update(stats)
-        except Exception as e:
-            print(f"  [실패] {name}: {type(e).__name__}: {e}")
+    print(f"\n[지도] 서울 25개구 5개 지표 수집 시작")
+    for name, codes in SEOUL_GU.items():
+        print(f"  → {name}")
+        entry = data["regions"].setdefault(name, {})
 
-    print(f"\n[지도] 소형 지도(광역시) {len(SMALL_MAP_CODES)}개 지역 통계 수집 시작")
+        pop = fetch_population(codes["new"], name, today_y)
+        if pop["value"] is not None:
+            entry["population"] = {**pop, "estimated": False}
+        time.sleep(REQUEST_DELAY_SEC)
+
+        grdp = fetch_grdp(codes["old"], name, today_y)
+        if grdp["value"] is not None:
+            entry["grdp"] = {**grdp, "perCapita": None}
+        time.sleep(REQUEST_DELAY_SEC)
+
+        foreign = fetch_foreign(codes["aCode"], name, today_y)
+        if foreign["value"] is not None:
+            entry["foreignCount"] = foreign
+            # 인구 천명당 외국인수로 환산 (같은 회차에 조회된 인구수 기준)
+            if entry.get("population", {}).get("value"):
+                per1000 = round(foreign["value"] / entry["population"]["value"] * 1000, 1)
+                entry["foreignPer1000"] = {"value": per1000, "asOf": foreign["asOf"], "yoyPct": None}
+        time.sleep(REQUEST_DELAY_SEC)
+
+        single_hh = fetch_single_hh_ratio(codes["old"], name, today_y)
+        if single_hh["value"] is not None:
+            entry["singleHouseholdRatio"] = single_hh
+        time.sleep(REQUEST_DELAY_SEC)
+
+        price = fetch_price(codes["cls"], today_ym)
+        if price["value"] is not None:
+            entry["price"] = {**price, "estimated": False}
+        time.sleep(REQUEST_DELAY_SEC)
+
+    print(f"\n[지도] 고양·성남 구 단위 수집 시작 (GRDP·외국인·1인가구비율은 서울 외 미지원 확인 전이라 스킵)")
+    for name, codes in GYEONGGI.items():
+        print(f"  → {name}")
+        entry = data["regions"].setdefault(name, {})
+        pop = fetch_population(codes["new"], name, today_y)
+        if pop["value"] is not None:
+            entry["population"] = {**pop, "estimated": False}
+        time.sleep(REQUEST_DELAY_SEC)
+        price = fetch_price(codes["cls"], today_ym)
+        if price["value"] is not None:
+            entry["price"] = {**price, "estimated": False}
+        time.sleep(REQUEST_DELAY_SEC)
+
+    print(f"\n[지도] 부천시 (3구 평균으로 근사)")
+    entry = data["regions"].setdefault("부천시", {})
+    pop = fetch_population(BUCHEON_NEW_CODE, "부천시", today_y)
+    if pop["value"] is not None:
+        entry["population"] = {**pop, "estimated": False}
+    time.sleep(REQUEST_DELAY_SEC)
+    prices = []
+    for gu_name, cls_id in BUCHEON_CLS.items():
+        p = fetch_price(cls_id, today_ym)
+        if p["value"] is not None:
+            prices.append(p["value"])
+        time.sleep(REQUEST_DELAY_SEC)
+    if prices:
+        entry["price"] = {"value": round(sum(prices) / len(prices)), "asOf": today_ym,
+                           "yoyPct": None, "estimated": True}  # 3구 단순평균 근사치
+
+    print(f"\n[지도] 소형 지도(광역시) 인구 수집 시작")
     for name, code in SMALL_MAP_CODES.items():
-        try:
-            pop_rows = kosis_fetch_named("101", KOSIS_TBL_POPULATION, code,
-                                          str(int(today_y) - 2), today_y, "Y")
-            pop = pick_latest_and_yoy(pop_rows, "총인구")
-            if pop["value"] is not None:
-                data["smallMaps"].setdefault(name, {})
-                data["smallMaps"][name]["population"] = {**pop, "estimated": False}
-                print(f"  → {name}: {pop}")
-        except Exception as e:
-            print(f"  [실패] {name}: {type(e).__name__}: {e}")
+        print(f"  → {name}")
+        pop = fetch_population(code, name, today_y)
+        if pop["value"] is not None:
+            data["smallMaps"].setdefault(name, {})
+            data["smallMaps"][name]["population"] = {**pop, "estimated": False}
         time.sleep(REQUEST_DELAY_SEC)
 
     data["generatedAt"] = datetime.datetime.now().isoformat(timespec="seconds")
-
     with open("map_data.json", "w", encoding="utf-8") as f:
-        json.dump(data, f, ensure_ascii=False, indent=None)
-
+        json.dump(data, f, ensure_ascii=False)
     print("\n[지도] map_data.json 저장 완료")
 
 
