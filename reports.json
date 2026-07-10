@@ -125,6 +125,18 @@
   ],
   "bok": [
     {
+      "title": "키움증권 \"7월 금통위 기준금리 0.25%p 인상 전망, 최종 3.50%까지 올릴 ...",
+      "date": "Fri, 10 Jul 2026 09:40:00",
+      "source": "businesspost.co.kr",
+      "url": "https://www.businesspost.co.kr/BP?command=article_view&num=442026"
+    },
+    {
+      "title": "\"성장률 올랐는데 왜 더 힘들까\"…서민 덮친 '3중고'",
+      "date": "Fri, 10 Jul 2026 09:08:00",
+      "source": "namdonews.com",
+      "url": "https://www.namdonews.com/news/articleView.html?idxno=916537"
+    },
+    {
       "title": "신현송 \"물가·금융안정 리스크 커져\"…기준금리 인상 가능성 공식화",
       "date": "Fri, 10 Jul 2026 08:46:00",
       "source": "cstimes.com",
@@ -171,18 +183,6 @@
       "date": "Fri, 10 Jul 2026 06:02:00",
       "source": "ajunews.com",
       "url": "https://www.ajunews.com/view/20260709143246938"
-    },
-    {
-      "title": "한은 총재 \"적절한 시기에 기준금리 인상 필요\"",
-      "date": "Fri, 10 Jul 2026 05:19:00",
-      "source": "n.news.naver.com",
-      "url": "http://www.yonhapnewstv.co.kr/news/MYH20260710051855ave"
-    },
-    {
-      "title": "신현송 “상당 기간 고물가 지속… 금리 인상 필요”",
-      "date": "Fri, 10 Jul 2026 05:05:00",
-      "source": "n.news.naver.com",
-      "url": "https://www.seoul.co.kr/news/economy/2026/07/10/20260710031005?wlog_tag3=naver"
     }
   ],
   "kiep": [
@@ -309,5 +309,5 @@
       "url": "https://www.sidae.com/article/2026062209112048428"
     }
   ],
-  "updated": "2026.07.10 08:59"
+  "updated": "2026.07.10 09:49"
 }
