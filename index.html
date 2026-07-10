@@ -54,10 +54,13 @@ body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;backgrou
 .sidebar-chart{padding:.75rem .85rem}
 .chart-name{font-size:12.5px;font-weight:600;color:var(--text);margin-bottom:1px}
 .chart-src{font-size:10.5px;color:var(--text2);margin-bottom:.65rem}
-.kpi-grid{display:grid;grid-template-columns:1fr 1fr 1fr;gap:5px;margin-bottom:.65rem}
-.kpill{background:var(--bg2);border-radius:6px;padding:6px 7px}
-.kpill .kl{font-size:9.5px;color:var(--text2);margin-bottom:1px}
-.kpill .kv{font-size:14px;font-weight:600;color:var(--text);line-height:1.2}
+.kpi-grid{display:grid;grid-template-columns:1fr 1fr 1fr 1fr;gap:5px;margin-bottom:.65rem}
+.kpill{background:var(--bg2);border-radius:6px;padding:6px 5px;text-align:center}
+.kpill .kl{font-size:8.5px;color:var(--text2);margin-bottom:2px}
+.kpill .kv{font-size:12.5px;font-weight:600;color:var(--text);line-height:1.2}
+.kpill .kv.up{color:#E24B4A}
+.kpill .kv.down{color:#185FA5}
+.kpill .kv.neu{color:var(--text2)}
 .kpill .kc{font-size:9.5px;margin-top:1px}
 /* CSS § 7. KPI 색상 클래스 (up/down/neu) */
 .up{color:#E24B4A}.down{color:#185FA5}.neu{color:var(--text2)}
@@ -70,6 +73,16 @@ body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;backgrou
 .chart-src.is-sample{color:#E24B4A;font-weight:600}
 /* CSS § 9. 차트 캔버스 · AI 해석 박스 */
 .canvas-wrap{position:relative;width:100%;height:150px;margin-bottom:.65rem}
+/* CSS § 7-2. AI 추세 해석 박스 */
+.trend-ai-box{background:var(--bg2);border-radius:var(--radius);padding:.75rem .9rem;margin-bottom:.65rem}
+.trend-ai-hd{display:flex;align-items:center;gap:6px;margin-bottom:.5rem}
+.trend-ai-badge{font-size:9.5px;font-weight:600;color:#0C447C;background:#E6F1FB;padding:1px 7px;border-radius:8px}
+.trend-ai-title{font-size:12px;font-weight:600;color:var(--text)}
+.trend-ai-meta{font-size:9.5px;color:var(--text3);margin-left:auto}
+.trend-ai-body{font-size:12px;color:var(--text);line-height:1.7;margin-bottom:.6rem}
+.trend-ai-btn{font-size:12px;font-weight:500;padding:5px 15px;background:#185FA5;color:#E6F1FB;border:none;border-radius:14px;cursor:pointer;font-family:inherit}
+.trend-ai-btn:hover{background:#0C447C}
+.trend-ai-btn:disabled{opacity:.5;cursor:not-allowed}
 .pulse{display:inline-block;width:5px;height:5px;border-radius:50%;background:#378ADD;animation:pulse 1.2s infinite;margin-left:4px;vertical-align:middle}
 @keyframes pulse{0%,100%{opacity:1}50%{opacity:.25}}
 /* CSS § 10. 우측 콘텐츠 영역 */
@@ -222,19 +235,17 @@ footer{padding:1.25rem;text-align:center;font-size:11px;color:var(--text3);borde
 .wx-di-hd{padding:6px 10px;background:var(--bg2);border-bottom:.5px solid var(--border);display:flex;justify-content:space-between;align-items:center}
 .wx-di-hd-lbl{font-size:10.5px;font-weight:600;color:var(--text)}
 .wx-di-hd-sub{font-size:9px;color:var(--text2)}
-.wx-di-body{padding:8px 10px;display:flex;flex-direction:column;gap:6px}
-.wx-di-row{display:grid;grid-template-columns:52px 1fr 44px;align-items:center;gap:6px}
-.wx-di-name{font-size:10px;color:var(--text2)}
-.wx-di-bar-wrap{height:6px;background:var(--bg2);border-radius:3px;position:relative}
-.wx-di-mid{position:absolute;left:50%;top:-2px;width:1px;height:10px;background:var(--border2)}
-.wx-di-bar{height:6px;border-radius:3px;position:absolute;top:0}
-.wx-di-bar.pos{background:#F0997B;right:50%}
-.wx-di-bar.neg{background:#85B7EB;left:50%}
-.wx-di-bar.zero{width:2px;background:var(--border2);left:calc(50% - 1px)}
-.wx-di-val{font-size:10px;font-weight:500;text-align:right}
-.wx-di-val.pos{color:#A32D2D}.wx-di-val.neg{color:#185FA5}.wx-di-val.zero{color:var(--text2)}
-.wx-di-sep{border:none;border-top:.5px solid var(--border);margin:2px 0}
-.wx-di-hol-detail{font-size:9px;color:var(--text2);grid-column:1/-1;margin-top:-2px}
+.wx-di-body{padding:8px 10px}
+.wx-di-strip{display:grid;grid-template-columns:repeat(8,1fr);gap:3px}
+.wx-di-cell{text-align:center;padding:5px 2px;border-radius:6px}
+.wx-di-dname{font-size:9.5px;color:var(--text2);margin-bottom:2px}
+.wx-di-dval{font-size:12.5px;font-weight:600}
+.wx-di-cell.pos{background:#FCEBEB}
+.wx-di-cell.neg{background:#E6F1FB}
+.wx-di-dval.pos{color:#A32D2D}
+.wx-di-dval.neg{color:#185FA5}
+.wx-di-dval.zero{color:var(--text2)}
+.wx-di-hol-detail{font-size:9px;color:var(--text2);margin-top:5px}
 /* CSS § 16-1. 서울·수도권 지표 지도 섹션 */
 .map-metric-toggle{display:flex;gap:4px;background:var(--bg2);padding:3px;border-radius:8px;border:.5px solid var(--border2);flex-shrink:0}
 .map-metric-toggle button{appearance:none;border:none;background:transparent;color:var(--text2);font-size:10.5px;font-weight:600;padding:5px 9px;border-radius:6px;cursor:pointer;font-family:inherit;transition:all .15s;white-space:nowrap}
@@ -350,7 +361,7 @@ footer{padding:1.25rem;text-align:center;font-size:11px;color:var(--text3);borde
      HTML § 3. 사이드바 - 좌측 패널
      ─────────────────────────────────────────────
      § 3-1. 카테고리 버튼 그리드
-     § 3-2. 지표별 서브 버튼 패널 (grp1~grp6)
+     § 3-2. 지표별 서브 버튼 패널 (grp1,3,4,5,7)
      § 3-3. 차트 + KPI 수치
      § 3-4. AI 추세 해석 박스
      ═══════════════════════════════════════════ -->
@@ -363,33 +374,41 @@ footer{padding:1.25rem;text-align:center;font-size:11px;color:var(--text3);borde
   <button class="cat-col-btn" onclick="toggleCat(this,'grp3')"><span class="em">📈</span>물가·금리</button>
   <button class="cat-col-btn" onclick="toggleCat(this,'grp4')"><span class="em">🏠</span>자산시장</button>
   <button class="cat-col-btn" onclick="toggleCat(this,'grp7')"><span class="em">✈️</span>관광객</button>
-  <button class="cat-col-btn" onclick="toggleCat(this,'grp2')"><span class="em">💰</span>소득·고용</button>
   <button class="cat-col-btn" onclick="toggleCat(this,'grp5')"><span class="em">🛍️</span>유통채널</button>
-  <button class="cat-col-btn" onclick="toggleCat(this,'grp6')"><span class="em">👶</span>인구동향</button>
 </div>
   </div>
   <!-- § 3-2. 지표별 서브 버튼 패널 -->
   <div class="sub-panel open" id="grp1"><button class="sub-btn on" onclick="selChart('csi',this,'grp1')">소비자심리지수</button></div>
-  <div class="sub-panel" id="grp2"><button class="sub-btn" onclick="selChart('income',this,'grp2')">가계소득</button><button class="sub-btn" onclick="selChart('employ',this,'grp2')">고용률</button></div>
   <div class="sub-panel" id="grp3"><button class="sub-btn" onclick="selChart('cpi',this,'grp3')">소비자물가</button><button class="sub-btn" onclick="selChart('rate',this,'grp3')">기준금리</button></div>
-  <div class="sub-panel" id="grp4"><button class="sub-btn" onclick="selChart('kospi',this,'grp4')">KOSPI</button><button class="sub-btn" onclick="selChart('houseprice',this,'grp4')">주택매매가격</button><button class="sub-btn" onclick="selChart('fx',this,'grp4')">환율</button></div>
-  <div class="sub-panel" id="grp5"><button class="sub-btn" onclick="selChart('dept',this,'grp5')">백화점매출(전년비)</button><button class="sub-btn" onclick="selChart('mart',this,'grp5')">대형마트매출</button><button class="sub-btn" onclick="selChart('convenience',this,'grp5')">편의점매출</button><button class="sub-btn" onclick="selChart('online',this,'grp5')">온라인쇼핑</button><button class="sub-btn" onclick="selChart('retail',this,'grp5')">소매판매지수</button><button class="sub-btn" onclick="selChart('service',this,'grp5')">서비스업생산</button></div>
+  <div class="sub-panel" id="grp4"><button class="sub-btn" onclick="selChart('kospi',this,'grp4')">KOSPI</button><button class="sub-btn" onclick="selChart('fx',this,'grp4')">환율</button></div>
+  <div class="sub-panel" id="grp5"><button class="sub-btn" onclick="selChart('dept',this,'grp5')">백화점매출(전년비)</button><button class="sub-btn" onclick="selChart('mart',this,'grp5')">대형마트매출</button><button class="sub-btn" onclick="selChart('convenience',this,'grp5')">편의점매출</button><button class="sub-btn" onclick="selChart('retail',this,'grp5')">소매판매지수</button></div>
 <div class="sub-panel" id="grp7">
   <button class="sub-btn" onclick="selChart('tourist',this,'grp7')">방한외국인</button>
   <button class="sub-btn" onclick="selChart('outbound',this,'grp7')">내국인출국</button>
 </div>
-   <div class="sub-panel" id="grp6"><button class="sub-btn" onclick="selChart('birthrate',this,'grp6')">합계출산율(TFR)</button><button class="sub-btn" onclick="selChart('marriagerate',this,'grp6')">조혼인율</button></div>
   <!-- § 3-3. 차트 + KPI 수치 -->
   <div class="sidebar-chart">
     <div class="chart-name" id="ctitle">소비자심리지수 (CCSI)</div>
     <div class="index-note" id="index-note"></div>
     <div class="chart-src" id="cmeta">출처: 한국은행 · 월별 발표 · 기준선 100</div>
     <div class="kpi-grid">
-      <div class="kpill"><div class="kl">최신값</div><div class="kv" id="scur">100.3</div><div class="kc down" id="schg">▼ -1.2</div></div>
-      <div class="kpill"><div class="kl">6개월 평균</div><div class="kv" id="savg">101.8</div><div class="kc neu" id="snote">기준 100+</div></div>
-      <div class="kpill"><div class="kl">전년 대비</div><div class="kv" id="syoy">-3.1</div><div class="kc down" id="synote">점진 위축</div></div>
+      <div class="kpill"><div class="kl">최신값</div><div class="kv" id="scur">100.3</div></div>
+      <div class="kpill"><div class="kl">전월비</div><div class="kv" id="schg">↓ 1.2</div></div>
+      <div class="kpill"><div class="kl">전년비</div><div class="kv" id="syoy">↓ 3.1</div></div>
+      <div class="kpill"><div class="kl">6개월 평균</div><div class="kv" id="savg">101.8</div></div>
     </div>
     <div class="canvas-wrap"><canvas id="mc" role="img" aria-label="지표 추세 차트"></canvas></div>
+
+    <!-- § 3-4. AI 추세 해석 박스 -->
+    <div class="trend-ai-box">
+      <div class="trend-ai-hd">
+        <span class="trend-ai-badge">AI</span>
+        <span class="trend-ai-title">지표 추세 해석</span>
+        <span class="trend-ai-meta" id="trend-ai-meta"></span>
+      </div>
+      <div class="trend-ai-body" id="trend-ai-body">지표를 확인하고 아래 버튼을 눌러보세요.</div>
+      <button class="trend-ai-btn" id="trend-ai-btn" onclick="runTrendAI()">✨ AI 분석</button>
+    </div>
 
   </div>
 
@@ -445,49 +464,12 @@ footer{padding:1.25rem;text-align:center;font-size:11px;color:var(--text3);borde
 </div>
 
 <!-- ═══════════════════════════════════════════
-     HTML § 3-5. 주요 지역 방문자 섹션
-     ═══════════════════════════════════════════ -->
-<div class="wx-section" id="tour-section">
-  <div style="display:flex;align-items:flex-start;justify-content:space-between;margin-bottom:8px;gap:8px;flex-wrap:wrap">
-    <div>
-      <div class="wx-section-label" style="margin-bottom:4px">3 · 주요 지역 방문자 (외국인) 현황</div>
-      <div style="font-size:10px;color:var(--text2);line-height:1.6">
-        SK텔레콤(외국인) 이동통신 데이터 기반 · 거주·통근·통학 등 일상생활권을 벗어나 관광 목적으로 방문한 <b style="font-weight:600;color:var(--text)">외국인 전체</b> 기준입니다.<br>
-        일자별 순방문자 수 기준(동일인이 2박3일 머무를 경우 = 3명 집계) · 추세 분석 목적으로 활용 권장
-      </div>
-    </div>
-    <div style="display:flex;gap:4px;flex-shrink:0">
-      <button class="wx-rtab on" id="tour-tab-card" onclick="tourSetView('card',this)">카드</button>
-      <button class="wx-rtab" id="tour-tab-chart" onclick="tourSetView('chart',this)">추이</button>
-    </div>
-  </div>
-  <div style="display:flex;align-items:center;gap:10px;margin-bottom:12px;padding:8px 10px;background:var(--bg2);border-radius:6px">
-    <span style="font-size:12px;font-weight:600;color:var(--text);min-width:76px" id="tour-sl-label">2025년 04월</span>
-    <input type="range" id="tour-slider" min="0" max="12" value="11" step="1" style="flex:1">
-    <span style="font-size:10px;padding:2px 8px;border-radius:5px;font-weight:500;white-space:nowrap" id="tour-avg-badge">—</span>
-  </div>
-  <div id="tour-card-view">
-    <div style="display:grid;grid-template-columns:1fr 1fr 1fr 1fr;gap:6px" id="tour-city-grid"></div>
-  </div>
-  <div id="tour-chart-view" style="display:none">
-    <div style="border:.5px solid var(--border);border-radius:8px;overflow:hidden">
-      <div style="padding:7px 10px;background:var(--bg2);border-bottom:.5px solid var(--border);display:flex;justify-content:space-between;align-items:center">
-        <span style="font-size:11px;font-weight:600;color:var(--text)" id="tour-chart-title">전체 도시 추이</span>
-        <span style="font-size:9px;color:var(--text2)">외지인 월별 방문자수 · 만명</span>
-      </div>
-      <div style="padding:12px;height:180px;position:relative"><canvas id="tour-chart"></canvas></div>
-      <div style="display:flex;gap:8px;padding:0 12px 10px;flex-wrap:wrap" id="tour-chart-legend"></div>
-    </div>
-  </div>
-</div>
-
-<!-- ═══════════════════════════════════════════
      HTML § 3-6. 서울·수도권 지표 지도 섹션
      ═══════════════════════════════════════════ -->
 <div class="wx-section" id="map-section">
   <div style="display:flex;align-items:flex-start;justify-content:space-between;margin-bottom:8px;gap:8px;flex-wrap:wrap">
     <div>
-      <div class="wx-section-label" style="margin-bottom:4px">4 · 서울·수도권 지표 지도 <span id="map-updated" style="font-size:9px;font-weight:400;color:var(--text3);text-transform:none;letter-spacing:0;margin-left:4px"></span></div>
+      <div class="wx-section-label" style="margin-bottom:4px">3 · 서울·수도권 지표 지도 <span id="map-updated" style="font-size:9px;font-weight:400;color:var(--text3);text-transform:none;letter-spacing:0;margin-left:4px"></span></div>
     </div>
     <div class="map-metric-toggle" id="map-metric-toggle">
       <button data-metric="population" class="on">인구수</button>
@@ -601,9 +583,6 @@ footer{padding:1.25rem;text-align:center;font-size:11px;color:var(--text3);borde
       <input type="checkbox" class="ind-chk" id="ic_fx" value="원/달러 환율(원화 강약)"><label class="ind-chk-label" for="ic_fx">환율</label>
       <input type="checkbox" class="ind-chk" id="ic_kospi" value="KOSPI(주가 자산효과)"><label class="ind-chk-label" for="ic_kospi">KOSPI</label>
       <input type="checkbox" class="ind-chk" id="ic_tourist" value="방한 외국인 관광객 수"><label class="ind-chk-label" for="ic_tourist">관광객 수</label>
-      <input type="checkbox" class="ind-chk" id="ic_income" value="가계소득(소비여력)"><label class="ind-chk-label" for="ic_income">가계소득</label>
-      <input type="checkbox" class="ind-chk" id="ic_employ" value="고용률(취업자 비율)"><label class="ind-chk-label" for="ic_employ">고용률</label>
-      <input type="checkbox" class="ind-chk" id="ic_houseprice" value="주택매매가격지수"><label class="ind-chk-label" for="ic_houseprice">주택가격</label>
       <input type="checkbox" class="ind-chk" id="ic_retail" value="소매판매지수(내수 소비)"><label class="ind-chk-label" for="ic_retail">소매판매</label>
     </div>
     <button class="custom-run" id="custom-run-btn" onclick="runCustomInsight()">🔍 선택 지표 AI 교차분석 생성</button>
@@ -624,6 +603,7 @@ footer{padding:1.25rem;text-align:center;font-size:11px;color:var(--text3);borde
    · curKey: 현재 선택된 지표 키
    ═══════════════════════════════════════════ */
 var ANTHROPIC_KEY = '';
+var GEMINI_KEY = '';
 
 var mc = null;
 var curKey = 'csi';
@@ -745,6 +725,7 @@ var CD = {
   fx:{
     unit:'원', title:'원/달러 환율 (KRW/USD)',
     meta:'출처: 한국은행 · 월평균 기준',
+    indexNote:'1달러를 사는 데 필요한 원화 금액을 나타내는 지표입니다. 환율이 오르면(원화 약세) 외국인 관광객의 구매력이 커져 방한 쇼핑객 소비가 늘어나는 반면, 해외 수입 원가는 높아져 가격 인상 요인이 됩니다.',
     data:[1310,1325,1335,1340,1355,1360,1340,1330,1345,1360,1375,1382],
     color:'#D85A30',cur:'1,382원',avg:'1,347원',yoy:'+72원',chg:'▲ +7원',cc:'up',
     note:'원화 약세 지속',yn:'외국인 구매력 증가',
@@ -754,6 +735,7 @@ var CD = {
   dept:{
     unit:'%', title:'백화점 매출증감률 (전년동월비)',
     meta:'출처: 산업통상자원부 · 월별 발표',
+    indexNote:'산업통상자원부가 매월 발표하는 지표로, 롯데·현대·신세계 백화점 3사의 매출을 조사 대상으로 합니다. 백화점 전체가 아닌 이 3사 기준 전년동월비 증감률이며, 물가상승분이 반영된 경상 매출액입니다.',
     data:[2.1,3.4,5.2,4.8,3.1,2.7,6.3,7.1,5.4,4.2,3.8,5.1],
     color:'#185FA5',cur:'5.1%',avg:'4.4%',yoy:'+3.0%p',chg:'▲ +1.3%p',cc:'up',
     note:'전년동월대비 증감률',yn:'오프라인 소비 동향',
@@ -762,6 +744,7 @@ var CD = {
   mart:{
     unit:'%', title:'대형마트 매출증감률 (전년동월비)',
     meta:'출처: 산업통상자원부 · 월별 발표',
+    indexNote:'산업통상자원부가 매월 발표하는 지표로, 이마트·홈플러스·롯데마트 등 대형마트 매출을 조사 대상으로 합니다(25년12월부터 농협하나로마트 추가). 전년동월비 증감률이며, 물가상승분이 반영된 경상 매출액입니다.',
     data:[-1.2,-0.8,0.3,-0.5,1.2,0.7,-0.3,-1.1,0.8,-0.2,0.5,-0.8],
     color:'#1D9E75',cur:'-0.8%',avg:'-0.1%',yoy:'+0.4%p',chg:'▼ -1.3%p',cc:'down',
     note:'전년동월대비 증감률',yn:'오프라인 대형마트 동향',
@@ -770,6 +753,7 @@ var CD = {
   convenience:{
     unit:'%', title:'편의점 매출증감률 (전년동월비)',
     meta:'출처: 산업통상자원부 · 월별 발표',
+    indexNote:'산업통상자원부가 매월 발표하는 지표로, GS25·CU·세븐일레븐 편의점 3사의 매출을 조사 대상으로 합니다. 전년동월비 증감률이며, 물가상승분이 반영된 경상 매출액입니다.',
     data:[4.2,5.1,6.3,5.8,4.9,6.1,7.2,6.8,5.4,6.2,5.9,6.7],
     color:'#D85A30',cur:'6.7%',avg:'5.9%',yoy:'+2.5%p',chg:'▲ +0.8%p',cc:'up',
     note:'전년동월대비 증감률',yn:'근거리 소비 트렌드',
@@ -976,7 +960,7 @@ function fmtVal(val, unit, isDiff) {
 function fmtDiff(diff, unit) {
   if(diff === null || diff === undefined || diff === '-') return '-';
   var n = Number(diff);
-  var sign = n > 0 ? '▲ +' : n < 0 ? '▼ ' : '= ';
+  var sign = n > 0 ? '↑ +' : n < 0 ? '↓ ' : '→ ';
   var absN = Math.abs(n);
   if(unit === '%') {
     return sign + absN.toLocaleString('ko-KR', {minimumFractionDigits:1, maximumFractionDigits:1}) + '%p';
@@ -1129,9 +1113,7 @@ function updateKPI(d) {
   document.getElementById('syoy').textContent  = d.yoy  || '-';
   var schg = document.getElementById('schg');
   schg.textContent = d.chg || '-';
-  schg.className   = 'kc ' + (d.cc || 'neu');
-  document.getElementById('snote').textContent  = d.note || '';
-  document.getElementById('synote').textContent = d.yn   || '';
+  schg.className   = 'kv ' + (d.cc || 'neu');
 }
 
 /* ═══════════════════════════════════════════
@@ -1175,12 +1157,12 @@ async function loadEcosChart(key) {
   setMetaLive(d, 'data.json');
   document.getElementById('scur').textContent   = fmtVal(latest, d.unit);
   document.getElementById('savg').textContent   = fmtVal(avg6, d.unit);
-  document.getElementById('syoy').textContent   = yoyDiff !== null ? fmtVal(yoyDiff, d.unit, true) : '-';
+  var syoy = document.getElementById('syoy');
+  syoy.textContent = yoyDiff !== null ? fmtDiff(yoyDiff, d.unit) : '-';
+  syoy.className = 'kv ' + (yoyDiff>0?'up':yoyDiff<0?'down':'neu');
   var schg = document.getElementById('schg');
   schg.textContent = fmtDiff(diff, d.unit);
-  schg.className = 'kc ' + (diff>0?'up':diff<0?'down':'neu');
-  document.getElementById('snote').textContent  = d.note;
-  document.getElementById('synote').textContent = d.yn;
+  schg.className = 'kv ' + (diff>0?'up':diff<0?'down':'neu');
 
   renderChart(vals, prevChartVals, labels, d);
 }
@@ -1228,12 +1210,12 @@ async function loadKosisAnnualChart(key) {
   document.getElementById('ctitle').textContent = d.title;
   document.getElementById('scur').textContent   = fmtVal(latest, d.unit);
   document.getElementById('savg').textContent   = fmtVal(avg6,   d.unit);
-  document.getElementById('syoy').textContent   = yoyDiff !== null ? fmtVal(yoyDiff, d.unit, true) : '-';
+  var syoy = document.getElementById('syoy');
+  syoy.textContent = yoyDiff !== null ? fmtDiff(yoyDiff, d.unit) : '-';
+  syoy.className = 'kv ' + (yoyDiff>0?'up':yoyDiff<0?'down':'neu');
   var schg = document.getElementById('schg');
   schg.textContent = fmtDiff(diff, d.unit);
-  schg.className   = 'kc ' + (diff > 0 ? 'up' : diff < 0 ? 'down' : 'neu');
-  document.getElementById('snote').textContent  = d.note;
-  document.getElementById('synote').textContent = d.yn;
+  schg.className   = 'kv ' + (diff > 0 ? 'up' : diff < 0 ? 'down' : 'neu');
 
   renderAnnualChart(vals, labels, d);
 }
@@ -1326,13 +1308,13 @@ async function loadKosisChart(key) {
     setMetaLive(d, 'data.json');
     document.getElementById('scur').textContent = fmtJo(displayLatest);
     document.getElementById('savg').textContent = fmtJo(displayAvg);
-    document.getElementById('syoy').textContent = displayYoy !== null ? fmtJo(displayYoy, true) : '-';
+    var syoy = document.getElementById('syoy');
+    syoy.textContent = displayYoy !== null ? fmtJo(displayYoy, true) : '-';
+    syoy.className = 'kv ' + (displayYoy>0?'up':displayYoy<0?'down':'neu');
     var schg = document.getElementById('schg');
-    var sign2 = displayDiff > 0 ? '▲ +' : displayDiff < 0 ? '▼ ' : '= ';
+    var sign2 = displayDiff > 0 ? '↑ +' : displayDiff < 0 ? '↓ ' : '→ ';
     schg.textContent = sign2 + Math.abs(displayDiff).toLocaleString('ko-KR',{minimumFractionDigits:1,maximumFractionDigits:1}) + '조';
-    schg.className = 'kc ' + (displayDiff>0?'up':displayDiff<0?'down':'neu');
-    document.getElementById('snote').textContent  = d.note;
-    document.getElementById('synote').textContent = d.yn;
+    schg.className = 'kv ' + (displayDiff>0?'up':displayDiff<0?'down':'neu');
     renderChart(vals, prevVals, labels, d);
     return;
   }
@@ -1341,12 +1323,12 @@ async function loadKosisChart(key) {
   setMetaLive(d, 'data.json');
   document.getElementById('scur').textContent   = fmtVal(displayLatest, displayUnit);
   document.getElementById('savg').textContent   = fmtVal(displayAvg, displayUnit);
-  document.getElementById('syoy').textContent   = yoyDiff !== null ? fmtVal(yoyDiff, displayUnit, true) : '-';
+  var syoy2 = document.getElementById('syoy');
+  syoy2.textContent = yoyDiff !== null ? fmtDiff(yoyDiff, displayUnit) : '-';
+  syoy2.className = 'kv ' + (yoyDiff>0?'up':yoyDiff<0?'down':'neu');
   var schg = document.getElementById('schg');
   schg.textContent = fmtDiff(diff, displayUnit);
-  schg.className = 'kc ' + (diff>0?'up':diff<0?'down':'neu');
-  document.getElementById('snote').textContent  = d.note;
-  document.getElementById('synote').textContent = d.yn;
+  schg.className = 'kv ' + (diff>0?'up':diff<0?'down':'neu');
 
   renderChart(vals, prevVals, labels, d);
 }
@@ -1384,7 +1366,7 @@ async function selChartWithAPI(key, btn, grpId) {
   document.querySelectorAll('.cat-col-btn').forEach(function(b){ b.classList.remove('open'); });
   var grp = document.getElementById(grpId);
   if(grp) grp.classList.add('open');
-var grpToBtnIdx = {'grp1':0,'grp3':1,'grp4':2,'grp7':3,'grp2':4,'grp5':5,'grp6':6};
+var grpToBtnIdx = {'grp1':0,'grp3':1,'grp4':2,'grp7':3,'grp5':4};
 var idx = grpToBtnIdx[grpId];
 var catBtns = document.querySelectorAll('.cat-col-btn');
 if(idx !== undefined && catBtns[idx]) catBtns[idx].classList.add('open');
@@ -1404,6 +1386,14 @@ if(idx !== undefined && catBtns[idx]) catBtns[idx].classList.add('open');
     }
   }
 
+  // ★ AI 추세 해석 박스 초기화 (지표 전환 시 이전 지표의 해석 결과가 남지 않도록)
+  var aiBody = document.getElementById('trend-ai-body');
+  var aiMeta = document.getElementById('trend-ai-meta');
+  var aiBtn  = document.getElementById('trend-ai-btn');
+  if (aiBody) aiBody.textContent = '지표를 확인하고 아래 버튼을 눌러보세요.';
+  if (aiMeta) aiMeta.textContent = '';
+  if (aiBtn)  aiBtn.disabled = false;
+
   var d = CD[key]; if(!d) return;
 
   if(ECOS_MAP[key]) {
@@ -1421,7 +1411,48 @@ if(idx !== undefined && catBtns[idx]) catBtns[idx].classList.add('open');
   }
 }
 
+/* ═══════════════════════════════════════════
+   JS § 17-1. AI 추세 해석 (runTrendAI)
+   · 현재 선택된 지표(curKey)의 최근 12개 수치를 근거로
+     Gemini API에 해석을 요청 (수치 자체는 지어내지 않도록 프롬프트에 명시)
+   ═══════════════════════════════════════════ */
+async function runTrendAI() {
+  var d = CD[curKey]; if(!d) return;
+  var btn  = document.getElementById('trend-ai-btn');
+  var body = document.getElementById('trend-ai-body');
+  var meta = document.getElementById('trend-ai-meta');
+  btn.disabled = true;
+  body.textContent = '분석 중...';
 
+  var jsonData = await loadDataJson();
+  var rows = jsonData ? jsonData[curKey] : null;
+  var vals = (rows && rows.length) ? rows.map(function(r){return r.val;}) : (d.data||[]);
+  var recent = vals.slice(-12);
+  var dataLine = recent.map(function(v){return fmtVal(v, d.unit);}).join(', ');
+
+  var prompt = (d.prompt || (d.title + '의 최근 추세를 해석해줘.')) +
+    '\n\n최근 수치(오래된순): ' + dataLine +
+    '\n\n위 실제 수치만 근거로, 몇 월에 얼마였다가 몇 월 이후 어떤 사유로 변화했는지 ' +
+    '3문장 이내로 한국어로 설명해줘. 수치는 지어내지 말고, 원인은 일반적인 경제 논리로 서술해줘. ' +
+    (d.unit === '%' ? '전년동월비 %로 표시되는 지표이니 2%대는 적정, 3%대 이상은 고물가 수준으로 판단해서 언급해줘.' : '');
+
+  try {
+    var res = await fetch(
+      'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=' + GEMINI_KEY,
+      { method:'POST', headers:{'Content-Type':'application/json'},
+        body:JSON.stringify({contents:[{parts:[{text:prompt}]}]}) }
+    );
+    var data = await res.json();
+    var txt = data.candidates && data.candidates[0]
+      ? data.candidates[0].content.parts.map(function(p){return p.text||'';}).join('')
+      : '';
+    body.textContent = txt.trim() || '분석 결과를 가져오지 못했습니다.';
+    meta.textContent = rows && rows.length ? '데이터 기준 ' + rows[rows.length-1].ym : '';
+  } catch(e) {
+    body.textContent = '분석 중 오류가 발생했습니다.';
+  }
+  btn.disabled = false;
+}
 
 /* ═══════════════════════════════════════════
    JS § 18. AI 교차분석
@@ -1784,186 +1815,10 @@ window.addEventListener('load', function() {
   // 날씨 달력 초기화
   wxInit();
 
-  // 관광 방문자 초기화
-  tourInit();
-
   // 지표 지도 초기화
   mapInit();
 });
 
-/* ═══════════════════════════════════════════
-   JS § 관광 방문자 섹션 (Tourism Visitor)
-   ═══════════════════════════════════════════ */
-var _tourData = null;
-var tourIdx = 11;
-var tourSelectedCity = null;
-var tourChartInst = null;
-
-var TOUR_CITIES = ['서울','부산','대구','인천','광주','대전','울산'];
-var TOUR_COLORS = ['#378ADD','#D85A30','#7F77DD','#1D9E75','#D4537E','#BA7517','#0F6E56'];
-
-function tourMonthStr(ym) {
-  // ym: '202504' → '2025년 04월'
-  return ym.slice(0,4) + '년 ' + ym.slice(4,6) + '월';
-}
-
-function tourYoyPct(cur, prev) {
-  if (!prev) return 0;
-  return Math.round((cur - prev) / prev * 1000) / 10;
-}
-
-function tourInit() {
-  loadDataJson().then(function(d) {
-    if (!d || !d.tourism) return;
-    _tourData = d.tourism;
-
-    // 슬라이더 범위 설정: data.json의 실제 ym 목록 기준
-    var yms = Object.keys(_tourData).sort();
-    if (!yms.length) return;
-
-    // 말일까지 데이터가 완전한 달만 필터링
-yms = yms.filter(function(ym) {
-  var lastDay = new Date(parseInt(ym.slice(0,4)), parseInt(ym.slice(4,6)), 0).getDate();
-  var cities = _tourData[ym] ? Object.keys(_tourData[ym]) : [];
-  if (!cities.length) return false;
-  var minDays = Math.min.apply(null, cities.map(function(city) {
-    return _tourData[ym][city] && _tourData[ym][city].daily ? Object.keys(_tourData[ym][city].daily).length : 0;
-  }));
-  return minDays >= lastDay;
-});
-if (!yms.length) return;
-
-var slider = document.getElementById('tour-slider');
-slider.min = 0;
-slider.max = yms.length - 1;
-slider.value = yms.length - 1;
-tourIdx = yms.length - 1;
-
-    slider.addEventListener('input', function() {
-      tourIdx = +this.value;
-      var ym = yms[tourIdx];
-      document.getElementById('tour-sl-label').textContent = tourMonthStr(ym);
-      tourRenderCards(yms);
-    });
-
-    document.getElementById('tour-sl-label').textContent = tourMonthStr(yms[tourIdx]);
-    tourRenderCards(yms);
-  });
-}
-
-function tourRenderCards(yms) {
-  if (!yms) {
-    yms = _tourData ? Object.keys(_tourData).sort() : [];
-  }
-  var ym   = yms[tourIdx];
-  var lyYm = (parseInt(ym.slice(0,4)) - 1) + ym.slice(4);
-  var cur  = (_tourData && _tourData[ym])   || {};
-  var prev = (_tourData && _tourData[lyYm]) || {};
-
-  var grid = document.getElementById('tour-city-grid');
-  if (!grid) return;
-  grid.innerHTML = '';
-
-  var today = new Date();
-  var isCurrentMonth = (ym === today.getFullYear().toString() + (today.getMonth()<9?'0':'')+(today.getMonth()+1).toString());
-  var lastDay = new Date(parseInt(ym.slice(0,4)), parseInt(ym.slice(4,6)), 0).getDate();
-
-  var totCur = 0, totPrev = 0;
-  TOUR_CITIES.forEach(function(city, i) {
-    var curDays = cur[city] && cur[city].daily ? Object.keys(cur[city].daily).length : 0;
-    var monthComplete = curDays >= lastDay;
-    var cVal = (cur[city] && monthComplete) ? Math.round(cur[city].total / 10000) : null;
-    var pVal = prev[city] ? Math.round(prev[city].total / 10000) : null;
-    if (cVal !== null) totCur  += cVal;
-    if (pVal !== null) totPrev += pVal;
-
-    var pct = (cVal !== null && pVal !== null) ? tourYoyPct(cVal, pVal) : null;
-    var col = pct === null ? 'var(--text2)' : pct > 0 ? '#A32D2D' : pct < 0 ? '#185FA5' : 'var(--text2)';
-    var yoyTxt = pct === null ? '전년 데이터 없음' : (pct > 0 ? '▲ +' : '▼ ') + Math.abs(pct) + '%';
-
-    var card = document.createElement('div');
-    card.style.cssText = 'background:var(--bg);border:.5px solid var(--border);border-radius:7px;padding:9px 11px;cursor:pointer;transition:border-color .15s' + (tourSelectedCity === city ? ';border:1.5px solid #378ADD;background:#E6F1FB' : '');
-    card.innerHTML =
-      '<div style="font-size:10px;color:' + (tourSelectedCity === city ? '#0C447C' : 'var(--text2)') + ';font-weight:500;margin-bottom:3px">' + city + '</div>' +
-      '<div style="font-size:17px;font-weight:600;color:var(--text);line-height:1.2">' + (cVal !== null ? cVal : '—') + '<span style="font-size:10px;color:var(--text2);font-weight:400">만명</span></div>' +
-      '<div style="font-size:10px;margin-top:3px;font-weight:500;color:' + col + '">' + yoyTxt + '</div>' +
-      '<div style="font-size:9px;color:var(--text2);margin-top:1px">전년 동월 ' + (pVal !== null ? pVal : '—') + '만명</div>';
-
-    card.onclick = (function(c) { return function() {
-      tourSelectedCity = (tourSelectedCity === c) ? null : c;
-      tourRenderCards(yms);
-      if (tourSelectedCity) tourSetView('chart', document.getElementById('tour-tab-chart'));
-    }; })(city);
-    grid.appendChild(card);
-  });
-
-  var avgPct = (totCur && totPrev) ? tourYoyPct(totCur, totPrev) : null;
-  var badge = document.getElementById('tour-avg-badge');
-  if (badge) {
-    badge.textContent = avgPct !== null ? '전체 평균 전년比 ' + (avgPct > 0 ? '+' : '') + avgPct + '%' : '—';
-    badge.style.background = avgPct > 0 ? '#FCEBEB' : avgPct < 0 ? '#E6F1FB' : 'var(--bg2)';
-    badge.style.color = avgPct > 0 ? '#791F1F' : avgPct < 0 ? '#042C53' : 'var(--text2)';
-  }
-}
-
-function tourUpdateChart() {
-  var canvas = document.getElementById('tour-chart');
-  if (!canvas || !_tourData) return;
-  if (tourChartInst) { tourChartInst.destroy(); tourChartInst = null; }
-
-  var yms = Object.keys(_tourData).sort();
-  var labels = yms.map(tourMonthStr);
-  var cities = tourSelectedCity ? [tourSelectedCity] : TOUR_CITIES;
-
-  var datasets = cities.map(function(city, i) {
-    var ci = tourSelectedCity ? 0 : i;
-    return {
-      label: city,
-      data: yms.map(function(ym) {
-        return (_tourData[ym] && _tourData[ym][city]) ? Math.round(_tourData[ym][city].total / 10000) : null;
-      }),
-      borderColor: TOUR_COLORS[ci],
-      backgroundColor: TOUR_COLORS[ci] + '22',
-      borderWidth: 2,
-      pointRadius: 2,
-      tension: .3,
-      spanGaps: true,
-    };
-  });
-
-  tourChartInst = new Chart(canvas, {
-    type: 'line',
-    data: { labels: labels, datasets: datasets },
-    options: {
-      responsive: true, maintainAspectRatio: false,
-      plugins: { legend: { display: false }, tooltip: { mode: 'index', intersect: false } },
-      scales: {
-        x: { grid: { display: false }, ticks: { font: { size: 9 }, maxRotation: 45, maxTicksLimit: 13 } },
-        y: { grid: { color: 'rgba(0,0,0,0.06)' }, ticks: { font: { size: 9 }, callback: function(v) { return v + '만'; } } }
-      }
-    }
-  });
-
-  var leg = document.getElementById('tour-chart-legend');
-  if (leg) {
-    leg.innerHTML = cities.map(function(city, i) {
-      var ci = tourSelectedCity ? 0 : i;
-      return '<div style="display:flex;align-items:center;gap:4px;font-size:10px;color:var(--text2)">'
-        + '<div style="width:7px;height:7px;border-radius:50%;background:' + TOUR_COLORS[ci] + '"></div>' + city + '</div>';
-    }).join('');
-  }
-  document.getElementById('tour-chart-title').textContent = tourSelectedCity ? tourSelectedCity + ' 월별 추이' : '전체 도시 추이';
-}
-
-function tourSetView(v, btn) {
-  document.querySelectorAll('#tour-section .wx-rtab').forEach(function(b) { b.classList.remove('on'); });
-  if (btn) btn.classList.add('on');
-  var cardView  = document.getElementById('tour-card-view');
-  var chartView = document.getElementById('tour-chart-view');
-  if (cardView)  cardView.style.display  = v === 'card'  ? '' : 'none';
-  if (chartView) chartView.style.display = v === 'chart' ? '' : 'none';
-  if (v === 'chart') setTimeout(tourUpdateChart, 50);
-}
 
 /* ═══════════════════════════════════════════
    JS § 날씨 달력 (Weather Calendar)
@@ -2100,7 +1955,6 @@ function wxBuildDowIdx(curY, curM) {
   if (!body) return;
   body.innerHTML = '';
 
-  // 요일지수는 날씨 데이터와 무관하게 달력 기준 해당 월 전체 일수로 계산
   var curLastDay = wxDaysInMonth(curY, curM);
   var lyLastDay  = wxDaysInMonth(lyY, lyM);
 
@@ -2121,50 +1975,34 @@ function wxBuildDowIdx(curY, curM) {
   document.getElementById('wx-di-month').textContent =
     '— ' + wxMonthStr(curY, curM) + ' vs ' + wxMonthStr(lyY, lyM);
 
-  // 일~토 전체 (0~6), 금년 기준: 금년>전년이면 왼쪽(pos), 금년<전년이면 오른쪽(neg)
-  var DOW_ORDER = [1,2,3,4,5,6,0]; // 월~토~일 순
+  var DOW_ORDER = [1,2,3,4,5,6,0];
+  var strip = document.createElement('div');
+  strip.className = 'wx-di-strip';
+
   DOW_ORDER.forEach(function(i) {
     var diff = cur.dc[i] - ly.dc[i];
-    var row = document.createElement('div'); row.className = 'wx-di-row';
-    var nm = document.createElement('div'); nm.className = 'wx-di-name';
-    nm.textContent = DOW_NAMES[i] + '요일';
-    var bwrap = document.createElement('div'); bwrap.className = 'wx-di-bar-wrap';
-    var mid = document.createElement('div'); mid.className = 'wx-di-mid'; bwrap.appendChild(mid);
-    var bar = document.createElement('div');
-    var pct = Math.min(Math.abs(diff) * 9.6, 48);
-    // 금년>전년 = 왼쪽(pos/빨강), 금년<전년 = 오른쪽(neg/파랑)
-    if (diff > 0)      { bar.className = 'wx-di-bar pos'; bar.style.width = pct + '%'; }
-    else if (diff < 0) { bar.className = 'wx-di-bar neg'; bar.style.width = pct + '%'; }
-    else               { bar.className = 'wx-di-bar zero'; }
-    bwrap.appendChild(bar);
-    var val = document.createElement('div');
-    val.className = 'wx-di-val ' + (diff > 0 ? 'pos' : diff < 0 ? 'neg' : 'zero');
-    val.textContent = (diff > 0 ? '+' : '') + diff + '일';
-    row.appendChild(nm); row.appendChild(bwrap); row.appendChild(val);
-    body.appendChild(row);
+    var cls = diff > 0 ? 'pos' : diff < 0 ? 'neg' : 'zero';
+    var cell = document.createElement('div');
+    cell.className = 'wx-di-cell ' + cls;
+    cell.innerHTML =
+      '<div class="wx-di-dname">' + DOW_NAMES[i] + '</div>' +
+      '<div class="wx-di-dval ' + cls + '">' + (diff > 0 ? '+' : '') + diff + '일</div>';
+    strip.appendChild(cell);
   });
 
-  var sep = document.createElement('hr'); sep.className = 'wx-di-sep'; body.appendChild(sep);
-
   var holDiff = cur.hc - ly.hc;
-  var holRow = document.createElement('div'); holRow.className = 'wx-di-row';
-  var holNm = document.createElement('div'); holNm.className = 'wx-di-name';
-  holNm.innerHTML = '공휴일<span style="font-size:9px;white-space:nowrap">(평일)</span>';
-  var holBwrap = document.createElement('div'); holBwrap.className = 'wx-di-bar-wrap';
-  var holMid = document.createElement('div'); holMid.className = 'wx-di-mid'; holBwrap.appendChild(holMid);
-  var holBar = document.createElement('div');
-  var holPct = Math.min(Math.abs(holDiff) * 9.6, 48);
-  if (holDiff > 0)      { holBar.className = 'wx-di-bar pos'; holBar.style.width = holPct + '%'; }
-  else if (holDiff < 0) { holBar.className = 'wx-di-bar neg'; holBar.style.width = holPct + '%'; }
-  else                  { holBar.className = 'wx-di-bar zero'; }
-  holBwrap.appendChild(holBar);
-  var holVal = document.createElement('div');
-  holVal.className = 'wx-di-val ' + (holDiff > 0 ? 'pos' : holDiff < 0 ? 'neg' : 'zero');
-  holVal.textContent = (holDiff > 0 ? '+' : '') + holDiff + '일';
-  holRow.appendChild(holNm); holRow.appendChild(holBwrap); holRow.appendChild(holVal);
-  body.appendChild(holRow);
+  var holCls = holDiff > 0 ? 'pos' : holDiff < 0 ? 'neg' : 'zero';
+  var holCell = document.createElement('div');
+  holCell.className = 'wx-di-cell ' + holCls;
+  holCell.innerHTML =
+    '<div class="wx-di-dname">공휴일</div>' +
+    '<div class="wx-di-dval ' + holCls + '">' + (holDiff > 0 ? '+' : '') + holDiff + '일</div>';
+  strip.appendChild(holCell);
 
-  var holDetail = document.createElement('div'); holDetail.className = 'wx-di-hol-detail';
+  body.appendChild(strip);
+
+  var holDetail = document.createElement('div');
+  holDetail.className = 'wx-di-hol-detail';
   holDetail.textContent =
     '금년: ' + (cur.hlist.length ? cur.hlist.join('·') : '없음') +
     ' / 전년: ' + (ly.hlist.length ? ly.hlist.join('·') : '없음');
@@ -2203,9 +2041,12 @@ var atMax = (wxY > futureLimit.getFullYear()) ||
     el.textContent = cur + unit;
     if (prev !== null && prev !== undefined) {
       var d = Math.round((cur - prev) * 10) / 10;
-      de.textContent = (d > 0 ? '▲ +' : d < 0 ? '▼ ' : '= ') + d + unit + ' vs 전년';
-      de.style.color = unit === 'mm' ? (d < 0 ? '#185FA5' : '#A32D2D') : (d > 0 ? '#A32D2D' : '#185FA5');
-    } else { de.textContent = ''; }
+      var arrow = d > 0 ? '▲ +' : d < 0 ? '▼ ' : '= ';
+      var color = unit === 'mm' ? (d < 0 ? '#185FA5' : '#A32D2D') : (d > 0 ? '#A32D2D' : '#185FA5');
+      de.innerHTML = '전년 ' + prev + unit + ' <b style="color:' + color + '">' + arrow + Math.abs(d) + unit + '</b>';
+    } else {
+      de.textContent = '';
+    }
   }
   setSum('wx-s-temp', curMon ? curMon.avg_temp : null, 'wx-s-tdiff',
          curMon ? curMon.avg_temp : null, lyMon ? lyMon.avg_temp : null, '°C');
@@ -2232,7 +2073,9 @@ var mapCurrentMetric = 'population';
 var mapSelected = null, mapSelectedIsMain = true;
 
 /* ── 확대/축소 & 팬 ── */
-var mapZoom = { scale: 1, tx: 0, ty: 0 };
+// 기본 확대 상태: 처음 로드 시 화면을 꽉 채우도록 확대해서 보여줌 (상하 여백 일부는 잘려도 무방)
+var DEFAULT_MAP_ZOOM = { scale: 1.7, tx: 400 * (1 - 1.7), ty: 380 * (1 - 1.7) };
+var mapZoom = { scale: DEFAULT_MAP_ZOOM.scale, tx: DEFAULT_MAP_ZOOM.tx, ty: DEFAULT_MAP_ZOOM.ty };
 var MAP_ZOOM_MIN = 1, MAP_ZOOM_MAX = 6;
 
 function mapApplyZoom() {
@@ -2293,7 +2136,7 @@ function mapInitZoomControls() {
   var resetBtn = document.getElementById('mapZoomReset');
   if (inBtn) inBtn.addEventListener('click', function() { mapZoomAt(1.3, 400, 380); });
   if (outBtn) outBtn.addEventListener('click', function() { mapZoomAt(1/1.3, 400, 380); });
-  if (resetBtn) resetBtn.addEventListener('click', function() { mapZoom = {scale:1, tx:0, ty:0}; mapApplyZoom(); });
+  if (resetBtn) resetBtn.addEventListener('click', function() { mapZoom = {scale:DEFAULT_MAP_ZOOM.scale, tx:DEFAULT_MAP_ZOOM.tx, ty:DEFAULT_MAP_ZOOM.ty}; mapClampPan(); mapApplyZoom(); });
 }
 
 function mapLonLatToSvg(lon, lat, proj) {
