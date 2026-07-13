@@ -1,6 +1,48 @@
 {
   "hri": [
     {
+      "title": "현대경제硏 \"美 금리 인상 가능성↑…긴축 충격 선제적 대비해야\"",
+      "date": "Sun, 12 Jul 2026 18:58:00",
+      "source": "kfenews.co.kr",
+      "url": "https://www.kfenews.co.kr/news/articleView.html?idxno=660265"
+    },
+    {
+      "title": "현대경제硏 \"美 금리인상 가능성 확대…환율 불안 대비해야\"",
+      "date": "Sun, 12 Jul 2026 17:56:00",
+      "source": "ebn.co.kr",
+      "url": "https://www.ebn.co.kr/news/articleView.html?idxno=1716029"
+    },
+    {
+      "title": "美 적정금리 4% 돌파 전망…Fed, 금리 인상 기조 재부상",
+      "date": "Sun, 12 Jul 2026 17:24:00",
+      "source": "srtimes.kr",
+      "url": "http://www.srtimes.kr/news/articleView.html?idxno=207337"
+    },
+    {
+      "title": "현대硏 \"美 금리인상 가능성 커져…환율 불안 등 충격 대비해야\"",
+      "date": "Sun, 12 Jul 2026 16:48:00",
+      "source": "n.news.naver.com",
+      "url": "https://www.newsis.com/view/NISX20260712_0003705789"
+    },
+    {
+      "title": "현대硏 \"美금리인상 임박... 통화정책 긴축에 선제적 대비 시급\"",
+      "date": "Sun, 12 Jul 2026 11:20:00",
+      "source": "efnews.co.kr",
+      "url": "http://www.efnews.co.kr/news/articleView.html?idxno=130889"
+    },
+    {
+      "title": "“美 금리 인상 여력 커져… 韓, 환율·증시 충격 대비해야”",
+      "date": "Sun, 12 Jul 2026 11:02:00",
+      "source": "n.news.naver.com",
+      "url": "https://www.edaily.co.kr/news/newspath.asp?newsid=01469446645513864"
+    },
+    {
+      "title": "긴축의 시간 온다…\"8월이나 10월 추가 인상\"",
+      "date": "Sun, 12 Jul 2026 10:45:00",
+      "source": "n.news.naver.com",
+      "url": "https://biz.sbs.co.kr/article_hub/20000321938?division=NAVER"
+    },
+    {
       "title": "금리 올려도 추락하는 엔화…'1달러=160엔'은 뉴노멀이 되나",
       "date": "Sun, 12 Jul 2026 06:00:00",
       "source": "n.news.naver.com",
@@ -17,51 +59,33 @@
       "date": "Fri, 10 Jul 2026 18:36:00",
       "source": "etoday.co.kr",
       "url": "https://www.etoday.co.kr/news/view/2602596"
-    },
-    {
-      "title": "전문가 12명 중 10명 \"7월 만장일치 25bp 인상\"⋯연말 3.0% 도달 '우세' ...",
-      "date": "Fri, 10 Jul 2026 17:00:00",
-      "source": "etoday.co.kr",
-      "url": "https://www.etoday.co.kr/news/view/2602467"
-    },
-    {
-      "title": "[박근종 칼럼] IMF 한국 성장 전망치 2.6%로 대폭 상향에도 '고용 없는 성...",
-      "date": "Thu, 09 Jul 2026 01:44:00",
-      "source": "mhns.co.kr",
-      "url": "https://www.mhns.co.kr/news/articleView.html?idxno=752820"
-    },
-    {
-      "title": "[줌인] 현대무벡스, '디지털 안전 시스템' 도입으로 현장 리스크 낮춘다",
-      "date": "Wed, 08 Jul 2026 17:56:00",
-      "source": "dailypop.kr",
-      "url": "http://www.dailypop.kr/news/articleView.html?idxno=100442"
-    },
-    {
-      "title": "[박근종 칼럼] 눈부신 반도체 호황 질주에도 짙어지는 '3고(高)' 속 '고용...",
-      "date": "Tue, 07 Jul 2026 15:40:00",
-      "source": "mhns.co.kr",
-      "url": "https://www.mhns.co.kr/news/articleView.html?idxno=752636"
-    },
-    {
-      "title": "[기획] AI가 만든 성장, 일자리는 無… '고용 없는 성장' 현실화",
-      "date": "Mon, 06 Jul 2026 14:36:00",
-      "source": "m-i.kr",
-      "url": "https://www.m-i.kr/news/articleView.html?idxno=1388554"
-    },
-    {
-      "title": "[하반기 경제전망下] '양날의 검' 반도체 호황···수출·내수 균형 시...",
-      "date": "Mon, 06 Jul 2026 09:00:00",
-      "source": "seoulfn.com",
-      "url": "https://www.seoulfn.com/news/articleView.html?idxno=632613"
-    },
-    {
-      "title": "고용없는 성장, 청년에 더 큰 타격… 15∼29세만 5개월째 취업 감소",
-      "date": "Mon, 06 Jul 2026 04:36:00",
-      "source": "n.news.naver.com",
-      "url": "https://www.donga.com/news/Economy/article/all/20260706/134240644/2"
     }
   ],
   "kdi": [
+    {
+      "title": "'20.79%' 유지 vs 범위 vs 산식 손질…교육교부금 개편 시나리오 셋",
+      "date": "Mon, 13 Jul 2026 06:00:00",
+      "source": "n.news.naver.com",
+      "url": "https://www.news1.kr/society/education/6225485"
+    },
+    {
+      "title": "[사설] 54년 만에 교육교부금 수술, 올해 안 입법 마무리를",
+      "date": "Mon, 13 Jul 2026 00:02:00",
+      "source": "n.news.naver.com",
+      "url": "https://www.sedaily.com/article/20066772?ref=naver"
+    },
+    {
+      "title": "대전시, 산업단지 조성 전략 수정할까",
+      "date": "Sun, 12 Jul 2026 15:50:00",
+      "source": "joongdo.co.kr",
+      "url": "https://www.joongdo.co.kr/web/view.php?key=20260712010003429"
+    },
+    {
+      "title": "IMF, 한국 성장률 2.6%로 대폭 상향… 선진국 중 \"가장 높다\"",
+      "date": "Sun, 12 Jul 2026 14:20:00",
+      "source": "ggilbo.com",
+      "url": "https://www.ggilbo.com/news/articleView.html?idxno=1168338"
+    },
     {
       "title": "[박근종 칼럼] 산업전환은 빛의 속도인데 고용 한파에 멍든 청년층 생계...",
       "date": "Sun, 12 Jul 2026 06:12:00",
@@ -97,92 +121,68 @@
       "date": "Fri, 10 Jul 2026 13:46:00",
       "source": "m-economynews.com",
       "url": "https://www.m-economynews.com/news/article.html?no=68640"
-    },
-    {
-      "title": "\"2030년 고소득 직군 자동화 확대\"…AI가 바꾸는 노동시장",
-      "date": "Fri, 10 Jul 2026 13:40:00",
-      "source": "junggi.co.kr",
-      "url": "https://www.junggi.co.kr/news/articleView.html?idxno=37088"
-    },
-    {
-      "title": "AI가 뒤흔드는 노동시장, ‘고용·복지·교육’ 정책 전환 방향은",
-      "date": "Fri, 10 Jul 2026 12:28:00",
-      "source": "byline.network",
-      "url": "https://byline.network/?p=9004111222611628"
-    },
-    {
-      "title": "[사설] AI발 고용충격 선제 대응, 노동시장 경직성도 풀어야",
-      "date": "Fri, 10 Jul 2026 11:23:00",
-      "source": "n.news.naver.com",
-      "url": "https://biz.heraldcorp.com/article/10804824?ref=naver"
-    },
-    {
-      "title": "AI 확산으로 청년 고용부진 구조화…‘사회적 기여’때 소득 지원",
-      "date": "Fri, 10 Jul 2026 05:02:00",
-      "source": "n.news.naver.com",
-      "url": "https://www.hani.co.kr/arti/economy/economy_general/1267602.html"
     }
   ],
   "bok": [
     {
-      "title": "[금융권 말말말] 신현송 \"적절한 시기 기준금리 인상할 필요 있다\"",
-      "date": "Sun, 12 Jul 2026 08:06:00",
-      "source": "shinailbo.co.kr",
-      "url": "https://www.shinailbo.co.kr/news/articleView.html?idxno=5039799"
-    },
-    {
-      "title": "\"목표치 넘긴 물가\"…한은, 이번주 기준금리 인상 전망",
-      "date": "Sun, 12 Jul 2026 08:00:00",
+      "title": "[어제장 오늘장] 양대지수 동반 상승…증시 훈풍 이어질까, 변수는 지정...",
+      "date": "Mon, 13 Jul 2026 08:32:00",
       "source": "n.news.naver.com",
-      "url": "https://www.newsis.com/view/NISX20260710_0003704724"
+      "url": "https://biz.sbs.co.kr/article_hub/20000322037?division=NAVER"
     },
     {
-      "title": "[코스피·코스닥지수] SK하이닉스 훈풍에 반도체주 반등 기대…코스피,...",
-      "date": "Sun, 12 Jul 2026 07:30:00",
-      "source": "lecturernews.com",
-      "url": "https://www.lecturernews.com/news/articleView.html?idxno=206105"
-    },
-    {
-      "title": "하반기 성장전략 청사진은...美 물가 상승세 완화되나 [한동훈의 위클리...",
-      "date": "Sun, 12 Jul 2026 07:00:00",
+      "title": "한은 기준금리 인상, 방향은 정해졌다…관건은 속도와 강도",
+      "date": "Mon, 13 Jul 2026 08:04:00",
       "source": "n.news.naver.com",
-      "url": "https://www.sedaily.com/article/20066532?ref=naver"
+      "url": "https://www.chosun.com/economy/economy_general/2026/07/13/4SG62UR2R5DIHAPEAPHWQLFHOE/?utm_source=naver&utm_medium=referral&utm_campaign=naver-news"
     },
     {
-      "title": "기준금리 2.75% 인상 사실상 확실… 시선은 벌써 ‘8월 연속 인상’으로",
-      "date": "Sun, 12 Jul 2026 06:40:00",
-      "source": "kbmaeil.com",
-      "url": "https://www.kbmaeil.com/article/20260712500025"
+      "title": "[이슈체크] 금통위 금리인상 기정사실화…관건은 '연속 인상' 여부",
+      "date": "Mon, 13 Jul 2026 07:48:00",
+      "source": "tfmedia.co.kr",
+      "url": "https://www.tfmedia.co.kr/news/article.html?no=205728"
     },
     {
-      "title": "만장일치 인상 유력한 7월 금통위…관건은 '연속 인상' 시그널",
-      "date": "Sun, 12 Jul 2026 06:30:00",
+      "title": "하나증권 “은행주 전반에 투자심리 개선 요인..신한·하나, 전고점 상...",
+      "date": "Mon, 13 Jul 2026 07:48:00",
+      "source": "kpenews.com",
+      "url": "https://kpenews.com/View.aspx?No=4146173"
+    },
+    {
+      "title": "[미리보는 금통위] 기준금리 25bp 인상 유력···추가 인상에 쏠린 눈",
+      "date": "Mon, 13 Jul 2026 07:30:00",
+      "source": "seoulfn.com",
+      "url": "https://www.seoulfn.com/news/articleView.html?idxno=633135"
+    },
+    {
+      "title": "[하반기 증시 전망] 환율·금리 '이중고'…코스닥 언제 반등하나",
+      "date": "Mon, 13 Jul 2026 07:02:00",
+      "source": "dnews.co.kr",
+      "url": "https://www.dnews.co.kr/uhtml/view.jsp?idxno=202607101415379440707"
+    },
+    {
+      "title": "[하반기 증시 전망] 코스피 최고 1만2600 전망…금리·환율·중동 ‘변수...",
+      "date": "Mon, 13 Jul 2026 07:02:00",
+      "source": "dnews.co.kr",
+      "url": "https://www.dnews.co.kr/uhtml/view.jsp?idxno=202607121101442860808"
+    },
+    {
+      "title": "피크아웃 논란 흔든 반도체株…TSMC·ASML 실적이 반등 분수령",
+      "date": "Mon, 13 Jul 2026 06:46:00",
+      "source": "ebn.co.kr",
+      "url": "https://www.ebn.co.kr/news/articleView.html?idxno=1716036"
+    },
+    {
+      "title": "[주간경제일정] 美, 6월 소비자물가 발표…연준 금리인상 여부 주목",
+      "date": "Mon, 13 Jul 2026 06:44:00",
       "source": "n.news.naver.com",
-      "url": "https://www.yna.co.kr/view/AKR20260710151400008?input=1195m"
+      "url": "https://biz.sbs.co.kr/article_hub/20000322008?division=NAVER"
     },
     {
-      "title": "물가·집값 압박에…전문가들 \"16일 금리 인상, 10월 한 차례 더\"[금통위...",
-      "date": "Sun, 12 Jul 2026 06:15:00",
-      "source": "n.news.naver.com",
-      "url": "https://www.news1.kr/economy/trend/6224425"
-    },
-    {
-      "title": "[이번 주 금통위] 한은, 3년 6개월 만에 기준금리 인상 유력…긴축 사이...",
-      "date": "Sun, 12 Jul 2026 06:02:00",
-      "source": "g-enews.com",
-      "url": "https://www.g-enews.com/view.php?ud=202607101519116174bb91c46fcd_1"
-    },
-    {
-      "title": "[금통위폴] 전문가 전원 “한은 만장일치로 금리인상 예상... 연말 3% 전...",
-      "date": "Sun, 12 Jul 2026 06:01:00",
-      "source": "n.news.naver.com",
-      "url": "https://biz.chosun.com/policy/policy_sub/2026/07/12/WW6FQVHHAZH3NCJKYYLPER2GNI/?utm_source=naver&utm_medium=original&utm_campaign=biz"
-    },
-    {
-      "title": "[주간금융이슈] 한은 14개월 만에 금리인상 유력…시장은 8월 연속 인상...",
-      "date": "Sun, 12 Jul 2026 06:00:00",
-      "source": "newspim.com",
-      "url": "https://www.newspim.com/news/view/20260710001156"
+      "title": "SK하이닉스 ADR 13% 급등…코스피 반등 지속성은",
+      "date": "Mon, 13 Jul 2026 06:38:00",
+      "source": "topstarnews.net",
+      "url": "https://www.topstarnews.net/news/articleView.html?idxno=16132397"
     }
   ],
   "kiep": [
@@ -309,5 +309,5 @@
       "url": "https://www.sedaily.com/article/20062078?ref=naver"
     }
   ],
-  "updated": "2026.07.12 08:46"
+  "updated": "2026.07.13 08:49"
 }
