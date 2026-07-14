@@ -1,6 +1,24 @@
 {
   "hri": [
     {
+      "title": "'금통위 D-3' 긴축 신호탄 쏘나…몇 차례, 얼마나 오를까",
+      "date": "Mon, 13 Jul 2026 15:22:00",
+      "source": "n.news.naver.com",
+      "url": "https://www.dailian.co.kr/news/view/1666532/?sc=Naver"
+    },
+    {
+      "title": "\"안 올리면 이상한 지경\"... 한은, 3년 6개월 만에 '긴축 페달' 밟는다",
+      "date": "Mon, 13 Jul 2026 10:04:00",
+      "source": "fntoday.co.kr",
+      "url": "https://www.fntoday.co.kr/news/articleView.html?idxno=388004"
+    },
+    {
+      "title": "16일 기준금리 인상 전망…'변동금리 쏠린' 대출자 부담 더 커질 듯",
+      "date": "Mon, 13 Jul 2026 09:06:00",
+      "source": "raonnews.com",
+      "url": "https://www.raonnews.com/news/article.html?no=59501"
+    },
+    {
       "title": "현대경제硏 \"美 금리 인상 가능성↑…긴축 충격 선제적 대비해야\"",
       "date": "Sun, 12 Jul 2026 18:58:00",
       "source": "kfenews.co.kr",
@@ -41,151 +59,139 @@
       "date": "Sun, 12 Jul 2026 10:45:00",
       "source": "n.news.naver.com",
       "url": "https://biz.sbs.co.kr/article_hub/20000321938?division=NAVER"
-    },
-    {
-      "title": "금리 올려도 추락하는 엔화…'1달러=160엔'은 뉴노멀이 되나",
-      "date": "Sun, 12 Jul 2026 06:00:00",
-      "source": "n.news.naver.com",
-      "url": "https://www.mt.co.kr/world/2026/07/12/2026071014321738641"
-    },
-    {
-      "title": "통화긴축 시작된다…전문가들 \"7월 이어 8월이나 10월 인상\"",
-      "date": "Sun, 12 Jul 2026 05:45:00",
-      "source": "n.news.naver.com",
-      "url": "https://www.yna.co.kr/view/AKR20260710147700002?input=1195m"
-    },
-    {
-      "title": "7월 금통위 관련 전문가 12인 주요 코멘트 [금통위폴]",
-      "date": "Fri, 10 Jul 2026 18:36:00",
-      "source": "etoday.co.kr",
-      "url": "https://www.etoday.co.kr/news/view/2602596"
     }
   ],
   "kdi": [
     {
-      "title": "'20.79%' 유지 vs 범위 vs 산식 손질…교육교부금 개편 시나리오 셋",
-      "date": "Mon, 13 Jul 2026 06:00:00",
-      "source": "n.news.naver.com",
-      "url": "https://www.news1.kr/society/education/6225485"
+      "title": "화성특례시, '중부권 광역급행철도(JTX)' 추진 촉구",
+      "date": "Tue, 14 Jul 2026 08:08:00",
+      "source": "popcornnews.net",
+      "url": "http://www.popcornnews.net/news/articleView.html?idxno=126494"
     },
     {
-      "title": "[사설] 54년 만에 교육교부금 수술, 올해 안 입법 마무리를",
-      "date": "Mon, 13 Jul 2026 00:02:00",
-      "source": "n.news.naver.com",
-      "url": "https://www.sedaily.com/article/20066772?ref=naver"
+      "title": "대구~경북 광역철도, 예비타당성조사 종합평가 통과 기대감 고조",
+      "date": "Tue, 14 Jul 2026 04:54:00",
+      "source": "straightnews.co.kr",
+      "url": "https://www.straightnews.co.kr/news/articleView.html?idxno=306952"
     },
     {
-      "title": "대전시, 산업단지 조성 전략 수정할까",
-      "date": "Sun, 12 Jul 2026 15:50:00",
-      "source": "joongdo.co.kr",
-      "url": "https://www.joongdo.co.kr/web/view.php?key=20260712010003429"
+      "title": "중부권 광역급행철도(JTX) 조기 추진 한목소리…용인·화성·광주·안성...",
+      "date": "Tue, 14 Jul 2026 02:24:00",
+      "source": "ekn.kr",
+      "url": "https://www.ekn.kr/web/view.php?key=20260714028412150"
     },
     {
-      "title": "IMF, 한국 성장률 2.6%로 대폭 상향… 선진국 중 \"가장 높다\"",
-      "date": "Sun, 12 Jul 2026 14:20:00",
-      "source": "ggilbo.com",
-      "url": "https://www.ggilbo.com/news/articleView.html?idxno=1168338"
+      "title": "정명근 화성특례시장, 중부권 광역급행철도(JTX) 추진 강력 '촉구'",
+      "date": "Mon, 13 Jul 2026 23:32:00",
+      "source": "siminsori.com",
+      "url": "https://www.siminsori.com/news/articleView.html?idxno=400416"
     },
     {
-      "title": "[박근종 칼럼] 산업전환은 빛의 속도인데 고용 한파에 멍든 청년층 생계...",
-      "date": "Sun, 12 Jul 2026 06:12:00",
-      "source": "mhns.co.kr",
-      "url": "https://www.mhns.co.kr/news/articleView.html?idxno=753121"
+      "title": "경북-대구, 광역철도 예타 통과 총력…대경권 1시간 생활권 시동",
+      "date": "Mon, 13 Jul 2026 22:18:00",
+      "source": "gukjenews.com",
+      "url": "https://www.gukjenews.com/news/articleView.html?idxno=3634681"
     },
     {
-      "title": "홈플러스가 불붙인 유통법 개정…새 주인 찾기 해법될진 미지수[기울어...",
-      "date": "Sun, 12 Jul 2026 06:00:00",
-      "source": "n.news.naver.com",
-      "url": "https://www.newsis.com/view/NISX20260710_0003704809"
+      "title": "용인특례시 \"JTX 조기 착공 절실\"…국회 결의대회서 광역교통망 구축 촉...",
+      "date": "Mon, 13 Jul 2026 20:45:00",
+      "source": "newstown.co.kr",
+      "url": "http://www.newstown.co.kr/news/articleView.html?idxno=709000"
     },
     {
-      "title": "[김남현의 채권썰] 하반기 경전·미 CPI·금통위…‘빅위크’ 관망",
-      "date": "Sat, 11 Jul 2026 23:40:00",
-      "source": "etoday.co.kr",
-      "url": "https://www.etoday.co.kr/news/view/2602707"
+      "title": "정명근 화성특례시장 \"중부권 광역급행철도 조속 추진\"…동탄 광역교통...",
+      "date": "Mon, 13 Jul 2026 20:45:00",
+      "source": "newstown.co.kr",
+      "url": "http://www.newstown.co.kr/news/articleView.html?idxno=708999"
     },
     {
-      "title": "마트 쉬는 날 쇼핑앱 켰다…전통시장 빗겨간 규제의 역설[기울어진 유통...",
-      "date": "Sat, 11 Jul 2026 13:00:00",
-      "source": "n.news.naver.com",
-      "url": "https://www.newsis.com/view/NISX20260710_0003704349"
+      "title": "대구·경북 광역철도 예타 통과 '총력전'…\"1시간 생활권 연다\"",
+      "date": "Mon, 13 Jul 2026 20:26:00",
+      "source": "ksmnews.co.kr",
+      "url": "https://www.ksmnews.co.kr/news/view.php?idx=613341"
     },
     {
-      "title": "AI 급속 확산에, 청년 고용시장 '초토화'…희망은 있나?",
-      "date": "Fri, 10 Jul 2026 16:22:00",
-      "source": "nongaek.com",
-      "url": "http://www.nongaek.com/news/articleView.html?idxno=96068"
+      "title": "JTX, 잠실서 청주공항 1시간 생활권 연결 … \"경부축 한계 해소할 핵심 ...",
+      "date": "Mon, 13 Jul 2026 18:40:00",
+      "source": "queen.co.kr",
+      "url": "http://www.queen.co.kr/news/articleView.html?idxno=460216"
     },
     {
-      "title": "IMF, 한국 올해 성장률 2.6%로 상향해...30개국 중 가장 큰 폭 상향 조정",
-      "date": "Fri, 10 Jul 2026 13:46:00",
-      "source": "m-economynews.com",
-      "url": "https://www.m-economynews.com/news/article.html?no=68640"
+      "title": "용인시, 국회서 JTX 조기 추진 총력…황준기 부시장 \"반도체 경쟁력 높...",
+      "date": "Mon, 13 Jul 2026 18:38:00",
+      "source": "beyondpost.co.kr",
+      "url": "http://www.beyondpost.co.kr/view.php?ud=2026071318324737104c878f8fa1_30"
     }
   ],
   "bok": [
     {
-      "title": "[어제장 오늘장] 양대지수 동반 상승…증시 훈풍 이어질까, 변수는 지정...",
-      "date": "Mon, 13 Jul 2026 08:32:00",
+      "title": "수출입銀, 20억달러 채권 발행에 최저 스플 또 경신…전세계 투심 잡았...",
+      "date": "Tue, 14 Jul 2026 08:04:00",
+      "source": "news.einfomax.co.kr",
+      "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4424758"
+    },
+    {
+      "title": "[N2 모닝 경제 브리핑-7월 14일] 美 증시, 호르무즈 통행료·금리 부담에...",
+      "date": "Tue, 14 Jul 2026 06:10:00",
+      "source": "news2day.co.kr",
+      "url": "https://www.news2day.co.kr/article/20260714500005"
+    },
+    {
+      "title": "매파로 돌변한 한은…7월·8월 연속 금리 인상 나설까",
+      "date": "Tue, 14 Jul 2026 06:02:00",
+      "source": "kukinews.com",
+      "url": "https://www.kukinews.com/article/view/kuk202607130086"
+    },
+    {
+      "title": "\"연속 긴축이냐 속도조절이냐\"…한은 3년 6개월 만에 금리 인상 깜빡이",
+      "date": "Tue, 14 Jul 2026 06:00:00",
+      "source": "ziksir.com",
+      "url": "https://www.ziksir.com/news/articleView.html?idxno=139882"
+    },
+    {
+      "title": "한은, 16일 기준금리 인상 유력…시선은 '추가 긴축' 시그널로",
+      "date": "Tue, 14 Jul 2026 05:00:00",
       "source": "n.news.naver.com",
-      "url": "https://biz.sbs.co.kr/article_hub/20000322037?division=NAVER"
+      "url": "https://www.sidae.com/article/2026071314113842418"
     },
     {
-      "title": "한은 기준금리 인상, 방향은 정해졌다…관건은 속도와 강도",
-      "date": "Mon, 13 Jul 2026 08:04:00",
+      "title": "[금융 한 입] SK하이닉스 역대급 폭락...美나스닥 상장 흥행의 '그늘'",
+      "date": "Tue, 14 Jul 2026 04:14:00",
+      "source": "news.bbsi.co.kr",
+      "url": "https://news.bbsi.co.kr/news/articleView.html?idxno=4094830"
+    },
+    {
+      "title": "\"코스피 하반기 흐름 꺾인다\"…선행지수 하락 근거로 든 김영익 교수의...",
+      "date": "Tue, 14 Jul 2026 00:02:00",
       "source": "n.news.naver.com",
-      "url": "https://www.chosun.com/economy/economy_general/2026/07/13/4SG62UR2R5DIHAPEAPHWQLFHOE/?utm_source=naver&utm_medium=referral&utm_campaign=naver-news"
+      "url": "https://www.newsis.com/view/NISX20260713_0003707349"
     },
     {
-      "title": "[이슈체크] 금통위 금리인상 기정사실화…관건은 '연속 인상' 여부",
-      "date": "Mon, 13 Jul 2026 07:48:00",
-      "source": "tfmedia.co.kr",
-      "url": "https://www.tfmedia.co.kr/news/article.html?no=205728"
-    },
-    {
-      "title": "하나증권 “은행주 전반에 투자심리 개선 요인..신한·하나, 전고점 상...",
-      "date": "Mon, 13 Jul 2026 07:48:00",
-      "source": "kpenews.com",
-      "url": "https://kpenews.com/View.aspx?No=4146173"
-    },
-    {
-      "title": "[미리보는 금통위] 기준금리 25bp 인상 유력···추가 인상에 쏠린 눈",
-      "date": "Mon, 13 Jul 2026 07:30:00",
-      "source": "seoulfn.com",
-      "url": "https://www.seoulfn.com/news/articleView.html?idxno=633135"
-    },
-    {
-      "title": "[하반기 증시 전망] 환율·금리 '이중고'…코스닥 언제 반등하나",
-      "date": "Mon, 13 Jul 2026 07:02:00",
-      "source": "dnews.co.kr",
-      "url": "https://www.dnews.co.kr/uhtml/view.jsp?idxno=202607101415379440707"
-    },
-    {
-      "title": "[하반기 증시 전망] 코스피 최고 1만2600 전망…금리·환율·중동 ‘변수...",
-      "date": "Mon, 13 Jul 2026 07:02:00",
-      "source": "dnews.co.kr",
-      "url": "https://www.dnews.co.kr/uhtml/view.jsp?idxno=202607121101442860808"
-    },
-    {
-      "title": "피크아웃 논란 흔든 반도체株…TSMC·ASML 실적이 반등 분수령",
-      "date": "Mon, 13 Jul 2026 06:46:00",
-      "source": "ebn.co.kr",
-      "url": "https://www.ebn.co.kr/news/articleView.html?idxno=1716036"
-    },
-    {
-      "title": "[주간경제일정] 美, 6월 소비자물가 발표…연준 금리인상 여부 주목",
-      "date": "Mon, 13 Jul 2026 06:44:00",
+      "title": "韓 수출 이대로 가면 ‘세계 4강’ 그러나…",
+      "date": "Mon, 13 Jul 2026 21:01:00",
       "source": "n.news.naver.com",
-      "url": "https://biz.sbs.co.kr/article_hub/20000322008?division=NAVER"
+      "url": "https://www.mk.co.kr/article/12095560"
     },
     {
-      "title": "SK하이닉스 ADR 13% 급등…코스피 반등 지속성은",
-      "date": "Mon, 13 Jul 2026 06:38:00",
-      "source": "topstarnews.net",
-      "url": "https://www.topstarnews.net/news/articleView.html?idxno=16132397"
+      "title": "증시·환율 출렁이는데 여유로운 한은…금리 인상 유력해도 더 봐야 할...",
+      "date": "Mon, 13 Jul 2026 18:10:00",
+      "source": "n.news.naver.com",
+      "url": "https://www.mk.co.kr/article/12097538"
+    },
+    {
+      "title": "기준금리 종착지는 연 3.5%?… \"한은, 7월 인상으로 긴축 신호탄\"",
+      "date": "Mon, 13 Jul 2026 18:01:00",
+      "source": "n.news.naver.com",
+      "url": "https://www.hankookilbo.com/news/article/A2026071311230003586?did=NA"
     }
   ],
   "kiep": [
+    {
+      "title": "반도체 호황에 수출 '역대 최대'…7월 초순 298억달러 기록",
+      "date": "Mon, 13 Jul 2026 11:52:00",
+      "source": "ppss.kr",
+      "url": "https://www.ppss.kr/news/articleView.html?idxno=301920"
+    },
     {
       "title": "미친 환율에 ‘속수무책’ 외환당국…달러 0.7% 오를 때 원화 6.7% 밀렸다",
       "date": "Thu, 25 Jun 2026 07:29:00",
@@ -239,12 +245,6 @@
       "date": "Sun, 17 May 2026 15:02:00",
       "source": "news.einfomax.co.kr",
       "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4415296"
-    },
-    {
-      "title": "증시도 산업도 ‘K자’…대만 전철 밟나",
-      "date": "Mon, 11 May 2026 21:01:00",
-      "source": "n.news.naver.com",
-      "url": "https://www.mk.co.kr/article/12040949"
     }
   ],
   "kif": [
@@ -309,5 +309,5 @@
       "url": "https://www.sedaily.com/article/20062078?ref=naver"
     }
   ],
-  "updated": "2026.07.13 08:49"
+  "updated": "2026.07.14 08:47"
 }
