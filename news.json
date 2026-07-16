@@ -1,41 +1,6 @@
 {
   "dept": [
     {
-      "title": "이용우 의원, 스타필드 청라·청라돔 적기 준공 해법 마련",
-      "date": "Wed, 15 Jul 2026 22:24:00",
-      "source": "gukjenews.com",
-      "url": "https://www.gukjenews.com/news/articleView.html?idxno=3637335",
-      "sub": ""
-    },
-    {
-      "title": "어등산 '스타필드', 국토부 중앙도시계획위 재심의 결정",
-      "date": "Wed, 15 Jul 2026 21:15:00",
-      "source": "n.news.naver.com",
-      "url": "https://www.ikbc.co.kr/article/view/kbc202607150062",
-      "sub": ""
-    },
-    {
-      "title": "게임 IP 최초 더현대 서울 '사운즈 포레스트' 발들인 TFT",
-      "date": "Wed, 15 Jul 2026 20:52:00",
-      "source": "gametoc.co.kr",
-      "url": "https://www.gametoc.co.kr/news/articleView.html?idxno=109988",
-      "sub": ""
-    },
-    {
-      "title": "MUUT, 신세계 강남점 팝업 7월 오픈",
-      "date": "Wed, 15 Jul 2026 17:32:00",
-      "source": "hansbiz.co.kr",
-      "url": "http://www.hansbiz.co.kr/news/articleView.html?idxno=850414",
-      "sub": ""
-    },
-    {
-      "title": "롯데리아, 유니클로 UTme! 협업 디자인 공개",
-      "date": "Wed, 15 Jul 2026 08:10:00",
-      "source": "shinailbo.co.kr",
-      "url": "https://www.shinailbo.co.kr/news/articleView.html?idxno=5040783",
-      "sub": ""
-    },
-    {
       "title": "신한투자 \"백화점 구매력 강세 지속…현백·신세계 목표가↑\"",
       "date": "Wed, 08 Jul 2026 08:37:00",
       "source": "n.news.naver.com",
@@ -50,61 +15,68 @@
       "sub": ""
     },
     {
-      "title": "도미노피자, ‘무진장 슈림프 스테이크 피자’ 출시…무신사 협업·리센...",
-      "date": "Thu, 16 Jul 2026 08:48:00",
-      "source": "viva100.com",
-      "url": "https://www.viva100.com/article/20260716500076",
+      "title": "천기옥 울산 동구청장, 현대백화점 울산점과 복합 개발 의견 교환",
+      "date": "Thu, 16 Jul 2026 21:34:00",
+      "source": "gukjenews.com",
+      "url": "https://www.gukjenews.com/news/articleView.html?idxno=3638436",
       "sub": ""
     },
     {
-      "title": "신라모노그램 강릉, 핏플랍과 협업…팝업·객실 패키지 출시",
-      "date": "Thu, 16 Jul 2026 08:48:00",
+      "title": "스타필드 ‘벌룬 페스티벌’",
+      "date": "Thu, 16 Jul 2026 20:41:00",
       "source": "n.news.naver.com",
-      "url": "https://www.edaily.co.kr/news/newspath.asp?newsid=02935606645515176",
+      "url": "https://www.segye.com/newsView/20260716518563?OutUrl=naver",
       "sub": ""
     },
     {
-      "title": "도미노피자 '무신사 100만원 상품권 증정'→롯데칠성음료 '해피즈' 프로...",
-      "date": "Thu, 16 Jul 2026 08:44:00",
-      "source": "slist.kr",
-      "url": "https://www.slist.kr/news/articleView.html?idxno=752169",
+      "title": "팜한농 웰니스 채소 브랜드 '비채', 현대백화점에 입점",
+      "date": "Thu, 16 Jul 2026 19:34:00",
+      "source": "agrinet.co.kr",
+      "url": "https://www.agrinet.co.kr/news/articleView.html?idxno=405741",
+      "sub": ""
+    },
+    {
+      "title": "[기업] 신동빈 \"CEO, 고객 관점에서 대담하게 혁신해야\"",
+      "date": "Thu, 16 Jul 2026 18:33:00",
+      "source": "n.news.naver.com",
+      "url": "https://www.ytn.co.kr/_ln/0102_202607161833290087",
+      "sub": ""
+    },
+    {
+      "title": "신동빈 승부수는 ‘본원 경쟁력’…롯데, 체질개선 박차",
+      "date": "Thu, 16 Jul 2026 17:38:00",
+      "source": "sentv.co.kr",
+      "url": "https://www.sentv.co.kr/article/view/sentv202607160054",
+      "sub": ""
+    },
+    {
+      "title": "[더벨][유통가 풍향계] 美서 속도 내는 올리브영, 10월 '4호점' 관측",
+      "date": "Thu, 16 Jul 2026 17:32:00",
+      "source": "thebell.co.kr",
+      "url": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202607131646136480105379",
+      "sub": ""
+    },
+    {
+      "title": "트렌디 스트리트 브랜드 '피마다지윈', 더현대 서울서 첫 오프라인 단독...",
+      "date": "Thu, 16 Jul 2026 17:24:00",
+      "source": "job-post.co.kr",
+      "url": "https://www.job-post.co.kr/news/articleView.html?idxno=221441",
+      "sub": ""
+    },
+    {
+      "title": "롯데 신동빈 \"AX는 생존과제\"… 유통·식품 계열사 운영 효율화로 이어...",
+      "date": "Thu, 16 Jul 2026 17:02:00",
+      "source": "getnews.co.kr",
+      "url": "https://www.getnews.co.kr/news/articleView.html?idxno=875344",
       "sub": ""
     }
   ],
   "trend": [
     {
-      "title": "빅3 백화점 56개 점포, 5월 누계 매출 20% 신장",
-      "date": "Wed, 15 Jul 2026 22:02:00",
-      "source": "apparelnews.co.kr",
-      "url": "http://www.apparelnews.co.kr/news/news_view/?idx=226392",
-      "sub": ""
-    },
-    {
-      "title": "[주요공시] 서진시스템, 한화오션, 남양유업, 신성이엔지, 이수페타시스...",
-      "date": "Wed, 15 Jul 2026 19:20:00",
-      "source": "kdpress.co.kr",
-      "url": "https://www.kdpress.co.kr/news/articleView.html?idxno=206962",
-      "sub": ""
-    },
-    {
-      "title": "파리 '비바테크'서 럭셔리 메종 사로잡다 - 버섯가죽 헤리팜스",
-      "date": "Wed, 15 Jul 2026 17:36:00",
-      "source": "ktnews.com",
-      "url": "http://www.ktnews.com/news/articleView.html?idxno=147199",
-      "sub": ""
-    },
-    {
       "title": "리치몬트 1분기 매출 17%↑…주얼리가 증가분 89% 견인",
       "date": "Wed, 15 Jul 2026 17:20:00",
       "source": "ktnews.com",
       "url": "http://www.ktnews.com/news/articleView.html?idxno=147207",
-      "sub": ""
-    },
-    {
-      "title": "F&F, 테일러메이드 인수설 관련 \"확정 사항 없어\"→추가 변동 주목",
-      "date": "Wed, 15 Jul 2026 16:22:00",
-      "source": "topstarnews.net",
-      "url": "https://www.topstarnews.net/news/articleView.html?idxno=16135425",
       "sub": ""
     },
     {
@@ -115,42 +87,63 @@
       "sub": ""
     },
     {
-      "title": "'갓성비' 스퀘어 시계를 찾고 있다면?",
-      "date": "Thu, 16 Jul 2026 08:00:00",
+      "title": "'300만원대' 롤렉스 살 수 있는 빈티지 시계샵 3",
+      "date": "Thu, 16 Jul 2026 22:00:00",
       "source": "esquirekorea.co.kr",
-      "url": "https://www.esquirekorea.co.kr/article/1906243",
+      "url": "https://www.esquirekorea.co.kr/article/1906295",
       "sub": ""
     },
     {
-      "title": "[유럽증시] 명품브랜드 리치몬트 어닝서프에 급등…LVMH·에르메스도 동...",
-      "date": "Thu, 16 Jul 2026 07:30:00",
-      "source": "mediapen.com",
-      "url": "https://www.mediapen.com/news/view/1110435",
+      "title": "알테쉬 다음은 어디? 中 유통 혁신 기업 5선 [경영전략노트]",
+      "date": "Thu, 16 Jul 2026 21:01:00",
+      "source": "n.news.naver.com",
+      "url": "https://www.mk.co.kr/article/12095487",
       "sub": ""
     },
     {
-      "title": "이시영, 샤넬 원피스보다 더 눈길 간 눈매…30만원 들여 지운 문신 효과",
-      "date": "Thu, 16 Jul 2026 07:22:00",
-      "source": "m.entertain.naver.com",
-      "url": "https://www.mk.co.kr/article/12099898",
+      "title": "‘Put It on My Tab’: The New York Restaurants With House Accounts",
+      "date": "Thu, 16 Jul 2026 18:04:00",
+      "source": "nytimes.com",
+      "url": "https://www.nytimes.com/2026/07/16/t-magazine/house-accounts-tab-nyc-restaurants.html?partner=naver",
       "sub": ""
     },
     {
-      "title": "이시영, 탄탄한 광배근에 샤넬 원피스 착용 포기",
-      "date": "Thu, 16 Jul 2026 06:16:00",
-      "source": "mediafine.co.kr",
-      "url": "https://www.mediafine.co.kr/news/articleView.html?idxno=83603",
+      "title": "도시를 운영하는 유통…롯데타운 잠실이 바꾸는 쇼핑의 미래",
+      "date": "Thu, 16 Jul 2026 15:52:00",
+      "source": "ktnews.com",
+      "url": "http://www.ktnews.com/news/articleView.html?idxno=147250",
+      "sub": ""
+    },
+    {
+      "title": "축구는 발로 하지만, 취향은 손목이 말해줍니다.",
+      "date": "Thu, 16 Jul 2026 12:02:00",
+      "source": "marieclairekorea.com",
+      "url": "https://www.marieclairekorea.com/fashion/2026/07/world-cup-footballers-watches/?utm_source=naver&utm_medium=partnership",
+      "sub": ""
+    },
+    {
+      "title": "'GD 애착 주얼리', 레포시의 신작이 파리를 흔들다 [김인애의 한입 프랑...",
+      "date": "Thu, 16 Jul 2026 11:33:00",
+      "source": "n.news.naver.com",
+      "url": "https://www.hankyung.com/article/202607156340i",
+      "sub": ""
+    },
+    {
+      "title": "“에루샤가 갈랐다”…증권가가 신세계百 픽한 이유는",
+      "date": "Fri, 17 Jul 2026 08:30:00",
+      "source": "n.news.naver.com",
+      "url": "https://www.sedaily.com/article/20068818?ref=naver",
+      "sub": ""
+    },
+    {
+      "title": "프렌치 걸 vs 스칸디나비아 걸, 스타일 대결의 승자는?",
+      "date": "Fri, 17 Jul 2026 08:02:00",
+      "source": "vogue.co.kr",
+      "url": "https://www.vogue.co.kr/2026/07/17/%ed%94%84%eb%a0%8c%ec%b9%98-%ea%b1%b8-vs-%ec%8a%a4%ec%b9%b8%eb%94%94%eb%82%98%eb%b9%84%ec%95%84-%ea%b1%b8-%ec%8a%a4%ed%83%80%ec%9d%bc-%eb%8c%80%ea%b2%b0%ec%9d%98-%ec%8a%b9%ec%9e%90%eb%8a%94/?utm_source=naver&utm_medium=partnership",
       "sub": ""
     }
   ],
   "rate": [
-    {
-      "title": "빅3 백화점 56개 점포, 5월 누계 매출 20% 신장",
-      "date": "Wed, 15 Jul 2026 22:02:00",
-      "source": "apparelnews.co.kr",
-      "url": "http://www.apparelnews.co.kr/news/news_view/?idx=226392",
-      "sub": ""
-    },
     {
       "title": "울산 동구- 해수욕·러닝·크로스핏 한번에…MZ세대 아지트 일산해수욕...",
       "date": "Wed, 15 Jul 2026 19:03:00",
@@ -166,13 +159,6 @@
       "sub": ""
     },
     {
-      "title": "걷기길 선구자 '故 서명숙' 국민훈장 모란장 받는다",
-      "date": "Wed, 15 Jul 2026 10:38:00",
-      "source": "jejusori.net",
-      "url": "https://www.jejusori.net/news/articleView.html?idxno=504762",
-      "sub": ""
-    },
-    {
       "title": "크루즈 맞춤형, 따뜻한 환대 서산시... 다시 오는 비지오호 맞이, 선상 ...",
       "date": "Wed, 15 Jul 2026 09:48:00",
       "source": "g-enews.com",
@@ -180,91 +166,112 @@
       "sub": ""
     },
     {
-      "title": "중-일 항공 1,488편 취소... 한국 인바운드엔 기회될까",
-      "date": "Wed, 15 Jul 2026 00:10:00",
-      "source": "traveltimes.co.kr",
-      "url": "https://www.traveltimes.co.kr/news/articleView.html?idxno=500042",
-      "sub": ""
-    },
-    {
-      "title": "박보검이 들려주는 ‘한국’…관광공사, 15일 해외홍보 영상 공개",
-      "date": "Tue, 14 Jul 2026 17:51:00",
+      "title": "[박현주의 신간돋보기] ‘비밀의 시대’ 30년 격랑의 삶 外",
+      "date": "Thu, 16 Jul 2026 19:26:00",
       "source": "n.news.naver.com",
-      "url": "https://www.newsis.com/view/NISX20260714_0003709085",
+      "url": "http://www.kookje.co.kr/news2011/asp/newsbody.asp?code=0500&key=20260717.22013005173",
       "sub": ""
     },
     {
-      "title": "횡성 주요 관광지 50% 할인…'지역사랑 철도여행' 이용객 대상",
-      "date": "Thu, 16 Jul 2026 08:56:00",
+      "title": "대구공항, 여름 성수기 맞아 외국인 관광객 유치 사업 추진",
+      "date": "Thu, 16 Jul 2026 17:06:00",
       "source": "gukjenews.com",
-      "url": "https://www.gukjenews.com/news/articleView.html?idxno=3637575",
+      "url": "https://www.gukjenews.com/news/articleView.html?idxno=3638250",
       "sub": ""
     },
     {
-      "title": "이순걸 울산 울주군수 \"중단없는 울주 발전, 5만개 일자리와 군립병원으...",
-      "date": "Thu, 16 Jul 2026 08:54:00",
-      "source": "news.bbsi.co.kr",
-      "url": "https://news.bbsi.co.kr/news/articleView.html?idxno=4095398",
+      "title": "클룩·한국관광공사, 지역 관광 활성화 업무협약 2년 연장",
+      "date": "Thu, 16 Jul 2026 16:43:00",
+      "source": "n.news.naver.com",
+      "url": "https://biz.heraldcorp.com/article/10811539?ref=naver",
       "sub": ""
     },
     {
-      "title": "충청수영성 유네스코 세계유산 등재 추진",
-      "date": "Thu, 16 Jul 2026 08:54:00",
-      "source": "gukjenews.com",
-      "url": "https://www.gukjenews.com/news/articleView.html?idxno=3637592",
+      "title": "김해국제공항, 중국 주요 거점 도시 잇는다",
+      "date": "Thu, 16 Jul 2026 15:52:00",
+      "source": "ttlnews.com",
+      "url": "http://www.ttlnews.com/news/articleView.html?idxno=3126339",
+      "sub": ""
+    },
+    {
+      "title": "클룩-한국관광공사, 업무협약 2년 연장… 글로벌 네트워크로 지방 관광...",
+      "date": "Thu, 16 Jul 2026 15:38:00",
+      "source": "discoverynews.kr",
+      "url": "https://www.discoverynews.kr/news/articleView.html?idxno=1096307",
+      "sub": ""
+    },
+    {
+      "title": "충북도의회 복지문화·행정안전위원회, 도민 복지 증진 및 재난 대응 역...",
+      "date": "Fri, 17 Jul 2026 08:50:00",
+      "source": "enewstoday.co.kr",
+      "url": "http://www.enewstoday.co.kr/news/articleView.html?idxno=2449873",
+      "sub": ""
+    },
+    {
+      "title": "울진 왕피천공원 ‘한 달간 피서장’ 변신… 물놀이부터 바비큐·공연까...",
+      "date": "Fri, 17 Jul 2026 08:50:00",
+      "source": "kbmaeil.com",
+      "url": "https://www.kbmaeil.com/article/20260717500025",
       "sub": ""
     }
   ],
   "asset": [
-    {
-      "title": "부산 주택매매시장 소비심리지수 101.4→108.7 상승",
-      "date": "Wed, 15 Jul 2026 15:02:00",
-      "source": "n.news.naver.com",
-      "url": "https://www.busan.com/view/busan/view.php?code=2026071514500674896",
-      "sub": ""
-    },
-    {
-      "title": "美연준 이달말 금리인상 확률 10%대 ‘뚝’…물가지표 둔화 영향",
-      "date": "Thu, 16 Jul 2026 08:54:00",
-      "source": "n.news.naver.com",
-      "url": "https://biz.heraldcorp.com/article/10810514?ref=naver",
-      "sub": ""
-    },
-    {
-      "title": "물가지표 둔화에 연준 이달 금리인상 확률 10%대로",
-      "date": "Thu, 16 Jul 2026 08:53:00",
-      "source": "n.news.naver.com",
-      "url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8612282&ref=A",
-      "sub": ""
-    },
-    {
-      "title": "[어제장 오늘장] 코스피, 7천피 탈환…서킷브레이커 사흘 만에 사이드카...",
-      "date": "Thu, 16 Jul 2026 08:47:00",
-      "source": "n.news.naver.com",
-      "url": "https://biz.sbs.co.kr/article_hub/20000322849?division=NAVER",
-      "sub": ""
-    },
-    {
-      "title": "한은, 오늘 기준금리 인상 유력…3년 6개월만",
-      "date": "Thu, 16 Jul 2026 08:40:00",
-      "source": "segyebiz.com",
-      "url": "http://www.segyebiz.com/newsView/20260716505148?OutUrl=naver",
-      "sub": ""
-    },
-    {
-      "title": "[출근길 브리핑-7월 15일] 기준금리 인상 유력·코스피 7200선 탈환·'학...",
-      "date": "Thu, 16 Jul 2026 08:38:00",
-      "source": "newsworks.co.kr",
-      "url": "https://www.newsworks.co.kr/news/articleView.html?idxno=847323",
-      "sub": ""
-    },
     {
       "title": "울산 주택시장 소비심리 3개월만에 상승 전환",
       "date": "Thu, 16 Jul 2026 00:02:00",
       "source": "ksilbo.co.kr",
       "url": "https://www.ksilbo.co.kr/news/articleView.html?idxno=1062284",
       "sub": ""
+    },
+    {
+      "title": "기준금리 인상에 자금조달 부담…기업 ‘유동성 관리’ 관건",
+      "date": "Fri, 17 Jul 2026 08:44:00",
+      "source": "news2day.co.kr",
+      "url": "https://www.news2day.co.kr/article/20260716500255",
+      "sub": ""
+    },
+    {
+      "title": "삼성전자·SK하이닉스 개인 레버리지 막으면 코스피 변동성 줄어들까",
+      "date": "Fri, 17 Jul 2026 08:44:00",
+      "source": "topstarnews.net",
+      "url": "https://www.topstarnews.net/news/articleView.html?idxno=16137390",
+      "sub": ""
+    },
+    {
+      "title": "반도체주, 호실적에도 주가 '폭락'...높아진 눈높이에 '발목'",
+      "date": "Fri, 17 Jul 2026 08:42:00",
+      "source": "coinreaders.com",
+      "url": "http://coinreaders.com/248189",
+      "sub": ""
+    },
+    {
+      "title": "이더리움·리플XRP·비트코인 하락…금리·중동 위험 겹쳤다",
+      "date": "Fri, 17 Jul 2026 08:14:00",
+      "source": "topstarnews.net",
+      "url": "https://www.topstarnews.net/news/articleView.html?idxno=16137359",
+      "sub": ""
+    },
+    {
+      "title": "기준금리 올랐다...예금자는 '방긋' 빚투 투자자는 '덜덜'",
+      "date": "Fri, 17 Jul 2026 08:06:00",
+      "source": "the-pr.co.kr",
+      "url": "https://www.the-pr.co.kr/news/articleView.html?idxno=61965",
+      "sub": ""
+    },
+    {
+      "title": "기준금리 3%대 재진입 초읽기…추가 인상 시점은",
+      "date": "Fri, 17 Jul 2026 08:02:00",
+      "source": "sentv.co.kr",
+      "url": "https://www.sentv.co.kr/article/view/sentv202607160070",
+      "sub": ""
+    },
+    {
+      "title": "지수는 3분의 1인데…출렁임은 코스피가 美나스닥 3배[변동성이 덮친 증...",
+      "date": "Fri, 17 Jul 2026 08:00:00",
+      "source": "n.news.naver.com",
+      "url": "https://www.newsis.com/view/NISX20260716_0003712620",
+      "sub": ""
     }
   ],
-  "updated": "2026.07.16 08:57"
+  "updated": "2026.07.17 08:51"
 }
