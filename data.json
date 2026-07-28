@@ -63,6 +63,10 @@
     {
       "ym": "202606",
       "val": 106.6
+    },
+    {
+      "ym": "202607",
+      "val": 106.8
     }
   ],
   "rate": [
@@ -1725,6 +1729,10 @@
     {
       "ym": "20260724",
       "val": 6690.62
+    },
+    {
+      "ym": "20260727",
+      "val": 6755.75
     }
   ],
   "houseprice": [
@@ -6806,9 +6814,14 @@
             "d": 25,
             "temp": 28.7,
             "rain": 0.0
+          },
+          {
+            "d": 26,
+            "temp": 29.2,
+            "rain": 0.0
           }
         ],
-        "avg_temp": 26.5,
+        "avg_temp": 26.6,
         "max_temp": 30.4,
         "total_rain": 385.8,
         "rain_days": 19
@@ -11121,10 +11134,15 @@
             "d": 25,
             "temp": 29.4,
             "rain": 0.0
+          },
+          {
+            "d": 26,
+            "temp": 30.8,
+            "rain": 0.0
           }
         ],
-        "avg_temp": 26.7,
-        "max_temp": 29.4,
+        "avg_temp": 26.8,
+        "max_temp": 30.8,
         "total_rain": 59.7,
         "rain_days": 5
       }
@@ -15436,9 +15454,14 @@
             "d": 25,
             "temp": 31.1,
             "rain": 0.0
+          },
+          {
+            "d": 26,
+            "temp": 30.8,
+            "rain": 0.0
           }
         ],
-        "avg_temp": 28.5,
+        "avg_temp": 28.6,
         "max_temp": 31.5,
         "total_rain": 132.0,
         "rain_days": 9
@@ -19751,12 +19774,17 @@
             "d": 25,
             "temp": 28.3,
             "rain": 0.0
+          },
+          {
+            "d": 26,
+            "temp": 28.4,
+            "rain": 0.2
           }
         ],
-        "avg_temp": 26.0,
+        "avg_temp": 26.1,
         "max_temp": 30.7,
-        "total_rain": 305.2,
-        "rain_days": 15
+        "total_rain": 305.4,
+        "rain_days": 16
       }
     },
     "gwangju": {
@@ -24066,10 +24094,15 @@
             "d": 25,
             "temp": 29.7,
             "rain": 0.0
+          },
+          {
+            "d": 26,
+            "temp": 30.7,
+            "rain": 0.0
           }
         ],
-        "avg_temp": 27.5,
-        "max_temp": 29.8,
+        "avg_temp": 27.6,
+        "max_temp": 30.7,
         "total_rain": 264.7,
         "rain_days": 11
       }
@@ -28381,9 +28414,14 @@
             "d": 25,
             "temp": 29.6,
             "rain": 0.0
+          },
+          {
+            "d": 26,
+            "temp": 30.2,
+            "rain": 0.0
           }
         ],
-        "avg_temp": 27.0,
+        "avg_temp": 27.1,
         "max_temp": 30.4,
         "total_rain": 347.5,
         "rain_days": 14
@@ -32696,9 +32734,14 @@
             "d": 25,
             "temp": 30.3,
             "rain": 0.0
+          },
+          {
+            "d": 26,
+            "temp": 30.1,
+            "rain": 0.0
           }
         ],
-        "avg_temp": 27.3,
+        "avg_temp": 27.4,
         "max_temp": 30.5,
         "total_rain": 28.0,
         "rain_days": 6
@@ -37011,12 +37054,17 @@
             "d": 25,
             "temp": 30.4,
             "rain": 0.0
+          },
+          {
+            "d": 26,
+            "temp": 30.8,
+            "rain": 0.1
           }
         ],
-        "avg_temp": 27.9,
+        "avg_temp": 28.0,
         "max_temp": 31.3,
-        "total_rain": 354.6,
-        "rain_days": 16
+        "total_rain": 354.7,
+        "rain_days": 17
       }
     }
   },
