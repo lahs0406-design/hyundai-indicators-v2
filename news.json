@@ -1,6 +1,62 @@
 {
   "dept": [
     {
+      "title": "무신사, 8월 도쿄 하라주쿠서 '무신사 스테이션' 팝업…77개 K-패션 브랜...",
+      "date": "Wed, 29 Jul 2026 08:42:00",
+      "source": "megaeconomy.co.kr",
+      "url": "https://www.megaeconomy.co.kr/news/newsview.php?ncode=1065570038464432",
+      "sub": ""
+    },
+    {
+      "title": "형지I&C '예작', 中 진출 신호탄 쐈다… 상하이 홍취안루에 첫 팝업스토...",
+      "date": "Wed, 29 Jul 2026 08:42:00",
+      "source": "maxmovie.com",
+      "url": "https://www.maxmovie.com/news/articleView.html?idxno=500779",
+      "sub": ""
+    },
+    {
+      "title": "예작, 9월 중추절 상하이 홍취안루 팝업 연다…中 진출 신호탄",
+      "date": "Wed, 29 Jul 2026 08:40:00",
+      "source": "n.news.naver.com",
+      "url": "https://www.news1.kr/industry/distribution/6242144",
+      "sub": ""
+    },
+    {
+      "title": "\"패션 입은 뷰티 만난다\"…무신사 뷰티, 8월 성수서 '무뷰페 인 성수'",
+      "date": "Wed, 29 Jul 2026 08:37:00",
+      "source": "n.news.naver.com",
+      "url": "https://view.asiae.co.kr/article/2026072908353511124",
+      "sub": ""
+    },
+    {
+      "title": "패션 만난 뷰티…무신사 뷰티, 내달 성수동서 '무뷰페'",
+      "date": "Wed, 29 Jul 2026 08:33:00",
+      "source": "n.news.naver.com",
+      "url": "https://www.edaily.co.kr/news/newspath.asp?newsid=03125846645519440",
+      "sub": ""
+    },
+    {
+      "title": "캐릭터와 디저트의 만남…신세계 강남점에 '폼폼푸린 베이커리 카페'",
+      "date": "Wed, 29 Jul 2026 08:22:00",
+      "source": "pinpointnews.co.kr",
+      "url": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=472392",
+      "sub": ""
+    },
+    {
+      "title": "산리오 1위 '폼폼푸린', 신세계 강남 상륙…국내 첫 베이커리 카페 연다",
+      "date": "Wed, 29 Jul 2026 08:00:00",
+      "source": "joongangenews.com",
+      "url": "https://www.joongangenews.com/news/articleView.html?idxno=536064",
+      "sub": ""
+    },
+    {
+      "title": "익스트림 키즈파크 들어서는 롯데백화점 대구점",
+      "date": "Wed, 29 Jul 2026 07:51:00",
+      "source": "n.news.naver.com",
+      "url": "http://www.fnnews.com/news/202607290740460400",
+      "sub": ""
+    },
+    {
       "title": "신한투자 \"백화점 구매력 강세 지속…현백·신세계 목표가↑\"",
       "date": "Wed, 08 Jul 2026 08:37:00",
       "source": "n.news.naver.com",
@@ -8,263 +64,214 @@
       "sub": ""
     },
     {
-      "title": "무신사 뷰티, 미군 유통 채널 입점…\"세계 시장 판매 채널 확대\"",
-      "date": "Tue, 28 Jul 2026 08:49:00",
-      "source": "n.news.naver.com",
-      "url": "https://www.yna.co.kr/view/AKR20260728024700030?input=1195m",
-      "sub": ""
-    },
-    {
-      "title": "롯데百, '블랙핑크X다마고치' 팝업",
-      "date": "Tue, 28 Jul 2026 08:44:00",
-      "source": "g-enews.com",
-      "url": "https://www.g-enews.com/view.php?ud=202607280842016947a96f092d0c_1",
-      "sub": ""
-    },
-    {
-      "title": "미군부터 중동·호주까지…글로벌 영토 넓히는 무신사 뷰티",
-      "date": "Tue, 28 Jul 2026 08:43:00",
-      "source": "n.news.naver.com",
-      "url": "https://www.news1.kr/industry/distribution/6240893",
-      "sub": ""
-    },
-    {
-      "title": "롯데백화점, 키덜트에 아티스트 IP 접목..'블랙핑크X다마고치' 팝업스토...",
-      "date": "Tue, 28 Jul 2026 08:40:00",
-      "source": "kpenews.com",
-      "url": "https://kpenews.com/View.aspx?No=4164408",
-      "sub": ""
-    },
-    {
-      "title": "美 PX도 뚫었다…무신사 뷰티, 미군 유통채널 AAFES 입점",
-      "date": "Tue, 28 Jul 2026 08:40:00",
-      "source": "n.news.naver.com",
-      "url": "https://www.hankyung.com/article/202607289490g",
-      "sub": ""
-    },
-    {
-      "title": "롯데百, '블랙핑크X다마고치' 팝업…한정 굿즈 28종 공개",
-      "date": "Tue, 28 Jul 2026 08:20:00",
-      "source": "n.news.naver.com",
-      "url": "https://www.newsis.com/view/NISX20260727_0003725415",
-      "sub": ""
-    },
-    {
-      "title": "롯데백화점, '블랙핑크X다마고치' 팝업스토어 단독 오픈",
-      "date": "Tue, 28 Jul 2026 08:10:00",
-      "source": "pinpointnews.co.kr",
-      "url": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=472039",
-      "sub": ""
-    },
-    {
-      "title": "[유通하는 사람들] ⑯ 김기현 신세계백화점 여성패션팀장…\"K-헤리티지...",
-      "date": "Tue, 28 Jul 2026 08:00:00",
-      "source": "youthdaily.co.kr",
-      "url": "https://www.youthdaily.co.kr/news/article.html?no=223828",
-      "sub": ""
-    },
-    {
-      "title": "아동·장애인·자원순환...유니클로의 지속 가능 경영",
-      "date": "Tue, 28 Jul 2026 06:00:00",
-      "source": "ebn.co.kr",
-      "url": "https://www.ebn.co.kr/news/articleView.html?idxno=1717888",
+      "title": "진주 관광캐릭터 '하모', 더현대 서울에 뜬다",
+      "date": "Tue, 28 Jul 2026 19:44:00",
+      "source": "gnnews.co.kr",
+      "url": "https://www.gnnews.co.kr/news/articleView.html?idxno=642038",
       "sub": ""
     }
   ],
   "trend": [
     {
-      "title": "美 넘어 브라질로… K뷰티, 세계 3위 시장 공략 시동",
-      "date": "Tue, 28 Jul 2026 08:32:00",
-      "source": "it.chosun.com",
-      "url": "https://it.chosun.com/news/articleView.html?idxno=2023092166690",
+      "title": "악마는 프라다를 입는다2, 오늘 디즈니+ 공개",
+      "date": "Wed, 29 Jul 2026 08:22:00",
+      "source": "bntnews.co.kr",
+      "url": "https://www.bntnews.co.kr/article/view/bnt202607290089",
       "sub": ""
     },
     {
-      "title": "한여름 도트 패션 이게 멋이지!",
-      "date": "Tue, 28 Jul 2026 08:02:00",
-      "source": "allurekorea.com",
-      "url": "https://www.allurekorea.com/2026/07/28/%ed%95%9c%ec%97%ac%eb%a6%84-%eb%8f%84%ed%8a%b8-%ed%8c%a8%ec%85%98-%ec%9d%b4%ea%b2%8c-%eb%a9%8b%ec%9d%b4%ec%a7%80/?utm_source=naver&utm_medium=partnership",
-      "sub": ""
-    },
-    {
-      "title": "\"유튜브 출연했더니 샤넬백\" 고준희, 이수지에게 명품 선물했다…\"매장...",
-      "date": "Tue, 28 Jul 2026 08:01:00",
-      "source": "m.entertain.naver.com",
-      "url": "https://www.tenasia.co.kr/article/2026072893684",
-      "sub": ""
-    },
-    {
-      "title": "이수지, 고준희 유튜브 출연했다가 명품 선물 “통 크다”",
-      "date": "Tue, 28 Jul 2026 07:26:00",
-      "source": "m.entertain.naver.com",
-      "url": "https://sports.donga.com/ent/article/all/20260728/134376322/1",
-      "sub": ""
-    },
-    {
-      "title": "'루이비통·디올' LVMH 패션사업 성장 전환...명품시장 회복 기대감",
-      "date": "Tue, 28 Jul 2026 07:22:00",
-      "source": "ebn.co.kr",
-      "url": "https://www.ebn.co.kr/news/articleView.html?idxno=1717999",
-      "sub": ""
-    },
-    {
-      "title": "AI로 돈 번 中 Z세대, 명품 쓸어담는다…‘궈쯔 경제’까지 폭발 [박시진...",
-      "date": "Tue, 28 Jul 2026 05:56:00",
+      "title": "북 '평양 무인기' 항소심 시작…'매관매직' 김건희 2심도 첫 공판 준비기...",
+      "date": "Wed, 29 Jul 2026 07:19:00",
       "source": "n.news.naver.com",
-      "url": "https://www.sedaily.com/article/20072407?ref=naver",
+      "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008679662&plink=ORI&cooper=NAVER",
       "sub": ""
     },
     {
-      "title": "버버리·까르띠에, 中서 매출 급증… AI 붐 타고 명품 소비 살아나나",
-      "date": "Tue, 28 Jul 2026 05:40:00",
-      "source": "g-enews.com",
-      "url": "https://www.g-enews.com/view.php?ud=2026072717315285470c8c1c064d_1",
+      "title": "샤넬·카르티에·IWC 한 곳에서 다 본다…43년 명품 전문점 [영상]",
+      "date": "Wed, 29 Jul 2026 06:54:00",
+      "source": "koreadaily.com",
+      "url": "https://www.koreadaily.com/article/20260728145309833",
       "sub": ""
     },
     {
-      "title": "부활 예수 흉내내는 ‘극우 불사조’…폭탄테러·재판서 살아남은 르펜",
-      "date": "Tue, 28 Jul 2026 05:02:00",
+      "title": "유럽증시, 중동리스크 완화 등 영향으로 대부분 상승마감⋯독일 0.41%, 영...",
+      "date": "Wed, 29 Jul 2026 06:28:00",
+      "source": "econonews.co.kr",
+      "url": "http://www.econonews.co.kr/news/articleView.html?idxno=441968",
+      "sub": ""
+    },
+    {
+      "title": "브라질 간 '메디큐브·라네즈·조선미녀'…K-뷰티, 중남미 성장 발판 마...",
+      "date": "Wed, 29 Jul 2026 06:02:00",
+      "source": "news2day.co.kr",
+      "url": "https://www.news2day.co.kr/article/20260728500250",
+      "sub": ""
+    },
+    {
+      "title": "中이 흔드는 글로벌 산업 지형...반도체 DUV 생산, 포르쉐는 감원 [글로...",
+      "date": "Wed, 29 Jul 2026 06:01:00",
       "source": "n.news.naver.com",
-      "url": "https://www.hani.co.kr/arti/international/europe/1270235.html",
+      "url": "https://www.sedaily.com/article/20073008?ref=naver",
       "sub": ""
     },
     {
-      "title": "루이비통, 2년 만에 매출 증가…AI 붐 속 한국 증시 강세도 한몫",
-      "date": "Tue, 28 Jul 2026 03:05:00",
+      "title": "'평양 무인기 작전' 尹 항소심 오늘 첫 공판…비공개 진행",
+      "date": "Wed, 29 Jul 2026 06:00:00",
       "source": "n.news.naver.com",
-      "url": "http://www.fnnews.com/news/202607280238255271",
+      "url": "https://www.news1.kr/society/court-prosecution/6241750",
       "sub": ""
     },
     {
-      "title": "패션도 접수한 스트레이 키즈",
-      "date": "Mon, 27 Jul 2026 13:46:00",
-      "source": "forbeskorea.co.kr",
-      "url": "https://www.forbeskorea.co.kr/news/articleView.html?idxno=402322",
+      "title": "尹 '평양 무인기' 항소심 시작…'매관매직' 김건희 2심도 첫 재판",
+      "date": "Wed, 29 Jul 2026 05:55:00",
+      "source": "n.news.naver.com",
+      "url": "https://www.yna.co.kr/view/AKR20260728162700004?input=1195m",
+      "sub": ""
+    },
+    {
+      "title": "꿀 따고 와인 마시고…호주 우정여행 3선",
+      "date": "Tue, 28 Jul 2026 21:52:00",
+      "source": "newscj.com",
+      "url": "https://www.newscj.com/news/articleView.html?idxno=3420712",
+      "sub": ""
+    },
+    {
+      "title": "[ER현장] \"브랜드 만들기 쉬운 시대? 깊이 없으면 사라진다\"",
+      "date": "Tue, 28 Jul 2026 21:30:00",
+      "source": "econovill.com",
+      "url": "https://www.econovill.com/news/articleView.html?idxno=746459",
       "sub": ""
     }
   ],
   "rate": [
     {
-      "title": "\"영수증이 곧 파크골프 티켓\"···구미시 이색 행정, 골목상권 살렸다",
-      "date": "Tue, 28 Jul 2026 08:54:00",
-      "source": "newsprime.co.kr",
-      "url": "http://www.newsprime.co.kr/news/article.html?no=741694",
+      "title": "박지원 의원 \"예결위원장 첫 군 단위 방문 성과\"…해완진 국비 확보 총...",
+      "date": "Wed, 29 Jul 2026 08:48:00",
+      "source": "m-i.kr",
+      "url": "https://www.m-i.kr/news/articleView.html?idxno=1396332",
       "sub": ""
     },
     {
-      "title": "아산시, '2026 도고 옹기 뮤직페스티벌' 문화축제 성료",
-      "date": "Tue, 28 Jul 2026 08:54:00",
-      "source": "chungnamilbo.co.kr",
-      "url": "http://www.chungnamilbo.co.kr/news/articleView.html?idxno=900809",
+      "title": "농심 '서울 라면 지도' 공개…지역별 입맛 달랐다",
+      "date": "Wed, 29 Jul 2026 08:46:00",
+      "source": "m-i.kr",
+      "url": "https://www.m-i.kr/news/articleView.html?idxno=1396419",
       "sub": ""
     },
     {
-      "title": "음성군, 제2회 추경 9824억 원 확정…지역경제·생활 현안 집중",
-      "date": "Tue, 28 Jul 2026 08:54:00",
-      "source": "gukjenews.com",
-      "url": "https://www.gukjenews.com/news/articleView.html?idxno=3647826",
+      "title": "롯데웰푸드·의성군, 마늘 농가 상생 20년 잇는다",
+      "date": "Wed, 29 Jul 2026 08:46:00",
+      "source": "m-i.kr",
+      "url": "https://www.m-i.kr/news/articleView.html?idxno=1396416",
       "sub": ""
     },
     {
-      "title": "Samsung, SK chiefs to attend Google Camp in Italy: sources",
-      "date": "Tue, 28 Jul 2026 08:49:00",
+      "title": "서울과 충주, 문화로 더 가까워진다, 예술 교류 '맞손'",
+      "date": "Wed, 29 Jul 2026 08:45:00",
+      "source": "enewstoday.co.kr",
+      "url": "http://www.enewstoday.co.kr/news/articleView.html?idxno=2453502",
+      "sub": ""
+    },
+    {
+      "title": "호텔로 들어온 '부산 맛집'···'로컬 콘텐츠' 힘 싣는 파라다이스",
+      "date": "Wed, 29 Jul 2026 08:40:00",
+      "source": "enewstoday.co.kr",
+      "url": "http://www.enewstoday.co.kr/news/articleView.html?idxno=2453510",
+      "sub": ""
+    },
+    {
+      "title": "[여름 바다 특집] BTS 해변부터 대게거리까지…올여름 영덕에서 꼭 가봐...",
+      "date": "Wed, 29 Jul 2026 08:38:00",
+      "source": "tournews21.com",
+      "url": "https://www.tournews21.com/news/articleView.html?idxno=139568",
+      "sub": ""
+    },
+    {
+      "title": "Korea eyes joint jet development with Embraer",
+      "date": "Wed, 29 Jul 2026 08:34:00",
       "source": "n.news.naver.com",
-      "url": "https://en.yna.co.kr/view/AEN20260728001700320?input=2106m",
+      "url": "https://www.koreaherald.com/article/10823634?ref=naver",
       "sub": ""
     },
     {
-      "title": "[여행honey] 서늘한 고원을 찾아서 ② 해발 1천458ｍ 발왕산 웰니스 피서",
-      "date": "Tue, 28 Jul 2026 08:00:00",
+      "title": "(2nd LD) Lee cites aircraft, critical minerals as areas with high potenti...",
+      "date": "Wed, 29 Jul 2026 07:40:00",
       "source": "n.news.naver.com",
-      "url": "https://www.yna.co.kr/view/AKR20260716140400542?input=1195m",
+      "url": "https://en.yna.co.kr/view/AEN20260729000452315?input=2106m",
       "sub": ""
     },
     {
-      "title": "K-뷰티 다음 시장은 브라질…중기부, 남미 공략 교두보 넓힌다",
-      "date": "Tue, 28 Jul 2026 07:45:00",
-      "source": "venturesquare.net",
-      "url": "https://www.venturesquare.net/1101504/",
-      "sub": ""
-    },
-    {
-      "title": "Lee, Lula broaden ties into defense, space and minerals",
-      "date": "Tue, 28 Jul 2026 07:21:00",
+      "title": "Lee pitches aircraft, minerals and K-Beauty to power Korea-Brazil growth",
+      "date": "Wed, 29 Jul 2026 07:27:00",
       "source": "n.news.naver.com",
-      "url": "https://www.koreaherald.com/article/10822136?ref=naver",
+      "url": "https://www.koreaherald.com/article/10823525?ref=naver",
       "sub": ""
     },
     {
-      "title": "갈비·통닭·순대·족발에 약과까지… 수원시 맛집 투어 어디로 갈까",
-      "date": "Tue, 28 Jul 2026 07:02:00",
-      "source": "newscj.com",
-      "url": "https://www.newscj.com/news/articleView.html?idxno=3420397",
-      "sub": ""
-    },
-    {
-      "title": "8월에 알아두면 좋은 여행 소식, 폭염을 피해 떠나는 '쿨케이션' 대세",
-      "date": "Tue, 28 Jul 2026 05:50:00",
-      "source": "travie.com",
-      "url": "https://www.travie.com/news/articleView.html?idxno=55781",
-      "sub": ""
-    },
-    {
-      "title": "관광공사·이스타항공, 중화권 유치 '맞손'…다퉁·난퉁·닝보 등 신규 ...",
-      "date": "Mon, 27 Jul 2026 22:18:00",
-      "source": "bizwnews.com",
-      "url": "http://www.bizwnews.com/news/articleView.html?idxno=141602",
+      "title": "中 크루즈 관광객 92만명 온다… 韓 기항지 '관광 특수' 잡기 총력",
+      "date": "Wed, 29 Jul 2026 06:02:00",
+      "source": "n.news.naver.com",
+      "url": "https://www.edaily.co.kr/news/newspath.asp?newsid=02043446645519440",
       "sub": ""
     }
   ],
   "asset": [
     {
-      "title": "트럼프, FOMC 하루 앞두고 금리 인하 압박…\"세계에서 가장 낮아야\"",
-      "date": "Tue, 28 Jul 2026 08:48:00",
-      "source": "tjb.co.kr",
-      "url": "https://www.tjb.co.kr/news05/bodo/view/id/101572",
+      "title": "증권가 \"코스피 급락 과도…반도체 실적 확인 반등 분수령\"",
+      "date": "Wed, 29 Jul 2026 08:48:00",
+      "source": "newsworks.co.kr",
+      "url": "https://www.newsworks.co.kr/news/articleView.html?idxno=848674",
       "sub": ""
     },
     {
-      "title": "반도체 훈풍에 소비심리 3개월째 개선…주택가격 전망은 '껑충'",
-      "date": "Tue, 28 Jul 2026 08:32:00",
-      "source": "mediapen.com",
-      "url": "https://www.mediapen.com/news/view/1112572",
+      "title": "[굿모닝! 글로벌 뉴욕증시] 유가·금리 내렸지만 반도체가 발목…월가,...",
+      "date": "Wed, 29 Jul 2026 08:48:00",
+      "source": "newsquest.co.kr",
+      "url": "https://www.newsquest.co.kr/news/articleView.html?idxno=270557",
       "sub": ""
     },
     {
-      "title": "[마켓 프리뷰] 美 반도체주 급락·CXMT 변수까지…코스피 하방 압력",
-      "date": "Tue, 28 Jul 2026 08:24:00",
-      "source": "ajunews.com",
-      "url": "https://www.ajunews.com/view/20260728081959321",
+      "title": "[브라질증시] 예상 밑돈 물가에 이보베스파 0.7%↑…금리 인하 기대 확산",
+      "date": "Wed, 29 Jul 2026 08:44:00",
+      "source": "newspim.com",
+      "url": "https://www.newspim.com/news/view/20260729000143",
       "sub": ""
     },
     {
-      "title": "[그래픽] 물가 부담에도 소비심리 개선",
-      "date": "Tue, 28 Jul 2026 08:03:00",
+      "title": "'반도체 쏠림'이 독 됐다…글로벌 기관 \"코스피, 사실상 반도체 지수화...",
+      "date": "Wed, 29 Jul 2026 08:38:00",
+      "source": "news.einfomax.co.kr",
+      "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4427390",
+      "sub": ""
+    },
+    {
+      "title": "“코스피, 과도한 조정 겪어…‘V자’ 반등 가시권 진입”",
+      "date": "Wed, 29 Jul 2026 08:36:00",
       "source": "n.news.naver.com",
-      "url": "https://www.newsis.com/view/NISI20260728_0002197389",
+      "url": "https://biz.chosun.com/stock/stock_general/2026/07/29/5OGVK2TYKFEK3CVMLGY3ZTWOFI/?utm_source=naver&utm_medium=original&utm_campaign=biz",
       "sub": ""
     },
     {
-      "title": "\"미-이란 갈등 완화에도 반도체 시장 불안 지속 코스피 약세 출발\"",
-      "date": "Tue, 28 Jul 2026 07:54:00",
+      "title": "광주·전남 소비자심리지수 소폭 하락",
+      "date": "Wed, 29 Jul 2026 07:45:00",
+      "source": "kjmbc.co.kr",
+      "url": "https://kjmbc.co.kr/NewsArticle/1529663",
+      "sub": ""
+    },
+    {
+      "title": "추락하는 증시·치솟는 물가, 소비심리에 찬물",
+      "date": "Wed, 29 Jul 2026 00:02:00",
+      "source": "ksilbo.co.kr",
+      "url": "https://www.ksilbo.co.kr/news/articleView.html?idxno=1063242",
+      "sub": ""
+    },
+    {
+      "title": "[사설] 바닥 뚫는 상권 침체 경기회복 없이는 반전 어렵다",
+      "date": "Tue, 28 Jul 2026 19:07:00",
       "source": "n.news.naver.com",
-      "url": "https://www.edaily.co.kr/news/newspath.asp?newsid=02689606645519112",
-      "sub": ""
-    },
-    {
-      "title": "7월 소비자심리지수 106.8…주택가격전망 4년 10개월 만에 최고",
-      "date": "Tue, 28 Jul 2026 07:52:00",
-      "source": "n.news.naver.com",
-      "url": "https://www.etnews.com/20260728000005",
-      "sub": ""
-    },
-    {
-      "title": "[오늘의 투자전략] 코스피, 반도체 노이즈에 하락 출발 전망⋯변동성 정...",
-      "date": "Tue, 28 Jul 2026 07:44:00",
-      "source": "etoday.co.kr",
-      "url": "https://www.etoday.co.kr/news/view/2608045",
+      "url": "http://www.kookje.co.kr/news2011/asp/newsbody.asp?code=1700&key=20260729.22019008266",
       "sub": ""
     }
   ],
-  "updated": "2026.07.28 08:56"
+  "updated": "2026.07.29 08:52"
 }
