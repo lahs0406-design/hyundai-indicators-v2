@@ -1,6 +1,18 @@
 {
   "hri": [
     {
+      "title": "현대경제연구원, 하반기 물가 상승률 2.5~3.0% 전망",
+      "date": "Sun, 02 Aug 2026 20:30:00",
+      "source": "tokenpost.kr",
+      "url": "https://www.tokenpost.kr/news/economy/383875"
+    },
+    {
+      "title": "베일 벗는 하반기 경제 지표…수출 '호조', 물가 '불안', 환율 '글쎄'",
+      "date": "Sun, 02 Aug 2026 16:00:00",
+      "source": "n.news.naver.com",
+      "url": "https://www.mt.co.kr/economy/2026/08/02/2026080212411312661"
+    },
+    {
       "title": "'BTS노믹스' 하이브, 분기 매출 1조 시대",
       "date": "Wed, 29 Jul 2026 15:42:00",
       "source": "sportsq.co.kr",
@@ -47,21 +59,15 @@
       "date": "Tue, 14 Jul 2026 21:47:00",
       "source": "n.news.naver.com",
       "url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8610770&ref=A"
-    },
-    {
-      "title": "[하반기 성장전략] 2%→3% 상향에도 취업자는 하향 조정…\"고용없는 성...",
-      "date": "Tue, 14 Jul 2026 11:51:00",
-      "source": "n.news.naver.com",
-      "url": "https://view.asiae.co.kr/article/2026071409061643107"
-    },
-    {
-      "title": "'금통위 D-3' 긴축 신호탄 쏘나…몇 차례, 얼마나 오를까",
-      "date": "Mon, 13 Jul 2026 15:22:00",
-      "source": "n.news.naver.com",
-      "url": "https://www.dailian.co.kr/news/view/1666532/?sc=Naver"
     }
   ],
   "kdi": [
+    {
+      "title": "보험설계사 없는 시대 올까…\"AI보다 'AI 쓰는 사람'이 먼저 올 것\"",
+      "date": "Mon, 03 Aug 2026 06:15:00",
+      "source": "n.news.naver.com",
+      "url": "https://view.asiae.co.kr/article/2026073115202567188"
+    },
     {
       "title": "K콘텐츠 대국의 그림자…'넷플릭스 10년'이 만든 황금기의 역설",
       "date": "Sat, 01 Aug 2026 16:00:00",
@@ -115,74 +121,68 @@
       "date": "Thu, 30 Jul 2026 10:00:00",
       "source": "news.einfomax.co.kr",
       "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4427717"
-    },
-    {
-      "title": "[뉴스 동서남북] \"북한 군수공장 러 지원 위해 총력 가동…전력난·제재...",
-      "date": "Thu, 30 Jul 2026 03:04:00",
-      "source": "voakorea.com",
-      "url": "https://www.voakorea.com/a/nk-defense-industry-power-kdi-072926/8180465.html"
     }
   ],
   "bok": [
     {
-      "title": "45년 만에 ‘연준 시계’ 바꾸려는 워시…왜 FOMC 횟수 줄이려 하나",
-      "date": "Sun, 02 Aug 2026 08:34:00",
+      "title": "미·일 공동개입에 원·달러 한 달 새 125원 급락…1300원대 환율 열리나",
+      "date": "Mon, 03 Aug 2026 07:20:00",
+      "source": "ebn.co.kr",
+      "url": "https://www.ebn.co.kr/news/articleView.html?idxno=1718777"
+    },
+    {
+      "title": "[손병관의 뉴스프레소] 당대표 때리면 표 나온다? 여당 최고위원 경선 ...",
+      "date": "Mon, 03 Aug 2026 07:11:00",
       "source": "n.news.naver.com",
-      "url": "https://www.chosun.com/economy/int_economy/2026/08/02/3XLVLA7QGFHNNMTINGJ4WKK7EY/?utm_source=naver&utm_medium=referral&utm_campaign=naver-news"
+      "url": "https://www.ohmynews.com/NWS_Web/View/at_pg.aspx?CNTN_CD=A0003256039&CMPT_CD=P0010&utm_source=naver&utm_medium=newsearch&utm_campaign=naver_news"
     },
     {
-      "title": "\"시장이 안 따라주네\"…'총량' 잡다 멀어진 가계부채 구조개선",
-      "date": "Sun, 02 Aug 2026 08:12:00",
-      "source": "news.einfomax.co.kr",
-      "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4428177"
-    },
-    {
-      "title": "환율, 1600원 문턱서 1400원대로 급락…\"장기적 고환율 국면은 계속\"",
-      "date": "Sun, 02 Aug 2026 07:30:00",
+      "title": "바닥 다진 코스피 반등할까…원화 가치 금융위기 이후 최대 상승 [한강...",
+      "date": "Mon, 03 Aug 2026 07:02:00",
       "source": "n.news.naver.com",
-      "url": "https://www.news1.kr/economy/trend/6246202"
+      "url": "https://www.segye.com/newsView/20260802513176?OutUrl=naver"
     },
     {
-      "title": "1410원대까지 떨어진 환율…8월 하락세 이어갈까[주간외환전망]",
-      "date": "Sun, 02 Aug 2026 07:02:00",
+      "title": "7월 원화 절상률 8.8%, 금융위기 후 최고…\"1,400원선 무너진다\" 전망도",
+      "date": "Mon, 03 Aug 2026 06:56:00",
+      "source": "kbsm.net",
+      "url": "https://www.kbsm.net/news/view.php?idx=528876"
+    },
+    {
+      "title": "125원 떨어진 원·달러…원화값 7월 8.8% 뛰었다 [Pick코노미]",
+      "date": "Mon, 03 Aug 2026 06:01:00",
       "source": "n.news.naver.com",
-      "url": "https://www.edaily.co.kr/news/newspath.asp?newsid=01128326645543384"
+      "url": "https://www.sedaily.com/article/20074819?ref=naver"
     },
     {
-      "title": "“기업 실적은 그대로 인데, 수급이 꼬였다”…PB 5인의 폭락장 생존법...",
-      "date": "Sun, 02 Aug 2026 07:01:00",
+      "title": "시름 깊어지는 자영업자···2%였던 코로나 대출, 이제 5%대",
+      "date": "Mon, 03 Aug 2026 06:00:00",
       "source": "n.news.naver.com",
-      "url": "https://biz.heraldcorp.com/article/10827805?ref=naver"
+      "url": "https://www.khan.co.kr/article/202608030600141"
     },
     {
-      "title": "2030 \"집값 안 잡힐 것\"…청년층 집값 기대, 文정부 이후 최고",
-      "date": "Sun, 02 Aug 2026 07:00:00",
+      "title": "“유가 안정에 물가 석 달 만에 2%대로…4분기부터 점진적 둔화 예상”...",
+      "date": "Mon, 03 Aug 2026 05:02:00",
       "source": "n.news.naver.com",
-      "url": "https://www.news1.kr/economy/trend/6244362"
+      "url": "https://www.edaily.co.kr/news/newspath.asp?newsid=01397286645543712"
     },
     {
-      "title": "원/달러 환율, 9개월 만에 최저치… 원화 가치 급등 이유는?",
-      "date": "Sun, 02 Aug 2026 06:48:00",
-      "source": "tokenpost.kr",
-      "url": "https://www.tokenpost.kr/news/economy/383717"
-    },
-    {
-      "title": "반도체 호황이 부른 금리 인상… 시험대 오른 AI 투자 붐",
-      "date": "Sun, 02 Aug 2026 06:04:00",
+      "title": "환율 한달새 114원 급락… 美日, 28년만에 ‘엔화 방어’ 동시 개입",
+      "date": "Mon, 03 Aug 2026 04:32:00",
       "source": "n.news.naver.com",
-      "url": "https://biz.chosun.com/policy/policy_sub/2026/08/02/QKWAMY3MGZFY5JIO7OPANNWQOA/?utm_source=naver&utm_medium=original&utm_campaign=biz"
+      "url": "https://www.donga.com/news/Economy/article/all/20260803/134409403/2"
     },
     {
-      "title": "7월 원화 절상률 8.8%, 금융위기 후 최고…1,400원선 깨질까",
-      "date": "Sun, 02 Aug 2026 05:53:00",
+      "title": "[사설] 환율 하락, 물가·민생 안정으로 이어져야",
+      "date": "Mon, 03 Aug 2026 04:00:00",
       "source": "n.news.naver.com",
-      "url": "https://www.yna.co.kr/view/AKR20260801042600002?input=1195m"
+      "url": "https://www.mt.co.kr/opinion/2026/08/03/2026080213542512185"
     },
     {
-      "title": "[김남현의 채권썰] 빨랐던 금리 하락, 다시 박스권",
-      "date": "Sat, 01 Aug 2026 23:46:00",
-      "source": "etoday.co.kr",
-      "url": "https://www.etoday.co.kr/news/view/2610004"
+      "title": "[탐사경] '1,560원→1,420원' 한 달 만에 뒤집힌 환율…1400원 붕괴보다...",
+      "date": "Mon, 03 Aug 2026 00:53:00",
+      "source": "moneystorm.kr",
+      "url": "https://www.moneystorm.kr/news/articleView.html?idxno=5431"
     }
   ],
   "kiep": [
@@ -309,5 +309,5 @@
       "url": "http://www.whitepaper.co.kr/news/articleView.html?idxno=264090"
     }
   ],
-  "updated": "2026.08.02 08:49"
+  "updated": "2026.08.03 08:55"
 }
