@@ -1,6 +1,12 @@
 {
   "hri": [
     {
+      "title": "고물가·고금리·전세난 속 시름 깊어지는 서민경제",
+      "date": "Wed, 05 Aug 2026 08:08:00",
+      "source": "m-i.kr",
+      "url": "https://www.m-i.kr/news/articleView.html?idxno=1398765"
+    },
+    {
       "title": "현대경제연구원, 하반기 물가 상승률 2.5~3.0% 전망",
       "date": "Sun, 02 Aug 2026 20:30:00",
       "source": "tokenpost.kr",
@@ -53,15 +59,39 @@
       "date": "Wed, 15 Jul 2026 06:29:00",
       "source": "n.news.naver.com",
       "url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8610987&ref=A"
-    },
-    {
-      "title": "반도체에 올라타 ‘3·4·5’…고용 전망은 축소",
-      "date": "Tue, 14 Jul 2026 21:47:00",
-      "source": "n.news.naver.com",
-      "url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8610770&ref=A"
     }
   ],
   "kdi": [
+    {
+      "title": "재생에너지 인정 못 받는 ‘열차 회생 전력’… 연 300억 버려진다",
+      "date": "Wed, 05 Aug 2026 05:04:00",
+      "source": "n.news.naver.com",
+      "url": "https://www.seoul.co.kr/news/plan/2026/08/05/20260805022001?wlog_tag3=naver"
+    },
+    {
+      "title": "인천 통합바이오가스화시설 총사업비 재협의…2030년 준공 지연 불가피",
+      "date": "Tue, 04 Aug 2026 17:44:00",
+      "source": "kihoilbo.co.kr",
+      "url": "https://www.kihoilbo.co.kr/news/articleView.html?idxno=3030813"
+    },
+    {
+      "title": "에너지 전환 ‘헛구호’…정부, 열차 운행 중 생산 ‘회생 전력’ 외면",
+      "date": "Tue, 04 Aug 2026 17:31:00",
+      "source": "n.news.naver.com",
+      "url": "https://www.seoul.co.kr/news/society/2026/08/04/20260804500194?wlog_tag3=naver"
+    },
+    {
+      "title": "[속보] 대전 재정위기 여파…충청권 광역철도 개통 2029년으로 연기",
+      "date": "Tue, 04 Aug 2026 16:28:00",
+      "source": "cctoday.co.kr",
+      "url": "https://www.cctoday.co.kr/news/articleView.html?idxno=2234315"
+    },
+    {
+      "title": "日 제친 韓 무역, ‘세계 5강’ ‘꿈의 1조 달러’ 목전",
+      "date": "Tue, 04 Aug 2026 13:01:00",
+      "source": "n.news.naver.com",
+      "url": "https://shindonga.donga.com/3/all/13/6332161/1"
+    },
     {
       "title": "정부 거절에 ‘내돈내산’ 기차역 건설…예산 내포역에 닥칠 미래 [르포...",
       "date": "Tue, 04 Aug 2026 05:00:00",
@@ -91,98 +121,68 @@
       "date": "Sat, 01 Aug 2026 01:43:00",
       "source": "n.news.naver.com",
       "url": "https://www.donga.com/news/Society/article/all/20260731/134403222/2"
-    },
-    {
-      "title": "최영호 경남도의원, 동남권 순환 광역철도 적기 개통 촉구 건의안 본회...",
-      "date": "Thu, 30 Jul 2026 20:52:00",
-      "source": "gndomin.com",
-      "url": "http://www.gndomin.com/news/articleView.html?idxno=484125"
-    },
-    {
-      "title": "최영호 경남도의원, 동남권 순환 광역철도 적기 개통 촉구 건의안 본회...",
-      "date": "Thu, 30 Jul 2026 18:04:00",
-      "source": "newsgn.com",
-      "url": "https://www.newsgn.com/news/articleView.html?idxno=565391"
-    },
-    {
-      "title": "흑산공항, 13년 기다림 끝낼 마지막 관문··· KDI 재조사 본격화",
-      "date": "Thu, 30 Jul 2026 15:52:00",
-      "source": "mdilbo.com",
-      "url": "http://www.mdilbo.com/detail/0kIA7d/757579"
-    },
-    {
-      "title": "[기획] 'AX 격차'의 생존 경쟁… 산업계 'K자 양극화' 심화",
-      "date": "Thu, 30 Jul 2026 14:56:00",
-      "source": "m-i.kr",
-      "url": "https://www.m-i.kr/news/articleView.html?idxno=1397189"
-    },
-    {
-      "title": "9분기째 뒷걸음친 대형마트…유통법 개정 논의 속도낼까",
-      "date": "Thu, 30 Jul 2026 14:28:00",
-      "source": "n.news.naver.com",
-      "url": "https://www.etnews.com/20260730000286"
     }
   ],
   "bok": [
     {
-      "title": "[오늘의 신문] 폭염·증시 조정 속 반도체는 강세…집값·대출·물가 부...",
-      "date": "Tue, 04 Aug 2026 08:38:00",
-      "source": "kor.theasian.asia",
-      "url": "http://kor.theasian.asia/archives/411520"
+      "title": "7월 물가, 2%대 둔화에도 근원물가 ‘꿈틀’…한은, 8월 연속 인상할까",
+      "date": "Wed, 05 Aug 2026 08:00:00",
+      "source": "dnews.co.kr",
+      "url": "https://www.dnews.co.kr/uhtml/view.jsp?idxno=202608041055516830695"
     },
     {
-      "title": "한국투자證 \"8월 코스피 예상밴드 5500~7500p\"",
-      "date": "Tue, 04 Aug 2026 08:10:00",
-      "source": "mdtoday.co.kr",
-      "url": "https://www.mdtoday.co.kr/news/articleView.html?idxno=607210"
+      "title": "[마켓+] 원·달러 환율 1300원대 진입하나···'일시적 언더슈팅' vs '추...",
+      "date": "Wed, 05 Aug 2026 08:00:00",
+      "source": "seoulfn.com",
+      "url": "https://www.seoulfn.com/news/articleView.html?idxno=634894"
     },
     {
-      "title": "엔화 반등 기대에 원·달러 환율 1300원대 복귀 가능성",
-      "date": "Tue, 04 Aug 2026 08:00:00",
-      "source": "cstimes.com",
-      "url": "https://www.cstimes.com/news/articleView.html?idxno=715562"
-    },
-    {
-      "title": "증시 흔들려도 달러 수급 개선…환율·채권금리 동반 하락",
-      "date": "Tue, 04 Aug 2026 07:58:00",
-      "source": "ajunews.com",
-      "url": "https://www.ajunews.com/view/20260803150146250"
-    },
-    {
-      "title": "美 채권자경단이 움직인다…기준금리 인상 명분 강해졌다 [BOK WATCHER]",
-      "date": "Mon, 03 Aug 2026 20:27:00",
+      "title": "레버리지 규제에 코스닥 볕 드나… 첫 3연속 매수 사이드카 外 [한강로...",
+      "date": "Wed, 05 Aug 2026 07:02:00",
       "source": "n.news.naver.com",
-      "url": "https://www.mk.co.kr/article/12115563"
+      "url": "https://www.segye.com/newsView/20260804521020?OutUrl=naver"
     },
     {
-      "title": "AI 속도 조절 경고한 ‘롤러코스터’ 증시",
-      "date": "Mon, 03 Aug 2026 19:50:00",
+      "title": "경기지역 '집값상승 전망' 4년10개월 만에 최고…작년보다 21p 상승",
+      "date": "Wed, 05 Aug 2026 07:00:00",
       "source": "n.news.naver.com",
-      "url": "https://www.hani.co.kr/arti/economy/finance/1271231.html"
+      "url": "https://www.news1.kr/local/gyeonggi/6249046"
     },
     {
-      "title": "한은 \"2분기 금 ETF 소규모 매입…금 보유 중장기 확대 추진\"",
-      "date": "Mon, 03 Aug 2026 19:00:00",
+      "title": "[초점] 폭염이 다시 자극한 물가 불안…장바구니부터 금리까지 흔들까",
+      "date": "Wed, 05 Aug 2026 06:52:00",
+      "source": "newsian.co.kr",
+      "url": "http://www.newsian.co.kr/news/articleView.html?idxno=93281"
+    },
+    {
+      "title": "물가 2%대 내렸는데…근원물가 31개월 최고, 한은 '8월 연속 인상' 기로",
+      "date": "Wed, 05 Aug 2026 06:05:00",
       "source": "n.news.naver.com",
-      "url": "https://www.news1.kr/economy/trend/6247889"
+      "url": "https://www.news1.kr/economy/trend/6248927"
     },
     {
-      "title": "[분석] 물가·고용·소비 총출동…이번 주 한국경제 향방 가를 '슈퍼위크...",
-      "date": "Mon, 03 Aug 2026 18:52:00",
-      "source": "polinews.co.kr",
-      "url": "https://www.polinews.co.kr/news/articleView.html?idxno=738996"
+      "title": "[노트북 너머] 워시의 입, 신현송의 입",
+      "date": "Wed, 05 Aug 2026 05:00:00",
+      "source": "etoday.co.kr",
+      "url": "https://www.etoday.co.kr/news/view/2610700"
     },
     {
-      "title": "환율 안정 3가지 이유…“당분간 1380~1420원 전망”",
-      "date": "Mon, 03 Aug 2026 18:14:00",
+      "title": "[출근길포인트]원·달러 환율 급등 요인…한은 \"역외 NDF가 상승 압력 키...",
+      "date": "Wed, 05 Aug 2026 05:00:00",
+      "source": "pointdaily.co.kr",
+      "url": "https://www.pointdaily.co.kr/news/articleView.html?idxno=314269"
+    },
+    {
+      "title": "물가 석달만에 2%대…어려워진 금리 방정식",
+      "date": "Wed, 05 Aug 2026 00:04:00",
       "source": "n.news.naver.com",
-      "url": "https://www.hani.co.kr/arti/economy/economy_general/1271201.html"
+      "url": "https://www.joongang.co.kr/article/25450843"
     },
     {
-      "title": "13년 만에 금 사는 한은…국내 금 사고 ETF도 매수",
-      "date": "Mon, 03 Aug 2026 18:04:00",
-      "source": "news.mtn.co.kr",
-      "url": "https://news.mtn.co.kr/news-detail/2026080315085230615"
+      "title": "소비자물가 석 달 만에 2%대로…'8월 금리인상' 주목",
+      "date": "Tue, 04 Aug 2026 23:01:00",
+      "source": "n.news.naver.com",
+      "url": "http://www.yonhapnewstv.co.kr/news/MYH202608042300535pV"
     }
   ],
   "kiep": [
@@ -309,5 +309,5 @@
       "url": "http://www.whitepaper.co.kr/news/articleView.html?idxno=264090"
     }
   ],
-  "updated": "2026.08.04 09:02"
+  "updated": "2026.08.05 08:57"
 }
