@@ -7065,12 +7065,17 @@
             "d": 21,
             "temp": 26.1,
             "rain": 0.6
+          },
+          {
+            "d": 22,
+            "temp": 24.1,
+            "rain": 30.4
           }
         ],
-        "avg_temp": 28.7,
+        "avg_temp": 28.5,
         "max_temp": 33.1,
-        "total_rain": 18.3,
-        "rain_days": 6
+        "total_rain": 48.7,
+        "rain_days": 7
       }
     },
     "busan": {
@@ -11518,6 +11523,11 @@
           {
             "d": 21,
             "temp": 28.6,
+            "rain": 0.0
+          },
+          {
+            "d": 22,
+            "temp": 29.1,
             "rain": 0.0
           }
         ],
@@ -15973,6 +15983,11 @@
             "d": 21,
             "temp": 26.7,
             "rain": 4.7
+          },
+          {
+            "d": 22,
+            "temp": 27.5,
+            "rain": 0.0
           }
         ],
         "avg_temp": 28.1,
@@ -20427,12 +20442,17 @@
             "d": 21,
             "temp": 26.5,
             "rain": 0.5
+          },
+          {
+            "d": 22,
+            "temp": 24.1,
+            "rain": 49.8
           }
         ],
-        "avg_temp": 28.6,
+        "avg_temp": 28.4,
         "max_temp": 32.3,
-        "total_rain": 23.8,
-        "rain_days": 4
+        "total_rain": 73.6,
+        "rain_days": 5
       }
     },
     "gwangju": {
@@ -24881,9 +24901,14 @@
             "d": 21,
             "temp": 27.8,
             "rain": 0.0
+          },
+          {
+            "d": 22,
+            "temp": 29.7,
+            "rain": 0.0
           }
         ],
-        "avg_temp": 28.8,
+        "avg_temp": 28.9,
         "max_temp": 32.4,
         "total_rain": 140.7,
         "rain_days": 6
@@ -29335,12 +29360,17 @@
             "d": 21,
             "temp": 26.2,
             "rain": 2.0
+          },
+          {
+            "d": 22,
+            "temp": 25.9,
+            "rain": 33.8
           }
         ],
-        "avg_temp": 28.3,
+        "avg_temp": 28.1,
         "max_temp": 32.0,
-        "total_rain": 54.3,
-        "rain_days": 6
+        "total_rain": 88.1,
+        "rain_days": 7
       }
     },
     "ulsan": {
@@ -33789,6 +33819,11 @@
             "d": 21,
             "temp": 26.1,
             "rain": 2.6
+          },
+          {
+            "d": 22,
+            "temp": 27.4,
+            "rain": 0.0
           }
         ],
         "avg_temp": 27.1,
@@ -38243,12 +38278,17 @@
             "d": 21,
             "temp": 26.2,
             "rain": 8.3
+          },
+          {
+            "d": 22,
+            "temp": 27.0,
+            "rain": 39.3
           }
         ],
-        "avg_temp": 29.1,
+        "avg_temp": 29.0,
         "max_temp": 33.2,
-        "total_rain": 74.1,
-        "rain_days": 7
+        "total_rain": 113.4,
+        "rain_days": 8
       }
     }
   },
