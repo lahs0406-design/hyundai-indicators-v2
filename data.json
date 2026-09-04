@@ -1877,6 +1877,10 @@
     {
       "ym": "20260902",
       "val": 6562.72
+    },
+    {
+      "ym": "20260903",
+      "val": 6579.48
     }
   ],
   "houseprice": [
@@ -7189,10 +7193,15 @@
             "d": 2,
             "temp": 24.7,
             "rain": 0.3
+          },
+          {
+            "d": 3,
+            "temp": 26.0,
+            "rain": 0.0
           }
         ],
-        "avg_temp": 23.8,
-        "max_temp": 24.7,
+        "avg_temp": 24.5,
+        "max_temp": 26.0,
         "total_rain": 23.4,
         "rain_days": 2
       }
@@ -11707,9 +11716,14 @@
             "d": 2,
             "temp": 28.7,
             "rain": 0.0
+          },
+          {
+            "d": 3,
+            "temp": 27.8,
+            "rain": 0.0
           }
         ],
-        "avg_temp": 28.4,
+        "avg_temp": 28.2,
         "max_temp": 28.7,
         "total_rain": 0.0,
         "rain_days": 0
@@ -16225,12 +16239,17 @@
             "d": 2,
             "temp": 27.1,
             "rain": 0.2
+          },
+          {
+            "d": 3,
+            "temp": 25.7,
+            "rain": 0.1
           }
         ],
-        "avg_temp": 27.2,
+        "avg_temp": 26.7,
         "max_temp": 27.4,
-        "total_rain": 0.2,
-        "rain_days": 1
+        "total_rain": 0.3,
+        "rain_days": 2
       }
     },
     "incheon": {
@@ -20743,10 +20762,15 @@
             "d": 2,
             "temp": 24.6,
             "rain": 0.0
+          },
+          {
+            "d": 3,
+            "temp": 25.7,
+            "rain": 0.0
           }
         ],
-        "avg_temp": 23.8,
-        "max_temp": 24.6,
+        "avg_temp": 24.4,
+        "max_temp": 25.7,
         "total_rain": 38.8,
         "rain_days": 1
       }
@@ -25260,6 +25284,11 @@
           {
             "d": 2,
             "temp": 27.5,
+            "rain": 0.0
+          },
+          {
+            "d": 3,
+            "temp": 28.1,
             "rain": 0.0
           }
         ],
@@ -29779,6 +29808,11 @@
             "d": 2,
             "temp": 24.9,
             "rain": 0.0
+          },
+          {
+            "d": 3,
+            "temp": 25.6,
+            "rain": 0.0
           }
         ],
         "avg_temp": 25.6,
@@ -34297,12 +34331,17 @@
             "d": 2,
             "temp": 27.2,
             "rain": 0.0
+          },
+          {
+            "d": 3,
+            "temp": 25.1,
+            "rain": 0.2
           }
         ],
-        "avg_temp": 27.1,
+        "avg_temp": 26.5,
         "max_temp": 27.2,
-        "total_rain": 0.0,
-        "rain_days": 0
+        "total_rain": 0.2,
+        "rain_days": 1
       }
     },
     "cheongju": {
@@ -38815,6 +38854,11 @@
             "d": 2,
             "temp": 25.2,
             "rain": 2.5
+          },
+          {
+            "d": 3,
+            "temp": 26.0,
+            "rain": 0.0
           }
         ],
         "avg_temp": 25.9,
