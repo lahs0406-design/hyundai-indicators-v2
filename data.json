@@ -7207,9 +7207,14 @@
             "d": 4,
             "temp": 25.1,
             "rain": 0.0
+          },
+          {
+            "d": 5,
+            "temp": 24.0,
+            "rain": 0.0
           }
         ],
-        "avg_temp": 24.6,
+        "avg_temp": 24.5,
         "max_temp": 26.0,
         "total_rain": 23.4,
         "rain_days": 2
@@ -11735,9 +11740,14 @@
             "d": 4,
             "temp": 26.0,
             "rain": 0.0
+          },
+          {
+            "d": 5,
+            "temp": 25.9,
+            "rain": 0.0
           }
         ],
-        "avg_temp": 27.6,
+        "avg_temp": 27.3,
         "max_temp": 28.7,
         "total_rain": 0.0,
         "rain_days": 0
@@ -16263,9 +16273,14 @@
             "d": 4,
             "temp": 24.6,
             "rain": 0.0
+          },
+          {
+            "d": 5,
+            "temp": 24.0,
+            "rain": 0.0
           }
         ],
-        "avg_temp": 26.2,
+        "avg_temp": 25.8,
         "max_temp": 27.4,
         "total_rain": 0.3,
         "rain_days": 2
@@ -20790,6 +20805,11 @@
           {
             "d": 4,
             "temp": 25.8,
+            "rain": 0.0
+          },
+          {
+            "d": 5,
+            "temp": 24.8,
             "rain": 0.0
           }
         ],
@@ -25319,9 +25339,14 @@
             "d": 4,
             "temp": 26.4,
             "rain": 0.0
+          },
+          {
+            "d": 5,
+            "temp": 24.9,
+            "rain": 0.0
           }
         ],
-        "avg_temp": 27.6,
+        "avg_temp": 27.0,
         "max_temp": 28.2,
         "total_rain": 0.0,
         "rain_days": 0
@@ -29847,9 +29872,14 @@
             "d": 4,
             "temp": 25.2,
             "rain": 0.0
+          },
+          {
+            "d": 5,
+            "temp": 23.8,
+            "rain": 0.0
           }
         ],
-        "avg_temp": 25.5,
+        "avg_temp": 25.2,
         "max_temp": 26.4,
         "total_rain": 0.6,
         "rain_days": 1
@@ -34375,12 +34405,17 @@
             "d": 4,
             "temp": 24.4,
             "rain": 0.0
+          },
+          {
+            "d": 5,
+            "temp": 23.9,
+            "rain": 0.2
           }
         ],
-        "avg_temp": 26.0,
+        "avg_temp": 25.5,
         "max_temp": 27.2,
-        "total_rain": 0.2,
-        "rain_days": 1
+        "total_rain": 0.4,
+        "rain_days": 2
       }
     },
     "cheongju": {
@@ -38903,9 +38938,14 @@
             "d": 4,
             "temp": 25.8,
             "rain": 0.0
+          },
+          {
+            "d": 5,
+            "temp": 24.3,
+            "rain": 0.0
           }
         ],
-        "avg_temp": 25.9,
+        "avg_temp": 25.6,
         "max_temp": 26.5,
         "total_rain": 10.7,
         "rain_days": 2
