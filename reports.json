@@ -1,6 +1,30 @@
 {
   "hri": [
     {
+      "title": "사상 첫 수출 1조 달러 눈앞…“내수 침체 속 가파른 금리인상은 K양극...",
+      "date": "Mon, 07 Sep 2026 07:02:00",
+      "source": "n.news.naver.com",
+      "url": "https://www.segye.com/newsView/20260906509400?OutUrl=naver"
+    },
+    {
+      "title": "[사설] 수출 1조 달러 시대 눈앞…체감경기 괴리 줄이는게 과제",
+      "date": "Mon, 07 Sep 2026 00:54:00",
+      "source": "n.news.naver.com",
+      "url": "https://www.hankyung.com/article/2026090669411"
+    },
+    {
+      "title": "[사설] 수출 역대급 호황, K자 양극화 구조개혁 지금이 적기",
+      "date": "Sun, 06 Sep 2026 18:55:00",
+      "source": "n.news.naver.com",
+      "url": "https://www.fnnews.com/news/202609061853435870"
+    },
+    {
+      "title": "\"경기 좋지만 통화정책 과잉대응 경계해야…양극화 고착화 우려\"",
+      "date": "Sun, 06 Sep 2026 11:00:00",
+      "source": "n.news.naver.com",
+      "url": "https://www.newsis.com/view/NISX20260906_0003777858"
+    },
+    {
       "title": "달러 환율 1년 2개월 만에 최저…더 떨어질까",
       "date": "Sat, 05 Sep 2026 07:29:00",
       "source": "n.news.naver.com",
@@ -35,33 +59,57 @@
       "date": "Mon, 24 Aug 2026 09:40:00",
       "source": "newskr.kr",
       "url": "http://www.newskr.kr/news/articleView.html?idxno=105803"
-    },
-    {
-      "title": "경제전문가 63% \"한은, 두 달 연속 금리 올릴 것\"",
-      "date": "Sun, 23 Aug 2026 17:58:00",
-      "source": "n.news.naver.com",
-      "url": "https://www.hankyung.com/article/2026082371081"
-    },
-    {
-      "title": "8월 기준금리 결정 앞둔 한국은행… 전문가들 전망 엇갈린 이유는?",
-      "date": "Sun, 23 Aug 2026 12:12:00",
-      "source": "gokorea.kr",
-      "url": "https://www.gokorea.kr/news/articleView.html?idxno=876033"
-    },
-    {
-      "title": "전문가도 반으로 갈렸다…8월 금리 '인상·동결' 5 대 5",
-      "date": "Sun, 23 Aug 2026 10:00:00",
-      "source": "n.news.naver.com",
-      "url": "https://www.mt.co.kr/economy/2026/08/24/2026082110315365105"
-    },
-    {
-      "title": "한은, 올해 성장률 전망치 3%대 초중반으로 높일 듯",
-      "date": "Sun, 23 Aug 2026 05:30:00",
-      "source": "n.news.naver.com",
-      "url": "https://www.yna.co.kr/view/AKR20260822035400002?input=1195m"
     }
   ],
   "kdi": [
+    {
+      "title": "[창간특집][LIG D&A] 진정한 '글로벌 LIG'로 진화한다",
+      "date": "Mon, 07 Sep 2026 09:02:00",
+      "source": "thebigdata.co.kr",
+      "url": "http://www.thebigdata.co.kr/view.php?ud=20260902150554712570d99e4c8_23"
+    },
+    {
+      "title": "[패트롤] 고양시-남양주시-의정부시-파주시-포천시",
+      "date": "Mon, 07 Sep 2026 04:48:00",
+      "source": "ekn.kr",
+      "url": "https://www.ekn.kr/web/view.php?key=20260907025331298"
+    },
+    {
+      "title": "[박근종 칼럼] 수출 1조 달러 시대의 착시, 체감경기 괴리 줄이고 'K-양...",
+      "date": "Mon, 07 Sep 2026 04:36:00",
+      "source": "mhns.co.kr",
+      "url": "https://www.mhns.co.kr/news/articleView.html?idxno=759135"
+    },
+    {
+      "title": "[사설] 수출 1조 달러 시대 눈앞…체감경기 괴리 줄이는게 과제",
+      "date": "Mon, 07 Sep 2026 00:54:00",
+      "source": "n.news.naver.com",
+      "url": "https://www.hankyung.com/article/2026090669411"
+    },
+    {
+      "title": "[김용삼의 한국 반도체 비하인드] 전두환의 결단, 기흥·이천 반도체공...",
+      "date": "Sun, 06 Sep 2026 14:54:00",
+      "source": "n.news.naver.com",
+      "url": "https://www.imaeil.com/page/view/2026090614445908824"
+    },
+    {
+      "title": "[채권-주간] FOMC 앞두고 美 물가 주시…국제유가도 주목",
+      "date": "Sun, 06 Sep 2026 13:02:00",
+      "source": "news.einfomax.co.kr",
+      "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4433623"
+    },
+    {
+      "title": "강원도, 포천~철원 고속도로 조기 추진 힘 모은다",
+      "date": "Sun, 06 Sep 2026 11:46:00",
+      "source": "jeonmae.co.kr",
+      "url": "https://www.jeonmae.co.kr/news/articleView.html?idxno=1290451"
+    },
+    {
+      "title": "포천~철원 고속道 예타 통과 ‘한목소리’… 국회·경기·강원 공동 대응",
+      "date": "Sun, 06 Sep 2026 09:40:00",
+      "source": "n.news.naver.com",
+      "url": "https://www.munhwa.com/article/11614788?ref=naver"
+    },
     {
       "title": "포천~철원 고속도로 예타 통과 총력…관계기관 업무협약 체결",
       "date": "Sun, 06 Sep 2026 07:00:00",
@@ -73,116 +121,68 @@
       "date": "Fri, 04 Sep 2026 21:22:00",
       "source": "newstnt.com",
       "url": "https://www.newstnt.com/news/articleView.html?idxno=716796"
-    },
-    {
-      "title": "포천~철원 고속도로 예타 통과 '한목소리' ...국회·경기·강원 '공동전...",
-      "date": "Fri, 04 Sep 2026 19:10:00",
-      "source": "metroseoul.co.kr",
-      "url": "http://www.metroseoul.co.kr/article/20260904500181"
-    },
-    {
-      "title": "초저금리의 종말…美부채 변수 된 AI 생산성",
-      "date": "Fri, 04 Sep 2026 18:40:00",
-      "source": "n.news.naver.com",
-      "url": "https://www.hankyung.com/article/2026090451021"
-    },
-    {
-      "title": "[주간핫이슈] 2연속 '금리인상'…신현송 총재의 광폭 행보",
-      "date": "Fri, 04 Sep 2026 18:30:00",
-      "source": "weekly.hankooki.com",
-      "url": "https://weekly.hankooki.com/news/articleView.html?idxno=7182419"
-    },
-    {
-      "title": "“남북4축 마지막 단절구간 연결”…포천~철원 고속도로 예타 통과 총력",
-      "date": "Fri, 04 Sep 2026 17:27:00",
-      "source": "n.news.naver.com",
-      "url": "https://www.kmib.co.kr/article/view.asp?arcid=9000009159&cp=nv"
-    },
-    {
-      "title": "올해 3%대 성장 청신호…체감경기는 미진",
-      "date": "Fri, 04 Sep 2026 17:20:00",
-      "source": "yonhapmidas.com",
-      "url": "https://www.yonhapmidas.com/news/articleView.html?idxno=10573"
-    },
-    {
-      "title": "국회·경기·강원, 포천~철원 고속도로 예타 통과 위한 공동 건의",
-      "date": "Fri, 04 Sep 2026 15:42:00",
-      "source": "m-i.kr",
-      "url": "https://www.m-i.kr/news/articleView.html?idxno=1410148"
-    },
-    {
-      "title": "포천~철원 고속도로 예비 타당성 조사 업무 협약",
-      "date": "Fri, 04 Sep 2026 15:20:00",
-      "source": "n.news.naver.com",
-      "url": "https://www.ytn.co.kr/_ln/0115_202609041520507517"
-    },
-    {
-      "title": "우상호 강원지사, 포천~철원 고속道 예타 통과 '총력'",
-      "date": "Fri, 04 Sep 2026 15:14:00",
-      "source": "enewstoday.co.kr",
-      "url": "http://www.enewstoday.co.kr/news/articleView.html?idxno=2466753"
     }
   ],
   "bok": [
     {
-      "title": "[마켓 뷰] 1,562원 찍은 원화가 1,200원대까지?…수출 1조달러 시대, '달...",
-      "date": "Sun, 06 Sep 2026 08:34:00",
-      "source": "moneystorm.kr",
-      "url": "https://www.moneystorm.kr/news/articleView.html?idxno=6257"
+      "title": "[T나는 경제] 전 세계가 인플레 잡기 총력…고금리 중남미도 긴축 고민",
+      "date": "Mon, 07 Sep 2026 08:54:00",
+      "source": "tjb.co.kr",
+      "url": "https://www.tjb.co.kr/news05/bodo/view/id/103270"
     },
     {
-      "title": "이재명 대통령 \"금리 상승은 피할 수 없다\" [이주의 한마디]",
-      "date": "Sun, 06 Sep 2026 08:09:00",
+      "title": "“국민은 대출 문턱 못 넘는데” LH ‘정부 기준 무시’",
+      "date": "Mon, 07 Sep 2026 08:32:00",
       "source": "n.news.naver.com",
-      "url": "https://magazine.hankyung.com/business/article/202609028844b"
+      "url": "https://magazine.hankyung.com/business/article/202609077452b"
     },
     {
-      "title": "미리보는 재경위 국감…'부동산·코인稅·미래대응기금' 쟁점",
-      "date": "Sun, 06 Sep 2026 07:12:00",
-      "source": "news.einfomax.co.kr",
-      "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4433602"
-    },
-    {
-      "title": "[프리즘] 1년 9개월 만 기준금리 3% 시대…추가 인상 시계 '째깍'",
-      "date": "Sat, 05 Sep 2026 23:43:00",
+      "title": "기업 늘었지만 사람은 떠났다…공공기관 지방이전 ‘엇갈린 성적표’",
+      "date": "Mon, 07 Sep 2026 08:01:00",
       "source": "n.news.naver.com",
-      "url": "http://www.yonhapnewstv.co.kr/news/MYH202609052342460Vs"
+      "url": "https://economist.co.kr/article/view/ecn202609010041"
     },
     {
-      "title": "[탐사보도 뉴스프리즘] 좀 줄었나 싶더니 다시 커진 이자 부담…'더 오...",
-      "date": "Sat, 05 Sep 2026 22:01:00",
+      "title": "[KFT 모닝 브리프] 2026.09.07 — 오늘 꼭 알아야 할 국내외 경제·시장 ...",
+      "date": "Mon, 07 Sep 2026 07:34:00",
+      "source": "fntimes.com",
+      "url": "https://www.fntimes.com/html/view.php?ud=202609070721022362141825007d_18"
+    },
+    {
+      "title": "\"코스피 떨어지는데 편의점은 웃었다\"…백화점株는 반토막",
+      "date": "Mon, 07 Sep 2026 07:28:00",
+      "source": "metroseoul.co.kr",
+      "url": "http://www.metroseoul.co.kr/article/20260907500008"
+    },
+    {
+      "title": "[스테이블코인 시대] 코인은 안 올라도 돈 번다…원화 스테이블코인 '수...",
+      "date": "Mon, 07 Sep 2026 07:02:00",
+      "source": "dealsite.co.kr",
+      "url": "https://dealsite.co.kr/articles/168343"
+    },
+    {
+      "title": "\"안 내리면 무역 끊겠다\"는 트럼프…금리에 무슨 일이",
+      "date": "Mon, 07 Sep 2026 06:31:00",
       "source": "n.news.naver.com",
-      "url": "http://www.yonhapnewstv.co.kr/news/MYH202609051303027Hb"
+      "url": "https://magazine.hankyung.com/business/article/202609031894b"
     },
     {
-      "title": "[N위크] GDP·일자리·가계빚 등 경기체력 회복하나 ...李대통령 佛국빈...",
-      "date": "Sat, 05 Sep 2026 19:06:00",
-      "source": "tfmedia.co.kr",
-      "url": "https://www.tfmedia.co.kr/news/article.html?no=207004"
+      "title": "[이주의 관전포인트]물가·파업·소송, 이번 주 5대 변수",
+      "date": "Mon, 07 Sep 2026 06:00:00",
+      "source": "newskr.kr",
+      "url": "http://www.newskr.kr/news/articleView.html?idxno=106146"
     },
     {
-      "title": "미국 고용 좋다는데…왜 내 대출금리까지 흔들까요",
-      "date": "Sat, 05 Sep 2026 16:48:00",
+      "title": "[사설] 수출 1조 달러 시대 눈앞…체감경기 괴리 줄이는게 과제",
+      "date": "Mon, 07 Sep 2026 00:54:00",
       "source": "n.news.naver.com",
-      "url": "https://www.thescoop.co.kr/news/articleView.html?idxno=311494"
+      "url": "https://www.hankyung.com/article/2026090669411"
     },
     {
-      "title": "경제 살아난다는데 일자리·가계빚은?…다음주 ‘진짜 성적표’ 나온다",
-      "date": "Sat, 05 Sep 2026 15:03:00",
+      "title": "23개월 만에 최저 환율...안정세 이어가나?",
+      "date": "Mon, 07 Sep 2026 00:15:00",
       "source": "n.news.naver.com",
-      "url": "https://biz.heraldcorp.com/article/10863568?ref=naver"
-    },
-    {
-      "title": "세수 194조 증가하는데 국가채무 왜 106조 늘어나나",
-      "date": "Sat, 05 Sep 2026 14:17:00",
-      "source": "n.news.naver.com",
-      "url": "https://www.thescoop.co.kr/news/articleView.html?idxno=311483"
-    },
-    {
-      "title": "“금값 다시 5000달러 간다고?”…중앙은행까지 ‘사자’ 나서니 금ETF에...",
-      "date": "Sat, 05 Sep 2026 14:13:00",
-      "source": "n.news.naver.com",
-      "url": "https://www.mk.co.kr/article/12145057"
+      "url": "https://www.ytn.co.kr/_ln/0102_202609070015219657"
     }
   ],
   "kiep": [
@@ -309,5 +309,5 @@
       "url": "https://www.megaeconomy.co.kr/news/newsview.php?ncode=1065577155690402"
     }
   ],
-  "updated": "2026.09.06 09:24"
+  "updated": "2026.09.07 09:38"
 }
