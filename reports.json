@@ -1,6 +1,18 @@
 {
   "hri": [
     {
+      "title": "[스타트 경제] 서울 국평 분양가 20억 '코앞'...아파트 분양가 신기록",
+      "date": "Fri, 11 Sep 2026 07:23:00",
+      "source": "n.news.naver.com",
+      "url": "https://www.ytn.co.kr/_ln/0102_202609110723173325"
+    },
+    {
+      "title": "국민소득 4만弗 눈앞인데…반도체만 웃는 ‘반쪽짜리 호황’",
+      "date": "Thu, 10 Sep 2026 16:06:00",
+      "source": "segyebiz.com",
+      "url": "http://www.segyebiz.com/newsView/20260910514608?OutUrl=naver"
+    },
+    {
       "title": "[집중취재] 수출 1조·국민소득 4만달러 눈앞인데…청년고용·체감경기...",
       "date": "Wed, 09 Sep 2026 16:02:00",
       "source": "mbnmoney.mbn.co.kr",
@@ -47,23 +59,59 @@
       "date": "Sat, 05 Sep 2026 07:29:00",
       "source": "n.news.naver.com",
       "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008738808&plink=ORI&cooper=NAVER"
-    },
-    {
-      "title": "달러 환율 1년 2개월 만에 최저…더 떨어질까",
-      "date": "Fri, 04 Sep 2026 20:59:00",
-      "source": "n.news.naver.com",
-      "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008738594&plink=ORI&cooper=NAVER"
-    },
-    {
-      "title": "‘매파’ 워시 발언에도…9월 미 금리인상 '글쎄'",
-      "date": "Mon, 31 Aug 2026 18:01:00",
-      "source": "n.news.naver.com",
-      "url": "https://www.wowtv.co.kr/NewsCenter/News/Read?articleId=A202608310286&t=NNv"
     }
   ],
   "kdi": [
     {
-      "title": "반도체 호황에 핵심소재 ‘몸값↑’…고려아연 증산",
+      "title": "‘내륙 우회로’ 굳히는 정부…포항시 “수용 불가” 배수진",
+      "date": "Thu, 10 Sep 2026 19:04:00",
+      "source": "kbmaeil.com",
+      "url": "https://www.kbmaeil.com/article/20260910500152"
+    },
+    {
+      "title": "제4경인고속화도로 최적 노선 도출...환경평가 본격화",
+      "date": "Thu, 10 Sep 2026 17:24:00",
+      "source": "joongboo.com",
+      "url": "https://www.joongboo.com/news/articleView.html?idxno=363736412"
+    },
+    {
+      "title": "박찬대 “백령공항 개항 2033년 예상”…당초 목표보다 3년 지연",
+      "date": "Thu, 10 Sep 2026 15:44:00",
+      "source": "n.news.naver.com",
+      "url": "https://www.kyeonggi.com/article/20260910580307"
+    },
+    {
+      "title": "박찬대 \"서해 최북단 인천 백령공항 2033년 개항··· 김포공항서 취항...",
+      "date": "Thu, 10 Sep 2026 14:40:00",
+      "source": "incheontoday.com",
+      "url": "https://www.incheontoday.com/news/articleView.html?idxno=323482"
+    },
+    {
+      "title": "장흥군 최대 규모 SOC 사업 본궤도…국도23호선 20.1㎞ 4차로 확장 추진",
+      "date": "Thu, 10 Sep 2026 11:58:00",
+      "source": "newsmaker.or.kr",
+      "url": "http://www.newsmaker.or.kr/news/articleView.html?idxno=182221"
+    },
+    {
+      "title": "생산적 지출? 현금성 지원?…미래대응기금 공방 '전초전'",
+      "date": "Thu, 10 Sep 2026 11:52:00",
+      "source": "n.news.naver.com",
+      "url": "https://biz.sbs.co.kr/article_hub/20000333878?division=NAVER"
+    },
+    {
+      "title": "‘상박’은 미룬 기초연금 개편, 노인 빈곤도 재정도 다 놓친다 [Deep Spo...",
+      "date": "Thu, 10 Sep 2026 11:24:00",
+      "source": "n.news.naver.com",
+      "url": "https://biz.heraldcorp.com/article/10868992?ref=naver"
+    },
+    {
+      "title": "[환율 등락, 문법 바뀌었다]②앞으로는 어디로 가나…원화 방향성, 심리...",
+      "date": "Thu, 10 Sep 2026 11:00:00",
+      "source": "n.news.naver.com",
+      "url": "https://view.asiae.co.kr/article/2026091007241556034"
+    },
+    {
+      "title": "반도체 호황에 핵심소재 ‘몸값’…고려아연 증산",
       "date": "Thu, 10 Sep 2026 08:00:00",
       "source": "n.news.naver.com",
       "url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8659726&ref=A"
@@ -73,116 +121,68 @@
       "date": "Thu, 10 Sep 2026 07:26:00",
       "source": "n.news.naver.com",
       "url": "https://www.ohmynews.com/NWS_Web/View/at_pg.aspx?CNTN_CD=A0003265910&CMPT_CD=P0010&utm_source=naver&utm_medium=newsearch&utm_campaign=naver_news"
-    },
-    {
-      "title": "반도체 약진에 성장률 '껑충'…청년 고용률은 1.6%p 하락",
-      "date": "Wed, 09 Sep 2026 22:56:00",
-      "source": "cnbnews.com",
-      "url": "https://www.cnbnews.com/news/articleView.html?idxno=1014975"
-    },
-    {
-      "title": "반도체 호황에 핵심소재 ‘몸값↑’…고려아연 증산",
-      "date": "Wed, 09 Sep 2026 21:49:00",
-      "source": "n.news.naver.com",
-      "url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8659384&ref=A"
-    },
-    {
-      "title": "장흥지역 숙원 ‘국도 23호선 4차로 확장’ 정부 예타 통과",
-      "date": "Wed, 09 Sep 2026 19:16:00",
-      "source": "kjdaily.com",
-      "url": "http://www.kjdaily.com/article.php?aid=1788948610686442008"
-    },
-    {
-      "title": "탄천 물처리 부지는 이전지 확보가 '복병'…빨라야 2035년 첫삽",
-      "date": "Wed, 09 Sep 2026 17:25:00",
-      "source": "n.news.naver.com",
-      "url": "https://www.hankyung.com/article/2026090945971"
-    },
-    {
-      "title": "정부, 광복 100주년 ‘2045 국가전략’ 짠다…청년세대 기회 모색",
-      "date": "Wed, 09 Sep 2026 16:49:00",
-      "source": "n.news.naver.com",
-      "url": "https://www.munhwa.com/article/11615822?ref=naver"
-    },
-    {
-      "title": "중동 곳곳 번진 '불길'…국제유가 '100 달러'선 위협",
-      "date": "Wed, 09 Sep 2026 14:24:00",
-      "source": "asiatime.co.kr",
-      "url": "https://www.asiatime.co.kr/article/20260909500259"
-    },
-    {
-      "title": "대전시, 예타 문턱 못 넘은 '나노반도체 국가산단', 몸집 줄여 재도전",
-      "date": "Wed, 09 Sep 2026 13:47:00",
-      "source": "n.news.naver.com",
-      "url": "https://www.hankookilbo.com/news/article/A2026090908370005095?did=NA"
-    },
-    {
-      "title": "[사설] 수출 1조·소득 4만弗 눈앞, 반도체·환율 착시 경계해야",
-      "date": "Wed, 09 Sep 2026 11:04:00",
-      "source": "n.news.naver.com",
-      "url": "https://biz.heraldcorp.com/article/10867469?ref=naver"
     }
   ],
   "bok": [
     {
-      "title": "“주담대 8% 시대 오나”…국채금리 발작에 부동산·주식·금 ‘휘청’...",
-      "date": "Thu, 10 Sep 2026 07:47:00",
+      "title": "[친절한 경제] 금리 줄줄이 '인상'…주식 줄고 예금 늘까",
+      "date": "Fri, 11 Sep 2026 09:16:00",
       "source": "n.news.naver.com",
-      "url": "https://magazine.hankyung.com/business/article/202609031786b"
+      "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008747890&plink=ORI&cooper=NAVER"
     },
     {
-      "title": "[KFT 모닝 브리프] 2026.09.10 — 오늘 꼭 알아야 할 국내외 경제·시장 ...",
-      "date": "Thu, 10 Sep 2026 07:24:00",
+      "title": "해외 관광객을 내수로 연결해야",
+      "date": "Fri, 11 Sep 2026 08:28:00",
+      "source": "smedaily.co.kr",
+      "url": "http://www.smedaily.co.kr/news/articleView.html?idxno=363021"
+    },
+    {
+      "title": "유가 100달러 돌파·美 국채금리 5% 육박까지...커지는 '복합위기' 공포...",
+      "date": "Fri, 11 Sep 2026 08:07:00",
+      "source": "n.news.naver.com",
+      "url": "https://www.ytn.co.kr/_ln/0134_202609110807233071"
+    },
+    {
+      "title": "[韓 경제, 도약의 조건] 가까워진 국민소득 4만달러…환율·물가·부채가...",
+      "date": "Fri, 11 Sep 2026 07:52:00",
+      "source": "ajunews.com",
+      "url": "https://www.ajunews.com/view/20260910144705192"
+    },
+    {
+      "title": "[KFT 모닝 브리프] 2026.09.11 — 오늘 꼭 알아야 할 국내외 경제·시장 ...",
+      "date": "Fri, 11 Sep 2026 07:26:00",
       "source": "fntimes.com",
-      "url": "https://www.fntimes.com/html/view.php?ud=202609100714306350141825007d_18"
+      "url": "https://www.fntimes.com/html/view.php?ud=202609110715428142141825007d_18"
     },
     {
-      "title": "[오늘의 이슈]브렌트유 100달러 돌파…오늘 네 마녀의 날",
-      "date": "Thu, 10 Sep 2026 07:04:00",
-      "source": "newskr.kr",
-      "url": "http://www.newskr.kr/news/articleView.html?idxno=106248"
-    },
-    {
-      "title": "[Invest]금리 뛰는데 주가는 버틴다…달라진 '고금리 공식'",
-      "date": "Thu, 10 Sep 2026 07:02:00",
-      "source": "investchosun.com",
-      "url": "https://www.investchosun.com/site/data/html_dir/2026/09/09/2026090980133.html"
-    },
-    {
-      "title": "[N2 모닝 경제 브리핑-9월 10일] 美 증시, 유가·국채금리 상승에 일제히...",
-      "date": "Thu, 10 Sep 2026 06:06:00",
-      "source": "news2day.co.kr",
-      "url": "https://www.news2day.co.kr/article/20260910500002"
-    },
-    {
-      "title": "용혜인 김승원에 조선일보 \"청년 분노 커져\" 한국일보 \"인사시스템 기능...",
-      "date": "Wed, 09 Sep 2026 23:38:00",
+      "title": "[스타트 경제] 서울 국평 분양가 20억 '코앞'...아파트 분양가 신기록",
+      "date": "Fri, 11 Sep 2026 07:23:00",
       "source": "n.news.naver.com",
-      "url": "https://www.mediatoday.co.kr/news/articleView.html?idxno=336970"
+      "url": "https://www.ytn.co.kr/_ln/0102_202609110723173325"
     },
     {
-      "title": "한은 \"통화정책방향 성명서 변경 필요성 크지 않아…연준 등 참고\"",
-      "date": "Wed, 09 Sep 2026 19:12:00",
-      "source": "news.einfomax.co.kr",
-      "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4434159"
+      "title": "매경이 전하는 세상의 지식 (매-세-지, 9월 11일)",
+      "date": "Fri, 11 Sep 2026 07:01:00",
+      "source": "n.news.naver.com",
+      "url": "https://www.mk.co.kr/article/12149633"
     },
     {
-      "title": "[외환-마감] 베선트 '엔화 역베팅 말라' 경고에 엔·원 강세…9.50원↓",
-      "date": "Wed, 09 Sep 2026 18:44:00",
-      "source": "news.einfomax.co.kr",
-      "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4434153"
+      "title": "유가 100달러 넘었는데…한은, 새 시나리오 제시엔 신중 [Pick코노미]",
+      "date": "Fri, 11 Sep 2026 06:31:00",
+      "source": "n.news.naver.com",
+      "url": "https://www.sedaily.com/article/20089652?ref=naver"
     },
     {
-      "title": "29조달러 채권 발행 전망…NH투자증권 “금리 인상 허들 높아져”",
-      "date": "Wed, 09 Sep 2026 18:42:00",
-      "source": "tokenpost.kr",
-      "url": "https://www.tokenpost.kr/news/economy/405076"
+      "title": "상호금융보다 2%p 높은 은행 연 6% 주담대 금리…금리 역전현상 당분간...",
+      "date": "Fri, 11 Sep 2026 06:22:00",
+      "source": "dnews.co.kr",
+      "url": "https://www.dnews.co.kr/uhtml/view.jsp?idxno=202609101346247030470"
     },
     {
-      "title": "매출 늘었는데 부채비율 112%…中企 ‘빚으로 버틴 회복’",
-      "date": "Wed, 09 Sep 2026 17:52:00",
-      "source": "etoday.co.kr",
-      "url": "https://www.etoday.co.kr/news/view/2623659"
+      "title": "[오늘의 경제뉴스] 유가 100달러 돌파…한국경제, 제조원가·운송비·금...",
+      "date": "Fri, 11 Sep 2026 05:20:00",
+      "source": "newsverse.kr",
+      "url": "https://www.newsverse.kr/news/articleView.html?idxno=11413"
     }
   ],
   "kiep": [
@@ -309,5 +309,5 @@
       "url": "https://www.megaeconomy.co.kr/news/newsview.php?ncode=1065577155690402"
     }
   ],
-  "updated": "2026.09.10 09:45"
+  "updated": "2026.09.11 09:41"
 }
