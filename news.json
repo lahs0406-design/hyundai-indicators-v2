@@ -1,24 +1,10 @@
 {
   "dept": [
     {
-      "title": "정용진 회장 집 외관 눈길…'구해줘! 홈즈'가 찾아간 판교 회장님 마을",
-      "date": "Wed, 23 Sep 2026 17:16:00",
-      "source": "cbci.co.kr",
-      "url": "https://www.cbci.co.kr/news/articleView.html?idxno=609404",
-      "sub": ""
-    },
-    {
       "title": "현대그린푸드, 안유성 명장과 '가매일식' 선봬…현백 판교점 첫 선",
       "date": "Tue, 22 Sep 2026 09:15:00",
       "source": "n.news.naver.com",
       "url": "https://www.news1.kr/industry/distribution/6298381",
-      "sub": ""
-    },
-    {
-      "title": "[신년사 중간점검] 신동빈 롯데 회장, 질적 성장·혁신 키워드 실행 초...",
-      "date": "Thu, 24 Sep 2026 06:02:00",
-      "source": "ebn.co.kr",
-      "url": "https://www.ebn.co.kr/news/articleView.html?idxno=1725529",
       "sub": ""
     },
     {
@@ -29,27 +15,6 @@
       "sub": ""
     },
     {
-      "title": "원피스·사카모토데이즈 굿즈 만난다… 신세계百, ‘점프샵’ 팝업",
-      "date": "Sun, 27 Sep 2026 09:50:00",
-      "source": "viva100.com",
-      "url": "https://www.viva100.com/article/20260927500070",
-      "sub": ""
-    },
-    {
-      "title": "코웨이, 울산 현대백화점 직영 매장 오픈",
-      "date": "Sun, 27 Sep 2026 09:38:00",
-      "source": "businesskorea.co.kr",
-      "url": "https://www.businesskorea.co.kr/news/articleView.html?idxno=277676",
-      "sub": ""
-    },
-    {
-      "title": "폴스타, 스타필드 고양서 ‘폴스타 온 투어’ 개최…3·4 시승 기회 제공",
-      "date": "Sun, 27 Sep 2026 09:30:00",
-      "source": "n.news.naver.com",
-      "url": "https://sports.donga.com/economy/article/all/20260927/134735684/1",
-      "sub": ""
-    },
-    {
       "title": "유니클로 8048억·자라 3348억… 소재 만족도는 3.73점 꼴찌",
       "date": "Sun, 27 Sep 2026 09:16:00",
       "source": "n.news.naver.com",
@@ -57,35 +22,56 @@
       "sub": ""
     },
     {
-      "title": "영등포구, 소상공인 대상 AI 실전교육…라이브커머스·팝업스토어 연계",
-      "date": "Sun, 27 Sep 2026 09:14:00",
-      "source": "shinailbo.co.kr",
-      "url": "https://www.shinailbo.co.kr/news/articleView.html?idxno=5065890",
+      "title": "롯데백화점, 레저 브랜드 총출동…'롯데 액티브 위크' 개최",
+      "date": "Mon, 28 Sep 2026 10:18:00",
+      "source": "n.news.naver.com",
+      "url": "https://www.etnews.com/20260928000139",
       "sub": ""
     },
     {
-      "title": "남양유업 테이크핏, 무신사 스탠다드 스포츠와 초보 러너 20명 모집",
-      "date": "Sun, 27 Sep 2026 09:00:00",
-      "source": "asiaa.co.kr",
-      "url": "https://www.asiaa.co.kr/news/articleView.html?idxno=264157",
+      "title": "“10월 황금연휴, 도심서 달리고 즐긴다”…롯데백화점, ‘롯데 액티브...",
+      "date": "Mon, 28 Sep 2026 10:14:00",
+      "source": "dizzotv.com",
+      "url": "https://www.dizzotv.com/site/data/html_dir/2026/09/28/2026092880046.html",
+      "sub": ""
+    },
+    {
+      "title": "무신사, 기존 RCPS 전량 보통주 전환…IPO 앞두고 재무구조 정비",
+      "date": "Mon, 28 Sep 2026 10:14:00",
+      "source": "weekly.hankooki.com",
+      "url": "https://weekly.hankooki.com/news/articleView.html?idxno=7186087",
+      "sub": ""
+    },
+    {
+      "title": "무신사 글로벌 스토어 탄 K뷰티…중소 브랜드 해외 매출 '쑥'",
+      "date": "Mon, 28 Sep 2026 10:13:00",
+      "source": "n.news.naver.com",
+      "url": "https://www.mt.co.kr/living/2026/09/28/2026092809351724009",
+      "sub": ""
+    },
+    {
+      "title": "카시나, 10월 한달간 릴레이 팝업 ‘옥토버 러시’ 전개",
+      "date": "Mon, 28 Sep 2026 10:12:00",
+      "source": "fashionbiz.co.kr",
+      "url": "https://www.fashionbiz.co.kr/article/229810",
+      "sub": ""
+    },
+    {
+      "title": "롯데백화점, 10월 스포츠·레저 행사 살펴보니",
+      "date": "Mon, 28 Sep 2026 10:06:00",
+      "source": "lcnews.co.kr",
+      "url": "https://www.lcnews.co.kr/news/articleView.html?idxno=208874",
+      "sub": ""
+    },
+    {
+      "title": "무신사 글로벌 뷰티 거래액 증가…상위 10곳 중 9곳 중소 브랜드",
+      "date": "Mon, 28 Sep 2026 10:04:00",
+      "source": "sentv.co.kr",
+      "url": "https://www.sentv.co.kr/article/view/sentv202609280053",
       "sub": ""
     }
   ],
   "trend": [
-    {
-      "title": "김건희, ‘매관매직’ 2심 징역 5년에 상고…대법원 판단 받는다",
-      "date": "Wed, 23 Sep 2026 15:35:00",
-      "source": "n.news.naver.com",
-      "url": "https://www.ichannela.com/news/main/news_detailPage.do?publishId=000000551960",
-      "sub": ""
-    },
-    {
-      "title": "신발도 잡화도 '특별함'으로 승부 [최기자의 패션 털기]",
-      "date": "Thu, 24 Sep 2026 13:36:00",
-      "source": "meconomynews.com",
-      "url": "https://www.meconomynews.com/news/articleView.html?idxno=201963",
-      "sub": ""
-    },
     {
       "title": "동물의 매력을 포착하는 서로 다른 시선, 하이 주얼리 메종의 동물 모티...",
       "date": "Thu, 24 Sep 2026 12:02:00",
@@ -94,24 +80,31 @@
       "sub": ""
     },
     {
-      "title": "WHAT'S hot #1",
-      "date": "Thu, 24 Sep 2026 08:00:00",
-      "source": "woman.chosun.com",
-      "url": "http://woman.chosun.com/news/articleView.html?idxno=126592",
+      "title": "교황 18년 만에 프랑스 방문… 80만 운집 야외 미사",
+      "date": "Sun, 27 Sep 2026 19:47:00",
+      "source": "n.news.naver.com",
+      "url": "https://www.segye.com/newsView/20260927508260?OutUrl=naver",
       "sub": ""
     },
     {
-      "title": "아크메르 동탄, 독립 브랜드 왜…“기성복 아닌 맞춤복”",
-      "date": "Sun, 27 Sep 2026 10:02:00",
-      "source": "sentv.co.kr",
-      "url": "https://www.sentv.co.kr/article/view/sentv202609210173",
+      "title": "까르띠에, '클래쉬 드 까르띠에'→프리퀀터, 리에베 블루그레이 출시",
+      "date": "Sun, 27 Sep 2026 19:00:00",
+      "source": "slist.kr",
+      "url": "https://www.slist.kr/news/articleView.html?idxno=769040",
       "sub": ""
     },
     {
-      "title": "'체크아웃 없는 호텔'…호텔로 변신하는 하이엔드 아파트들",
-      "date": "Sun, 27 Sep 2026 09:00:00",
-      "source": "edu.donga.com",
-      "url": "https://edu.donga.com/news/articleView.html?idxno=112215",
+      "title": "“이게 장윤정 클래스” 도경완, 억 넘는 ‘금빛 롤렉스’ 깜짝 공개",
+      "date": "Sun, 27 Sep 2026 18:01:00",
+      "source": "m.entertain.naver.com",
+      "url": "https://sports.khan.co.kr/article/202609271800003?pt=nv",
+      "sub": ""
+    },
+    {
+      "title": "[패션N스토리] 가위로 자른 군복 앞자락, 백년의 일상을 바꾸다",
+      "date": "Sun, 27 Sep 2026 14:32:00",
+      "source": "nc.press",
+      "url": "https://www.nc.press/news/articleView.html?idxno=627263",
       "sub": ""
     },
     {
@@ -122,24 +115,31 @@
       "sub": ""
     },
     {
-      "title": "\"레오! 레오!\" 교황 방문에 샹젤리제 '들썩'…80만 명 운집",
-      "date": "Sun, 27 Sep 2026 06:26:00",
+      "title": "제품만 보고 나오면 손해…명품 플래그십 스토어의 모든 것 [이윤정의 ...",
+      "date": "Mon, 28 Sep 2026 09:59:00",
       "source": "n.news.naver.com",
-      "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008771088&plink=ORI&cooper=NAVER",
+      "url": "https://www.hankyung.com/article/202608289525i",
       "sub": ""
     },
     {
-      "title": "‘럭셔리·샴페인 제국’ LVMH도 탐낸 앤더슨 밸리 스파클링 와인 생산...",
-      "date": "Sun, 27 Sep 2026 06:02:00",
-      "source": "n.news.naver.com",
-      "url": "https://www.segye.com/newsView/20260927500216?OutUrl=naver",
+      "title": "박정훈 감독-양기노엔'두 거장'부산국제영화제\"첫 장편\"",
+      "date": "Mon, 28 Sep 2026 09:46:00",
+      "source": "hansbiz.co.kr",
+      "url": "http://www.hansbiz.co.kr/news/articleView.html?idxno=868259",
       "sub": ""
     },
     {
-      "title": "파리 중심부 나타난 교황, 80만 인파에 \"신앙서 행복 찾자\"",
-      "date": "Sun, 27 Sep 2026 05:27:00",
-      "source": "n.news.naver.com",
-      "url": "https://www.news1.kr/world/europe/6302121",
+      "title": "부산국제영화제 아시아영화아카데미, 24명 입학",
+      "date": "Mon, 28 Sep 2026 08:14:00",
+      "source": "bntnews.co.kr",
+      "url": "https://www.bntnews.co.kr/article/view/bnt202609280062",
+      "sub": ""
+    },
+    {
+      "title": "안국약품, '약' 넘어 피부로…'리쥬비더마' H&B 성장축 키운다",
+      "date": "Mon, 28 Sep 2026 06:02:00",
+      "source": "bosa.co.kr",
+      "url": "https://www.bosa.co.kr/news/articleView.html?idxno=3012765",
       "sub": ""
     }
   ],
@@ -152,112 +152,119 @@
       "sub": ""
     },
     {
-      "title": "‘외래객 3천만’ 관광 불편 신고 ‘숙박’ 최다",
-      "date": "Thu, 24 Sep 2026 10:40:00",
-      "source": "kjdaily.com",
-      "url": "http://www.kjdaily.com/article.php?aid=1790213710687595054",
-      "sub": ""
-    },
-    {
-      "title": "'경주국제마라톤’ 10월17일 개최...2만여명 참가",
-      "date": "Sun, 27 Sep 2026 10:02:00",
-      "source": "wikitree.co.kr",
-      "url": "https://www.wikitree.co.kr/articles/1162223",
-      "sub": ""
-    },
-    {
-      "title": "연휴에 단풍철까지...여행업계, 가을 특수 잡기 분주",
-      "date": "Sun, 27 Sep 2026 10:00:00",
-      "source": "ntoday.co.kr",
-      "url": "https://www.ntoday.co.kr/news/articleView.html?idxno=129663",
-      "sub": ""
-    },
-    {
-      "title": "'축제의 계절 10월' 군산으로 시간여행…공연·먹거리 등 풍성",
-      "date": "Sun, 27 Sep 2026 10:00:00",
+      "title": "\"또 가고 싶어 병날 지경\"…'한국통' 호소하는 외국인들 [김예랑의 K컬처...",
+      "date": "Sat, 26 Sep 2026 20:31:00",
       "source": "n.news.naver.com",
-      "url": "https://www.yna.co.kr/view/AKR20260922046400055?input=1195m",
+      "url": "https://www.hankyung.com/article/202609233571H",
       "sub": ""
     },
     {
-      "title": "위대한 작가의 여행, 낯선 곳으로 혼자 떠나라!",
-      "date": "Sun, 27 Sep 2026 09:58:00",
-      "source": "breaknews.com",
-      "url": "http://www.breaknews.com/1239187",
+      "title": "대한민국 ‘전시장 대명사’ 킨텍스… 최대·최초·최고의 20년 역사",
+      "date": "Sat, 26 Sep 2026 09:10:00",
+      "source": "kyeongin.com",
+      "url": "https://www.kyeongin.com/article/1771485",
       "sub": ""
     },
     {
-      "title": "'이제 기다리는 관광은 끝났다' 태안군, 세일즈 관광 대전환…연중 북적...",
-      "date": "Sun, 27 Sep 2026 09:58:00",
-      "source": "cctimes.kr",
-      "url": "http://www.cctimes.kr/news/articleView.html?idxno=929318",
-      "sub": ""
-    },
-    {
-      "title": "관광수지 4개월 만에 적자 전환…7월 5천만달러 적자.",
-      "date": "Sun, 27 Sep 2026 09:23:00",
+      "title": "“축제의 계절 왔다”…가을 물들이는 지역 축제들",
+      "date": "Sat, 26 Sep 2026 08:02:00",
       "source": "n.news.naver.com",
-      "url": "https://biz.sbs.co.kr/article_hub/20000336819?division=NAVER",
+      "url": "https://www.edaily.co.kr/News/Read?newsId=01741686645584056&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
       "sub": ""
     },
     {
-      "title": "“한옥 안에 세 공간”…보은 우당고택의 색다른 배치",
-      "date": "Sun, 27 Sep 2026 09:22:00",
-      "source": "vegannews.co.kr",
-      "url": "https://www.vegannews.co.kr/news/article.html?no=388454",
-      "sub": ""
-    },
-    {
-      "title": "방한객 209만명에도…관광수지 넉달 만에 '적자'",
-      "date": "Sun, 27 Sep 2026 09:16:00",
+      "title": "둘레길 함께 걷고 대금은 현금으로…편의점 3사, 협력사 잡기 경쟁",
+      "date": "Sat, 26 Sep 2026 06:07:00",
       "source": "n.news.naver.com",
-      "url": "https://www.edaily.co.kr/News/Read?newsId=01256246645584384&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
+      "url": "https://www.segye.com/newsView/20260926501696?OutUrl=naver",
+      "sub": ""
+    },
+    {
+      "title": "숙박세일 페스타로 전남광주 가을여행 알뜰하게 즐기세요",
+      "date": "Mon, 28 Sep 2026 10:18:00",
+      "source": "n.news.naver.com",
+      "url": "https://www.ikbc.co.kr/article/view/kbc202609280018",
+      "sub": ""
+    },
+    {
+      "title": "성남시, 백현마이스 넘어 '도시 전체가 비즈니스 플랫폼'으로",
+      "date": "Mon, 28 Sep 2026 10:18:00",
+      "source": "g-enews.com",
+      "url": "https://www.g-enews.com/view.php?ud=202609280942052628fbfc802b3_1",
+      "sub": ""
+    },
+    {
+      "title": "울산시, 태화강 물억새 생태체험장 운영…가을철 생태관광 활성화",
+      "date": "Mon, 28 Sep 2026 10:17:00",
+      "source": "newspim.com",
+      "url": "https://www.newspim.com/news/view/20260928000274",
+      "sub": ""
+    },
+    {
+      "title": "야간관람 재개 4개월 만에 추락사… 천지연폭포 밤 개장 잠정 중단",
+      "date": "Mon, 28 Sep 2026 10:15:00",
+      "source": "n.news.naver.com",
+      "url": "https://www.fnnews.com/news/202609281005538488",
+      "sub": ""
+    },
+    {
+      "title": "하루 숙박비 최대 5만원 할인…‘섬 보러’ 전남광주 가을 여행 갈까",
+      "date": "Mon, 28 Sep 2026 10:14:00",
+      "source": "n.news.naver.com",
+      "url": "https://www.hani.co.kr/arti/area/honam/1279706.html",
       "sub": ""
     }
   ],
   "asset": [
     {
-      "title": "올해 재테크 승자는 코스피200 ETF…수익률 81%",
-      "date": "Sun, 27 Sep 2026 09:54:00",
+      "title": "맥쿼리 \"美 국채금리 상승, 물가보다 채권 공급 영향 커\"",
+      "date": "Mon, 28 Sep 2026 10:14:00",
+      "source": "news.einfomax.co.kr",
+      "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4436647",
+      "sub": ""
+    },
+    {
+      "title": "코스피 6990선 밀리며 7000선 공방… 외국인·기관 동반 순매도",
+      "date": "Mon, 28 Sep 2026 10:04:00",
+      "source": "gukjenews.com",
+      "url": "https://www.gukjenews.com/news/articleView.html?idxno=3706809",
+      "sub": ""
+    },
+    {
+      "title": "코스피 7057.86 하락 출발...HLB는 美 신약 허가에 상한가",
+      "date": "Mon, 28 Sep 2026 10:02:00",
+      "source": "wolyo.co.kr",
+      "url": "https://www.wolyo.co.kr/news/articleView.html?idxno=318352",
+      "sub": ""
+    },
+    {
+      "title": "[포토] 연휴 끝낸 코스피는?",
+      "date": "Mon, 28 Sep 2026 10:00:00",
+      "source": "ajunews.com",
+      "url": "https://www.ajunews.com/view/20260928095753217",
+      "sub": ""
+    },
+    {
+      "title": "부산 9월 소비자심리지수 전월보다 소폭 하락 111.0",
+      "date": "Mon, 28 Sep 2026 09:29:00",
       "source": "n.news.naver.com",
-      "url": "https://biz.sbs.co.kr/article_hub/20000336824?division=NAVER",
+      "url": "https://www.newsis.com/view/NISX20260928_0003804811",
       "sub": ""
     },
     {
-      "title": "NH농협금융, 건강 실천하면 금리·보험료 혜택…계열사 상품 5종 출시",
-      "date": "Sun, 27 Sep 2026 09:54:00",
-      "source": "viva100.com",
-      "url": "https://www.viva100.com/article/20260927500115",
+      "title": "중소기업 생산·고용 늘었지만 회복세 둔화…소상공인 체감경기 악화",
+      "date": "Mon, 28 Sep 2026 08:02:00",
+      "source": "newstomato.com",
+      "url": "http://www.newstomato.com/ReadNews.aspx?no=1314764&inflow=N",
       "sub": ""
     },
     {
-      "title": "“갈아타면 싸진다더니”...대환대출 금리, 신규대출보다 높았다",
-      "date": "Sun, 27 Sep 2026 09:52:00",
-      "source": "ekn.kr",
-      "url": "https://www.ekn.kr/web/view.php?key=20260927025269153",
-      "sub": ""
-    },
-    {
-      "title": "NH농협금융, 금연·걷기 실천하면 금리·보험료 혜택…건강금융 5종 출시",
-      "date": "Sun, 27 Sep 2026 09:50:00",
-      "source": "ziksir.com",
-      "url": "https://www.ziksir.com/news/articleView.html?idxno=147488",
-      "sub": ""
-    },
-    {
-      "title": "\"예금보다 40배↑\"…코스피200 ETF, 올해 재테크 수익률 1위",
-      "date": "Sun, 27 Sep 2026 09:49:00",
+      "title": "車·기계 생산 늘었지만 창업·자금 경고등…中企 경기 '회복 양극화'",
+      "date": "Mon, 28 Sep 2026 08:00:00",
       "source": "n.news.naver.com",
-      "url": "http://www.joseilbo.com/news/news_read.php?uid=576368&class=18&grp=",
-      "sub": ""
-    },
-    {
-      "title": "올해 주요 재테크 수익률 1위는 코스피200 ETF",
-      "date": "Sun, 27 Sep 2026 09:46:00",
-      "source": "n.news.naver.com",
-      "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008771316&plink=ORI&cooper=NAVER",
+      "url": "https://www.news1.kr/industry/sb-founded/6300916",
       "sub": ""
     }
   ],
-  "updated": "2026.09.27 10:03"
+  "updated": "2026.09.28 10:20"
 }
