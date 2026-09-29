@@ -1,6 +1,30 @@
 {
   "hri": [
     {
+      "title": "[경제 이슈] 현대경제연구원, \"반도체 중심 수출 호황이 경제성장 견인...",
+      "date": "Tue, 29 Sep 2026 09:30:00",
+      "source": "sisacast.kr",
+      "url": "http://www.sisacast.kr/news/articleView.html?idxno=100433"
+    },
+    {
+      "title": "세계 채권시장, 0%대 빚의 청구서 날아와··· 韓 경제까지 번진 '금리...",
+      "date": "Tue, 29 Sep 2026 07:50:00",
+      "source": "smartbizn.com",
+      "url": "https://www.smartbizn.com/news/articleView.html?idxno=155034"
+    },
+    {
+      "title": "[신간] AI가 불러온 '돈의 역류'… 2027 경제질서 읽는다",
+      "date": "Mon, 28 Sep 2026 16:32:00",
+      "source": "newscj.com",
+      "url": "https://www.newscj.com/news/articleView.html?idxno=3436138"
+    },
+    {
+      "title": "[신간] 돈의 역류 2027년 경제전망",
+      "date": "Mon, 28 Sep 2026 10:47:00",
+      "source": "n.news.naver.com",
+      "url": "http://www.joseilbo.com/news/news_read.php?uid=576405&class=18&grp="
+    },
+    {
       "title": "추석 끝나면 4분기 성큼…연 수출 '1조달러' 돌파 시점에 '주목'",
       "date": "Sat, 26 Sep 2026 08:00:00",
       "source": "newsworks.co.kr",
@@ -35,157 +59,139 @@
       "date": "Sun, 20 Sep 2026 11:10:00",
       "source": "n.news.naver.com",
       "url": "https://www.edaily.co.kr/News/Read?newsId=01443206645582088&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article"
-    },
-    {
-      "title": "[김광석의 경제 읽어주는 남자] 반도체 호황의 역설 …잘나갈때 '그다음...",
-      "date": "Fri, 18 Sep 2026 06:02:00",
-      "source": "ajunews.com",
-      "url": "https://www.ajunews.com/view/20260914101837577"
-    },
-    {
-      "title": "美 금리 따라 은행채 들썩… 영끌·빚투족 비명 [美, 3년2개월 만에 기준...",
-      "date": "Thu, 17 Sep 2026 19:02:00",
-      "source": "n.news.naver.com",
-      "url": "https://www.segye.com/newsView/20260917516903?OutUrl=naver"
-    },
-    {
-      "title": "\"내년 성장률 2.4%로 둔화\"",
-      "date": "Thu, 17 Sep 2026 00:04:00",
-      "source": "gjdream.com",
-      "url": "http://www.gjdream.com/news/articleView.html?idxno=672752"
-    },
-    {
-      "title": "\"자신만의 투자 원칙 지키라\" 주원 현대경제연구원 본부장 '경제 진단'",
-      "date": "Wed, 16 Sep 2026 07:30:00",
-      "source": "economytalk.kr",
-      "url": "http://www.economytalk.kr/news/articleView.html?idxno=424150"
     }
   ],
   "kdi": [
     {
-      "title": "OECD 한국 성장률 2.6→3.7%…AI 반도체 수요 영향",
-      "date": "Mon, 28 Sep 2026 09:04:00",
-      "source": "datasom.co.kr",
-      "url": "https://www.datasom.co.kr/news/articleView.html?idxno=210106"
+      "title": "증권가, 성장률 1%·환율 1700원 경고 … \"李정부 국내 투자 매력 못 살...",
+      "date": "Tue, 29 Sep 2026 10:18:00",
+      "source": "biz.newdaily.co.kr",
+      "url": "https://biz.newdaily.co.kr/site/data/html/2026/09/29/2026092900085.html"
     },
     {
-      "title": "[경제 진단] 화려한 성장 이면의 민낯…골 깊어지는 소득·세대 갈등",
-      "date": "Mon, 28 Sep 2026 08:00:00",
-      "source": "cbci.co.kr",
-      "url": "https://www.cbci.co.kr/news/articleView.html?idxno=609889"
+      "title": "패트롤] 고양시-동두천시-양주시-의정부시-포천시",
+      "date": "Tue, 29 Sep 2026 01:30:00",
+      "source": "ekn.kr",
+      "url": "https://www.ekn.kr/web/view.php?key=20260929021319653"
     },
     {
-      "title": "[사설] 민생경제와 부동산, 인사가 '추석 민심'",
-      "date": "Mon, 28 Sep 2026 06:02:00",
-      "source": "kgnews.co.kr",
-      "url": "http://www.kgnews.co.kr/news/article.html?no=913008"
+      "title": "\"미완의 동서3축 잇자\" 영호남 뭉쳤다",
+      "date": "Mon, 28 Sep 2026 21:44:00",
+      "source": "idaegu.co.kr",
+      "url": "https://www.idaegu.co.kr/news/articleView.html?idxno=560913"
     },
     {
-      "title": "AI시대, 지식인의 자리는 어디인가 [모종린의 문화로 읽는 AI시대]",
-      "date": "Mon, 28 Sep 2026 05:04:00",
+      "title": "영호남 뭉쳐 무주-대구-고속도 예타통과 총력",
+      "date": "Mon, 28 Sep 2026 18:48:00",
+      "source": "jjn.co.kr",
+      "url": "http://www.jjn.co.kr/news/articleView.html?idxno=1053196"
+    },
+    {
+      "title": "경북도, 영호남 숙원 ‘무주~성주~대구 고속도로’ 예타 총력",
+      "date": "Mon, 28 Sep 2026 18:19:00",
       "source": "n.news.naver.com",
-      "url": "https://www.seoul.co.kr/news/editOpinion/opinion/MoJongryn-AI/2026/09/28/20260928025001?wlog_tag3=naver"
+      "url": "https://www.pressian.com/pages/articles/2026092817024609073?utm_source=naver&utm_medium=search"
     },
     {
-      "title": "ADB, 올해 한국 성장률 3.2%로 상향… 내년은 2.3%",
-      "date": "Mon, 28 Sep 2026 01:16:00",
-      "source": "ggilbo.com",
-      "url": "https://www.ggilbo.com/news/articleView.html?idxno=1183474"
+      "title": "국회 재경위원회, 김범석 우아한형제들 대표 등 국감 증인 채택…배민·...",
+      "date": "Mon, 28 Sep 2026 17:48:00",
+      "source": "news2day.co.kr",
+      "url": "https://www.news2day.co.kr/article/20260928500251"
     },
     {
-      "title": "[박근종 칼럼] 치매 환자 100만 시대, 홀몸 노인 20만 방치하는 '국가책...",
-      "date": "Sun, 27 Sep 2026 21:54:00",
-      "source": "mhns.co.kr",
-      "url": "https://www.mhns.co.kr/news/articleView.html?idxno=761810"
+      "title": "단절된 동서 고속도로 잇자…전북·경북·대구, 무주~대구 고속도로 예...",
+      "date": "Mon, 28 Sep 2026 17:32:00",
+      "source": "jjan.kr",
+      "url": "https://www.jjan.kr/article/20260928500334"
     },
     {
-      "title": "추석 지나자 결정의 시간…충청권 현안 10월 시험대",
-      "date": "Sun, 27 Sep 2026 19:00:00",
+      "title": "여야 영호남 의원들, 무주~대구 고속도로 예타 통과 공동 대응",
+      "date": "Mon, 28 Sep 2026 17:30:00",
       "source": "n.news.naver.com",
-      "url": "https://www.daejonilbo.com/news/articleView.html?idxno=2303619"
+      "url": "https://view.asiae.co.kr/article/2026092817083315703"
     },
     {
-      "title": "[기획] 규제 재편에 산업계 생존전략 시험대…97만곳 문 닫은 내수시장",
-      "date": "Sun, 27 Sep 2026 12:00:00",
-      "source": "m-i.kr",
-      "url": "https://www.m-i.kr/news/articleView.html?idxno=1417735"
+      "title": "여야·영호남 한목소리 무주~대구 고속도로 예타 통과 총력",
+      "date": "Mon, 28 Sep 2026 17:14:00",
+      "source": "jeollailbo.com",
+      "url": "http://www.jeollailbo.com/news/articleView.html?idxno=812247"
     },
     {
-      "title": "올해 초과 세수 '최소 50조'… 미래대응기금 200조 넘길 수도",
-      "date": "Sun, 27 Sep 2026 11:02:00",
-      "source": "newscj.com",
-      "url": "https://www.newscj.com/news/articleView.html?idxno=3435766"
-    },
-    {
-      "title": "[박근종 칼럼] 반도체 호황에도 고용은 '얼음장', 양질의 일자리 창출로...",
-      "date": "Sun, 27 Sep 2026 05:20:00",
-      "source": "mhns.co.kr",
-      "url": "https://www.mhns.co.kr/news/articleView.html?idxno=761778"
+      "title": "허니버터칩·아침햇살도 오른다…10월 먹거리 가격 줄인상",
+      "date": "Mon, 28 Sep 2026 17:06:00",
+      "source": "idomin.com",
+      "url": "https://www.idomin.com/news/articleView.html?idxno=2015800"
     }
   ],
   "bok": [
     {
-      "title": "국채금리 급등...저금리 시대의 청구서가 날아온다",
-      "date": "Mon, 28 Sep 2026 09:40:00",
-      "source": "eroun.net",
-      "url": "https://www.eroun.net/news/articleView.html?idxno=91011"
-    },
-    {
-      "title": "부산 9월 소비자심리지수 전월보다 소폭 하락 111.0",
-      "date": "Mon, 28 Sep 2026 09:29:00",
+      "title": "제조업 체감경기 하락…중소기업 낙폭 2배",
+      "date": "Tue, 29 Sep 2026 11:16:00",
       "source": "n.news.naver.com",
-      "url": "https://www.newsis.com/view/NISX20260928_0003804811"
+      "url": "https://www.sidae.com/article/2026092910133349253"
     },
     {
-      "title": "\"다시 100 밑으로\" 중동 긴장에 기업 경기전망 한 달 만에 꺾였다",
-      "date": "Mon, 28 Sep 2026 08:50:00",
-      "source": "newsway.co.kr",
-      "url": "https://www.newsway.co.kr/news/view?ud=2026092808491086182"
-    },
-    {
-      "title": "9개사 격전지 된 발행어음 시장…NH證, 이날부터 조달금리 인상",
-      "date": "Mon, 28 Sep 2026 07:40:00",
+      "title": "반도체 호황인데 추가 인상은 왜 망설이나…'내수 파급'이 관건",
+      "date": "Tue, 29 Sep 2026 10:20:00",
       "source": "news.einfomax.co.kr",
-      "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4436593"
+      "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4436850"
     },
     {
-      "title": "금리인상 충격, 中企부터 빨리 온다…기업은행 대출 순증 8.1조 '4대銀 합...",
-      "date": "Mon, 28 Sep 2026 07:00:00",
-      "source": "greened.kr",
-      "url": "https://www.greened.kr/news/articleView.html?idxno=350714"
+      "title": "추석 효과에 대형마트 6개월 만에 반등",
+      "date": "Tue, 29 Sep 2026 10:10:00",
+      "source": "smedaily.co.kr",
+      "url": "http://www.smedaily.co.kr/news/articleView.html?idxno=363841"
     },
     {
-      "title": "韓銀 “가격 인상 확산되는 중”… 4분기 물가 최대 변수되나 [Pick코노...",
-      "date": "Mon, 28 Sep 2026 06:01:00",
+      "title": "[인터뷰] 무디스 \"韓 경제, 두 개 속도로 움직여…내수 부진 지속\"",
+      "date": "Tue, 29 Sep 2026 10:04:00",
+      "source": "news.einfomax.co.kr",
+      "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4436844"
+    },
+    {
+      "title": "삼성전기, AI 반도체 기판에 6.8조 투자…역대 최대 증설",
+      "date": "Tue, 29 Sep 2026 10:01:00",
       "source": "n.news.naver.com",
-      "url": "https://www.sedaily.com/article/20095300?ref=naver"
+      "url": "https://www.sedaily.com/article/20095895?ref=naver"
     },
     {
-      "title": "美 금리 인상에 꼬인 한은 통화정책…10월 금통위 가를 3대 변수",
-      "date": "Mon, 28 Sep 2026 06:00:00",
-      "source": "ziksir.com",
-      "url": "https://www.ziksir.com/news/articleView.html?idxno=147236"
-    },
-    {
-      "title": "추석 연휴 끝, 국감 시즌 시작…재경위, 대미투자·부동산·미래기금 쟁...",
-      "date": "Mon, 28 Sep 2026 06:00:00",
+      "title": "美 국채금리 2007년 이후 최고…원·달러 1365원으로 상승",
+      "date": "Tue, 29 Sep 2026 10:01:00",
       "source": "n.news.naver.com",
-      "url": "https://www.news1.kr/economy/trend/6300857"
+      "url": "https://www.sedaily.com/article/20095891?ref=naver"
     },
     {
-      "title": "금융·부동산 정책 신뢰 흔들…국감 정조준",
-      "date": "Mon, 28 Sep 2026 06:00:00",
+      "title": "이형일 “부동산까지 함께 보자”…신현송 “각자 책무 먼저”",
+      "date": "Tue, 29 Sep 2026 10:01:00",
       "source": "n.news.naver.com",
-      "url": "https://www.sidae.com/article/2026092709343444478"
+      "url": "https://www.sedaily.com/article/20095885?ref=naver"
     },
     {
-      "title": "[N2 모닝 경제 브리핑-9월 28일] 美 증시, 유가 하락에 3대 지수 일제 강...",
-      "date": "Mon, 28 Sep 2026 05:50:00",
-      "source": "news2day.co.kr",
-      "url": "https://www.news2day.co.kr/article/20260923500299"
+      "title": "스위스프랑 16개월만 최저… '금리 0%' 캐리자금 정조준",
+      "date": "Tue, 29 Sep 2026 09:34:00",
+      "source": "g-enews.com",
+      "url": "https://www.g-enews.com/view.php?ud=202609290933003577e7e8286d56_1"
+    },
+    {
+      "title": "다시 덮친 ‘고금리 공포’…美 10년물 5.2% 돌파에 韓 금리도 4년만에 ...",
+      "date": "Tue, 29 Sep 2026 09:12:00",
+      "source": "n.news.naver.com",
+      "url": "http://www.joseilbo.com/news/news_read.php?uid=576474&class=53&grp="
+    },
+    {
+      "title": "[친절한 경제] 집값 전망 '여전'…'금리 인상 효과'는 언제?",
+      "date": "Tue, 29 Sep 2026 09:11:00",
+      "source": "n.news.naver.com",
+      "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008773760&plink=ORI&cooper=NAVER"
     }
   ],
   "kiep": [
+    {
+      "title": "[기획] 원가·환율·물류비 '삼중 변수'… 수출기업 비용 확대 우려",
+      "date": "Mon, 28 Sep 2026 14:38:00",
+      "source": "m-i.kr",
+      "url": "https://www.m-i.kr/news/articleView.html?idxno=1418383"
+    },
     {
       "title": "유가 100달러·환율 7일째 상승…다시 고개 든 '3고', 물가도 압박",
       "date": "Mon, 21 Sep 2026 06:00:00",
@@ -239,12 +245,6 @@
       "date": "Wed, 29 Jul 2026 18:00:00",
       "source": "dream.kotra.or.kr",
       "url": "http://dream.kotra.or.kr/kotranews/cms/news/actionKotraBoardDetail.do?SITE_NO=3&MENU_ID=190&CONTENTS_NO=2&bbsGbn=254&bbsSn=254&pNttSn=242934"
-    },
-    {
-      "title": "반도체 호황에 수출 '역대 최대'…7월 초순 298억달러 기록",
-      "date": "Mon, 13 Jul 2026 11:52:00",
-      "source": "ppss.kr",
-      "url": "https://www.ppss.kr/news/articleView.html?idxno=301920"
     }
   ],
   "kif": [
@@ -309,5 +309,5 @@
       "url": "http://www.ftoday.co.kr/news/articleView.html?idxno=361843"
     }
   ],
-  "updated": "2026.09.28 10:20"
+  "updated": "2026.09.29 11:24"
 }
