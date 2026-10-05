@@ -1,6 +1,12 @@
 {
   "hri": [
     {
+      "title": "'이상 징후' 보이기 시작...암울한 한국 분위기 [자막뉴스]",
+      "date": "Sun, 04 Oct 2026 14:03:00",
+      "source": "n.news.naver.com",
+      "url": "https://www.ytn.co.kr/_ln/0134_202610041403186976"
+    },
+    {
       "title": "'외화내빈' 한국 경제...실질임금·소비 동반 감소",
       "date": "Sun, 04 Oct 2026 05:22:00",
       "source": "n.news.naver.com",
@@ -53,12 +59,6 @@
       "date": "Thu, 24 Sep 2026 07:00:00",
       "source": "n.news.naver.com",
       "url": "https://www.newsis.com/view/NISX20260924_0003802799"
-    },
-    {
-      "title": "[기획] 성장률 3배 뛰는데 일자리 감소…AI 시대 '고용 없는 성장'",
-      "date": "Mon, 21 Sep 2026 14:04:00",
-      "source": "m-i.kr",
-      "url": "https://www.m-i.kr/news/articleView.html?idxno=1416717"
     }
   ],
   "kdi": [
@@ -125,64 +125,64 @@
   ],
   "bok": [
     {
-      "title": "연준 10월 금리 인상 기대 후퇴…달러-원 1345~1370원 전망",
-      "date": "Sun, 04 Oct 2026 10:20:00",
+      "title": "韓 2년 평균 성장률 'G20 선진국 1위'…잠재성장률 2배 속도로 성장",
+      "date": "Mon, 05 Oct 2026 07:30:00",
+      "source": "n.news.naver.com",
+      "url": "https://www.news1.kr/economy/trend/6309518"
+    },
+    {
+      "title": "\"대출금리 어쩌나\"…비용 부담 커진 중기·벤처",
+      "date": "Mon, 05 Oct 2026 07:01:00",
+      "source": "n.news.naver.com",
+      "url": "https://www.newsis.com/view/NISX20261002_0003813187"
+    },
+    {
+      "title": "한은 신뉴스심리지수, 원·달러 환율 설명력 높아졌다",
+      "date": "Mon, 05 Oct 2026 07:00:00",
+      "source": "etoday.co.kr",
+      "url": "https://www.etoday.co.kr/news/view/2632379"
+    },
+    {
+      "title": "美, 금리인상 속도조절 관측에도… “韓 포함 금리 상승 시간문제”",
+      "date": "Mon, 05 Oct 2026 01:41:00",
+      "source": "n.news.naver.com",
+      "url": "https://www.donga.com/news/Economy/article/all/20261004/134784230/2"
+    },
+    {
+      "title": "삼성전자 실적 앞둔 코스피, '7천피' 지킬까…美 금리·반도체가 변수",
+      "date": "Sun, 04 Oct 2026 18:38:00",
       "source": "econovill.com",
-      "url": "https://www.econovill.com/news/articleView.html?idxno=752690"
+      "url": "https://www.econovill.com/news/articleView.html?idxno=752704"
     },
     {
-      "title": "[N위크] 재경부·기획처·금융위 국정감사…3대 메가·은행 해킹·세제 ...",
-      "date": "Sun, 04 Oct 2026 08:46:00",
-      "source": "tfmedia.co.kr",
-      "url": "https://www.tfmedia.co.kr/news/article.html?no=207701"
-    },
-    {
-      "title": "경기지역 9월 소비자심리지수 106.3…한 달 만에 반등",
-      "date": "Sun, 04 Oct 2026 07:00:00",
+      "title": "‘반도체·실물경기 호황’ 딴 세상 얘기…‘고금리’ 시름 자영업, 연...",
+      "date": "Sun, 04 Oct 2026 17:46:00",
       "source": "n.news.naver.com",
-      "url": "https://www.news1.kr/local/gyeonggi/6309262"
+      "url": "https://www.hani.co.kr/arti/economy/economy_general/1280851.html"
     },
     {
-      "title": "[글로벌 경제지표] 삼전 첫 분기 영업익 100조 돌파 주목…9월 FOMC 의사...",
-      "date": "Sun, 04 Oct 2026 07:00:00",
+      "title": "美 금리인상 ‘주춤’ 전망에도…“韓 주담대는 계속 오를 것”",
+      "date": "Sun, 04 Oct 2026 16:45:00",
       "source": "n.news.naver.com",
-      "url": "https://biz.sbs.co.kr/article_hub/20000337988?division=NAVER"
+      "url": "https://www.donga.com/news/Inter/article/all/20261004/134782211/1"
     },
     {
-      "title": "4대 금융 주주환원 10조 바라본다, 금리인상기 주가 기대감도 유효",
-      "date": "Sun, 04 Oct 2026 06:02:00",
-      "source": "businesspost.co.kr",
-      "url": "https://www.businesspost.co.kr/BP?command=article_view&num=448546"
-    },
-    {
-      "title": "삼성전자 3분기 실적 발표...9월 FOMC 의사록 공개 [한동훈의 위클리전망...",
-      "date": "Sun, 04 Oct 2026 06:01:00",
+      "title": "'이상 징후' 보이기 시작...암울한 한국 분위기 [자막뉴스]",
+      "date": "Sun, 04 Oct 2026 14:03:00",
       "source": "n.news.naver.com",
-      "url": "https://www.sedaily.com/article/20097962?ref=naver"
+      "url": "https://www.ytn.co.kr/_ln/0134_202610041403186976"
     },
     {
-      "title": "'외화내빈' 한국 경제...실질임금·소비 동반 감소",
-      "date": "Sun, 04 Oct 2026 05:22:00",
+      "title": "[외환-주간] 美 고용 둔화에 열린 달러-원 하방…국채금리가 제동 걸까",
+      "date": "Sun, 04 Oct 2026 13:02:00",
+      "source": "news.einfomax.co.kr",
+      "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4437720"
+    },
+    {
+      "title": "미 국채금리 발 국고채 4%대…가계·기업 '비상'",
+      "date": "Sun, 04 Oct 2026 12:00:00",
       "source": "n.news.naver.com",
-      "url": "https://www.ytn.co.kr/_ln/0102_202610040522457137"
-    },
-    {
-      "title": "트럼프, 알래스카 투자 압박...서울 아파트값 최장기간 상승",
-      "date": "Sat, 03 Oct 2026 18:49:00",
-      "source": "n.news.naver.com",
-      "url": "https://www.ytn.co.kr/_ln/0102_202610031849256876"
-    },
-    {
-      "title": "[EBN 오늘(3일) 이슈 종합] 트럼프 한국에 알래스카 LNG 투자 압박, 은행...",
-      "date": "Sat, 03 Oct 2026 18:28:00",
-      "source": "ebn.co.kr",
-      "url": "https://www.ebn.co.kr/news/articleView.html?idxno=1726669"
-    },
-    {
-      "title": "10년물 국채 5% 뚫은 AI와 석유… 빅테크와 정유주만 웃었다",
-      "date": "Sat, 03 Oct 2026 12:12:00",
-      "source": "g-enews.com",
-      "url": "https://www.g-enews.com/view.php?ud=20261003120528568fbbec65dfb_1"
+      "url": "https://news.bizwatch.co.kr/article/finance/2026/10/02/0033"
     }
   ],
   "kiep": [
@@ -309,5 +309,5 @@
       "url": "https://www.yna.co.kr/view/AKR20260710057800008?input=1195m"
     }
   ],
-  "updated": "2026.10.04 11:23"
+  "updated": "2026.10.05 10:26"
 }
