@@ -125,6 +125,48 @@
   ],
   "bok": [
     {
+      "title": "‘부동산 평탄화’의 착각…집값 좌우할 5대 변수 [스페셜리포트]",
+      "date": "Sat, 10 Oct 2026 10:01:00",
+      "source": "n.news.naver.com",
+      "url": "https://www.mk.co.kr/article/12166948"
+    },
+    {
+      "title": "잡히지 않는 물가…한은·미 연준 '기준금리' 올릴까 [10월 경제캘린더...",
+      "date": "Sat, 10 Oct 2026 07:23:00",
+      "source": "n.news.naver.com",
+      "url": "https://www.thescoop.co.kr/news/articleView.html?idxno=311870"
+    },
+    {
+      "title": "금리 두 번 올린 신현송…첫 국감서 쟁점은[한은 미리보기]",
+      "date": "Sat, 10 Oct 2026 06:02:00",
+      "source": "n.news.naver.com",
+      "url": "https://www.edaily.co.kr/News/Read?newsId=01525206645611608&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article"
+    },
+    {
+      "title": "‘칠천피’도 불안한데 위기 아니다? 경상수지 흑자가 AI·반도체 투자에...",
+      "date": "Sat, 10 Oct 2026 05:42:00",
+      "source": "n.news.naver.com",
+      "url": "https://biz.heraldcorp.com/article/10897816?ref=naver"
+    },
+    {
+      "title": "청년 '장거리 출퇴근'에 생산성 저하…안철수, 정부 부동산 정책 비판",
+      "date": "Fri, 09 Oct 2026 19:16:00",
+      "source": "rightknow.co.kr",
+      "url": "http://www.rightknow.co.kr/news/articleView.html?idxno=34965"
+    },
+    {
+      "title": "10월 기준금리 매파적 동결?…변수는 '美 추가 긴축'",
+      "date": "Fri, 09 Oct 2026 16:46:00",
+      "source": "hansbiz.co.kr",
+      "url": "http://www.hansbiz.co.kr/news/articleView.html?idxno=871448"
+    },
+    {
+      "title": "한국은행 10월 기준금리 ‘매파적 동결’ 전망…美 추가 긴축은 변수",
+      "date": "Fri, 09 Oct 2026 15:39:00",
+      "source": "n.news.naver.com",
+      "url": "https://www.kmib.co.kr/article/view.asp?arcid=9000021300&cp=nv"
+    },
+    {
       "title": "[김정식의 이코노믹스] 3고 시대엔 시중유동성 줄여 인플레이션 기대부...",
       "date": "Fri, 09 Oct 2026 00:12:00",
       "source": "n.news.naver.com",
@@ -141,48 +183,6 @@
       "date": "Thu, 08 Oct 2026 16:52:00",
       "source": "newspim.com",
       "url": "https://www.newspim.com/news/view/20261008001202"
-    },
-    {
-      "title": "안철수 \"정부 부동산 정책 엇박자…공급·대출·세금 활용 못 해\"",
-      "date": "Thu, 08 Oct 2026 16:12:00",
-      "source": "n.news.naver.com",
-      "url": "https://www.edaily.co.kr/News/Read?newsId=04578886645610952&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article"
-    },
-    {
-      "title": "달러 강세에도 원화는 강세…역대급 경상흑자의 힘",
-      "date": "Thu, 08 Oct 2026 15:56:00",
-      "source": "ajunews.com",
-      "url": "https://www.ajunews.com/view/20261008153127795"
-    },
-    {
-      "title": "[금융권 이모저모]삼성자산운용, 12일 ETF 투자전략 웹세미나 개최 外",
-      "date": "Thu, 08 Oct 2026 14:56:00",
-      "source": "businessplus.kr",
-      "url": "https://www.businessplus.kr/news/articleView.html?idxno=117919"
-    },
-    {
-      "title": "안철수 \"정부 부동산 정책 완전히 엇박자...집값 잡을 3대 수단 못 써\"",
-      "date": "Thu, 08 Oct 2026 14:14:00",
-      "source": "n.news.naver.com",
-      "url": "https://www.fnnews.com/news/202610081407338708"
-    },
-    {
-      "title": "반도체 수출 호황에 원화 강세…엔화는 금리 올려도 약세",
-      "date": "Thu, 08 Oct 2026 13:46:00",
-      "source": "thepublic.kr",
-      "url": "https://www.thepublic.kr/news/articleView.html?idxno=321564"
-    },
-    {
-      "title": "금융지주 상반기 순익 17.6조…은행 줄고 금융투자 72.8%↑",
-      "date": "Thu, 08 Oct 2026 11:20:00",
-      "source": "sateconomy.co.kr",
-      "url": "https://sateconomy.co.kr/news/view/1065578907892143"
-    },
-    {
-      "title": "경상흑자, 4개월 연속 400억달러 넘나…한은 “9월, 8월보다 좋을 듯”",
-      "date": "Thu, 08 Oct 2026 11:08:00",
-      "source": "n.news.naver.com",
-      "url": "http://www.joseilbo.com/news/news_read.php?uid=577047&class=18&grp="
     }
   ],
   "kiep": [
@@ -249,6 +249,12 @@
   ],
   "kif": [
     {
+      "title": "4대 금융지주 3분기 순익 5조6000억 전망…지주별 실적 희비 엇갈려",
+      "date": "Sat, 10 Oct 2026 08:00:00",
+      "source": "popcornnews.net",
+      "url": "http://www.popcornnews.net/news/articleView.html?idxno=135478"
+    },
+    {
       "title": "이억원 \"금리인상기 극단적 위험까지 점검...시장 불안 확산시 시장안정...",
       "date": "Thu, 01 Oct 2026 13:04:00",
       "source": "efnews.co.kr",
@@ -301,13 +307,7 @@
       "date": "Fri, 10 Jul 2026 16:00:00",
       "source": "ppss.kr",
       "url": "https://www.ppss.kr/news/articleView.html?idxno=301797"
-    },
-    {
-      "title": "'외인 41조 유입' 순조로운 WGBI 편입에도…\"실질적 체감은 아직\"",
-      "date": "Fri, 10 Jul 2026 11:03:00",
-      "source": "n.news.naver.com",
-      "url": "https://www.yna.co.kr/view/AKR20260710057800008?input=1195m"
     }
   ],
-  "updated": "2026.10.09 11:43"
+  "updated": "2026.10.10 10:59"
 }
