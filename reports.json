@@ -63,6 +63,36 @@
   ],
   "kdi": [
     {
+      "title": "배달앱 수수료 상한제 입법 되나",
+      "date": "Sun, 11 Oct 2026 10:22:00",
+      "source": "smedaily.co.kr",
+      "url": "http://www.smedaily.co.kr/news/articleView.html?idxno=364432"
+    },
+    {
+      "title": "배달앱 수수료 상한제 입법 본격화하나…플랫폼 비용 전가 우려도",
+      "date": "Sun, 11 Oct 2026 09:37:00",
+      "source": "n.news.naver.com",
+      "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008791670&plink=ORI&cooper=NAVER"
+    },
+    {
+      "title": "배달앱 수수료 상한 법안 3건 국회 계류…국감 후 심사 본격화",
+      "date": "Sun, 11 Oct 2026 07:20:00",
+      "source": "n.news.naver.com",
+      "url": "https://www.imaeil.com/page/view/2026101107185820675"
+    },
+    {
+      "title": "한국 성장률 3%대 줄줄이…IMF도 올려 잡을까",
+      "date": "Sun, 11 Oct 2026 06:02:00",
+      "source": "n.news.naver.com",
+      "url": "https://www.edaily.co.kr/News/Read?newsId=01085686645611936&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article"
+    },
+    {
+      "title": "배달앱 수수료 상한제 입법 본격화하나…플랫폼 비용 전가 우려도",
+      "date": "Sun, 11 Oct 2026 06:00:00",
+      "source": "n.news.naver.com",
+      "url": "https://www.yna.co.kr/view/AKR20261009055600030?input=1195m"
+    },
+    {
       "title": "박홍근 \"미래대응기금, 미래 살리는 기금\"…교부세 총량 안 줄어\"(종합2...",
       "date": "Thu, 08 Oct 2026 18:51:00",
       "source": "n.news.naver.com",
@@ -91,98 +121,68 @@
       "date": "Thu, 08 Oct 2026 08:54:00",
       "source": "ikld.kr",
       "url": "http://www.ikld.kr/news/articleView.html?idxno=341857"
-    },
-    {
-      "title": "메르스 11년 지났는데…감염병전문병원 5곳 중 4곳 '설계중'",
-      "date": "Thu, 08 Oct 2026 08:32:00",
-      "source": "n.news.naver.com",
-      "url": "https://www.news1.kr/bio/welfare-medical/6313769"
-    },
-    {
-      "title": "200조 넘보는 미래기금…‘쌓는 법’은 있는데 ‘쓰는 곳’은[Deep Spot]",
-      "date": "Thu, 08 Oct 2026 06:01:00",
-      "source": "n.news.naver.com",
-      "url": "https://biz.heraldcorp.com/article/10896060?ref=naver"
-    },
-    {
-      "title": "‘내륙 우회’ 기로 영일만대교…김정재 “해상노선” 洪 “대안으로라...",
-      "date": "Wed, 07 Oct 2026 22:22:00",
-      "source": "kbmaeil.com",
-      "url": "https://www.kbmaeil.com/article/20261007500795"
-    },
-    {
-      "title": "공공·민간 공동 재원 부담…오일허브서 미래 에너지 거점으로",
-      "date": "Wed, 07 Oct 2026 21:42:00",
-      "source": "ulsanpress.net",
-      "url": "https://www.ulsanpress.net/news/articleView.html?idxno=584354"
-    },
-    {
-      "title": "AI·반도체가 끌어올린 3%대 성장…내년부터가 승부처",
-      "date": "Wed, 07 Oct 2026 14:54:00",
-      "source": "asiatime.co.kr",
-      "url": "https://www.asiatime.co.kr/article/20261007500288"
     }
   ],
   "bok": [
+    {
+      "title": "리츠 ETF 개인 순매수 298억…국채금리 급등에도 44% 늘었다",
+      "date": "Sun, 11 Oct 2026 07:22:00",
+      "source": "n.news.naver.com",
+      "url": "https://www.imaeil.com/page/view/2026101107201383760"
+    },
+    {
+      "title": "[주간금융이슈] 신현송 한은 총재 첫 국감…연속 금리인상 효과·금융안...",
+      "date": "Sun, 11 Oct 2026 07:00:00",
+      "source": "newspim.com",
+      "url": "https://www.newspim.com/news/view/20261008000505"
+    },
+    {
+      "title": "美금리 뛰고 물가도 3% 위협…한은, '3연속 인상 vs 10월 동결' 기로",
+      "date": "Sun, 11 Oct 2026 06:45:00",
+      "source": "n.news.naver.com",
+      "url": "https://www.news1.kr/economy/trend/6315050"
+    },
+    {
+      "title": "국채금리 급등에 줄어든 매력에도…개인, 리츠 ETF 순매수액↑",
+      "date": "Sun, 11 Oct 2026 06:10:00",
+      "source": "n.news.naver.com",
+      "url": "https://www.yna.co.kr/view/AKR20261008168900008?input=1195m"
+    },
+    {
+      "title": "IMF 韓 성장률 얼마나 올리나...美 인플레이션 지표 관건 [한동훈의 위클...",
+      "date": "Sun, 11 Oct 2026 06:01:00",
+      "source": "n.news.naver.com",
+      "url": "https://www.sedaily.com/article/20100026?ref=naver"
+    },
+    {
+      "title": "슈카 만난 이창용 \"강남 부동산 관심 커진 덴 분양가 상한제도 영향…보...",
+      "date": "Sat, 10 Oct 2026 21:58:00",
+      "source": "n.news.naver.com",
+      "url": "https://view.asiae.co.kr/article/2026101021544498395"
+    },
+    {
+      "title": "'좋을 때 나쁠 때를 준비해야'…반도체 호황에 대한 이창용의 진단",
+      "date": "Sat, 10 Oct 2026 21:16:00",
+      "source": "n.news.naver.com",
+      "url": "https://www.edaily.co.kr/News/Read?newsId=03280006645611608&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article"
+    },
+    {
+      "title": "‘닥공 재정’·AI ‘빚투’가 바꾼 금리 공식",
+      "date": "Sat, 10 Oct 2026 21:01:00",
+      "source": "n.news.naver.com",
+      "url": "https://www.mk.co.kr/article/12166961"
+    },
+    {
+      "title": "'100조 시대' 삼성전자 최대 실적...주가는 하락",
+      "date": "Sat, 10 Oct 2026 18:15:00",
+      "source": "n.news.naver.com",
+      "url": "https://www.ytn.co.kr/_ln/0102_202610101815005051"
+    },
     {
       "title": "‘부동산 평탄화’의 착각…집값 좌우할 5대 변수 [스페셜리포트]",
       "date": "Sat, 10 Oct 2026 10:01:00",
       "source": "n.news.naver.com",
       "url": "https://www.mk.co.kr/article/12166948"
-    },
-    {
-      "title": "잡히지 않는 물가…한은·미 연준 '기준금리' 올릴까 [10월 경제캘린더...",
-      "date": "Sat, 10 Oct 2026 07:23:00",
-      "source": "n.news.naver.com",
-      "url": "https://www.thescoop.co.kr/news/articleView.html?idxno=311870"
-    },
-    {
-      "title": "금리 두 번 올린 신현송…첫 국감서 쟁점은[한은 미리보기]",
-      "date": "Sat, 10 Oct 2026 06:02:00",
-      "source": "n.news.naver.com",
-      "url": "https://www.edaily.co.kr/News/Read?newsId=01525206645611608&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article"
-    },
-    {
-      "title": "‘칠천피’도 불안한데 위기 아니다? 경상수지 흑자가 AI·반도체 투자에...",
-      "date": "Sat, 10 Oct 2026 05:42:00",
-      "source": "n.news.naver.com",
-      "url": "https://biz.heraldcorp.com/article/10897816?ref=naver"
-    },
-    {
-      "title": "청년 '장거리 출퇴근'에 생산성 저하…안철수, 정부 부동산 정책 비판",
-      "date": "Fri, 09 Oct 2026 19:16:00",
-      "source": "rightknow.co.kr",
-      "url": "http://www.rightknow.co.kr/news/articleView.html?idxno=34965"
-    },
-    {
-      "title": "10월 기준금리 매파적 동결?…변수는 '美 추가 긴축'",
-      "date": "Fri, 09 Oct 2026 16:46:00",
-      "source": "hansbiz.co.kr",
-      "url": "http://www.hansbiz.co.kr/news/articleView.html?idxno=871448"
-    },
-    {
-      "title": "한국은행 10월 기준금리 ‘매파적 동결’ 전망…美 추가 긴축은 변수",
-      "date": "Fri, 09 Oct 2026 15:39:00",
-      "source": "n.news.naver.com",
-      "url": "https://www.kmib.co.kr/article/view.asp?arcid=9000021300&cp=nv"
-    },
-    {
-      "title": "[김정식의 이코노믹스] 3고 시대엔 시중유동성 줄여 인플레이션 기대부...",
-      "date": "Fri, 09 Oct 2026 00:12:00",
-      "source": "n.news.naver.com",
-      "url": "https://www.joongang.co.kr/article/25468323"
-    },
-    {
-      "title": "AI와 경제성장의 미래는 과연 장밋빛일까?",
-      "date": "Thu, 08 Oct 2026 17:24:00",
-      "source": "n.news.naver.com",
-      "url": "https://www.hani.co.kr/arti/economy/economy_general/1281539.html"
-    },
-    {
-      "title": "\"집값 억제만으론 한계…주거 안정·공급 확대에 정책 초점 맞춰야\"",
-      "date": "Thu, 08 Oct 2026 16:52:00",
-      "source": "newspim.com",
-      "url": "https://www.newspim.com/news/view/20261008001202"
     }
   ],
   "kiep": [
@@ -249,6 +249,12 @@
   ],
   "kif": [
     {
+      "title": "은행 이자이익이 성장 견인...국내 4대 금융지주, 올 3분기 순이익 5.6조...",
+      "date": "Sun, 11 Oct 2026 08:00:00",
+      "source": "youthdaily.co.kr",
+      "url": "https://www.youthdaily.co.kr/news/article.html?no=228161"
+    },
+    {
       "title": "4대 금융지주 3분기 순익 5조6000억 전망…지주별 실적 희비 엇갈려",
       "date": "Sat, 10 Oct 2026 08:00:00",
       "source": "popcornnews.net",
@@ -301,13 +307,7 @@
       "date": "Wed, 15 Jul 2026 07:02:00",
       "source": "fntimes.com",
       "url": "https://www.fntimes.com/html/view.php?ud=202607142227415925b4a7c6999c_18"
-    },
-    {
-      "title": "한국 국채, WGBI 편입 외국인 순매수 40조원 돌파…효과는 제한적",
-      "date": "Fri, 10 Jul 2026 16:00:00",
-      "source": "ppss.kr",
-      "url": "https://www.ppss.kr/news/articleView.html?idxno=301797"
     }
   ],
-  "updated": "2026.10.10 10:59"
+  "updated": "2026.10.11 10:26"
 }
