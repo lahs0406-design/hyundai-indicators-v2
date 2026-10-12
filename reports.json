@@ -1,6 +1,12 @@
 {
   "hri": [
     {
+      "title": "\"내년 경제 성장 역기저효과 등 제약…2.4% 전망\"",
+      "date": "Mon, 12 Oct 2026 07:16:00",
+      "source": "asiatime.co.kr",
+      "url": "https://www.asiatime.co.kr/article/20261008500331"
+    },
+    {
       "title": "반도체 호황이 만든 명목 GDP…내수와 가계로 퍼질까",
       "date": "Wed, 07 Oct 2026 16:40:00",
       "source": "junggi.co.kr",
@@ -53,15 +59,33 @@
       "date": "Thu, 24 Sep 2026 08:02:00",
       "source": "news.einfomax.co.kr",
       "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4436370"
-    },
-    {
-      "title": "[창간 24/3% 성장의 그늘①] 반도체 호황에도 '기초체력' 잠재성장률 1%...",
-      "date": "Thu, 24 Sep 2026 08:00:00",
-      "source": "seoulfn.com",
-      "url": "https://www.seoulfn.com/news/articleView.html?idxno=638481"
     }
   ],
   "kdi": [
+    {
+      "title": "홈플러스 통매각 vs 분리매각 기로",
+      "date": "Mon, 12 Oct 2026 10:18:00",
+      "source": "smedaily.co.kr",
+      "url": "http://www.smedaily.co.kr/news/articleView.html?idxno=364442"
+    },
+    {
+      "title": "[경제 이슈] 정부, 미래대응기금 신설 통해 진짜 성장 견인한다",
+      "date": "Mon, 12 Oct 2026 07:58:00",
+      "source": "sisacast.kr",
+      "url": "http://www.sisacast.kr/news/articleView.html?idxno=100880"
+    },
+    {
+      "title": "“고점 확신 전까진 단기채…조급함은 금물이죠”",
+      "date": "Mon, 12 Oct 2026 06:02:00",
+      "source": "magazine.hankyung.com",
+      "url": "https://magazine.hankyung.com/money/article/202609078509c"
+    },
+    {
+      "title": "CPTPP 연내 가입 결국 보류…농업 보호·통상 확대 '딜레마'",
+      "date": "Sun, 11 Oct 2026 14:44:00",
+      "source": "n.news.naver.com",
+      "url": "https://www.news1.kr/economy/idustry-trade/6315614"
+    },
     {
       "title": "배달앱 수수료 상한제 입법 되나",
       "date": "Sun, 11 Oct 2026 10:22:00",
@@ -97,92 +121,68 @@
       "date": "Thu, 08 Oct 2026 18:51:00",
       "source": "n.news.naver.com",
       "url": "https://www.news1.kr/economy/trend/6314928"
-    },
-    {
-      "title": "내포신도시 미래신산업 국가산단, 예타 문턱 못 넘었다",
-      "date": "Thu, 08 Oct 2026 17:16:00",
-      "source": "dtnews24.com",
-      "url": "http://www.dtnews24.com/news/articleView.html?idxno=815924"
-    },
-    {
-      "title": "내포 국가산단 예타 탈락…홍성 미래산업 구상 '제동'",
-      "date": "Thu, 08 Oct 2026 16:10:00",
-      "source": "newsfreezone.co.kr",
-      "url": "https://www.newsfreezone.co.kr/news/articleView.html?idxno=713018"
-    },
-    {
-      "title": "감염병전문병원 5곳 중 4곳 ‘설계 중’…허종식, 공항·항만 고려한 정...",
-      "date": "Thu, 08 Oct 2026 10:29:00",
-      "source": "n.news.naver.com",
-      "url": "https://www.kyeonggi.com/article/20261008580074"
-    },
-    {
-      "title": "울산 야음동 신흥 고급주거타운으로 거듭나… '힐스테이트 선암호수공...",
-      "date": "Thu, 08 Oct 2026 08:54:00",
-      "source": "ikld.kr",
-      "url": "http://www.ikld.kr/news/articleView.html?idxno=341857"
     }
   ],
   "bok": [
     {
-      "title": "리츠 ETF 개인 순매수 298억…국채금리 급등에도 44% 늘었다",
-      "date": "Sun, 11 Oct 2026 07:22:00",
-      "source": "n.news.naver.com",
-      "url": "https://www.imaeil.com/page/view/2026101107201383760"
+      "title": "[국감이슈] 한은 \"물가 상당 기간 목표 상회\"…추가 금리 인상 가능성 시...",
+      "date": "Mon, 12 Oct 2026 10:52:00",
+      "source": "industrynews.co.kr",
+      "url": "https://www.industrynews.co.kr/news/articleView.html?idxno=87348"
     },
     {
-      "title": "[주간금융이슈] 신현송 한은 총재 첫 국감…연속 금리인상 효과·금융안...",
-      "date": "Sun, 11 Oct 2026 07:00:00",
-      "source": "newspim.com",
-      "url": "https://www.newspim.com/news/view/20261008000505"
+      "title": "신현송, 첫 국감서 \"고물가 장기화\" 경고…긴축 기조 재확인",
+      "date": "Mon, 12 Oct 2026 10:52:00",
+      "source": "newskr.kr",
+      "url": "http://www.newskr.kr/news/articleView.html?idxno=107059"
     },
     {
-      "title": "美금리 뛰고 물가도 3% 위협…한은, '3연속 인상 vs 10월 동결' 기로",
-      "date": "Sun, 11 Oct 2026 06:45:00",
-      "source": "n.news.naver.com",
-      "url": "https://www.news1.kr/economy/trend/6315050"
+      "title": "한은 \"집값상승 기대 자극않도록 일관된 정책 필요\"...물가상승 우려",
+      "date": "Mon, 12 Oct 2026 10:50:00",
+      "source": "newsfc.co.kr",
+      "url": "http://www.newsfc.co.kr/news/articleView.html?idxno=81666"
     },
     {
-      "title": "국채금리 급등에 줄어든 매력에도…개인, 리츠 ETF 순매수액↑",
-      "date": "Sun, 11 Oct 2026 06:10:00",
-      "source": "n.news.naver.com",
-      "url": "https://www.yna.co.kr/view/AKR20261008168900008?input=1195m"
+      "title": "신현송 \"물가 오름세 오래간다…추가 금리인상 판단\"",
+      "date": "Mon, 12 Oct 2026 10:50:00",
+      "source": "ebn.co.kr",
+      "url": "https://www.ebn.co.kr/news/articleView.html?idxno=1727392"
     },
     {
-      "title": "IMF 韓 성장률 얼마나 올리나...美 인플레이션 지표 관건 [한동훈의 위클...",
-      "date": "Sun, 11 Oct 2026 06:01:00",
-      "source": "n.news.naver.com",
-      "url": "https://www.sedaily.com/article/20100026?ref=naver"
+      "title": "한은 \"물가 상당 기간 목표 웃돌 것…추가 금리 인상 시기·속도 조절\"",
+      "date": "Mon, 12 Oct 2026 10:48:00",
+      "source": "iminju.net",
+      "url": "http://www.iminju.net/news/articleView.html?idxno=170653"
     },
     {
-      "title": "슈카 만난 이창용 \"강남 부동산 관심 커진 덴 분양가 상한제도 영향…보...",
-      "date": "Sat, 10 Oct 2026 21:58:00",
+      "title": "신현송 한은 총재 “수도권 주택가격·가계부채 증가…금융 불균형 우려...",
+      "date": "Mon, 12 Oct 2026 10:46:00",
       "source": "n.news.naver.com",
-      "url": "https://view.asiae.co.kr/article/2026101021544498395"
+      "url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8683002&ref=A"
     },
     {
-      "title": "'좋을 때 나쁠 때를 준비해야'…반도체 호황에 대한 이창용의 진단",
-      "date": "Sat, 10 Oct 2026 21:16:00",
-      "source": "n.news.naver.com",
-      "url": "https://www.edaily.co.kr/News/Read?newsId=03280006645611608&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article"
+      "title": "한은 총재 \"물가, 상당기간 목표 수준 상회 전망\"",
+      "date": "Mon, 12 Oct 2026 10:44:00",
+      "source": "it.chosun.com",
+      "url": "https://it.chosun.com/news/articleView.html?idxno=2023092171787"
     },
     {
-      "title": "‘닥공 재정’·AI ‘빚투’가 바꾼 금리 공식",
-      "date": "Sat, 10 Oct 2026 21:01:00",
-      "source": "n.news.naver.com",
-      "url": "https://www.mk.co.kr/article/12166961"
+      "title": "[이슈국감] 한은, 기준금리 3.0%로 인상...'긴축 기조' 유지",
+      "date": "Mon, 12 Oct 2026 10:44:00",
+      "source": "hansbiz.co.kr",
+      "url": "http://www.hansbiz.co.kr/news/articleView.html?idxno=871736"
     },
     {
-      "title": "'100조 시대' 삼성전자 최대 실적...주가는 하락",
-      "date": "Sat, 10 Oct 2026 18:15:00",
-      "source": "n.news.naver.com",
-      "url": "https://www.ytn.co.kr/_ln/0102_202610101815005051"
+      "title": "[2026 국정감사] 한은 총재 \"물가, 상당기간 목표 상회…추가 금리 인상...",
+      "date": "Mon, 12 Oct 2026 10:40:00",
+      "source": "ajunews.com",
+      "url": "https://www.ajunews.com/view/20261012103018939"
     },
     {
-      "title": "‘부동산 평탄화’의 착각…집값 좌우할 5대 변수 [스페셜리포트]",
-      "date": "Sat, 10 Oct 2026 10:01:00",
+      "title": "신현송 총재 “기준금리 추가 인상 시기, 물가·경기 흐름 보고 결정”",
+      "date": "Mon, 12 Oct 2026 10:39:00",
       "source": "n.news.naver.com",
-      "url": "https://www.mk.co.kr/article/12166948"
+      "url": "https://biz.heraldcorp.com/article/10899298?ref=naver"
     }
   ],
   "kiep": [
@@ -309,5 +309,5 @@
       "url": "https://www.fntimes.com/html/view.php?ud=202607142227415925b4a7c6999c_18"
     }
   ],
-  "updated": "2026.10.11 10:26"
+  "updated": "2026.10.12 10:55"
 }
