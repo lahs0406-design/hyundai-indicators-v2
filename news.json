@@ -1,13 +1,6 @@
 {
   "dept": [
     {
-      "title": "롯데쇼핑 주주우대 제도로 '개미 모으기' 시동, 신동빈 기업가치·실적...",
-      "date": "Wed, 14 Oct 2026 17:46:00",
-      "source": "businesspost.co.kr",
-      "url": "https://www.businesspost.co.kr/BP?command=article_view&num=449257",
-      "sub": ""
-    },
-    {
       "title": "백화점 쇼핑도 지겨운 '부잣집 딸'이 추구미?… '현백코어' 유행 이유는...",
       "date": "Wed, 14 Oct 2026 13:01:00",
       "source": "n.news.naver.com",
@@ -29,13 +22,6 @@
       "sub": ""
     },
     {
-      "title": "정용진 신세계 회장, 세계적 영화사 승부수",
-      "date": "Thu, 15 Oct 2026 18:48:00",
-      "source": "cbci.co.kr",
-      "url": "https://www.cbci.co.kr/news/articleView.html?idxno=615982",
-      "sub": ""
-    },
-    {
       "title": "[EZ 클릭] '현백코어'가 뭐길래…백화점 취향, 패션·뷰티로 번지나",
       "date": "Thu, 15 Oct 2026 16:10:00",
       "source": "ezyeconomy.com",
@@ -50,96 +36,110 @@
       "sub": ""
     },
     {
-      "title": "고양산업진흥원, 17~18일 '고양 콘텐츠 팝업 페스타 2026' 개최",
-      "date": "Sat, 17 Oct 2026 09:32:00",
-      "source": "tournews21.com",
-      "url": "https://www.tournews21.com/news/articleView.html?idxno=145955",
+      "title": "무신사 드롭 단독, 브라이튼 캐리어 X 젠지 콜라보 한정판 라인업 공개",
+      "date": "Sun, 18 Oct 2026 09:20:00",
+      "source": "dnews.co.kr",
+      "url": "https://www.dnews.co.kr/uhtml/view.jsp?idxno=202610161603128980925",
       "sub": ""
     },
     {
-      "title": "휘란, 신촌 현대백화점 U-PLEX서 K-뷰티 팝업 선보여···한국적 감성 ...",
-      "date": "Sat, 17 Oct 2026 09:00:00",
-      "source": "enetnews.co.kr",
-      "url": "https://www.enetnews.co.kr/news/articleView.html?idxno=55384",
+      "title": "[카드뉴스] 무신사·지그재그, 왜 성수동으로 나왔을까?...온라인 패션 ...",
+      "date": "Sun, 18 Oct 2026 09:06:00",
+      "source": "techm.kr",
+      "url": "https://www.techm.kr/news/articleView.html?idxno=156195",
       "sub": ""
     },
     {
-      "title": "골든치즈, 홍콩서 팝업스토어 운영… 하루 100개 한정 판매",
-      "date": "Sat, 17 Oct 2026 09:00:00",
-      "source": "etoday.co.kr",
-      "url": "https://www.etoday.co.kr/news/view/2636578",
+      "title": "트와이스, 데뷔 11주년 기념해 놀이공원 콘셉트 팝업 스토어 오픈",
+      "date": "Sun, 18 Oct 2026 09:04:00",
+      "source": "m.entertain.naver.com",
+      "url": "https://sports.khan.co.kr/article/202610180903003?pt=nv",
+      "sub": ""
+    },
+    {
+      "title": "현대백화점, 고객 기부 에코백 재활용 '리백(Re:Bag)' 캠페인 전개",
+      "date": "Sun, 18 Oct 2026 09:00:00",
+      "source": "popcornnews.net",
+      "url": "http://www.popcornnews.net/news/articleView.html?idxno=136335",
+      "sub": ""
+    },
+    {
+      "title": "브라이튼 캐리어, 젠지 협업 한정판 10월 18일 무신사 드롭 출시",
+      "date": "Sun, 18 Oct 2026 09:00:00",
+      "source": "megaeconomy.co.kr",
+      "url": "https://www.megaeconomy.co.kr/news/newsview.php?ncode=1065597800756302",
       "sub": ""
     }
   ],
   "trend": [
     {
-      "title": "‘31일 구속 만료’ 김건희 풀려나나…특검, 대법에 추가 구속영장 발부...",
-      "date": "Thu, 15 Oct 2026 17:14:00",
+      "title": "올가을 패션 트렌드 '퍼플코어' 주목…보랏빛으로 물든 패션계",
+      "date": "Sun, 18 Oct 2026 09:24:00",
+      "source": "slist.kr",
+      "url": "https://www.slist.kr/news/articleView.html?idxno=774276",
+      "sub": ""
+    },
+    {
+      "title": "올가을 주목할 패션 트렌드, 실용성·스타일 갖춘 유틸리티 패션 인기",
+      "date": "Sun, 18 Oct 2026 09:16:00",
+      "source": "slist.kr",
+      "url": "https://www.slist.kr/news/articleView.html?idxno=774273",
+      "sub": ""
+    },
+    {
+      "title": "동탄 첫 하이퍼엔드 '아크메르 동탄' 분양",
+      "date": "Sun, 18 Oct 2026 09:00:00",
+      "source": "nextdaily.co.kr",
+      "url": "https://www.nextdaily.co.kr/news/articleView.html?idxno=253917",
+      "sub": ""
+    },
+    {
+      "title": "유니클로, 亞 브랜드 48위…인사이드리테일 선정",
+      "date": "Sun, 18 Oct 2026 06:32:00",
+      "source": "theguru.co.kr",
+      "url": "https://www.theguru.co.kr/news/article.html?no=108204",
+      "sub": ""
+    },
+    {
+      "title": "“루이비통·구찌 사던 중국 부자들 어디 갔나”…세금 추징에 럭셔리업...",
+      "date": "Sun, 18 Oct 2026 06:15:00",
       "source": "n.news.naver.com",
-      "url": "https://weekly.khan.co.kr/article/202610151714011",
+      "url": "https://biz.heraldcorp.com/article/10905951?ref=naver",
       "sub": ""
     },
     {
-      "title": "올가을 '이 가방'이 어딜 가든 보입니다",
-      "date": "Sat, 17 Oct 2026 09:40:00",
-      "source": "elle.co.kr",
-      "url": "https://www.elle.co.kr/article/1911437",
-      "sub": ""
-    },
-    {
-      "title": "까르띠에 모기업 리슈몽, 1.3조 몸값 디비어스 인수 참전…명품가 ‘원...",
-      "date": "Sat, 17 Oct 2026 09:28:00",
-      "source": "g-enews.com",
-      "url": "https://www.g-enews.com/view.php?ud=20261016140754541fda4f5ab74_1",
-      "sub": ""
-    },
-    {
-      "title": "독립 브랜드 적용한 ‘아크메르 동탄’ 견본주택 개관",
-      "date": "Sat, 17 Oct 2026 09:00:00",
-      "source": "etoday.co.kr",
-      "url": "https://www.etoday.co.kr/news/view/2636781",
-      "sub": ""
-    },
-    {
-      "title": "'체크아웃 없는 호텔' 변신하는 하이엔드 아파트들",
-      "date": "Sat, 17 Oct 2026 09:00:00",
-      "source": "businesskorea.co.kr",
-      "url": "https://www.businesskorea.co.kr/news/articleView.html?idxno=279025",
-      "sub": ""
-    },
-    {
-      "title": "태그호이어 커넥티드, E5 내놓고 1년도 안 돼 생산 중단설…재고는 2027...",
-      "date": "Sat, 17 Oct 2026 08:08:00",
-      "source": "wikitree.co.kr",
-      "url": "https://www.wikitree.co.kr/articles/1166925",
-      "sub": ""
-    },
-    {
-      "title": "'1호 명품백화점' 한화갤러리아 리빌딩 궤도",
-      "date": "Sat, 17 Oct 2026 05:40:00",
-      "source": "newstopkorea.com",
-      "url": "https://www.newstopkorea.com/news/articleView.html?idxno=48255",
-      "sub": ""
-    },
-    {
-      "title": "캘빈클라인과의 동행에 마침표를 찍은 베로니카 레오니",
-      "date": "Fri, 16 Oct 2026 23:30:00",
-      "source": "marieclairekorea.com",
-      "url": "https://www.marieclairekorea.com/fashion/2026/10/veronica-leoni/?utm_source=naver&utm_medium=partnership",
-      "sub": ""
-    },
-    {
-      "title": "진짜 이런 게 유행한다고? 런웨이가 예고한 뜻밖의 패션 트렌드",
-      "date": "Fri, 16 Oct 2026 15:32:00",
-      "source": "elle.co.kr",
-      "url": "https://www.elle.co.kr/article/1911451",
-      "sub": ""
-    },
-    {
-      "title": "[비즈톡톡] 호텔 객실에 샤넬백까지… 프러포즈 한 번에 2000만원",
-      "date": "Fri, 16 Oct 2026 15:20:00",
+      "title": "불황에 날개 돋친듯 팔리는 3만원 청바지…주식을 사볼까",
+      "date": "Sun, 18 Oct 2026 06:00:00",
       "source": "n.news.naver.com",
-      "url": "https://biz.chosun.com/distribution/channel/2026/10/16/ONHHHR5XHVDAXJOXZSQUE5KOIQ/?utm_source=naver&utm_medium=original&utm_campaign=biz",
+      "url": "https://www.mt.co.kr/stock/2026/10/18/2026101721565949476",
+      "sub": ""
+    },
+    {
+      "title": "[르포] VIP 행사 4번에 연매출 10% 이상…호치민 롯데百·마트의 '돈 버...",
+      "date": "Sun, 18 Oct 2026 06:00:00",
+      "source": "n.news.naver.com",
+      "url": "https://www.mt.co.kr/living/2026/10/18/2026101318241812640",
+      "sub": ""
+    },
+    {
+      "title": "FKCCI and Cosmetic Valley Renew Partnership to Expand FranceKorea Beauty ...",
+      "date": "Sun, 18 Oct 2026 04:18:00",
+      "source": "koreaittimes.com",
+      "url": "https://www.koreaittimes.com/news/articleView.html?idxno=158240",
+      "sub": ""
+    },
+    {
+      "title": "한불상공회의소·코스메틱밸리, 한불 화장품 기업 협력 확대",
+      "date": "Sun, 18 Oct 2026 04:18:00",
+      "source": "koreaittimes.com",
+      "url": "https://www.koreaittimes.com/news/articleView.html?idxno=158241",
+      "sub": ""
+    },
+    {
+      "title": "한국 신진 작가·신생 화랑, 런던·파리서 유럽 미술시장 진출 모색",
+      "date": "Sat, 17 Oct 2026 17:12:00",
+      "source": "ikoreanspirit.com",
+      "url": "http://www.ikoreanspirit.com/news/articleView.html?idxno=87772",
       "sub": ""
     }
   ],
@@ -159,119 +159,126 @@
       "sub": ""
     },
     {
-      "title": "진천군, 지역 캐릭터 활용 '진미르빵' 상품화 추진",
-      "date": "Sat, 17 Oct 2026 09:50:00",
-      "source": "ccdailynews.com",
-      "url": "https://www.ccdailynews.com/news/articleView.html?idxno=2446680",
+      "title": "[충남도의회 브리핑] ‘중부권 동서횡단철도’ 국가철도망 반영 모색",
+      "date": "Sun, 18 Oct 2026 09:30:00",
+      "source": "kukinews.com",
+      "url": "https://www.kukinews.com/article/view/kuk202610180004",
       "sub": ""
     },
     {
-      "title": "“오대산은 절정, 설악산은 25일”...전국 단풍 시기 살펴보니",
-      "date": "Sat, 17 Oct 2026 09:48:00",
+      "title": "충주 비내섬 습지센터, 국비 50억 받는다... 정부 공모 선정",
+      "date": "Sun, 18 Oct 2026 09:26:00",
+      "source": "newskr.kr",
+      "url": "http://www.newskr.kr/news/articleView.html?idxno=107240",
+      "sub": ""
+    },
+    {
+      "title": "오송 지하차도 확장 지연…산단 주민·국책기관 직원 ‘출퇴근 몸살’",
+      "date": "Sun, 18 Oct 2026 09:22:00",
+      "source": "asiatoday.co.kr",
+      "url": "https://www.asiatoday.co.kr/kn/view.php?key=20261018010005395",
+      "sub": ""
+    },
+    {
+      "title": "Pyongyang, Beijing, Moscow all shattering Seoul’s hope for US-NK talks",
+      "date": "Sun, 18 Oct 2026 09:10:00",
+      "source": "koreatimes.co.kr",
+      "url": "https://www.koreatimes.co.kr/path/A2026101213050002941",
+      "sub": ""
+    },
+    {
+      "title": "대구-중국 쿤밍 부정기노선 첫 취항, 럭키에어",
+      "date": "Sun, 18 Oct 2026 09:05:00",
       "source": "n.news.naver.com",
-      "url": "http://www.joseilbo.com/news/news_read.php?uid=577599&class=83&grp=",
+      "url": "https://www.pressian.com/pages/articles/2026101802344386476?utm_source=naver&utm_medium=search",
       "sub": ""
     },
     {
-      "title": "[정치포커스] 알맹이 없는 '정쟁 국감' 반복…민생 실종에 국민은 피로...",
-      "date": "Sat, 17 Oct 2026 09:40:00",
-      "source": "shinailbo.co.kr",
-      "url": "https://www.shinailbo.co.kr/news/articleView.html?idxno=5072622",
+      "title": "원달러 환율 2년 1개월 만에 최저…반도체 수출이 끌어내려",
+      "date": "Sun, 18 Oct 2026 08:40:00",
+      "source": "sentv.co.kr",
+      "url": "https://www.sentv.co.kr/article/view/sentv202610180001",
       "sub": ""
     },
     {
-      "title": "기업 몰리는 성수, 오피스·호텔이 다음 성장축",
-      "date": "Sat, 17 Oct 2026 09:26:00",
-      "source": "asiaa.co.kr",
-      "url": "https://www.asiaa.co.kr/news/articleView.html?idxno=266614",
-      "sub": ""
-    },
-    {
-      "title": "군위군, 전국 최대 규모 파크골프장으로 스포츠관광 선도",
-      "date": "Sat, 17 Oct 2026 09:26:00",
-      "source": "viva100.com",
-      "url": "https://www.viva100.com/article/20261017500028",
-      "sub": ""
-    },
-    {
-      "title": "여행 고수 팁, 낯선 동네에서 먼저 가봐야 할 곳 7",
-      "date": "Sat, 17 Oct 2026 08:40:00",
-      "source": "gqkorea.co.kr",
-      "url": "https://www.gqkorea.co.kr/2026/10/17/%ec%97%ac%ed%96%89-%ea%b3%a0%ec%88%98-%ed%8c%81-%eb%82%af%ec%84%a0-%eb%8f%99%eb%84%a4%ec%97%90%ec%84%9c-%eb%a8%bc%ec%a0%80-%ea%b0%80%eb%b4%90%ec%95%bc-%ed%95%a0-%ea%b3%b3-7/?utm_source=naver&utm_medium=partnership",
-      "sub": ""
-    },
-    {
-      "title": "Glasses in a flash: Why tourists are flocking to Korea for fast, affordab...",
-      "date": "Sat, 17 Oct 2026 07:00:00",
+      "title": "(Yonhap Interview) DeepX eyes '1st mover' strategy in global physical AI ...",
+      "date": "Sun, 18 Oct 2026 07:00:00",
       "source": "n.news.naver.com",
-      "url": "https://www.koreajoongangdaily.com/kjd-special/glasses-in-a-flash-why-tourists-are-flocking-to-korea-for-fast-affordable-eyewear/12912171",
+      "url": "https://en.yna.co.kr/view/AEN20261017001500320?input=2106m",
       "sub": ""
     },
     {
-      "title": "U.S. senator hails Hanwha's role in revitalizing American shipbuilding in...",
-      "date": "Sat, 17 Oct 2026 04:53:00",
+      "title": "성형 수술대 대신 피부과·약국으로…K-뷰티 '관광 지도' 재편",
+      "date": "Sun, 18 Oct 2026 06:35:00",
       "source": "n.news.naver.com",
-      "url": "https://en.yna.co.kr/view/AEN20261017000500315?input=2106m",
+      "url": "https://www.yna.co.kr/view/AKR20261017028400030?input=1195m",
       "sub": ""
     }
   ],
   "asset": [
     {
-      "title": "코스피 다음주 전망, 외국인 귀환보다 AI 실적이 관건",
-      "date": "Sat, 17 Oct 2026 09:48:00",
-      "source": "topstarnews.net",
-      "url": "https://www.topstarnews.net/news/articleView.html?idxno=16249631",
+      "title": "AI 붐 자금 쟁탈전에…중앙은행 \"고금리 장기화\" 경고",
+      "date": "Sun, 18 Oct 2026 09:28:00",
+      "source": "g-enews.com",
+      "url": "https://www.g-enews.com/view.php?ud=202610171145017619fda4f5ab74_1",
       "sub": ""
     },
     {
-      "title": "한은, 두 차례 인상 뒤 금리 향방은…경제부처 종합 국감도 격돌",
-      "date": "Sat, 17 Oct 2026 09:38:00",
-      "source": "youthdaily.co.kr",
-      "url": "https://www.youthdaily.co.kr/news/article.html?no=228484",
-      "sub": ""
-    },
-    {
-      "title": "\"최고 금리 보고 덜컥 가입했다간…\" 2030 첫 월급 지키는 '맞춤 적금' 비...",
-      "date": "Sat, 17 Oct 2026 09:37:00",
-      "source": "jnilbo.com",
-      "url": "https://www.jnilbo.com/news/articleView.html?idxno=90000074130",
-      "sub": ""
-    },
-    {
-      "title": "한은 '매 발톱'에 외인 대탈출…대만 3.4% 빠질 때 코스피 7.6% 뚝",
-      "date": "Sat, 17 Oct 2026 09:30:00",
+      "title": "신한은행, 중저신용자 대출 금리 0.3%p 추가 인하…최고 연 6.9% 상한",
+      "date": "Sun, 18 Oct 2026 09:24:00",
       "source": "n.news.naver.com",
-      "url": "https://www.mt.co.kr/stock/2026/10/17/2026101615415672208",
+      "url": "https://www.sportsseoul.com/news/read/1642060?ref=naver",
       "sub": ""
     },
     {
-      "title": "[마켓 포커스] 코스피 반등…삼성전자·SK하이닉스 등 시총 상위주 일제...",
-      "date": "Sat, 17 Oct 2026 08:10:00",
-      "source": "cbci.co.kr",
-      "url": "https://www.cbci.co.kr/news/articleView.html?idxno=616457",
-      "sub": ""
-    },
-    {
-      "title": "내국인 관광객 감소세 확대...경기 회복 약화",
-      "date": "Fri, 16 Oct 2026 20:55:00",
+      "title": "수십억 연봉 받는데 금리 올랐다고 벌벌 떤다고?[PE는 지금]",
+      "date": "Sun, 18 Oct 2026 09:21:00",
       "source": "n.news.naver.com",
-      "url": "https://www.jibs.co.kr/news/replay/viewNewsReplayDetail/2026101618025924953?feed=na",
+      "url": "https://view.asiae.co.kr/article/2026101610511762193",
       "sub": ""
     },
     {
-      "title": "정부 “‘경기 회복 흐름’ 이어져…고유가 물가압력·민생부담 지속”",
-      "date": "Fri, 16 Oct 2026 17:47:00",
+      "title": "[투자전략]코스피 8일 만에 반등…증권가 \"분할매수 대응\"",
+      "date": "Sun, 18 Oct 2026 09:16:00",
+      "source": "jasm.co.kr",
+      "url": "https://www.jasm.co.kr/news/view/321876/?sc=Naver",
+      "sub": ""
+    },
+    {
+      "title": "무너진 코스피, 다시 오를까…외국인 복귀가 관건",
+      "date": "Sun, 18 Oct 2026 09:07:00",
       "source": "n.news.naver.com",
-      "url": "https://www.seoul.co.kr/news/economy/2026/10/16/20261016500267?wlog_tag3=naver",
+      "url": "https://biz.sbs.co.kr/article_hub/20000340564?division=NAVER",
       "sub": ""
     },
     {
-      "title": "정부 \"우리 경제 견조한 경기회복세…민생부담·불확실성은 상존\"",
-      "date": "Fri, 16 Oct 2026 17:44:00",
-      "source": "korea.kr",
-      "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148973686&call_from=naver_news",
+      "title": "'14.5% 연쇄급락' 코스피, 올해는 평균 14거래일 만에 회복",
+      "date": "Sun, 18 Oct 2026 08:40:00",
+      "source": "n.news.naver.com",
+      "url": "https://www.fnnews.com/news/202610180835335107",
+      "sub": ""
+    },
+    {
+      "title": "제주 경기 하방 압력 상승…회복세는 '깜깜'",
+      "date": "Sun, 18 Oct 2026 08:00:00",
+      "source": "jejudomin.co.kr",
+      "url": "https://www.jejudomin.co.kr/news/articleView.html?idxno=401304",
+      "sub": ""
+    },
+    {
+      "title": "수출에 기댄 ‘견조한 경기 회복세’…청년층 고용은 여전히 찬바람",
+      "date": "Sat, 17 Oct 2026 15:02:00",
+      "source": "n.news.naver.com",
+      "url": "https://www.segye.com/newsView/20261016514562?OutUrl=naver",
+      "sub": ""
+    },
+    {
+      "title": "정부 “견조한 경기회복 흐름…물가·고용 부담은 지속”",
+      "date": "Sat, 17 Oct 2026 13:51:00",
+      "source": "n.news.naver.com",
+      "url": "https://www.segye.com/newsView/20261016509176?OutUrl=naver",
       "sub": ""
     }
   ],
-  "updated": "2026.10.17 09:55"
+  "updated": "2026.10.18 09:31"
 }
