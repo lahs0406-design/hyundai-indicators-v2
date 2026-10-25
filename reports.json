@@ -1,6 +1,12 @@
 {
   "hri": [
     {
+      "title": "[알쓸다정] 수출은 역대 최대인데 체감은 왜 다를까… 'K자형 경제'",
+      "date": "Sun, 25 Oct 2026 07:02:00",
+      "source": "gokorea.kr",
+      "url": "https://www.gokorea.kr/news/articleView.html?idxno=882600"
+    },
+    {
       "title": "[기준금리 전망] \"10월은 숨고르고 11월에 올린다\"…전문가 6인 전원 '금...",
       "date": "Mon, 19 Oct 2026 00:00:00",
       "source": "cbci.co.kr",
@@ -53,15 +59,27 @@
       "date": "Wed, 07 Oct 2026 16:40:00",
       "source": "junggi.co.kr",
       "url": "https://www.junggi.co.kr/news/articleView.html?idxno=38023"
-    },
-    {
-      "title": "'이상 징후' 보이기 시작...암울한 한국 분위기 [자막뉴스]",
-      "date": "Sun, 04 Oct 2026 14:03:00",
-      "source": "n.news.naver.com",
-      "url": "https://www.ytn.co.kr/_ln/0134_202610041403186976"
     }
   ],
   "kdi": [
+    {
+      "title": "[인사이트 뉴스] 국가 위상 커진 한국, 그늘도 짙어졌다…반도체 호황을...",
+      "date": "Sun, 25 Oct 2026 08:25:00",
+      "source": "moneystorm.kr",
+      "url": "https://www.moneystorm.kr/news/articleView.html?idxno=7624"
+    },
+    {
+      "title": "주가 급락에 고물가·소비쿠폰 기저효과까지…흔들리는 내수 회복",
+      "date": "Sun, 25 Oct 2026 08:08:00",
+      "source": "news.einfomax.co.kr",
+      "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4440963"
+    },
+    {
+      "title": "[알쓸다정] 수출은 역대 최대인데 체감은 왜 다를까… 'K자형 경제'",
+      "date": "Sun, 25 Oct 2026 07:02:00",
+      "source": "gokorea.kr",
+      "url": "https://www.gokorea.kr/news/articleView.html?idxno=882600"
+    },
     {
       "title": "어르신 이름 부르고 약 챙기고… 똑똑해진 ‘돌봄 로봇’",
       "date": "Fri, 23 Oct 2026 18:10:00",
@@ -103,89 +121,83 @@
       "date": "Thu, 22 Oct 2026 19:06:00",
       "source": "n.news.naver.com",
       "url": "https://www.kyeonggi.com/article/20261022580552"
-    },
-    {
-      "title": "\"어떻게 인제가 춘천과 같나\" 지방우대지수 놓고 들끓는 민심",
-      "date": "Thu, 22 Oct 2026 15:31:00",
-      "source": "enewstoday.co.kr",
-      "url": "http://www.enewstoday.co.kr/news/articleView.html?idxno=2483329"
-    },
-    {
-      "title": "[인터뷰]박찬대 인천시장 \"ABC+E로 인천 미래산업지도 재편\"",
-      "date": "Thu, 22 Oct 2026 15:00:00",
-      "source": "n.news.naver.com",
-      "url": "https://view.asiae.co.kr/article/2026102109025463685"
-    },
-    {
-      "title": "서산공항 건설 다시 타당성 검증대",
-      "date": "Thu, 22 Oct 2026 14:42:00",
-      "source": "n.news.naver.com",
-      "url": "https://www.daejonilbo.com/news/articleView.html?idxno=2308782"
     }
   ],
   "bok": [
     {
-      "title": "신현송 \"초저금리 복귀 어려워…고성장·고금리 대비해야\"",
-      "date": "Sat, 24 Oct 2026 09:52:00",
-      "source": "econovill.com",
-      "url": "https://www.econovill.com/news/articleView.html?idxno=754698"
-    },
-    {
-      "title": "[다음주 경제] 3분기 성장률은…9월 산업동향도 주목",
-      "date": "Sat, 24 Oct 2026 09:21:00",
+      "title": "서울 정비사업 거래 물꼬 터지나…국토부, 조합원 지위 양도 제한 재검...",
+      "date": "Sun, 25 Oct 2026 09:16:00",
       "source": "n.news.naver.com",
-      "url": "https://www.yna.co.kr/view/AKR20261023183500002?input=1195m"
+      "url": "https://www.sedaily.com/article/20105687?ref=naver"
     },
     {
-      "title": "[위클리 PICK 3] 10월 수출 '616억 달러' 돌파부터 SK하이닉스 솔리다임...",
-      "date": "Sat, 24 Oct 2026 09:00:00",
+      "title": "[이번주 환율] 1320원대까지 내려온 환율…수출 호조·네고 물량에 추가...",
+      "date": "Sun, 25 Oct 2026 09:00:00",
       "source": "opinionnews.co.kr",
-      "url": "http://www.opinionnews.co.kr/news/articleView.html?idxno=146105"
+      "url": "http://www.opinionnews.co.kr/news/articleView.html?idxno=146142"
     },
     {
-      "title": "한은 11월 인상 재개 '무게'…최종금리 3.25~3.75% 전망",
-      "date": "Sat, 24 Oct 2026 08:52:00",
-      "source": "newsian.co.kr",
-      "url": "http://www.newsian.co.kr/news/articleView.html?idxno=97677"
+      "title": "'빚투'에 집값 자극까지… 5대 은행 가계대출 '재폭발'",
+      "date": "Sun, 25 Oct 2026 08:54:00",
+      "source": "hansbiz.co.kr",
+      "url": "http://www.hansbiz.co.kr/news/articleView.html?idxno=875960"
     },
     {
-      "title": "[다음주 한국은행 및 금융위·금감원 일정]",
-      "date": "Sat, 24 Oct 2026 08:02:00",
-      "source": "news.einfomax.co.kr",
-      "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4440944"
+      "title": "AI發 美 국채금리 급락·佛 재정불안까지 … 한은 연내 추가 인상 '안갯...",
+      "date": "Sun, 25 Oct 2026 08:32:00",
+      "source": "biz.newdaily.co.kr",
+      "url": "https://biz.newdaily.co.kr/site/data/html/2026/10/23/2026102300222.html"
     },
     {
-      "title": "[국감 현장] 초과세수로 취약층 이자 부담 덜어준다…미래대응기금은 '...",
-      "date": "Sat, 24 Oct 2026 06:41:00",
-      "source": "moneystorm.kr",
-      "url": "https://www.moneystorm.kr/news/articleView.html?idxno=7615"
-    },
-    {
-      "title": "높아진 시장 눈높이…3분기 성장률 얼마나 될까[한은 미리보기]",
-      "date": "Sat, 24 Oct 2026 06:02:00",
+      "title": "2년 연속 3%대 성장 전망…내후년까지 물가 부담, 고금리 길어진다",
+      "date": "Sun, 25 Oct 2026 08:15:00",
       "source": "n.news.naver.com",
-      "url": "https://www.edaily.co.kr/News/Read?newsId=01613766645616200&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article"
+      "url": "https://www.news1.kr/economy/trend/6330448"
     },
     {
-      "title": "환율·유가·물류비 동시 충격 가능성…대응체계 재설계 요구 [美선거·...",
-      "date": "Sat, 24 Oct 2026 06:01:00",
+      "title": "반도체 수출 호조 환율 지속하락… 중장기 1200원대 전망 커진다",
+      "date": "Sun, 25 Oct 2026 08:06:00",
+      "source": "g-enews.com",
+      "url": "https://www.g-enews.com/view.php?ud=202610231516501525cd0bfacc1c_1"
+    },
+    {
+      "title": "美 중간선거 열흘 앞…AI 둔화 우려에 반도체 기댄 韓 경제 촉각",
+      "date": "Sun, 25 Oct 2026 08:00:00",
       "source": "n.news.naver.com",
-      "url": "https://www.dailian.co.kr/news/view/1705450/?sc=Naver"
+      "url": "https://www.news1.kr/economy/trend/6330780"
     },
     {
-      "title": "7년 일했지만 빚 7000만원…최저임금 20대 파산했다",
-      "date": "Sat, 24 Oct 2026 06:00:00",
+      "title": "고금리에 연체율 비상…취약차주부터 부실 위험 커진다[긴축 청구서③]",
+      "date": "Sun, 25 Oct 2026 08:00:00",
       "source": "n.news.naver.com",
-      "url": "https://www.joongang.co.kr/article/25472435"
+      "url": "https://www.newsis.com/view/NISX20261023_0003838969"
     },
     {
-      "title": "\"여론조사보다 정확했다\"…월가·연준이 '돈 걸린 예측'에 꽂힌 이유",
-      "date": "Sat, 24 Oct 2026 06:00:00",
-      "source": "ebn.co.kr",
-      "url": "https://www.ebn.co.kr/news/articleView.html?idxno=1728961"
+      "title": "[은행과 생활]① 한은 76년…경제성장 지원군에서 '물가·금융안정' 사령...",
+      "date": "Sun, 25 Oct 2026 08:00:00",
+      "source": "financialpost.co.kr",
+      "url": "https://www.financialpost.co.kr/news/articleView.html?idxno=282216"
+    },
+    {
+      "title": "10월 수출 105% 급증…반도체 호황에 한국 경제 성장률 기대 커진다",
+      "date": "Sun, 25 Oct 2026 07:08:00",
+      "source": "geconomy.co.kr",
+      "url": "https://www.geconomy.co.kr/news/article.html?no=324793"
     }
   ],
   "kiep": [
+    {
+      "title": "외국인 40조 팔아도 원화 '나홀로 강세'…환율 내년 1250원 전망까지",
+      "date": "Sun, 25 Oct 2026 07:05:00",
+      "source": "n.news.naver.com",
+      "url": "https://www.news1.kr/economy/trend/6330471"
+    },
+    {
+      "title": "외국인은 주식 팔고 수출은 달러 벌고…환율 공식은 옛말?",
+      "date": "Sun, 25 Oct 2026 06:00:00",
+      "source": "lcnews.co.kr",
+      "url": "https://www.lcnews.co.kr/news/articleView.html?idxno=210174"
+    },
     {
       "title": "[마켓+] 달러 강세·외인 매도세 '겹악재'에도···원화 '나홀로 강세'...",
       "date": "Wed, 21 Oct 2026 15:27:00",
@@ -233,18 +245,6 @@
       "date": "Fri, 18 Sep 2026 16:10:00",
       "source": "g-enews.com",
       "url": "https://www.g-enews.com/view.php?ud=202609181606086944e7e8286d56_1"
-    },
-    {
-      "title": "[오늘의 신문] 대미투자 원전 협상 막판 진통…美 금리인상·유가 120달...",
-      "date": "Fri, 18 Sep 2026 07:48:00",
-      "source": "kor.theasian.asia",
-      "url": "http://kor.theasian.asia/archives/415874"
-    },
-    {
-      "title": "현대硏 \"경제성장률 3.5% → 내년 2.4% ... 구조 개선 통한 질적 성장 필...",
-      "date": "Sun, 13 Sep 2026 13:40:00",
-      "source": "efnews.co.kr",
-      "url": "http://www.efnews.co.kr/news/articleView.html?idxno=132341"
     }
   ],
   "kif": [
@@ -309,5 +309,5 @@
       "url": "https://www.ajunews.com/view/20260916143410575"
     }
   ],
-  "updated": "2026.10.24 10:16"
+  "updated": "2026.10.25 09:42"
 }
