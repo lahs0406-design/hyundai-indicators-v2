@@ -1,41 +1,6 @@
 {
   "dept": [
     {
-      "title": "모바일 3강은 '올리브영·에이블리·무신사'…유니클로 성장세 \"무섭\"",
-      "date": "Wed, 28 Oct 2026 22:08:00",
-      "source": "ktnews.com",
-      "url": "http://www.ktnews.com/news/articleView.html?idxno=149752",
-      "sub": ""
-    },
-    {
-      "title": "이마트 대표이사 복귀 선언…신세계그룹 정용진 회장 친정체제 기대와...",
-      "date": "Wed, 28 Oct 2026 17:56:00",
-      "source": "ilyo.co.kr",
-      "url": "https://ilyo.co.kr/?ac=article_view&entry_id=513354",
-      "sub": ""
-    },
-    {
-      "title": "이마트 대표 복귀… 정용진 회장 '리더십' 주목",
-      "date": "Wed, 28 Oct 2026 17:38:00",
-      "source": "sisaweek.com",
-      "url": "https://www.sisaweek.com/news/articleView.html?idxno=238662",
-      "sub": ""
-    },
-    {
-      "title": "롯데 신인들에게 전한 신동빈 회장의 당부…\"프로의 세계, 화려한 만큼...",
-      "date": "Wed, 28 Oct 2026 15:43:00",
-      "source": "m.sports.naver.com",
-      "url": "https://mhnse.com/news/articleView.html?idxno=1635386",
-      "sub": ""
-    },
-    {
-      "title": "[핀포인트] [롯데쇼핑] 몰·타임빌라스 키우는데…콘텐츠 부재·신규점...",
-      "date": "Wed, 28 Oct 2026 08:02:00",
-      "source": "news.dealsitetv.com",
-      "url": "https://news.dealsitetv.com/articles/177411",
-      "sub": ""
-    },
-    {
       "title": "현대백화점이 ‘추구미’ 됐다…2030 사로잡은 ‘현백코어’",
       "date": "Tue, 27 Oct 2026 07:06:00",
       "source": "socialvalue.kr",
@@ -43,42 +8,70 @@
       "sub": ""
     },
     {
-      "title": "‘롯데 미래 건’ 타임빌라스 수원, 개장 2년…매출 15% 뛰었다",
-      "date": "Tue, 27 Oct 2026 05:00:00",
-      "source": "etoday.co.kr",
-      "url": "https://www.etoday.co.kr/news/view/2640181",
-      "sub": ""
-    },
-    {
-      "title": "올리브영, 성수에 185평 ‘올리브베러’ 연다…체험 콘텐츠 강화",
-      "date": "Thu, 29 Oct 2026 10:59:00",
+      "title": "“소비자들 가격 저항 상당해”…일본 유니클로, 양말 가격 인상 철회",
+      "date": "Thu, 29 Oct 2026 22:55:00",
       "source": "n.news.naver.com",
-      "url": "https://www.donga.com/news/Economy/article/all/20261029/134930805/1",
+      "url": "https://www.mk.co.kr/article/12190748",
       "sub": ""
     },
     {
-      "title": "현대백화점그룹, 장호진·박홍진 부회장 승진…책임경영 강화",
-      "date": "Thu, 29 Oct 2026 10:58:00",
-      "source": "srtimes.kr",
-      "url": "http://www.srtimes.kr/news/articleView.html?idxno=216191",
+      "title": "정용진 신세계 회장, 이마트·노브랜드 앞세워 몽골 평정 나선다",
+      "date": "Thu, 29 Oct 2026 16:32:00",
+      "source": "insightkorea.co.kr",
+      "url": "https://www.insightkorea.co.kr/news/articleView.html?idxno=257580",
       "sub": ""
     },
     {
-      "title": "[인사] 현대백화점그룹",
-      "date": "Thu, 29 Oct 2026 10:58:00",
-      "source": "ajunews.com",
-      "url": "https://www.ajunews.com/view/20261029105147924",
+      "title": "'포켓몬GO 와일드 에리어: 글로벌' 11월 14일 수원 타임빌라스 상륙",
+      "date": "Thu, 29 Oct 2026 15:40:00",
+      "source": "apnews.kr",
+      "url": "https://www.apnews.kr/news/articleView.html?idxno=3052622",
+      "sub": ""
+    },
+    {
+      "title": "[이슈] 신세계, 롯데 센텀시티점 인수…정유경 ‘확장’ vs 신동빈 ‘선...",
+      "date": "Thu, 29 Oct 2026 14:00:00",
+      "source": "seoultimes.news",
+      "url": "https://www.seoultimes.news/news/article.html?no=2000101532",
+      "sub": ""
+    },
+    {
+      "title": "'신동빈 구단주가 직접 축전까지' 롯데 신인 11명에 특별한 선물! 전준우...",
+      "date": "Thu, 29 Oct 2026 08:10:00",
+      "source": "m.sports.naver.com",
+      "url": "https://www.starnewskorea.com/sports/2026/10/29/2026102907585369695",
+      "sub": ""
+    },
+    {
+      "title": "‘현백 코어’ 스타일? 요즘 예쁜 여자들이 머리 묶는 법 3",
+      "date": "Mon, 26 Oct 2026 13:32:00",
+      "source": "wkorea.com",
+      "url": "https://www.wkorea.com/2026/10/26/%ed%98%84%eb%b0%b1-%ec%bd%94%ec%96%b4-%ec%8a%a4%ed%83%80%ec%9d%bc-%ec%9a%94%ec%a6%98-%ec%98%88%ec%81%9c-%ec%97%ac%ec%9e%90%eb%93%a4%ec%9d%b4-%eb%a8%b8%eb%a6%ac-%eb%ac%b6%eb%8a%94/?utm_source=naver&utm_medium=partnership",
+      "sub": ""
+    },
+    {
+      "title": "제주항공, 노브랜드 버거와 협업…성수동 팝업스토어 운영",
+      "date": "Fri, 30 Oct 2026 11:14:00",
+      "source": "kdfnews.com",
+      "url": "http://www.kdfnews.com/news/articleView.html?idxno=190189",
+      "sub": ""
+    },
+    {
+      "title": "상미당홀딩스 치폴레 신세계 강남 입성… 첫날 대기 행렬",
+      "date": "Fri, 30 Oct 2026 11:12:00",
+      "source": "newsclaim.co.kr",
+      "url": "https://www.newsclaim.co.kr/news/articleView.html?idxno=3080793",
+      "sub": ""
+    },
+    {
+      "title": "현대백화점, 1980~90년대 뉴욕 크리스마스 재현..연말 이슈 선점",
+      "date": "Fri, 30 Oct 2026 11:10:00",
+      "source": "choicenews.co.kr",
+      "url": "http://www.choicenews.co.kr/news/articleView.html?idxno=172755",
       "sub": ""
     }
   ],
   "trend": [
-    {
-      "title": "광주비엔날레 파빌리온- ⑷프랑스관: 한불 수교 140주년, 예술로 확장하...",
-      "date": "Wed, 28 Oct 2026 17:12:00",
-      "source": "namdonews.com",
-      "url": "https://www.namdonews.com/news/articleView.html?idxno=927539",
-      "sub": ""
-    },
     {
       "title": "[단독] '알라이아', 18년 만에 삼성물산 떠나 직진출",
       "date": "Wed, 28 Oct 2026 15:20:00",
@@ -87,52 +80,24 @@
       "sub": ""
     },
     {
-      "title": "롤렉스 서브마리너부터 오메가까지, 1천만 원대 블랙 다이얼 워치 4",
-      "date": "Wed, 28 Oct 2026 14:20:00",
-      "source": "gqkorea.co.kr",
-      "url": "https://www.gqkorea.co.kr/2026/10/28/%ec%b9%b4%eb%a6%ac%ec%8a%a4%eb%a7%88-%ec%9e%88%eb%8a%94-%eb%82%a8%ec%9e%90%ec%97%90%ea%b2%8c-%ec%96%b4%ec%9a%b8%eb%a6%ac%eb%8a%94-1%ec%b2%9c%eb%a7%8c-%ec%9b%90%eb%8c%80-%eb%b8%94%eb%9e%99-%eb%8b%a4/?utm_source=naver&utm_medium=partnership",
-      "sub": ""
-    },
-    {
-      "title": "김민석 \"김건희 추가 구속 안 됐다면, 그건 상식 아닌 마술\"",
-      "date": "Wed, 28 Oct 2026 09:51:00",
+      "title": "부산패션위크 개막… 패션 트렌드 한자리에",
+      "date": "Thu, 29 Oct 2026 13:04:00",
       "source": "n.news.naver.com",
-      "url": "https://www.ohmynews.com/NWS_Web/View/at_pg.aspx?CNTN_CD=A0003279470&CMPT_CD=P0010&utm_source=naver&utm_medium=newsearch&utm_campaign=naver_news",
+      "url": "https://www.yna.co.kr/view/PYH20261029113500051?input=1196m",
       "sub": ""
     },
     {
-      "title": "[긴급진단] 김건희 구속 연말까지 연장…尹 부부 영치금 21억9000만원 논...",
-      "date": "Wed, 28 Oct 2026 00:00:00",
-      "source": "newswhoplus.com",
-      "url": "https://www.newswhoplus.com/news/articleView.html?idxno=72811",
-      "sub": ""
-    },
-    {
-      "title": "與, 김건희 구속 연장에 \"당연한 결과…대법원 엄정 판결 촉구\"(종합)",
-      "date": "Tue, 27 Oct 2026 22:51:00",
+      "title": "부산패션위크 개막… 패션 트렌드 한자리에",
+      "date": "Thu, 29 Oct 2026 13:04:00",
       "source": "n.news.naver.com",
-      "url": "https://www.newsis.com/view/NISX20261027_0003843714",
+      "url": "https://www.yna.co.kr/view/PYH20261029113800051?input=1196m",
       "sub": ""
     },
     {
-      "title": "'355억 원어치' 짝퉁명품 6천점 불법 유통…판매총책 등 일당 11명 송치",
-      "date": "Thu, 29 Oct 2026 10:49:00",
+      "title": "부산패션위크 개막… 패션 트렌드 한자리에",
+      "date": "Thu, 29 Oct 2026 13:04:00",
       "source": "n.news.naver.com",
-      "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008820705&plink=ORI&cooper=NAVER",
-      "sub": ""
-    },
-    {
-      "title": "‘내 루이비똥 중국산 짭이라고?’ 355억 ‘짝퉁 명품’ 일당 잡혔다…...",
-      "date": "Thu, 29 Oct 2026 10:46:00",
-      "source": "n.news.naver.com",
-      "url": "https://biz.heraldcorp.com/article/10918663?ref=naver",
-      "sub": ""
-    },
-    {
-      "title": "루이비통에, 샤넬에⋯아들까지 동원해 짝퉁 명품 불법 유통한 40대 어머...",
-      "date": "Thu, 29 Oct 2026 10:42:00",
-      "source": "n.news.naver.com",
-      "url": "http://www.inews24.com/view/2020307",
+      "url": "https://www.yna.co.kr/view/PYH20261029113700051?input=1196m",
       "sub": ""
     },
     {
@@ -141,16 +106,44 @@
       "source": "ajunews.com",
       "url": "https://www.ajunews.com/view/20261029092703439",
       "sub": ""
+    },
+    {
+      "title": "[뜨고 지는 브랜드① 명품] 160만원인데 중국산…구찌 '배짱장사' 명품...",
+      "date": "Thu, 29 Oct 2026 09:16:00",
+      "source": "newsprime.co.kr",
+      "url": "http://www.newsprime.co.kr/news/article.html?no=752861",
+      "sub": ""
+    },
+    {
+      "title": "[모닝 리포트] \"프랑스 국채, 재정 불안에 '안전자산' 지위 흔들\"",
+      "date": "Thu, 29 Oct 2026 08:19:00",
+      "source": "newspim.com",
+      "url": "https://www.newspim.com/news/view/20261029000114",
+      "sub": ""
+    },
+    {
+      "title": "흑백 필름으로 완성한 예술적 뷰티 화보 #2",
+      "date": "Fri, 30 Oct 2026 11:06:00",
+      "source": "marieclairekorea.com",
+      "url": "https://www.marieclairekorea.com/beauty/2026/10/still-2/?utm_source=naver&utm_medium=partnership",
+      "sub": ""
+    },
+    {
+      "title": "김건희 측근들 “골프는 안쳐, 줄넘기”…매관매직·어좌 착석 잊었나",
+      "date": "Fri, 30 Oct 2026 11:06:00",
+      "source": "n.news.naver.com",
+      "url": "https://www.hani.co.kr/arti/society/society_general/1284984.html",
+      "sub": ""
+    },
+    {
+      "title": "안유진, 샤넬 ‘프리미에르 워치’ 착용…더블유 코리아 디지털 커버 공...",
+      "date": "Fri, 30 Oct 2026 10:29:00",
+      "source": "n.news.naver.com",
+      "url": "https://isplus.com/article/view/isp202610300023",
+      "sub": ""
     }
   ],
   "rate": [
-    {
-      "title": "울산 동구 해파랑길 투어 인증 챌린지 운영",
-      "date": "Wed, 28 Oct 2026 21:43:00",
-      "source": "ulsanpress.net",
-      "url": "https://www.ulsanpress.net/news/articleView.html?idxno=585715",
-      "sub": ""
-    },
     {
       "title": "K-컬처 붐에 9월 방한 외래객 206만 명… 역대 최대 기록",
       "date": "Wed, 28 Oct 2026 17:14:00",
@@ -159,119 +152,105 @@
       "sub": ""
     },
     {
-      "title": "APEC 1년, 경주 외국인 관광객 116만 명…체류형 관광 도약",
-      "date": "Wed, 28 Oct 2026 16:34:00",
-      "source": "kyongbuk.co.kr",
-      "url": "https://www.kyongbuk.co.kr/news/articleView.html?idxno=4088815",
+      "title": "울산 동구, 해파랑길 투어 인증 챌린지 운영",
+      "date": "Thu, 29 Oct 2026 22:04:00",
+      "source": "ksilbo.co.kr",
+      "url": "https://www.ksilbo.co.kr/news/articleView.html?idxno=1071127",
       "sub": ""
     },
     {
-      "title": "해외 나가는 한국인은 제자리인데…한국 찾는 외국인은 급증",
-      "date": "Wed, 28 Oct 2026 16:33:00",
+      "title": "영광군, 서해랑길 인근 소상공인 5곳에 협력쉼터 시범 운영",
+      "date": "Thu, 29 Oct 2026 14:46:00",
+      "source": "newsmaker.or.kr",
+      "url": "http://www.newsmaker.or.kr/news/articleView.html?idxno=184899",
+      "sub": ""
+    },
+    {
+      "title": "최휘영 문체부 장관 “평생 한 번 가봤으면 하는 나라 한국, 외국인 관...",
+      "date": "Thu, 29 Oct 2026 13:59:00",
       "source": "n.news.naver.com",
-      "url": "https://www.hankyung.com/article/2026102811547",
+      "url": "https://www.khan.co.kr/article/202610291359001",
       "sub": ""
     },
     {
-      "title": "최휘영 장관 “외래객 4000만 시대 위해 ‘지방관광 활성화’ 승부수”...",
-      "date": "Wed, 28 Oct 2026 12:01:00",
+      "title": "[허프 트렌드] 고성·양양으로 호텔·리조트 몰린다 : 이랜드파크·호반...",
+      "date": "Fri, 30 Oct 2026 11:16:00",
+      "source": "huffingtonpost.kr",
+      "url": "https://www.huffingtonpost.kr/article/261670",
+      "sub": ""
+    },
+    {
+      "title": "곡성군, 압록 참게·은어거리 환경 개선",
+      "date": "Fri, 30 Oct 2026 11:16:00",
+      "source": "naeil.com",
+      "url": "https://www.naeil.com/news/read/607056?ref=naver",
+      "sub": ""
+    },
+    {
+      "title": "[위클리오늘] 파주시, 법원읍 법원리 장기미집행 도시계획도로(중로3-20...",
+      "date": "Fri, 30 Oct 2026 11:16:00",
+      "source": "weeklytoday.com",
+      "url": "http://www.weeklytoday.com/news/articleView.html?idxno=800349",
+      "sub": ""
+    },
+    {
+      "title": "조용익 부천시장, 국회서 국비 확보 총력전",
+      "date": "Fri, 30 Oct 2026 11:16:00",
       "source": "n.news.naver.com",
-      "url": "https://biz.heraldcorp.com/article/10917480?ref=naver",
+      "url": "https://www.hankyung.com/article/202610305784h",
       "sub": ""
     },
     {
-      "title": "김포시, '한국관광 데이터랩 경진대회' 최우수상…부서 '협업' 빛났다",
-      "date": "Thu, 29 Oct 2026 11:00:00",
-      "source": "joongangenews.com",
-      "url": "https://www.joongangenews.com/news/articleView.html?idxno=559438",
-      "sub": ""
-    },
-    {
-      "title": "서귀포시 주민자치&평생학습 박람회 개최",
-      "date": "Thu, 29 Oct 2026 11:00:00",
-      "source": "samdailbo.com",
-      "url": "http://www.samdailbo.com/news/articleView.html?idxno=272005",
-      "sub": ""
-    },
-    {
-      "title": "파독 간호사 91명 찾은 상주…안재민 \"‘머무는 관광’ 가능성 열었다\"",
-      "date": "Thu, 29 Oct 2026 11:00:00",
-      "source": "news2day.co.kr",
-      "url": "https://www.news2day.co.kr/article/20261029500183",
-      "sub": ""
-    },
-    {
-      "title": "완도군, '지방 소멸 위기 대응'... 체감형 정책 아이디어 3주간 공모",
-      "date": "Thu, 29 Oct 2026 11:00:00",
+      "title": "서천군, '전통주의 현대적 재해석'... 유학생 사로잡은 칵테일 페어링",
+      "date": "Fri, 30 Oct 2026 11:10:00",
       "source": "newsworker.co.kr",
-      "url": "https://www.newsworker.co.kr/news/articleView.html?idxno=511203",
+      "url": "https://www.newsworker.co.kr/news/articleView.html?idxno=511387",
       "sub": ""
     },
     {
-      "title": "하성동 전남광주시의원 “동복댐 증축, 화순 주민 희생에 걸맞은 특별한...",
-      "date": "Thu, 29 Oct 2026 10:56:00",
-      "source": "breaknews.com",
-      "url": "http://www.breaknews.com/1246683",
+      "title": "에어로케이, 대만 진먼 직항 뚫었다…청주공항 외국인 관광객 유치 확대",
+      "date": "Fri, 30 Oct 2026 11:08:00",
+      "source": "megaeconomy.co.kr",
+      "url": "https://www.megaeconomy.co.kr/news/newsview.php?ncode=1065578752136706",
       "sub": ""
     }
   ],
   "asset": [
     {
-      "title": "제주 소비심리 다시 하락... 전국 평균보다 6.1p 낮아",
-      "date": "Wed, 28 Oct 2026 21:07:00",
+      "title": "코스피 4%대 급락… 11거래일 만에 매도 사이드카 발동",
+      "date": "Fri, 30 Oct 2026 11:16:00",
+      "source": "jeonmae.co.kr",
+      "url": "https://www.jeonmae.co.kr/news/articleView.html?idxno=1306867",
+      "sub": ""
+    },
+    {
+      "title": "신한투자증권, 일육공 제휴 기념 예수금 금리 우대 이벤트 진행",
+      "date": "Fri, 30 Oct 2026 11:16:00",
+      "source": "ziksir.com",
+      "url": "https://www.ziksir.com/news/articleView.html?idxno=151381",
+      "sub": ""
+    },
+    {
+      "title": "[ET특징주] 서울반도체, 미국發 삭풍에도 주가 12%↑… 탈희토류 LED 개발...",
+      "date": "Fri, 30 Oct 2026 11:13:00",
       "source": "n.news.naver.com",
-      "url": "https://www.jibs.co.kr/news/replay/viewNewsReplayDetail/2026102818272946770?feed=na",
+      "url": "https://www.etnews.com/20261030000162",
       "sub": ""
     },
     {
-      "title": "CD금리 가고 KOFR 시대 온다… ‘새 기준금리 파생상품’ 1년 만에 거래...",
-      "date": "Thu, 29 Oct 2026 10:51:00",
+      "title": "코스피, 장중 낙폭 커져 5%대 급락…코스닥 4%대↓",
+      "date": "Fri, 30 Oct 2026 11:11:00",
       "source": "n.news.naver.com",
-      "url": "https://magazine.hankyung.com/business/article/202610280026b",
+      "url": "https://www.yna.co.kr/view/AKR20261030080000008?input=1195m",
       "sub": ""
     },
     {
-      "title": "[증시 오늘(29일) 주요 특징주] 반도체·2차전지 동반 휘청…코스피·코...",
-      "date": "Thu, 29 Oct 2026 10:50:00",
-      "source": "thefairnews.co.kr",
-      "url": "https://www.thefairnews.co.kr/news/articleView.html?idxno=92328",
-      "sub": ""
-    },
-    {
-      "title": "삼성전자, 주주환원 발표 후 4% 급락…코스피 5800선으로 ‘털썩’",
-      "date": "Thu, 29 Oct 2026 10:49:00",
-      "source": "n.news.naver.com",
-      "url": "https://biz.chosun.com/stock/stock_general/2026/10/29/MV6JJ42VGZAQJIGNQXLRWRKR2U/?utm_source=naver&utm_medium=original&utm_campaign=biz",
-      "sub": ""
-    },
-    {
-      "title": "오늘 증시, 10월 29일 코스피 5,858선 급락…코스닥도 3%대 하락",
-      "date": "Thu, 29 Oct 2026 10:42:00",
-      "source": "job-post.co.kr",
-      "url": "https://www.job-post.co.kr/news/articleView.html?idxno=235190",
-      "sub": ""
-    },
-    {
-      "title": "생활 형편·경기전망 나빠졌다…경남 소비자심리지수 3개월째 하락",
-      "date": "Thu, 29 Oct 2026 10:37:00",
-      "source": "n.news.naver.com",
-      "url": "https://www.news1.kr/local/busan-gyeongnam/6336039",
-      "sub": ""
-    },
-    {
-      "title": "K-뷰티·반도체 날았지만 車·내구재 부진…中企 경기 회복 엇갈려",
-      "date": "Thu, 29 Oct 2026 08:00:00",
-      "source": "n.news.naver.com",
-      "url": "https://www.news1.kr/industry/sb-founded/6335238",
-      "sub": ""
-    },
-    {
-      "title": "소비심리 반등, 지출전망은 뒷걸음",
-      "date": "Thu, 29 Oct 2026 00:00:00",
-      "source": "gjdream.com",
-      "url": "http://www.gjdream.com/news/articleView.html?idxno=673848",
+      "title": "[증시 시황] 코스피 5.21% 급락…구글 AI 투자 우려에 삼성전자·SK하이닉...",
+      "date": "Fri, 30 Oct 2026 11:10:00",
+      "source": "topstarnews.net",
+      "url": "https://www.topstarnews.net/news/articleView.html?idxno=16263383",
       "sub": ""
     }
   ],
-  "updated": "2026.10.29 11:01"
+  "updated": "2026.10.30 11:17"
 }

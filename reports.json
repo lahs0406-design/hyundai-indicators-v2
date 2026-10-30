@@ -1,6 +1,12 @@
 {
   "hri": [
     {
+      "title": "서울 아파트값 90주째 최장기 상승, '서울 빠진' 신규택지 발표 효과는...",
+      "date": "Fri, 30 Oct 2026 07:26:00",
+      "source": "n.news.naver.com",
+      "url": "https://www.ytn.co.kr/_ln/0102_202610300726345443"
+    },
+    {
       "title": "[알쓸다정] 수출은 역대 최대인데 체감은 왜 다를까… 'K자형 경제'",
       "date": "Sun, 25 Oct 2026 07:02:00",
       "source": "gokorea.kr",
@@ -53,15 +59,51 @@
       "date": "Mon, 12 Oct 2026 07:16:00",
       "source": "asiatime.co.kr",
       "url": "https://www.asiatime.co.kr/article/20261008500331"
-    },
-    {
-      "title": "반도체 호황이 만든 명목 GDP…내수와 가계로 퍼질까",
-      "date": "Wed, 07 Oct 2026 16:40:00",
-      "source": "junggi.co.kr",
-      "url": "https://www.junggi.co.kr/news/articleView.html?idxno=38023"
     }
   ],
   "kdi": [
+    {
+      "title": "인간 대체하는 AI… 10년뒤엔 年 25만개씩 일자리 증발[창간 35주년 특집...",
+      "date": "Fri, 30 Oct 2026 09:56:00",
+      "source": "n.news.naver.com",
+      "url": "https://www.munhwa.com/article/11627514?ref=naver"
+    },
+    {
+      "title": "홍성 내포 국가산단 예타 탈락 후폭풍…평가 공정성·정부 책임 도마",
+      "date": "Fri, 30 Oct 2026 09:06:00",
+      "source": "newsprime.co.kr",
+      "url": "http://www.newsprime.co.kr/news/article.html?no=753004"
+    },
+    {
+      "title": "\"경제활동인구 내년 정점…2045년엔 3명 중 1명 노인\"",
+      "date": "Thu, 29 Oct 2026 18:11:00",
+      "source": "n.news.naver.com",
+      "url": "https://www.hankyung.com/article/2026102944021"
+    },
+    {
+      "title": "18년 장기 표류 영일만대교, 아직 노선조차 '오락가락'",
+      "date": "Thu, 29 Oct 2026 16:56:00",
+      "source": "dkilbo.com",
+      "url": "https://www.dkilbo.com/news/articleView.html?idxno=558967"
+    },
+    {
+      "title": "[재정 골든타임] ② 반도체 걷어낸 韓 경제의 민낯…수출 절반·법인세...",
+      "date": "Thu, 29 Oct 2026 16:20:00",
+      "source": "newspim.com",
+      "url": "https://www.newspim.com/news/view/20261028001576"
+    },
+    {
+      "title": "박홍근 “인구 구조 변화는 예견된 미래…AI활용·이민정책 정비 필요”",
+      "date": "Thu, 29 Oct 2026 15:31:00",
+      "source": "n.news.naver.com",
+      "url": "https://www.seoul.co.kr/news/economy/2026/10/29/20261029500201?wlog_tag3=naver"
+    },
+    {
+      "title": "영일만횡단대교 연내 노선 확정 전망···포항시, 해상안 사수 총력",
+      "date": "Thu, 29 Oct 2026 14:54:00",
+      "source": "idaegu.co.kr",
+      "url": "https://www.idaegu.co.kr/news/articleView.html?idxno=563787"
+    },
     {
       "title": "박홍근 \"인구절벽 해법은 AI와 이민 현실화\"…국가 시스템 전면 재설계...",
       "date": "Thu, 29 Oct 2026 10:38:00",
@@ -79,104 +121,68 @@
       "date": "Thu, 29 Oct 2026 09:22:00",
       "source": "news.einfomax.co.kr",
       "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4441788"
-    },
-    {
-      "title": "박홍근 \"인구감소 공백에 AI 활용…이민정책도 현실적으로 정비\"",
-      "date": "Thu, 29 Oct 2026 09:10:00",
-      "source": "n.news.naver.com",
-      "url": "https://www.newsis.com/view/NISX20261029_0003845666"
-    },
-    {
-      "title": "“슈퍼사이클 이후 연착륙 전략 짜야… 성장만큼 리바운드 클 것”[창간...",
-      "date": "Thu, 29 Oct 2026 08:40:00",
-      "source": "n.news.naver.com",
-      "url": "https://www.munhwa.com/article/11627117?ref=naver"
-    },
-    {
-      "title": "[사설] AI·로봇이 여는 ‘초자율 사회’… 남은 질문은 ‘공존’",
-      "date": "Thu, 29 Oct 2026 05:17:00",
-      "source": "n.news.naver.com",
-      "url": "https://www.seoul.co.kr/news/editOpinion/editorial/2026/10/29/20261029027004?wlog_tag3=naver"
-    },
-    {
-      "title": "충청권 광역철도 1단계, 사업비 문턱 넘었다",
-      "date": "Wed, 28 Oct 2026 19:28:00",
-      "source": "n.news.naver.com",
-      "url": "https://www.daejonilbo.com/news/articleView.html?idxno=2310084"
-    },
-    {
-      "title": "[리포트] \"내년부터 예산 불이익 위기\".. 인제군민 오늘도 상경",
-      "date": "Wed, 28 Oct 2026 18:00:00",
-      "source": "chmbc.co.kr",
-      "url": "https://chmbc.co.kr/article/14115553"
-    },
-    {
-      "title": "충청권 광역철도 1단계 총사업비 5716억원 확정… 사업 추진 속도 내나",
-      "date": "Wed, 28 Oct 2026 17:56:00",
-      "source": "joongdo.co.kr",
-      "url": "https://www.joongdo.co.kr/web/view.php?key=20261028010008449"
-    },
-    {
-      "title": "충청권 광역철도 1단계 총 사업비 5716억 확정…후속 절차 마무리",
-      "date": "Wed, 28 Oct 2026 17:48:00",
-      "source": "n.news.naver.com",
-      "url": "https://www.news1.kr/local/daejeon-chungnam/6335373"
     }
   ],
   "bok": [
     {
-      "title": "이형일 \"취약차주 추가대책 마련…11월 국채 물량 신중히 검토\"",
-      "date": "Thu, 29 Oct 2026 11:00:00",
-      "source": "n.news.naver.com",
-      "url": "https://biz.sbs.co.kr/article_hub/20000342943?division=NAVER"
+      "title": "주춤한 주담대 금리 다시 오를까…'은행채 5년물' 변수",
+      "date": "Fri, 30 Oct 2026 11:10:00",
+      "source": "mediapen.com",
+      "url": "https://www.mediapen.com/news/view/1133824"
     },
     {
-      "title": "이형일 “취약차주 추가대책 마련…11월 국채 물량 신중히 검토”",
-      "date": "Thu, 29 Oct 2026 10:53:00",
-      "source": "n.news.naver.com",
-      "url": "https://www.segye.com/newsView/20261029507634?OutUrl=naver"
+      "title": "재경부, 산업활동 호조에 \"3분기 GDP 잠정치 하향 없을 것으로 기대\"",
+      "date": "Fri, 30 Oct 2026 11:02:00",
+      "source": "news.einfomax.co.kr",
+      "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4442168"
     },
     {
-      "title": "美 금리 동결에도 시장 불안…정부 “필요시 국채 긴급 매입”",
-      "date": "Thu, 29 Oct 2026 10:51:00",
-      "source": "n.news.naver.com",
-      "url": "https://www.dt.co.kr/article/12092013?ref=naver"
+      "title": "[금융권 이모저모]KB자산운용, 적립식 투자 펀드 7종 제안 外",
+      "date": "Fri, 30 Oct 2026 10:32:00",
+      "source": "businessplus.kr",
+      "url": "https://www.businessplus.kr/news/articleView.html?idxno=119012"
     },
     {
-      "title": "이형일 부총리 “미 금리 높은 수준 유지·국제유가 흐름 등이 금융시장...",
-      "date": "Thu, 29 Oct 2026 10:48:00",
-      "source": "viva100.com",
-      "url": "https://www.viva100.com/article/20261029500508"
+      "title": "11년 전엔 美 따라 8회로…연준은 금리결정 횟수 더 줄인다는데 한은은",
+      "date": "Fri, 30 Oct 2026 10:28:00",
+      "source": "news.einfomax.co.kr",
+      "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4442156"
     },
     {
-      "title": "이형일 \"금리 인상에 취약차주 부담 확대…추가대책 마련\"",
-      "date": "Thu, 29 Oct 2026 10:47:00",
-      "source": "n.news.naver.com",
-      "url": "http://www.kookje.co.kr/news2011/asp/newsbody.asp?code=0200&key=20261029.99099008606"
+      "title": "[정용택 칼럼] 높은 성장률이 양극화의 고통을 더 압박하는 흐름",
+      "date": "Fri, 30 Oct 2026 09:52:00",
+      "source": "ftoday.co.kr",
+      "url": "http://www.ftoday.co.kr/news/articleView.html?idxno=368552"
     },
     {
-      "title": "이형일 \"11월 국채 발행 신중 검토…취약차주 추가 지원\"",
-      "date": "Thu, 29 Oct 2026 10:44:00",
-      "source": "n.news.naver.com",
-      "url": "https://www.nocutnews.co.kr/news/6599002?utm_source=naver&utm_medium=article&utm_campaign=20261029104345"
+      "title": "[신윤우의 외환분석] 위로 향하는 AI 찬바람",
+      "date": "Fri, 30 Oct 2026 09:50:00",
+      "source": "news.einfomax.co.kr",
+      "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4442122"
     },
     {
-      "title": "美 연준 동결에도 시장은 세 차례 인상 전망…한미 금리차 확대 경계",
-      "date": "Thu, 29 Oct 2026 10:40:00",
-      "source": "raonnews.com",
-      "url": "https://www.raonnews.com/news/article.html?no=62307"
+      "title": "[경제 이슈] 국제금융센터, 미국 연준 10월 FOMC 기준금리 동결",
+      "date": "Fri, 30 Oct 2026 09:36:00",
+      "source": "sisacast.kr",
+      "url": "http://www.sisacast.kr/news/articleView.html?idxno=101462"
     },
     {
-      "title": "美 기준금리 3.75∼4.00% 동결…지난 달 인상 효과 점검 '숨고르기'",
-      "date": "Thu, 29 Oct 2026 10:38:00",
-      "source": "seouleconews.com",
-      "url": "http://www.seouleconews.com/news/articleView.html?idxno=94656"
+      "title": "[美·ECB 금리 동결] 연준은 속도 조절, ECB는 추가 인상 저울질",
+      "date": "Fri, 30 Oct 2026 08:54:00",
+      "source": "g-enews.com",
+      "url": "https://www.g-enews.com/view.php?ud=202610300841147418cd0bfacc1c_1"
     },
     {
-      "title": "美금리동결 속 한은 11월 인상 무게 예상치 웃돈 성장세·고물가 등 부담",
-      "date": "Thu, 29 Oct 2026 10:38:00",
-      "source": "smedaily.co.kr",
-      "url": "http://www.smedaily.co.kr/news/articleView.html?idxno=365378"
+      "title": "ECB, 기준금리 2.5% 동결…경기 둔화에 숨고르기",
+      "date": "Fri, 30 Oct 2026 08:08:00",
+      "source": "hansbiz.co.kr",
+      "url": "http://www.hansbiz.co.kr/news/articleView.html?idxno=877945"
+    },
+    {
+      "title": "[초대석] 박원갑 KB국민은행 부동산 수석전문위원",
+      "date": "Fri, 30 Oct 2026 07:56:00",
+      "source": "cstimes.com",
+      "url": "https://www.cstimes.com/news/articleView.html?idxno=725880"
     }
   ],
   "kiep": [
@@ -303,5 +309,5 @@
       "url": "https://www.ajunews.com/view/20260916143410575"
     }
   ],
-  "updated": "2026.10.29 11:01"
+  "updated": "2026.10.30 11:17"
 }
