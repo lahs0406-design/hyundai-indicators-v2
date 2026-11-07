@@ -1,6 +1,12 @@
 {
   "hri": [
     {
+      "title": "블루웨이브에 트럼프 입김 약화…연준, 물가 중심 통화정책 무게",
+      "date": "Sat, 07 Nov 2026 06:02:00",
+      "source": "mediapen.com",
+      "url": "https://www.mediapen.com/news/view/1135929"
+    },
+    {
       "title": "美 중간선거 ‘블루웨이브’…'고관세·대미 투자 압박 지속될 것'",
       "date": "Fri, 06 Nov 2026 11:22:00",
       "source": "tfmedia.co.kr",
@@ -53,136 +59,130 @@
       "date": "Mon, 19 Oct 2026 00:00:00",
       "source": "cbci.co.kr",
       "url": "https://www.cbci.co.kr/news/articleView.html?idxno=616766"
-    },
-    {
-      "title": "1986년 ‘3저 호황’ 40년 만…IMF, 한국 잠재성장률 2년 연속 상승 전망",
-      "date": "Sun, 18 Oct 2026 18:24:00",
-      "source": "n.news.naver.com",
-      "url": "https://www.hani.co.kr/arti/economy/economy_general/1282939.html"
     }
   ],
   "kdi": [
     {
-      "title": "“정부가 돈 풀수록 금리 더 오른다”…前 KDI 원장의 경고[만났습니다...",
-      "date": "Fri, 06 Nov 2026 06:32:00",
+      "title": "건설사 수주 목표 잇단 상향…내년 건설경기 회복세 돌아서나",
+      "date": "Sat, 07 Nov 2026 06:36:00",
       "source": "n.news.naver.com",
-      "url": "https://www.edaily.co.kr/News/Read?newsId=02315686645643096&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article"
+      "url": "https://news.tf.co.kr/read/economy/2386021.htm"
     },
     {
-      "title": "정부 활성화 외치지만… 씨 마른 SOC 민간투자사업",
-      "date": "Fri, 06 Nov 2026 06:02:00",
-      "source": "news.mtn.co.kr",
-      "url": "https://news.mtn.co.kr/article/2026110516435483442"
-    },
-    {
-      "title": "정년 65세로 늘어난다는데…월급은 지켜질까[DeepSpot]",
-      "date": "Fri, 06 Nov 2026 06:01:00",
+      "title": "AI 쓰나미, 호실적에도 자른다…MS, 올해만 세 번째 감원",
+      "date": "Sat, 07 Nov 2026 00:02:00",
       "source": "n.news.naver.com",
-      "url": "https://biz.heraldcorp.com/article/10927190?ref=naver"
+      "url": "https://www.joongang.co.kr/article/25476476"
     },
     {
-      "title": "[기고] 무주~대구 고속도로, 30년 기다림에 답할 때",
-      "date": "Thu, 05 Nov 2026 20:34:00",
-      "source": "idaegu.co.kr",
-      "url": "https://www.idaegu.co.kr/news/articleView.html?idxno=564513"
+      "title": "김영훈 노동부장관, “민간과 공공에서 일자리 기회를 넓히겠다”…내...",
+      "date": "Fri, 06 Nov 2026 17:58:00",
+      "source": "news2day.co.kr",
+      "url": "https://www.news2day.co.kr/article/20261106500182"
     },
     {
-      "title": "美 '블루 쓰나미'에 국내경제 여파 '촉각'…\"환율은 안정, 관세는 기조 ...",
-      "date": "Thu, 05 Nov 2026 18:12:00",
-      "source": "asiatoday.co.kr",
-      "url": "https://www.asiatoday.co.kr/kn/view.php?key=20261105010002122"
+      "title": "예산 64% 일자리 사업 배정…노동장관 “성장 성과, 일자리로”",
+      "date": "Fri, 06 Nov 2026 14:22:00",
+      "source": "dnews.co.kr",
+      "url": "https://www.dnews.co.kr/uhtml/view.jsp?idxno=202611061409295960989"
     },
     {
-      "title": "왜 나이 든 구성원은 일하지 않는가",
-      "date": "Thu, 05 Nov 2026 18:02:00",
+      "title": "내년 일자리 예산 25.1조···청년 첫 취업·AI 등 첨단 분야 직업훈련...",
+      "date": "Fri, 06 Nov 2026 14:04:00",
+      "source": "smartbizn.com",
+      "url": "https://www.smartbizn.com/news/articleView.html?idxno=158684"
+    },
+    {
+      "title": "김영훈 장관 \"반도체 성장 온기 청년까지 못 닿아\"…일자리 대책 마련 ...",
+      "date": "Fri, 06 Nov 2026 13:46:00",
+      "source": "joongangenews.com",
+      "url": "https://www.joongangenews.com/news/articleView.html?idxno=561842"
+    },
+    {
+      "title": "올해 성장률 3%대라는데 명목성장률은 20%대 전망, 이례적 격차 왜?",
+      "date": "Fri, 06 Nov 2026 13:02:00",
+      "source": "naeil.com",
+      "url": "https://www.naeil.com/news/read/607821?ref=naver"
+    },
+    {
+      "title": "김영훈 장관 “반도체·수출 온기, ‘청년 첫 일자리’까지 닿지 않아”",
+      "date": "Fri, 06 Nov 2026 12:02:00",
       "source": "n.news.naver.com",
-      "url": "https://www.ohmynews.com/NWS_Web/View/at_pg.aspx?CNTN_CD=A0003280916&CMPT_CD=P0010&utm_source=naver&utm_medium=newsearch&utm_campaign=naver_news"
+      "url": "https://www.hani.co.kr/arti/society/labor/1286102.html"
     },
     {
-      "title": "무주~성주~칠곡 4차로 신설…영호남 동서 교통망 확충…안호영, 새만금...",
-      "date": "Thu, 05 Nov 2026 17:54:00",
-      "source": "newsian.co.kr",
-      "url": "https://www.newsian.co.kr/news/articleView.html?idxno=100721"
-    },
-    {
-      "title": "[전북 24시] 국민연금, 글로벌 투자 운용사 블랙스톤과 인사이트 대담회",
-      "date": "Thu, 05 Nov 2026 17:45:00",
+      "title": "노동장관 \"성장의 온기, 청년 첫 일자리까지 충분히 닿지 못해\"",
+      "date": "Fri, 06 Nov 2026 12:01:00",
       "source": "n.news.naver.com",
-      "url": "https://www.sisajournal.com/news/articleView.html?idxno=393052"
+      "url": "https://www.nocutnews.co.kr/news/6603135?utm_source=naver&utm_medium=article&utm_campaign=20261106120058"
     },
     {
-      "title": "이형일, 피치 연례협의단 면담…성장동력 육성·재정건전성 강조",
-      "date": "Thu, 05 Nov 2026 17:37:00",
+      "title": "반도체 호황에도 청년 고용률 44%…정부, 16만명 첫 취업 지원",
+      "date": "Fri, 06 Nov 2026 12:01:00",
       "source": "n.news.naver.com",
-      "url": "https://www.news1.kr/economy/trend/6344690"
-    },
-    {
-      "title": "국민소득 4만달러 눈앞…K자 양극화 과제",
-      "date": "Thu, 05 Nov 2026 10:58:00",
-      "source": "yonhapmidas.com",
-      "url": "https://www.yonhapmidas.com/news/articleView.html?idxno=10689"
+      "url": "https://biz.heraldcorp.com/article/10928254?ref=naver"
     }
   ],
   "bok": [
     {
-      "title": "신용대출 109조 육박…5대 銀, 가계대출 건전성 관리 부담↑",
-      "date": "Fri, 06 Nov 2026 11:04:00",
-      "source": "megaeconomy.co.kr",
-      "url": "https://www.megaeconomy.co.kr/news/newsview.php?ncode=1065578565461307"
+      "title": "1인당 소득 4만달러 시대 온다는데…가계는 물가·집값에 제자리",
+      "date": "Sat, 07 Nov 2026 09:36:00",
+      "source": "ntoday.co.kr",
+      "url": "https://www.ntoday.co.kr/news/articleView.html?idxno=130694"
     },
     {
-      "title": "주요국 중앙은행 올해 17차례 금리 인상…중동 고유가·AI 투자에 긴축 ...",
-      "date": "Fri, 06 Nov 2026 11:00:00",
-      "source": "polinews.co.kr",
-      "url": "https://www.polinews.co.kr/news/articleView.html?idxno=747853"
+      "title": "내수부진·고금리 '이중고'…대출부실 현실화 하나",
+      "date": "Sat, 07 Nov 2026 09:02:00",
+      "source": "asiatime.co.kr",
+      "url": "https://www.asiatime.co.kr/article/20261102500383"
     },
     {
-      "title": "AI 데이터센터 투자 경쟁…빚 부담 커진다",
-      "date": "Fri, 06 Nov 2026 10:34:00",
-      "source": "hinews.co.kr",
-      "url": "https://www.hinews.co.kr/view.php?ud=202611061031077701cd8b879b3c_48"
+      "title": "[다음주 경제] 금융권 가계대출 다시 늘었나",
+      "date": "Sat, 07 Nov 2026 09:02:00",
+      "source": "n.news.naver.com",
+      "url": "https://www.yna.co.kr/view/AKR20261107017800002?input=1195m"
     },
     {
-      "title": "[블루쓰나미 긴급진단] 채권시장 \"'4천피' 가면 11월 기준금리 인상불가...",
-      "date": "Fri, 06 Nov 2026 10:32:00",
+      "title": "\"주가 부진으로 최종금리 3.5% 확신 약해져\"",
+      "date": "Sat, 07 Nov 2026 07:28:00",
       "source": "news.einfomax.co.kr",
-      "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4443439"
+      "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4443583"
     },
     {
-      "title": "반도체 수출 훈풍에 성장률 3.7%…한은 금리 인상 압력도 커져",
-      "date": "Fri, 06 Nov 2026 10:26:00",
-      "source": "mediapen.com",
-      "url": "https://www.mediapen.com/news/view/1135707"
-    },
-    {
-      "title": "KB운용 “삼전닉스 실적 개선 2028년까지…외국인 수급이 관건”",
-      "date": "Fri, 06 Nov 2026 10:01:00",
+      "title": "“선거 끝나도 돈값은 높다”…금리는 어디로 [블루쓰나미 쇼크②]",
+      "date": "Sat, 07 Nov 2026 07:26:00",
       "source": "n.news.naver.com",
-      "url": "https://www.sedaily.com/article/20111002?ref=naver"
+      "url": "https://magazine.hankyung.com/business/article/202611056855b"
     },
     {
-      "title": "도요타, 엔저·하이브리드 판매 호조에 연간 영업익 전망 33조로↑",
-      "date": "Fri, 06 Nov 2026 10:00:00",
+      "title": "美블루 쓰나미, AI ‘저승사자’ 될까? …‘공포’ 대신 ‘공부’해야 ...",
+      "date": "Sat, 07 Nov 2026 00:02:00",
       "source": "n.news.naver.com",
-      "url": "https://www.sedaily.com/article/20110999?ref=naver"
+      "url": "https://biz.heraldcorp.com/article/10929042?ref=naver"
     },
     {
-      "title": "[오늘의 신문] 반도체 호황에 성장률 상향, 코스피 4% 급락…미국 중간...",
-      "date": "Fri, 06 Nov 2026 08:52:00",
-      "source": "kor.theasian.asia",
-      "url": "http://kor.theasian.asia/archives/420994"
+      "title": "한은 총재 \"반도체 가격 중요하다\" 한 이유가 이거였나",
+      "date": "Fri, 06 Nov 2026 18:18:00",
+      "source": "n.news.naver.com",
+      "url": "https://www.edaily.co.kr/News/Read?newsId=06560006645643096&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article"
     },
     {
-      "title": "美 중간선거 블루쓰나미 이후 'AI 돈줄' 시험대",
-      "date": "Fri, 06 Nov 2026 08:36:00",
-      "source": "newsfreezone.co.kr",
-      "url": "https://www.newsfreezone.co.kr/news/articleView.html?idxno=717949"
+      "title": "[기획] 저축은행, 4%대 예금 134개…금리 경쟁 심화",
+      "date": "Fri, 06 Nov 2026 18:06:00",
+      "source": "kfenews.co.kr",
+      "url": "https://www.kfenews.co.kr/news/articleView.html?idxno=667692"
     },
     {
-      "title": "[초점] 美 의회 권력 교체…삼성·SK 'AI 반도체 방정식' 꼬이나",
-      "date": "Fri, 06 Nov 2026 07:02:00",
-      "source": "newsian.co.kr",
-      "url": "https://www.newsian.co.kr/news/articleView.html?idxno=100729"
+      "title": "\"주가 말고 숫자 보라\"…급락장에도 이달 금리인상 전망",
+      "date": "Fri, 06 Nov 2026 17:49:00",
+      "source": "n.news.naver.com",
+      "url": "http://www.wowtv.co.kr/NewsCenter/News/Read?articleId=A202611060139&t=NN"
+    },
+    {
+      "title": "美國발 '블루 쇼크'...빚투 조이던 당국, 반대매매를 풀다",
+      "date": "Fri, 06 Nov 2026 17:30:00",
+      "source": "eroun.net",
+      "url": "https://www.eroun.net/news/articleView.html?idxno=94690"
     }
   ],
   "kiep": [
@@ -309,5 +309,5 @@
       "url": "http://www.efnews.co.kr/news/articleView.html?idxno=132785"
     }
   ],
-  "updated": "2026.11.06 11:58"
+  "updated": "2026.11.07 11:28"
 }
