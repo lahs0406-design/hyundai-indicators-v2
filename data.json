@@ -2069,6 +2069,10 @@
     {
       "ym": "20261111",
       "val": 5375.36
+    },
+    {
+      "ym": "20261112",
+      "val": 5342.73
     }
   ],
   "houseprice": [
@@ -7738,9 +7742,14 @@
             "d": 11,
             "temp": 9.2,
             "rain": 0.0
+          },
+          {
+            "d": 12,
+            "temp": 10.8,
+            "rain": 0.0
           }
         ],
-        "avg_temp": 8.7,
+        "avg_temp": 8.9,
         "max_temp": 14.0,
         "total_rain": 10.6,
         "rain_days": 3
@@ -12609,9 +12618,14 @@
             "d": 11,
             "temp": 12.4,
             "rain": 0.0
+          },
+          {
+            "d": 12,
+            "temp": 14.5,
+            "rain": 0.0
           }
         ],
-        "avg_temp": 13.0,
+        "avg_temp": 13.1,
         "max_temp": 15.0,
         "total_rain": 43.3,
         "rain_days": 5
@@ -17479,6 +17493,11 @@
           {
             "d": 11,
             "temp": 9.7,
+            "rain": 0.0
+          },
+          {
+            "d": 12,
+            "temp": 9.5,
             "rain": 0.0
           }
         ],
@@ -22351,9 +22370,14 @@
             "d": 11,
             "temp": 10.6,
             "rain": 0.0
+          },
+          {
+            "d": 12,
+            "temp": 12.2,
+            "rain": 0.0
           }
         ],
-        "avg_temp": 9.7,
+        "avg_temp": 9.9,
         "max_temp": 14.7,
         "total_rain": 7.5,
         "rain_days": 4
@@ -27222,9 +27246,14 @@
             "d": 11,
             "temp": 10.8,
             "rain": 0.0
+          },
+          {
+            "d": 12,
+            "temp": 11.5,
+            "rain": 0.0
           }
         ],
-        "avg_temp": 10.7,
+        "avg_temp": 10.8,
         "max_temp": 13.3,
         "total_rain": 65.5,
         "rain_days": 4
@@ -32093,9 +32122,14 @@
             "d": 11,
             "temp": 9.4,
             "rain": 0.0
+          },
+          {
+            "d": 12,
+            "temp": 9.2,
+            "rain": 0.0
           }
         ],
-        "avg_temp": 8.6,
+        "avg_temp": 8.7,
         "max_temp": 11.2,
         "total_rain": 26.2,
         "rain_days": 3
@@ -36964,9 +36998,14 @@
             "d": 11,
             "temp": 11.0,
             "rain": 0.0
+          },
+          {
+            "d": 12,
+            "temp": 12.2,
+            "rain": 0.0
           }
         ],
-        "avg_temp": 11.1,
+        "avg_temp": 11.2,
         "max_temp": 13.0,
         "total_rain": 57.2,
         "rain_days": 4
@@ -41834,6 +41873,11 @@
           {
             "d": 11,
             "temp": 9.9,
+            "rain": 0.0
+          },
+          {
+            "d": 12,
+            "temp": 9.4,
             "rain": 0.0
           }
         ],
