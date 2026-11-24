@@ -1,10 +1,6 @@
 {
   "csi": [
     {
-      "ym": "202505",
-      "val": 101.7
-    },
-    {
       "ym": "202506",
       "val": 108.6
     },
@@ -71,6 +67,10 @@
     {
       "ym": "202610",
       "val": 105.4
+    },
+    {
+      "ym": "202611",
+      "val": 103.1
     }
   ],
   "rate": [
@@ -498,10 +498,6 @@
     }
   ],
   "kospi": [
-    {
-      "ym": "20250402",
-      "val": 2505.86
-    },
     {
       "ym": "20250403",
       "val": 2486.7
@@ -2097,6 +2093,10 @@
     {
       "ym": "20261120",
       "val": 4869.96
+    },
+    {
+      "ym": "20261123",
+      "val": 4708.54
     }
   ],
   "houseprice": [
@@ -7821,12 +7821,17 @@
             "d": 22,
             "temp": -0.2,
             "rain": 0.0
+          },
+          {
+            "d": 23,
+            "temp": 5.2,
+            "rain": 5.1
           }
         ],
-        "avg_temp": 7.8,
+        "avg_temp": 7.7,
         "max_temp": 14.0,
-        "total_rain": 25.9,
-        "rain_days": 5
+        "total_rain": 31.0,
+        "rain_days": 6
       }
     },
     "busan": {
@@ -17673,12 +17678,17 @@
             "d": 22,
             "temp": 2.5,
             "rain": 0.0
+          },
+          {
+            "d": 23,
+            "temp": 5.0,
+            "rain": 6.2
           }
         ],
-        "avg_temp": 9.2,
+        "avg_temp": 9.0,
         "max_temp": 14.7,
-        "total_rain": 58.0,
-        "rain_days": 6
+        "total_rain": 64.2,
+        "rain_days": 7
       }
     },
     "incheon": {
@@ -22599,12 +22609,17 @@
             "d": 22,
             "temp": 1.5,
             "rain": 0.0
+          },
+          {
+            "d": 23,
+            "temp": 7.5,
+            "rain": 2.2
           }
         ],
         "avg_temp": 8.6,
         "max_temp": 14.7,
-        "total_rain": 20.5,
-        "rain_days": 7
+        "total_rain": 22.7,
+        "rain_days": 8
       }
     },
     "gwangju": {
@@ -27525,12 +27540,17 @@
             "d": 22,
             "temp": 4.3,
             "rain": 0.0
+          },
+          {
+            "d": 23,
+            "temp": 7.5,
+            "rain": 9.7
           }
         ],
-        "avg_temp": 10.1,
+        "avg_temp": 9.9,
         "max_temp": 14.9,
-        "total_rain": 107.0,
-        "rain_days": 11
+        "total_rain": 116.7,
+        "rain_days": 12
       }
     },
     "daejeon": {
@@ -32451,12 +32471,17 @@
             "d": 22,
             "temp": 1.4,
             "rain": 0.0
+          },
+          {
+            "d": 23,
+            "temp": 7.0,
+            "rain": 7.1
           }
         ],
-        "avg_temp": 8.1,
+        "avg_temp": 8.0,
         "max_temp": 12.7,
-        "total_rain": 46.4,
-        "rain_days": 9
+        "total_rain": 53.5,
+        "rain_days": 10
       }
     },
     "ulsan": {
@@ -37377,12 +37402,17 @@
             "d": 22,
             "temp": 2.7,
             "rain": 0.0
+          },
+          {
+            "d": 23,
+            "temp": 7.7,
+            "rain": 2.8
           }
         ],
-        "avg_temp": 10.3,
+        "avg_temp": 10.2,
         "max_temp": 14.4,
-        "total_rain": 97.6,
-        "rain_days": 8
+        "total_rain": 100.4,
+        "rain_days": 9
       }
     },
     "cheongju": {
@@ -42303,12 +42333,17 @@
             "d": 22,
             "temp": 2.2,
             "rain": 0.0
+          },
+          {
+            "d": 23,
+            "temp": 6.0,
+            "rain": 1.9
           }
         ],
-        "avg_temp": 8.5,
+        "avg_temp": 8.4,
         "max_temp": 13.3,
-        "total_rain": 38.1,
-        "rain_days": 6
+        "total_rain": 40.0,
+        "rain_days": 7
       }
     }
   },
