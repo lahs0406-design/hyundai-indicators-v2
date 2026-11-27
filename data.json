@@ -499,10 +499,6 @@
   ],
   "kospi": [
     {
-      "ym": "20250407",
-      "val": 2328.2
-    },
-    {
       "ym": "20250408",
       "val": 2334.23
     },
@@ -2097,6 +2093,10 @@
     {
       "ym": "20261125",
       "val": 4697.51
+    },
+    {
+      "ym": "20261126",
+      "val": 4711.21
     }
   ],
   "houseprice": [
@@ -7836,9 +7836,14 @@
             "d": 25,
             "temp": 2.4,
             "rain": 0.0
+          },
+          {
+            "d": 26,
+            "temp": 10.1,
+            "rain": 0.0
           }
         ],
-        "avg_temp": 7.2,
+        "avg_temp": 7.3,
         "max_temp": 14.0,
         "total_rain": 31.0,
         "rain_days": 6
@@ -12776,6 +12781,11 @@
           {
             "d": 25,
             "temp": 5.5,
+            "rain": 0.0
+          },
+          {
+            "d": 26,
+            "temp": 11.5,
             "rain": 0.0
           }
         ],
@@ -17718,9 +17728,14 @@
             "d": 25,
             "temp": 3.5,
             "rain": 0.0
+          },
+          {
+            "d": 26,
+            "temp": 5.6,
+            "rain": 0.0
           }
         ],
-        "avg_temp": 8.6,
+        "avg_temp": 8.5,
         "max_temp": 14.7,
         "total_rain": 64.2,
         "rain_days": 7
@@ -22659,9 +22674,14 @@
             "d": 25,
             "temp": 4.7,
             "rain": 0.0
+          },
+          {
+            "d": 26,
+            "temp": 11.8,
+            "rain": 0.0
           }
         ],
-        "avg_temp": 8.1,
+        "avg_temp": 8.2,
         "max_temp": 14.7,
         "total_rain": 22.7,
         "rain_days": 8
@@ -27600,12 +27620,17 @@
             "d": 25,
             "temp": 5.5,
             "rain": 0.0
+          },
+          {
+            "d": 26,
+            "temp": 10.4,
+            "rain": 0.2
           }
         ],
         "avg_temp": 9.6,
         "max_temp": 14.9,
-        "total_rain": 116.8,
-        "rain_days": 13
+        "total_rain": 117.0,
+        "rain_days": 14
       }
     },
     "daejeon": {
@@ -32541,9 +32566,14 @@
             "d": 25,
             "temp": 4.3,
             "rain": 0.0
+          },
+          {
+            "d": 26,
+            "temp": 10.5,
+            "rain": 0.0
           }
         ],
-        "avg_temp": 7.6,
+        "avg_temp": 7.7,
         "max_temp": 12.7,
         "total_rain": 53.6,
         "rain_days": 11
@@ -37482,9 +37512,14 @@
             "d": 25,
             "temp": 4.4,
             "rain": 0.0
+          },
+          {
+            "d": 26,
+            "temp": 10.3,
+            "rain": 0.0
           }
         ],
-        "avg_temp": 9.7,
+        "avg_temp": 9.8,
         "max_temp": 14.4,
         "total_rain": 100.5,
         "rain_days": 10
@@ -42423,9 +42458,14 @@
             "d": 25,
             "temp": 4.0,
             "rain": 0.0
+          },
+          {
+            "d": 26,
+            "temp": 10.2,
+            "rain": 0.0
           }
         ],
-        "avg_temp": 8.0,
+        "avg_temp": 8.1,
         "max_temp": 13.3,
         "total_rain": 40.0,
         "rain_days": 7
