@@ -1,6 +1,12 @@
 {
   "hri": [
     {
+      "title": "트럼프, 관세 압박 재개...북, 전술핵 위협 노골화",
+      "date": "Sat, 28 Nov 2026 10:28:00",
+      "source": "n.news.naver.com",
+      "url": "https://www.ytn.co.kr/_ln/0104_202611281028306733"
+    },
+    {
       "title": "\"수출 1조달러? 그게 무슨 소용!\"…나라만 부자, 국민은 가난",
       "date": "Fri, 27 Nov 2026 13:31:00",
       "source": "n.news.naver.com",
@@ -53,15 +59,51 @@
       "date": "Fri, 13 Nov 2026 09:20:00",
       "source": "newspim.com",
       "url": "https://www.newspim.com/news/view/20261112001445"
-    },
-    {
-      "title": "대예측 2027…AI發 ‘리제너레이트’",
-      "date": "Thu, 12 Nov 2026 21:01:00",
-      "source": "n.news.naver.com",
-      "url": "https://www.mk.co.kr/article/12200323"
     }
   ],
   "kdi": [
+    {
+      "title": "국채 줄이는 게 먼저?…불황 대비 104조, 정부는 왜 남기려 하나[청와대...",
+      "date": "Sat, 28 Nov 2026 08:57:00",
+      "source": "n.news.naver.com",
+      "url": "https://www.edaily.co.kr/News/Read?newsId=01462886645650312&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article"
+    },
+    {
+      "title": "한은, 내년 성장률 4.1%로 대폭 상향…반도체 호황에 전망 '급반전'",
+      "date": "Fri, 27 Nov 2026 17:52:00",
+      "source": "dailysportshankook.co.kr",
+      "url": "https://www.dailysportshankook.co.kr/news/articleView.html?idxno=436031"
+    },
+    {
+      "title": "석문산단 인입철도 사업비 1조7228억 원으로 늘어",
+      "date": "Fri, 27 Nov 2026 17:16:00",
+      "source": "djtimes.co.kr",
+      "url": "http://www.djtimes.co.kr/news/articleView.html?idxno=114406"
+    },
+    {
+      "title": "K수출 '1조달러 도약 초기' 비반도체 투자론 부각, 왜?",
+      "date": "Fri, 27 Nov 2026 15:34:00",
+      "source": "updownnews.co.kr",
+      "url": "https://www.updownnews.co.kr/news/articleView.html?idxno=319786"
+    },
+    {
+      "title": "세수 풍년에 빚내서 '흥청망청'...\"미래세대 생각한다면 미래대응기금 ...",
+      "date": "Fri, 27 Nov 2026 15:10:00",
+      "source": "esgeconomy.com",
+      "url": "https://www.esgeconomy.com/news/articleView.html?idxno=17579"
+    },
+    {
+      "title": "[영상] 수출 1조 달러·경제 성장률 3.9%, 내 지갑은 왜 얇아졌나?",
+      "date": "Fri, 27 Nov 2026 15:10:00",
+      "source": "breaknews.com",
+      "url": "http://www.breaknews.com/1254770"
+    },
+    {
+      "title": "온코닉테라퓨틱스, 8인 이사회 재편…독립성 강화",
+      "date": "Fri, 27 Nov 2026 14:00:00",
+      "source": "dailymedi.com",
+      "url": "https://dailymedi.com/news/news_view.php?wr_id=943075"
+    },
     {
       "title": "미·이란 대치에 길어진 고유가…금융권 부담 확대",
       "date": "Fri, 27 Nov 2026 11:22:00",
@@ -79,110 +121,68 @@
       "date": "Fri, 27 Nov 2026 09:56:00",
       "source": "lcnews.co.kr",
       "url": "https://www.lcnews.co.kr/news/articleView.html?idxno=212129"
-    },
-    {
-      "title": "내년 韓경제 4% 성장 가능할까…반도체 훈풍, 가계까지? [Pick코노미]",
-      "date": "Fri, 27 Nov 2026 09:01:00",
-      "source": "n.news.naver.com",
-      "url": "https://www.sedaily.com/article/20119669?ref=naver"
-    },
-    {
-      "title": "[숫자와 체감 사이⑥] 반도체 호황의 다음은…내년 경제 방향 가를 7가지...",
-      "date": "Fri, 27 Nov 2026 08:56:00",
-      "source": "ftoday.co.kr",
-      "url": "http://www.ftoday.co.kr/news/articleView.html?idxno=370702"
-    },
-    {
-      "title": "한은 총재도 설명하지 못한 이 현상…“반도체 기업 시총이 왜 수익의 ...",
-      "date": "Fri, 27 Nov 2026 06:02:00",
-      "source": "n.news.naver.com",
-      "url": "https://www.munhwa.com/article/11634473?ref=naver"
-    },
-    {
-      "title": "[오승호 칼럼] 한은의 기준금리 조정, 반도체 호황 외에 대외통상 불확...",
-      "date": "Fri, 27 Nov 2026 06:01:00",
-      "source": "n.news.naver.com",
-      "url": "https://www.ddaily.co.kr/page/view/2026112617513410978"
-    },
-    {
-      "title": "[사설] 성장률 4%, 금리 3.25% 긴축의 대가를 누가 치르나",
-      "date": "Fri, 27 Nov 2026 05:01:00",
-      "source": "n.news.naver.com",
-      "url": "https://www.imaeil.com/page/view/2026112617453093640"
-    },
-    {
-      "title": "한은 기준금리 0.25%포인트 인상…내년 성장률 전망 4.1%",
-      "date": "Fri, 27 Nov 2026 01:24:00",
-      "source": "gukjenews.com",
-      "url": "https://www.gukjenews.com/news/articleView.html?idxno=3764702"
-    },
-    {
-      "title": "철도망 구축하려 ‘원팀’ 된 충청… KTX 세종역 신설엔 딴 목소리",
-      "date": "Fri, 27 Nov 2026 00:44:00",
-      "source": "n.news.naver.com",
-      "url": "https://www.chosun.com/national/regional/2026/11/27/AZ2XC3RQ2NE6NODZD3ZDPJLT7Q/?utm_source=naver&utm_medium=referral&utm_campaign=naver-news"
     }
   ],
   "bok": [
     {
-      "title": "노무라 \"한은 금리 인상 사실상 끝났다\"…내년 내내 동결 전망",
-      "date": "Fri, 27 Nov 2026 13:39:00",
+      "title": "[경제 시평] ‘수출 1조 달러’의 축포 뒤에 가려진 서민의 한숨",
+      "date": "Sat, 28 Nov 2026 12:44:00",
+      "source": "news-s.kr",
+      "url": "https://news-s.kr/view.html?id=L26112812380861e1"
+    },
+    {
+      "title": "AI 거품론에 무너진 코스피 … 증안펀드 40조로 막을 수 있나",
+      "date": "Sat, 28 Nov 2026 12:06:00",
+      "source": "biz.newdaily.co.kr",
+      "url": "https://biz.newdaily.co.kr/site/data/html/2026/11/28/2026112850024.html"
+    },
+    {
+      "title": "대신증권 \"미국 추가 긴축이냐 금리 안정이냐…현대차·기아까지 움직일...",
+      "date": "Sat, 28 Nov 2026 11:00:00",
+      "source": "pinpointnews.co.kr",
+      "url": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=509123"
+    },
+    {
+      "title": "[심양섭의 정론직격] 이재명 부동산 정책, 어디서부터 잘못되었나",
+      "date": "Sat, 28 Nov 2026 10:54:00",
+      "source": "pennmike.com",
+      "url": "https://www.pennmike.com/news/articleView.html?idxno=132986"
+    },
+    {
+      "title": "증시 급락에 금융당국 움직인다…증안펀드 가동 임박, 증권주 반등할까",
+      "date": "Sat, 28 Nov 2026 10:28:00",
+      "source": "pinpointnews.co.kr",
+      "url": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=509115"
+    },
+    {
+      "title": "[이호연의 D톡스] 점도표에 등장한 3.75%…차주들은 ‘한숨’",
+      "date": "Sat, 28 Nov 2026 10:01:00",
       "source": "n.news.naver.com",
-      "url": "https://www.edaily.co.kr/News/Read?newsId=02276326645649984&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article"
+      "url": "https://www.ddaily.co.kr/page/view/2026112717450183570"
     },
     {
-      "title": "거래대금 급감에 추가 긴축까지…증권업계 실적 회복 '산 넘어 산'",
-      "date": "Fri, 27 Nov 2026 13:34:00",
-      "source": "newsway.co.kr",
-      "url": "https://www.newsway.co.kr/news/view?ud=2026112711324111589"
-    },
-    {
-      "title": "기준금리 연 3.25% 시대…집값 누르고 전·월세 자극할까 [분석+]",
-      "date": "Fri, 27 Nov 2026 13:31:00",
+      "title": "LG·현대차는 웃고 SK·LS는 울고…중복 상장 규제의 명암 [갭 월드]",
+      "date": "Sat, 28 Nov 2026 10:00:00",
       "source": "n.news.naver.com",
-      "url": "https://www.hankyung.com/article/2026112620816"
+      "url": "https://www.sedaily.com/article/20120102?ref=naver"
     },
     {
-      "title": "\"수출 1조달러? 그게 무슨 소용!\"…나라만 부자, 국민은 가난",
-      "date": "Fri, 27 Nov 2026 13:31:00",
-      "source": "n.news.naver.com",
-      "url": "https://news.jtbc.co.kr/article/NB12330159?influxDiv=NAVER"
+      "title": "한국은행 통화정책의 기조는 옳은가?-남덕우기념사업회 17차 토론회",
+      "date": "Sat, 28 Nov 2026 09:36:00",
+      "source": "ifs.or.kr",
+      "url": "http://www.ifs.or.kr/bbs/board.php?bo_table=research&wr_id=11407"
     },
     {
-      "title": "\"한은, 연속 인상 가능성 낮아… 1분기 내 3.50% 갈듯\"&lt;한국투자證&gt;",
-      "date": "Fri, 27 Nov 2026 13:24:00",
-      "source": "news2day.co.kr",
-      "url": "https://www.news2day.co.kr/article/20261127500142"
+      "title": "뉴욕증시, 블프 저가매수에 일제히 반등…나스닥 2.31%·필라델피아 반...",
+      "date": "Sat, 28 Nov 2026 09:34:00",
+      "source": "megaeconomy.co.kr",
+      "url": "https://www.megaeconomy.co.kr/news/newsview.php?ncode=1065572874083005"
     },
     {
-      "title": "기준금리 3.25%, 수도권 집값 더 오를까 내릴까",
-      "date": "Fri, 27 Nov 2026 13:12:00",
-      "source": "ekoreanews.co.kr",
-      "url": "https://www.ekoreanews.co.kr/news/articleView.html?idxno=89421"
-    },
-    {
-      "title": "국고채 입찰 담합 금융사 7곳 수사 착수",
-      "date": "Fri, 27 Nov 2026 13:06:00",
-      "source": "naeil.com",
-      "url": "https://www.naeil.com/news/read/610374?ref=naver"
-    },
-    {
-      "title": "금리 인상에 엇갈리는 보험사 셈법…운용수익 개선 불구 자본 변동성 변...",
-      "date": "Fri, 27 Nov 2026 13:06:00",
-      "source": "hansbiz.co.kr",
-      "url": "http://www.hansbiz.co.kr/news/articleView.html?idxno=887956"
-    },
-    {
-      "title": "논술장엔 앞치마, 홈플러스엔 휴업 안내문[노컷한컷]",
-      "date": "Fri, 27 Nov 2026 12:28:00",
-      "source": "n.news.naver.com",
-      "url": "https://www.nocutnews.co.kr/news/6613665?utm_source=naver&utm_medium=article&utm_campaign=20261127122737"
-    },
-    {
-      "title": "닷컴버블보다 큰 충격?…경제지표로 본 AI발 증시 급락",
-      "date": "Fri, 27 Nov 2026 12:16:00",
-      "source": "dealsite.co.kr",
-      "url": "https://dealsite.co.kr/articles/173654"
+      "title": "여야, 미래대응기금 놓고 공방...“위기 대비” vs “미래세대 부담”",
+      "date": "Sat, 28 Nov 2026 09:32:00",
+      "source": "m-economynews.com",
+      "url": "https://www.m-economynews.com/news/article.html?no=73698"
     }
   ],
   "kiep": [
@@ -235,16 +235,16 @@
       "url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8720061&ref=A"
     },
     {
-      "title": "\"내년 경제 성장률 3.5%···산업별 격차 커질 것\"",
-      "date": "Mon, 23 Nov 2026 15:00:00",
-      "source": "seoulfn.com",
-      "url": "https://www.seoulfn.com/news/articleView.html?idxno=643603"
-    },
-    {
       "title": "반도체 호황에 내년 경제 3.5% 성장…수출 1조3000억 달러 전망",
       "date": "Mon, 23 Nov 2026 15:00:00",
       "source": "n.news.naver.com",
       "url": "https://view.asiae.co.kr/article/2026112314431528007"
+    },
+    {
+      "title": "\"내년 경제 성장률 3.5%···산업별 격차 커질 것\"",
+      "date": "Mon, 23 Nov 2026 15:00:00",
+      "source": "seoulfn.com",
+      "url": "https://www.seoulfn.com/news/articleView.html?idxno=643603"
     }
   ],
   "kif": [
@@ -309,5 +309,5 @@
       "url": "https://www.fntimes.com/html/view.php?ud=2026111016375548890f4390e77d_18"
     }
   ],
-  "updated": "2026.11.27 13:40"
+  "updated": "2026.11.28 13:25"
 }
